@@ -150,7 +150,7 @@ bindsym $mod+minus scratchpad show
 #  More info visit: https://github.com/Airblader/i3
 
 #smart_gaps on     
-smart_borders on
+# smart_borders on
 
 # Global gaps size
 gaps inner 0
@@ -195,8 +195,8 @@ mode "$mode_gaps_outer" {
 }
 
 # Specify gaps for specific workspace
-workspace $w1 gaps outer 15
-workspace $w2 gaps outer 15
+# workspace $w1 gaps outer 15
+# workspace $w2 gaps outer 15
 
 bindsym $mod+r mode "resize"
 
@@ -256,12 +256,12 @@ set_from_resource $white       color15 #000000
 
 
 # Use custom colors for black
-set $black       #1c1115
-set $darkblack   #21161a
+set $black       #3c3836
+set $darkblack   #32302f
 
 # Window colors           border      background   text            indicator    child_border
 client.focused            $darkred    $darkred     $white          $darkblack   $darkblack
-client.focused_inactive   $darkblack  $darkblack   $darkwhite      $darkblack   $darkblack
+client.focused_inactive   $black      $black       $darkwhite      $black       $black
 client.unfocused          $darkblack  $darkblack   $darkwhite      $darkblack   $darkblack
 client.urgent             $darkblack  $darkblack   $darkwhite      $darkblack   $darkblack
 
@@ -288,8 +288,8 @@ client.urgent             $darkblack  $darkblack   $darkwhite      $darkblack   
 # }
 
 # Set font for window title bar
-font pango:lemon 15
-for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"
+# font pango:lemon 15
+# for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"
 
 
 #*************  My apps settings  *********************
@@ -303,9 +303,9 @@ exec --no-startup-id . $HOME/.local/bin/barstart &
 exec --no-startup-id . $HOME/.local/bin/urxvt_daemon &
 
 # Set per-application border
-#for_window [class="^.*"] border pixel 1
-#for_window [class="(?i)urxvt"] border pixel 1
-for_window [class="^.*"] border normal 0
+for_window [class="^.*"] border pixel 1
+for_window [class="(?i)urxvt"] border pixel 1
+# for_window [class="^.*"] border normal 0
 
 
 
@@ -326,7 +326,7 @@ for_window [class="Pavucontrol"] floating enable
 assign [class="^Tor Browser$"]    $w1
 assign [class="^Firefox$"]        $w1
 assign [class="^Zathura"]         $w3
-assign [class="^mpv$"]            $w4
+# assign [class="^mpv$"]            $w4
 assign [class="^VirtualBox$"]     $w7
 assign [class="^Gimp$"]           $w8
 assign [class="^Wireshark"]       $w8

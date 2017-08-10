@@ -8,7 +8,7 @@
 #************** Colors ******************
 
 # Color directory
-CD="$HOME/.cache/wal/colors.Xresources"
+CD="$HOME/.colors/gruvbox"
 
 # Fetch the Colors
 BG=`cat ${CD} | grep -i background: | tail -c 8`

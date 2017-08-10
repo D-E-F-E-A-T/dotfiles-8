@@ -13,8 +13,8 @@ body
    background-position:center center;
    background-attachment: fixed;
    background-size: cover;*/
-   background-color: var(--background) !important;
-   color: var(--foreground) !important;
+   background-color: #282828 !important;
+   color: #ebdbb2 !important;
 }
 
 h1{
@@ -22,14 +22,14 @@ h1{
    font-family: 'Lobster', cursive !important; 
    padding: 10px;
    text-align: center;
-   color: var(--color1) !important;
+   color: #458588 !important;
 }
 
 hr{
   display: block;
   height: 3px;
   border: 0px;
-  border-top: 4px solid #242025 !important;
+  border-top: 4px solid #32302f !important;
 }
 
 ul{
@@ -70,35 +70,35 @@ a{
    font-family: Hack !important;
    font-size: 8pt;
    font-weight: medium; 
-   color: var(--color8) !important;
+   color: #ebdbb2 !important;
    text-decoration: none;
 }
 
 a:hover{
-   background-color: var(--color1) !important;
-   color: var(--color15) !important;
+   background-color: #458588 !important;
+   color: #ebdbb2 !important;
 }
 
 .ac{
-  color: var(--color1) !important;
+  color: #cc241d !important;
 }
 
 .doc{
-  color: var(--color2);
+  color: #98971a;
 }
 
 .sec{
-  color: var(--color3);
+  color: #d79921;
 }
 
 .lin{
-  color: var(--color5);
+  color: #b16286;
 }
 
 .war{
-  color: var(--color6);
+  color: #689d6a;
 }
 
 .mis{
-  color: var(--color4);
+  color: #458588;
 }

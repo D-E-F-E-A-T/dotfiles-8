@@ -66,20 +66,19 @@ filetype plugin indent on
 "  Set Colorscheme and Statusline{{{
 
 set background=dark
-colorscheme wal
+colorscheme gruvbox
 
-
-"let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_contrast_dark = 'normal'
 
 
 "" Status line
 set laststatus=0
-set t_Co=16
-" let g:lightline = {
-"       \ 'colorscheme': 'wall',
-"       \ }
+set t_Co=256
+ let g:lightline = {
+       \ 'colorscheme': 'gruvbox',
+      \ }
       
-" }}}
+"}}}
 
                         
 " UI Config {{{ 

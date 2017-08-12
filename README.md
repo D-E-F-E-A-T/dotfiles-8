@@ -3,7 +3,6 @@ Welcome To My  Dotfiles
 
 ### Setup Description
 
-* Bar: ``` polybar ```
 * Browser: ``` firefox ```
 * Compositor: ``` compton ```
 * File Manager: ``` ranger ```
@@ -58,7 +57,7 @@ Welcome To My  Dotfiles
 
 `ncmpcpp` `cava` `weechat` `ranger` `tmux`
 
-![Current](http://i.imgur.com/51Dlxi6.png)
+![Current](https://tknk.io/n1c0)
 
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

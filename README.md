@@ -57,7 +57,7 @@ Welcome To My  Dotfiles
 
 `ncmpcpp` `cava` `weechat` `ranger` `tmux`
 
-![Current](https://tknk.io/n1c0)
+![Current](https://u.teknik.io/8MGkn.png)
 
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

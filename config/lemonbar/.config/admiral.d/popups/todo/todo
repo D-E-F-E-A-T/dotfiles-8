@@ -10,8 +10,8 @@ notify-send "
 <span foreground='$RED' >  ============</span>
 <span foreground='#a89984'>
 <span foreground='$MAGENTA'>1. </span>HackTheArt <span foreground='$FG'>2hr</span>
-<span foreground='$MAGENTA'>2. </span>BasicHack  <span foreground='$FG'>2hr</span>
+<span foreground='$MAGENTA'>2. </span>ProPenTes  <span foreground='$FG'>2hr</span>
 <span foreground='$MAGENTA'>3. </span>WebApplic  <span foreground='$FG'>2hr</span>
-<span foreground='$MAGENTA'>4. </span>Nmap/Javas <span foreground='$FG'>1hr</span>
+<span foreground='$MAGENTA'>4. </span>Metasploit <span foreground='$FG'>1hr</span>
 </span>
 "

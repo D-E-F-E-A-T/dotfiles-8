@@ -3,10 +3,11 @@
 *foreground:            #839496
 *fadeColor:             #002b36
 *cursorColor:           #93a1a1
+*colorUL:               #268bd2
 
 
 !! black dark/light
-*color0:                #073642
+*color0:                #073645
 *color8:                #002b36
 
 !! red dark/light

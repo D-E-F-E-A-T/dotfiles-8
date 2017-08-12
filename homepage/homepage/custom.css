@@ -1,4 +1,4 @@
-@import url('file:///home/mohabaks/.cache/wal/colors.css');
+/*@import url('file:///home/mohabaks/.cache/wal/colors.css');*/
 
 
 *{
@@ -13,8 +13,8 @@ body
    background-position:center center;
    background-attachment: fixed;
    background-size: cover;*/
-   background-color: #282828 !important;
-   color: #ebdbb2 !important;
+   background-color: #002b36 !important;
+   color: #fdf6e3 !important;
 }
 
 h1{
@@ -22,14 +22,14 @@ h1{
    font-family: 'Lobster', cursive !important; 
    padding: 10px;
    text-align: center;
-   color: #458588 !important;
+   color: #b58900 !important;
 }
 
 hr{
   display: block;
   height: 3px;
   border: 0px;
-  border-top: 4px solid #32302f !important;
+  border-top: 4px solid #073642 !important;
 }
 
 ul{
@@ -70,35 +70,35 @@ a{
    font-family: Hack !important;
    font-size: 8pt;
    font-weight: medium; 
-   color: #ebdbb2 !important;
+   color: #839496 !important;
    text-decoration: none;
 }
 
 a:hover{
-   background-color: #458588 !important;
-   color: #ebdbb2 !important;
+   background-color: #fdf6e3 !important;
+   color: #657b83 !important;
 }
 
 .ac{
-  color: #cc241d !important;
+  color: #dc322f !important;
 }
 
 .doc{
-  color: #98971a;
+  color: #859900;
 }
 
 .sec{
-  color: #d79921;
+  color: #268bd2;
 }
 
 .lin{
-  color: #b16286;
+  color: #d33682;
 }
 
 .war{
-  color: #689d6a;
+  color: #2aa198;
 }
 
 .mis{
-  color: #458588;
+  color: #6c71c4;
 }

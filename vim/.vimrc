@@ -4,7 +4,7 @@
 "   ░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░░░░▀░░▀▀▀░░░▀░▀░░▀░░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀
 "
 
-" Vundle Settings{{{
+ " Vundle Settings{{{
 
 "" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -52,10 +52,10 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'junegunn/goyo.vim'
 
 """ Colorscheme
-"Plugin 'altercation/vim-colors-solarized'
+Plugin 'altercation/vim-colors-solarized'
 "Plugin 'lilydjwg/colorizer'
-Plugin 'morhetz/gruvbox'
-Plugin 'dylanaraps/wal.vim'
+"Plugin 'morhetz/gruvbox'
+"Plugin 'dylanaraps/wal.vim'
 
 call vundle#end()       
 filetype plugin indent on  
@@ -66,16 +66,16 @@ filetype plugin indent on
 "  Set Colorscheme and Statusline{{{
 
 set background=dark
-colorscheme gruvbox
+colorscheme solarized
 
-let g:gruvbox_contrast_dark = 'normal'
+"let g:gruvbox_contrast_dark = 'normal'
 
 
 "" Status line
 set laststatus=0
 set t_Co=256
  let g:lightline = {
-       \ 'colorscheme': 'gruvbox',
+       \ 'colorscheme': 'solarized',
       \ }
       
 "}}}

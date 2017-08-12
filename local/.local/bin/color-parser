@@ -8,7 +8,7 @@
 #************** Colors ******************
 
 # Color directory
-CD="$HOME/.colors/gruvbox"
+CD="$HOME/.colors/solarized.dark"
 
 # Fetch the Colors
 BG=`cat ${CD} | grep -i background: | tail -c 8`

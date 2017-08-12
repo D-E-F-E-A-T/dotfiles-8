@@ -6,7 +6,7 @@
 PW=180
 PH=70
 PX=1172
-PY=45
+PY=60
 
 
 n30f -d -x 1172 -y 36 $HOME/.config/admiral.d/popups/power/bg.png &

@@ -195,30 +195,32 @@ mode "$mode_gaps_outer" {
 }
 
 # Specify gaps for specific workspace
-# workspace $w1 gaps outer 15
-# workspace $w2 gaps outer 15
+workspace $w1 gaps outer 15
+workspace $w2 gaps outer 15
+workspace $w5 gaps outer 15
+workspace $w8 gaps outer 15
 
 bindsym $mod+r mode "resize"
 
 # Lock screen
-set $Locker i3lock-fancy
+# set $Locker i3lock-fancy
 
 # Shutdwon, Restart, Logout, Suspend, Hibernate, Reboot, Lock
-set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
-mode "$mode_system" {
-    bindsym l exec --no-startup-id $Locker, mode "default"
-    bindsym e exec --no-startup-id i3-msg exit, mode "default"
-    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
-    bindsym h exec --no-startup-id $Locker && systemctl hibernate,mode "default"
-    bindsym r exec --no-startup-id systemctl reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
+# set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+# mode "$mode_system" {
+#     bindsym l exec --no-startup-id $Locker, mode "default"
+#     bindsym e exec --no-startup-id i3-msg exit, mode "default"
+#     bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+#     bindsym h exec --no-startup-id $Locker && systemctl hibernate,mode "default"
+#     bindsym r exec --no-startup-id systemctl reboot, mode "default"
+#     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
 
-    # back to normal: Enter or Escape
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-bindsym $mod+F9 mode "$mode_system"
-
+#     # back to normal: Enter or Escape
+#     bindsym Return mode "default"
+#     bindsym Escape mode "default"
+# }
+#bindsym $mod+F9 mode "$mode_system"
+bindsym $mod+F9 exec --no-startup-id $HOME/.config/admiral.d/popups/power/power
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
@@ -232,13 +234,15 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh
 
 # Screenshot with scrot
-bindsym Print exec scrot -e 'mv $f ~/Pictures/screenshots'
+bindsym Print exec scrot -e 'mv $f ~/Pictures/screenshots' && notify-send "Screenshot Taken"
 
 # My apps shortcut
-bindsym $mod+p exec pcmanfm 
-bindsym $mod+b exec firefox
+bindsym $mod+p exec pcmanfm & notify-send "Pcmanfm Launched"
+bindsym $mod+b exec firefox & notify-send "Firefox Launched"
 
 # Custom colors
+set_from_resource $black       color8  #000000
+#set_from_resource $darkblack   color0  #000000
 set_from_resource $darkred     color1  #000000
 set_from_resource $red         color9  #000000
 set_from_resource $darkgreen   color2  #000000
@@ -251,21 +255,18 @@ set_from_resource $darkmagenta color5  #000000
 set_from_resource $magenta     color13 #000000
 set_from_resource $darkcyan    color6  #000000
 set_from_resource $cyan        color14 #000000
-set_from_resource $darkwhite   color8  #000000
 set_from_resource $white       color15 #000000
 
-
-# Use custom colors for black
-set $black       #3c3836
-set $darkblack   #32302f
+set $darkblack #073645
 
 # Window colors           border      background   text            indicator    child_border
-client.focused            $darkred    $darkred     $white          $darkblack   $darkblack
-client.focused_inactive   $black      $black       $darkwhite      $black       $black
-client.unfocused          $darkblack  $darkblack   $darkwhite      $darkblack   $darkblack
-client.urgent             $darkblack  $darkblack   $darkwhite      $darkblack   $darkblack
+client.focused            $white      $white       $black          $white       $white
+client.focused_inactive   $darkblack  $darkblack   $blue           $darkblack  $darkblack
+client.unfocused          $darkblack  $darkblack   $blue           $darkblack  $darkblack
+client.urgent             $darkblack  $darkblack   $blue           $darkblack  $darkblack
 
 #Start i3bar to display a workspace bar
+#Current I don't use any bar :)
 #Uncomment to use the default i3bar status
 # bar {      
 #    
@@ -288,8 +289,9 @@ client.urgent             $darkblack  $darkblack   $darkwhite      $darkblack   
 # }
 
 # Set font for window title bar
-# font pango:lemon 15
-# for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"
+font pango:lemon 15
+#for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"
+for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
 
 
 #*************  My apps settings  *********************
@@ -299,13 +301,12 @@ exec --no-startup-id nitrogen --restore  &
 exec --no-startup-id compton --config ~/.compton.conf -b 
 exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc
 exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
-exec --no-startup-id . $HOME/.local/bin/barstart &
 exec --no-startup-id . $HOME/.local/bin/urxvt_daemon &
 
 # Set per-application border
-for_window [class="^.*"] border pixel 1
-for_window [class="(?i)urxvt"] border pixel 1
-# for_window [class="^.*"] border normal 0
+#for_window [class="^.*"] border pixel 4
+#for_window [class="(?i)urxvt"] border pixel 4
+for_window [class="^.*"] border normal 0
 
 
 
@@ -326,9 +327,10 @@ for_window [class="Pavucontrol"] floating enable
 assign [class="^Tor Browser$"]    $w1
 assign [class="^Firefox$"]        $w1
 assign [class="^Zathura"]         $w3
-# assign [class="^mpv$"]            $w4
+assign [class="^mpv$"]            $w4
 assign [class="^VirtualBox$"]     $w7
 assign [class="^Gimp$"]           $w8
 assign [class="^Wireshark"]       $w8
+assign [class="^Pcmanfm"]         $w8
 
 # vim:filetype=i3

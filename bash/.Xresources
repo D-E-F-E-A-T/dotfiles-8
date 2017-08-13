@@ -94,5 +94,8 @@ URxvt.iso14755_52:         false
 !! Pointer
 !URxvt.pointerBlank:        true
 
+!! Url
+*colorUL:                  #924436
+
 !! Colors
-#include "/home/mohabaks/.colors/solarized.dark"                                                                     
+#include "/home/mohabaks/.cache/wal/colors.Xresources"                                                                     

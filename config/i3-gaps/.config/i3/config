@@ -257,10 +257,10 @@ set_from_resource $darkcyan    color6  #000000
 set_from_resource $cyan        color14 #000000
 set_from_resource $white       color15 #000000
 
-set $darkblack #073645
+set $darkblack #161115
 
 # Window colors           border      background   text            indicator    child_border
-client.focused            $white      $white       $black          $white       $white
+client.focused            $red        $red         $black          $red        $red
 client.focused_inactive   $darkblack  $darkblack   $blue           $darkblack  $darkblack
 client.unfocused          $darkblack  $darkblack   $blue           $darkblack  $darkblack
 client.urgent             $darkblack  $darkblack   $blue           $darkblack  $darkblack

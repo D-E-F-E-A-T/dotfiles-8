@@ -237,8 +237,8 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh
 bindsym Print exec scrot -e 'mv $f ~/Pictures/screenshots' && notify-send "Screenshot Taken"
 
 # My apps shortcut
-bindsym $mod+p exec pcmanfm & notify-send "Pcmanfm Launched"
-bindsym $mod+b exec firefox & notify-send "Firefox Launched"
+bindsym $mod+p exec pcmanfm 
+bindsym $mod+b exec firefox
 
 # Custom colors
 set_from_resource $black       color8  #000000
@@ -302,6 +302,7 @@ exec --no-startup-id compton --config ~/.compton.conf -b
 exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc
 exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
 exec --no-startup-id . $HOME/.local/bin/urxvt_daemon &
+exec --no-startup-id . $HOME/.local/bin/barstart &
 
 # Set per-application border
 #for_window [class="^.*"] border pixel 4

@@ -32,7 +32,7 @@ echo "  %{F$RED}%{F-} %{A:s:}Suspend%{A}  %{F$GREEN} %{F-}%{A:l:}Lock%{A} 
                 exit                
                 ;;
             's')
-                sudo /usr/bin/systemctl suspend
+                systemctl suspend
                 exit
                 ;;
         esac

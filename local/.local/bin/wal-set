@@ -2,7 +2,7 @@
 
 
 # Source generated colors.
-source "${HOME}/.local/config/color-parser"
+source "${HOME}/.local/bin/color-parser"
 
 reload_dunst() {
     pkill dunst
@@ -23,7 +23,7 @@ generate_zathurarc(){
 }
 
 main() {
-    reload_dunst &
+    # reload_dunst &
     generate_zathurarc 
 }
 

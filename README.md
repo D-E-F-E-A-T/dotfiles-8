@@ -43,9 +43,9 @@ Installation
 Screenshot
 ----------
 
-`ncmpcpp` `cava` `weechat` `ranger` `tmux`
+`ncmpcpp` `vim` `weechat`
 
-![Current](https://my.mixtape.moe/rnifae.png)
+![Current](https://i.imgur.com/0Ss2cDI.png)
 
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

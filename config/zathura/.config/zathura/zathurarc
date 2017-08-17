@@ -1,35 +1,35 @@
 # zathurarc
 
 set font                        "Cantarell 8"
-set default-bg                  "#1D1C29" #00
-set default-fg                  "#F5F5E4" #01
+set default-bg                  "#171014" #00
+set default-fg                  "#CAACB6" #01
 
-set statusbar-fg                "#B4BB57" #04
-set statusbar-bg                "#1D1C29"  #01
+set statusbar-fg                "#B07A75" #04
+set statusbar-bg                "#171014"  #01
 
-set inputbar-bg                 "#1D1C29" #00 currently not used
-set inputbar-fg                 "#77767e" #02
+set inputbar-bg                 "#171014" #00 currently not used
+set inputbar-fg                 "#736f72" #02
 
-set notification-error-bg       "#C2C29C" #08
-set notification-error-fg       "#F5F5E4" #00
+set notification-error-bg       "#93758E" #08
+set notification-error-fg       "#CAACB6" #00
 
-set notification-warning-bg     "#87785B" #08
-set notification-warning-fg     "#F5F5E4" #00
+set notification-warning-bg     "#6D4D55" #08
+set notification-warning-fg     "#CAACB6" #00
 
-set highlight-color             "#77767e" #0A
-set highlight-active-color      "#F5F5E4" #0D
+set highlight-color             "#736f72" #0A
+set highlight-active-color      "#CAACB6" #0D
 
-set completion-highlight-fg     "#F5F5E4" #02
-set completion-highlight-bg     "#999B5E" #0C
+set completion-highlight-fg     "#CAACB6" #02
+set completion-highlight-bg     "#965D5D" #0C
 
-set completion-bg               "#1D1C29" #02
-set completion-fg               "#F5F5E4" #0C
+set completion-bg               "#171014" #02
+set completion-fg               "#CAACB6" #0C
 
-set notification-bg             "#76884A" #0B
-set notification-fg             "#F5F5E4" #00
+set notification-bg             "#D04A2E" #0B
+set notification-fg             "#CAACB6" #00
 
-set recolor-lightcolor          "#1D1C29" #00
-set recolor-darkcolor           "#F5F5E4" #06
+set recolor-lightcolor          "#171014" #00
+set recolor-darkcolor           "#CAACB6" #06
 set recolor                     "true"
 
 # setting recolor-keep true will keep any color your pdf has.

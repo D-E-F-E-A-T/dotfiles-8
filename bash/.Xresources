@@ -44,8 +44,7 @@ URxvt*scrollWithBuffer:  true
 URxvt*scrollTtyKeypress: true
 
 !! Fonts
-#define fonts xft:tewi:size=8,\
-               xft:Siji:antialias=false,\
+#define fonts xft:Tewi:size=7
 
 URxvt*font:              fonts
 URxvt*boldMode:          false
@@ -95,7 +94,7 @@ URxvt.iso14755_52:         false
 !URxvt.pointerBlank:        true
 
 !! Url
-*colorUL:                  #924436
+*colorUL:                  #689d6a
 
 !! Colors
 #include "/home/mohabaks/.cache/wal/colors.Xresources"                                                                     

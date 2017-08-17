@@ -6,18 +6,19 @@
 
 [colors]
 ; Base colors from .Xresources
-bg      =   ${xrdb:color0}
-bg-alt  =   #161115
-fg      =   ${xrdb:color15}
-fg-alt  =   ${xrdb:color8}
-red     =   ${xrdb:color1}
-green   =   ${xrdb:color2}
-yellow  =   ${xrdb:color3}
-blue    =   ${xrdb:color4}
-magenta =   ${xrdb:color5}
-cyan    =   ${xrdb:color6}
-white   =   ${xrdb:color7}
-white-alt = ${xrdb:color15}
+bg        =   ${xrdb:color0}
+;bg-alt    =   #282828
+fg        =   ${xrdb:color15}
+fg-alt    =   ${xrdb:color8}
+red       =   ${xrdb:color1}
+green     =   ${xrdb:color2}
+yellow    =   ${xrdb:color3}
+blue      =   ${xrdb:color4}
+blue-alt  =   ${xrdb:color12}
+magenta   =   ${xrdb:color5}
+cyan      =   ${xrdb:color6}
+white     =   ${xrdb:color7}
+white-alt =   ${xrdb:color15}
 
 ;**********************************************************
 ;
@@ -50,11 +51,11 @@ foreground = ${colors.fg}
 border-bottom-size = 3
 ;border-top-size = 3
 ;border-top-color = ${colors.green}
-border-bottom-color = ${colors.green}
+border-bottom-color = ${colors.red}
 
 spacing = 1
 padding-left = 1
-padding-right = 2
+padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
@@ -63,10 +64,10 @@ font-1 = Siji:antialias=false
 
 modules-left = menu i3
 modules-center = date
-modules-right = temperature memory cpu wlan battery
+modules-right = mail temperature memory cpu wlan battery
 
-tray-position = right
-tray-padding = 1
+;tray-position = right
+;tray-padding = 0
 
 ;**********************************************************
 ;
@@ -93,7 +94,7 @@ ws-icon-default = 
 strip-wsnumbers = true
 
 label-focused = 
-label-focused-foreground = ${colors.fg}
+label-focused-foreground = ${colors.white-alt}
 label-focused-padding = 1
 
 label-unfocused = %icon%
@@ -106,7 +107,7 @@ label-urgent-foreground = ${colors.green}
 label-urgent-padding = 1
 
 label-visible = %icon%
-label-visible-foreground = ${colors.blue}
+label-visible-foreground = ${colors.cyan}
 ;label-visible-background = ${colors.bg-alt}
 label-visible-padding = 1
 
@@ -114,15 +115,15 @@ label-visible-padding = 1
 type = internal/cpu
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.fg-alt}
-label = %percentage%
+format-prefix-foreground = ${colors.cyan}
+label = "%percentage% "
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.fg-alt}
-label = %percentage_used%
+format-prefix-foreground = ${colors.blue}
+label = "%percentage_used% "
 
 [module/wlan]
 type = internal/network
@@ -132,16 +133,16 @@ interval = 3.0
 format-connected = <ramp-signal> <label-connected>
 
 label-connected = %essid%
-label-connected-foreground = ${colors.cyan}
+label-connected-foreground = ${colors.white-alt}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.fg-alt}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
-ramp-signal-2 = 
+ramp-signal-2 = <F7>
 ramp-signal-3 = 
 ramp-signal-4 = 
-ramp-signal-foreground = ${colors.fg-alt}
+ramp-signal-foreground = ${colors.cyan}
 
 [module/eth]
 type = internal/network
@@ -169,8 +170,8 @@ time-alt = %H:%M:%S
 ;format-prefix = 
 ;format-prefix-foreground = ${colors.bg}
 
-label = %date% %time% 
-label-foreground = ${colors.red}
+label = " %date% %time% "
+label-foreground = ${colors.yellow}
 
 [module/battery]
 type = internal/battery
@@ -178,22 +179,21 @@ battery = BAT1
 adapter = ADP1
 full-at = 100
 
-format-charging = <animation-charging> <label-charging>
+format-charging = <animation-charging><label-charging>
+format-discharging = "<ramp-capacity><label-discharging> "
 
-format-discharging = <ramp-capacity> <label-discharging>
-
-format-full-prefix = " "
+format-full-prefix = 
 format-full-prefix-foreground = ${colors.fg-alt}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = "  "
+ramp-capacity-1 = "  "
+ramp-capacity-2 = "  "
 ramp-capacity-foreground = ${colors.fg-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = ${colors.blue}
+animation-charging-0 = "  "
+animation-charging-1 = "  "
+animation-charging-2 = "  "
+animation-charging-foreground = ${colors.white-alt}
 animation-charging-framerate = 750
 
 [module/temperature]
@@ -201,8 +201,8 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-format = <ramp> <label>
-format-warn = <ramp> <label-warn>
+format = "<ramp> <label> "
+format-warn = "<ramp> <label-warn> "
 
 label = %temperature%
 label-warn = %temperature%
@@ -211,18 +211,26 @@ label-warn-foreground = ${colors.red}
 ramp-0 = 
 ramp-1 = 
 ramp-2 = 
-ramp-foreground = ${colors.fg-alt}
+ramp-foreground = ${colors.green}
 
 [module/menu]
 type = custom/menu
 
 menu-0-0 = Todo
 menu-0-0-foreground = ${colors.magenta}
-menu-0-0-exec = $HOME/.config/admiral.d/popups/todo/todo
+menu-0-0-exec = $HOME/.config/lemonbar/popups/todo/todo
 
-label-open = 
-label-open-foreground = ${colors.green}
+label-open = "   "
+label-open-foreground = ${colors.red}
 label-close = <<
-label-close-foreground = ${colors.red}
+label-close-foreground = ${colors.blue}
+
+[module/mail]
+type = custom/script
+interval = 10
+format = "<label> "
+format-prefix = "  "
+format-prefix-foreground = ${colors.magenta}
+exec = ~/.config/polybar/mail
 
 ; vim:ft=dosini

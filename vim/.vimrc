@@ -4,7 +4,7 @@
 "   ░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░░░░▀░░▀▀▀░░░▀░▀░░▀░░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀
 "
 
- " Vundle Settings{{{
+  " Vundle Settings{{{
 
 "" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -68,12 +68,12 @@ filetype plugin indent on
 set background=dark
 colorscheme wal
 
-"let g:gruvbox_contrast_dark = 'normal'
+"let g:gruvbox_contrast_dark = 'hard'
 
 
 "" Status line
 set laststatus=0
-set t_Co=16
+set t_Co=256
  let g:lightline = {
        \ 'colorscheme': 'wal',
       \ }

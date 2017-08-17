@@ -220,7 +220,8 @@ bindsym $mod+r mode "resize"
 #     bindsym Escape mode "default"
 # }
 #bindsym $mod+F9 mode "$mode_system"
-bindsym $mod+F9 exec --no-startup-id $HOME/.config/admiral.d/popups/power/power
+bindsym $mod+F9 exec --no-startup-id $HOME/.config/polybar/popups/power/power
+
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
@@ -241,8 +242,8 @@ bindsym $mod+p exec pcmanfm
 bindsym $mod+b exec firefox
 
 # Custom colors
-set_from_resource $black       color8  #000000
-#set_from_resource $darkblack   color0  #000000
+set_from_resource $black       color0  #000000
+#set_from_resource $darkblack   color8  #000000
 set_from_resource $darkred     color1  #000000
 set_from_resource $red         color9  #000000
 set_from_resource $darkgreen   color2  #000000
@@ -257,10 +258,10 @@ set_from_resource $darkcyan    color6  #000000
 set_from_resource $cyan        color14 #000000
 set_from_resource $white       color15 #000000
 
-set $darkblack #161115
+set $darkblack #271c24
 
 # Window colors           border      background   text            indicator    child_border
-client.focused            $red        $red         $black          $red        $red
+client.focused            $green      $green       $green          $green      $green
 client.focused_inactive   $darkblack  $darkblack   $blue           $darkblack  $darkblack
 client.unfocused          $darkblack  $darkblack   $blue           $darkblack  $darkblack
 client.urgent             $darkblack  $darkblack   $blue           $darkblack  $darkblack

@@ -23,7 +23,7 @@ generate_zathurarc(){
 }
 
 main() {
-    # reload_dunst &
+    reload_dunst &
     generate_zathurarc 
 }
 

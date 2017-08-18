@@ -94,7 +94,7 @@ URxvt.iso14755_52:         false
 !URxvt.pointerBlank:        true
 
 !! Url
-*colorUL:                  #689d6a
+*colorUL:                  #523946
 
 !! Colors
 #include "/home/mohabaks/.cache/wal/colors.Xresources"                                                                     

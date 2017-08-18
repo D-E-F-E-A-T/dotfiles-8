@@ -22,14 +22,14 @@ h1{
    font-family: 'Lobster', cursive !important; 
    padding: 10px;
    text-align: center;
-   color: var(--color4) !important;
+   color: var(--color3) !important;
 }
 
 hr{
   display: block;
   height: 3px;
   border: 0px;
-  border-top: 4px solid #282828 !important;
+  border-top: 4px solid #271c24 !important;
 }
 
 ul{
@@ -88,7 +88,7 @@ a:hover{
 }
 
 .sec{
-  color: var(--color3);
+  color: var(--color6);
 }
 
 .lin{

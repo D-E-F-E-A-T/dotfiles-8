@@ -310,8 +310,6 @@ exec --no-startup-id . $HOME/.local/bin/barstart &
 #for_window [class="(?i)urxvt"] border pixel 4
 for_window [class="^.*"] border normal 0
 
-
-
 # Enable or disable floating
 for_window [class="Arandr"] floating enable
 for_window [class="Lxappearance"] floating enable

@@ -94,7 +94,7 @@ ws-icon-default = 
 strip-wsnumbers = true
 
 label-focused = 
-label-focused-foreground = ${colors.white-alt}
+label-focused-foreground = ${colors.yellow}
 label-focused-padding = 1
 
 label-unfocused = %icon%
@@ -115,14 +115,14 @@ label-visible-padding = 1
 type = internal/cpu
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.cyan}
+format-prefix-foreground = ${colors.fg-alt}
 label = "%percentage% "
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.blue}
+format-prefix-foreground = ${colors.fg-alt}
 label = "%percentage_used% "
 
 [module/wlan]
@@ -133,7 +133,7 @@ interval = 3.0
 format-connected = <ramp-signal> <label-connected>
 
 label-connected = %essid%
-label-connected-foreground = ${colors.white-alt}
+label-connected-foreground = ${colors.yellow}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.fg-alt}
 
@@ -142,7 +142,7 @@ ramp-signal-1 = 
 ramp-signal-2 = <F7>
 ramp-signal-3 = 
 ramp-signal-4 = 
-ramp-signal-foreground = ${colors.cyan}
+ramp-signal-foreground = ${colors.fg-alt}
 
 [module/eth]
 type = internal/network
@@ -171,7 +171,7 @@ time-alt = %H:%M:%S
 ;format-prefix-foreground = ${colors.bg}
 
 label = " %date% %time% "
-label-foreground = ${colors.yellow}
+label-foreground = ${colors.fg}
 
 [module/battery]
 type = internal/battery
@@ -211,7 +211,7 @@ label-warn-foreground = ${colors.red}
 ramp-0 = 
 ramp-1 = 
 ramp-2 = 
-ramp-foreground = ${colors.green}
+ramp-foreground = ${colors.fg-alt}
 
 [module/menu]
 type = custom/menu
@@ -220,17 +220,17 @@ menu-0-0 = Todo
 menu-0-0-foreground = ${colors.magenta}
 menu-0-0-exec = $HOME/.config/lemonbar/popups/todo/todo
 
-label-open = "   "
-label-open-foreground = ${colors.red}
+label-open = 
+label-open-foreground = ${colors.white-alt}
 label-close = <<
-label-close-foreground = ${colors.blue}
+label-close-foreground = ${colors.yellow}
 
 [module/mail]
 type = custom/script
 interval = 10
 format = "<label> "
 format-prefix = "  "
-format-prefix-foreground = ${colors.magenta}
+format-prefix-foreground = ${colors.fg-alt}
 exec = ~/.config/polybar/mail
 
 ; vim:ft=dosini

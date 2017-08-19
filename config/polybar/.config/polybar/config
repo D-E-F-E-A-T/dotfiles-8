@@ -48,7 +48,7 @@ offset-y = 0
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-border-bottom-size = 3
+;border-bottom-size = 3
 ;border-top-size = 3
 ;border-top-color = ${colors.green}
 border-bottom-color = ${colors.red}

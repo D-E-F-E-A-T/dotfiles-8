@@ -43,7 +43,7 @@ Installation
 Screenshot
 ----------
 
-`ncmpcpp` `vim` `weechat`
+`ncmpcpp` `weechat` `tmux` `ranger`
 
 ![Current](https://i.imgur.com/elnrDW8.png)
 

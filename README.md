@@ -45,7 +45,7 @@ Screenshot
 
 `ncmpcpp` `vim` `weechat`
 
-![Current](https://i.imgur.com/0Ss2cDI.png)
+![Current](https://i.imgur.com/elnrDW8.png)
 
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

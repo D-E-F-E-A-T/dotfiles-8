@@ -71,7 +71,7 @@ txtrst='\e[0m'    # Text Reset
 
 #PS1='\[\e[1;37m\]┌─\e[0m\e[34m[\[\e[0m\e[0;33m\] \w\[\e[0m\] \e[34m]\e[0m $(__git_ps1 "\[\e[0;31m\]@\[\e[0m\]\[\e[1;32m\]\[\e[5m \]%s\[\e[25m\]\[\e[0m\]")\n└─>\[\e[0m\] '
 #PS1='\[\e[0;31m\]────── \[\e[0;32m\]\W\[\e[0m\] $(__git_ps1 "\[\e[0;33m\]at\[\e[0m\] \[\e[0;34m\]%s\[\e[0m\]") '
-PS1='\[\e[0;33m\]$ \[\e[0;32m\]\W\[\e[0m\] $(__git_ps1 "\[\e[1;37m\]at\[\e[0m\] \[\e[0;34m\]%s\[\e[0m\]") '
+PS1='\[\e[0;31m\]$ \[\e[0;37m\]\W\[\e[0m\] $(__git_ps1 "\[\e[1;33m\]at\[\e[0m\] \[\e[0;31m\]%s\[\e[0m\]") '
 
 
 #-----------------------------------------------------------------------
@@ -86,9 +86,7 @@ alias bashrc='vim ~/.bashrc'
 alias xresources='vim ~/.Xresources'
 alias reload='source ~/.bashrc'
 alias htop='htop -u mohabaks'
-alias blog='cd ~/Code/Blog/'
-alias code='cd ~/Code/DjangoProjects'
-alias django='workon DjangoProjects'
+alias blog='cd ~/Blog'
 alias ls='ls --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -hFX'
 alias ll='ls -l --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias la='ls -la --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
@@ -97,9 +95,6 @@ alias cp="cp -i"                          # confirm before overwriting something
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias rm='rm -i'
-alias modem_start='sudo netctl start modem'
-alias modem_stop='sudo netctl stop modem'
-alias hacks="cd ~/PenTesting"
 alias pastebin="nc termbin.com 9999"
 alias msfconsole="msfconsole --quiet"
 
@@ -110,9 +105,9 @@ alias msfconsole="msfconsole --quiet"
 #-----------------------------------------------------------------------
 
 export LESS_TERMCAP_mb=$'\e[0;35m'
-export LESS_TERMCAP_md=$'\e[0;31m'
+export LESS_TERMCAP_md=$'\e[0;35m'
 export LESS_TERMCAP_me=$'\e[0m'
 export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[1;34;32m'
 export LESS_TERMCAP_ue=$'\e[0m'
-export LESS_TERMCAP_us=$'\e[1;33m'
+export LESS_TERMCAP_us=$'\e[1;31m'

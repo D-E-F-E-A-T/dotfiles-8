@@ -14,82 +14,76 @@ current_time=`date "+ %H:%M"`
 
 # fajr msg
 fajr_msg='
-<span foreground="'$BLUE'">Salah: Fajr</span> 
 <span foreground="'$FG'">
+<span foreground="'$RED'">Salah:</span> Fajr
+
 "Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
 </span>
 
 '
 # Dhuhr msg
 dhur_msg='
-<span foreground="'$BLUE'">Salah: Dhur</span> 
 <span foreground="'$FG'">
+<span foreground="'$RED'">Salah:</span> Dhuhr
+
 "Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
 </span>
 '
 
 # Asr msg
 asr_msg='
-<span foreground="'$BLUE'">Salah: Asr</span> 
 <span foreground="'$FG'">
+<span foreground="'$RED'">Salah:</span> Asr
+
 "Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
 </span>
 '
 
 # Maghrib msg
 magh_msg='
-<span foreground="'$BLUE'">Salah: Maghrib</span> 
 <span foreground="'$FG'">
+<span foreground="'$RED'">Salah:</span> Maghrib
+
 "Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
 </span>
 '
 
 # Isha'a
-isha_msg='
-<span foreground="'$BLUE'">Salah: Insha</span> 
-<span foreground="'$FG'">
-"Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
+isha_msg="
+<span foreground='$FG'>
+<span foreground='$RED'>Salah:</span> Isha'a
+
+\"Verily, the prayer is enjoined on the believers at a fixed hours\".[Quran 4:103]
 </span>
 
-'
+"
 
 # Fajr Prayer
 if [ $current_time = 05:00 ];then
         notify-send -i "$image" "$fajr_msg"
-        # Lock the screen
-        i3lock-fancy
  
 fi
 
 # Dhuhr Prayer
 if [  $current_time = 12:45 ];then
         notify-send -i "$image" "$dhur_msg"
-        # Lock the screen
-        i3lock-fancy
  
 fi
 
 # Asr  Prayer
 if [ $current_time = 15:45 ];then
         notify-send -i "$image" "$asr_msg"
-        # Lock the screen
-        i3lock-fancy
  
 fi
 
 # Maghrib Prayer
 if [ $current_time = 18:30 ];then
         notify-send -i "$image" "$magh_msg"
-        # Lock the screen
-        i3lock-fancy
  
 fi
 
 # Fajr Prayer
 if [ $current_time = 20:00 ];then
         notify-send -i "$image" "$isha_msg"
-        # Lock the screen
-        sleep 5m
-        i3lock-fancy
  
 fi

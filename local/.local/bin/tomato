@@ -25,7 +25,7 @@ unset stop_msg
 
 start_msg='
 <span foreground="'$RED'"  >           Do Not Disturb</span> 
-<span foreground="'$GREEN'">           **************</span>
+<span foreground="'$FG'">           **************</span>
 <span foreground="'$FG'">
 " A day without learning is a day wasted. "
 
@@ -34,7 +34,7 @@ start_msg='
 
 stop_msg='
 <span foreground="'$RED'">Break Time</span> 
-<span foreground="'$GREEN'">=>=>=>=>=></span>
+<span foreground="'$FG'">=>=>=>=>=></span>
 <span foreground="'$FG'">
 Hello friend .. stand up and take a little break ..
 </span>

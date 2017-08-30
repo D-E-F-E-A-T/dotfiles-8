@@ -14,7 +14,7 @@ body
    background-attachment: fixed;
    background-size: cover;*/
    background-color: var(--background) !important;
-   color: var(--foreground) !important;
+   color: var(--color3) !important;
 }
 
 h1{
@@ -67,38 +67,38 @@ ul > li > ul >li{
 }
 
 a{
-   font-family: Cantarell !important;
-   font-size: 8pt;
+   font-family: Monofur for Powerline !important;
+   font-size: 9pt;
    font-weight: medium; 
    color: var(--foreground) !important;
    text-decoration: none;
 }
 
 a:hover{
-   background-color: var(--color2) !important;
+   background-color: var(--color3) !important;
    color: var(--color15) !important;
 }
 
 .ac{
-  color: var(--color9) !important;
+  color: var(--color15) !important;
 }
 
 .doc{
-  color: var(--color2);
+  color: var(--color15);
 }
 
 .sec{
-  color: var(--color6);
+  color: var(--color15);
 }
 
 .lin{
-  color: var(--color12);
+  color: var(--color15);
 }
 
 .war{
-  color: var(--color5);
+  color: var(--color15);
 }
 
 .mis{
-  color: var(--color6);
+  color: var(--color15);
 }

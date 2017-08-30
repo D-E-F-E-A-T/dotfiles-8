@@ -15,6 +15,6 @@ notify-send "
 <span foreground='$RED'>4. </span>*NIX Stuff  <span foreground='$FG'>1hr</span>    <span foreground='$RED'>4. </span>ProjVim      <span foreground='$FG'>1hr</span>
 <span foreground='$RED'>5. </span>Code Book   <span foreground='$FG'>1hr</span>    <span foreground='$RED'>5. </span>GoogleHack   <span foreground='$FG'>1hr</span>
 <span foreground='$RED'>6. </span>Perl Code   <span foreground='$FG'>1hr</span>
-<span foreground='$RED'>7. </span>Metasploit <span foreground='$FG'>1hr</span>
+<span foreground='$RED'>7. </span>Metasploit  <span foreground='$FG'>1hr</span>
 </span>
 "

@@ -16,7 +16,7 @@ if [[ -d /sys/class/power_supply/BAT1 ]]; then
               notify-send -u critical -t 60000  "Battery Low ..."
 
         elif [[ "${batteryState}" == "Charging" && ${batteryPower} -eq 80 ]]; then
-                notify-send -u low "Battery Full ...."
+                notify-send -u normal "Battery Full ...."
 
         fi
 

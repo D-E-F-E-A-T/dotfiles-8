@@ -154,7 +154,7 @@ bindsym $mod+minus scratchpad show
 
 # Global gaps size
 gaps inner 0
-gaps outer 0
+gaps outer 15
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -195,30 +195,30 @@ mode "$mode_gaps_outer" {
 }
 
 # Specify gaps for specific workspace
-workspace $w1 gaps outer 15
-workspace $w2 gaps outer 15
-workspace $w5 gaps outer 15
-workspace $w8 gaps outer 15
+# workspace $w1 gaps outer 15
+# workspace $w2 gaps outer 15
+# workspace $w5 gaps outer 15
+# workspace $w8 gaps outer 15
 
 bindsym $mod+r mode "resize"
 
 # Lock screen
-# set $Locker i3lock-fancy
+set $Locker i3lock-fancy
 
 # Shutdwon, Restart, Logout, Suspend, Hibernate, Reboot, Lock
-# set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
-# mode "$mode_system" {
-#     bindsym l exec --no-startup-id $Locker, mode "default"
-#     bindsym e exec --no-startup-id i3-msg exit, mode "default"
-#     bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
-#     bindsym h exec --no-startup-id $Locker && systemctl hibernate,mode "default"
-#     bindsym r exec --no-startup-id systemctl reboot, mode "default"
-#     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
+ # set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+ # mode "$mode_system" {
+ #     bindsym l exec --no-startup-id $Locker, mode "default"
+ #     bindsym e exec --no-startup-id i3-msg exit, mode "default"
+ #     bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+ #     bindsym h exec --no-startup-id $Locker && systemctl hibernate,mode "default"
+ #     bindsym r exec --no-startup-id systemctl reboot, mode "default"
+ #     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
 
-#     # back to normal: Enter or Escape
-#     bindsym Return mode "default"
-#     bindsym Escape mode "default"
-# }
+ #     # back to normal: Enter or Escape
+ #     bindsym Return mode "default"
+ #     bindsym Escape mode "default"
+ # }
 #bindsym $mod+F9 mode "$mode_system"
 bindsym $mod+F9 exec --no-startup-id $HOME/.config/polybar/popups/power/power
 
@@ -261,13 +261,12 @@ set_from_resource $white       color15 #000000
 set $darkblack #271c24
 
 # Window colors           border      background   text            indicator    child_border
-client.focused            $green      $green       $green          $green      $green
-client.focused_inactive   $darkblack  $darkblack   $blue           $darkblack  $darkblack
+client.focused            $red        $red         $red            $red        $red
+client.focused_inactive   $magenta    $magenta     $blue           $magenta    $magenta
 client.unfocused          $darkblack  $darkblack   $blue           $darkblack  $darkblack
 client.urgent             $darkblack  $darkblack   $blue           $darkblack  $darkblack
 
 #Start i3bar to display a workspace bar
-#Current I don't use any bar :)
 #Uncomment to use the default i3bar status
 # bar {      
 #    
@@ -289,7 +288,7 @@ client.urgent             $darkblack  $darkblack   $blue           $darkblack  $
 #          }
 # }
 
-# Set font for window title bar
+# Fancy title bar
 font pango:lemon 15
 #for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"
 for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
@@ -297,8 +296,9 @@ for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
 
 #*************  My apps settings  *********************
 
-# Start apps during startup
+# # Start apps during startup
 exec --no-startup-id nitrogen --restore  &
+exec --no-startup-id conky -c $HOME/.config/i3/conkybar-top -d
 exec --no-startup-id compton --config ~/.compton.conf -b 
 exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc
 exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
@@ -306,8 +306,8 @@ exec --no-startup-id . $HOME/.local/bin/urxvt_daemon &
 exec --no-startup-id . $HOME/.local/bin/barstart &
 
 # Set per-application border
-#for_window [class="^.*"] border pixel 4
-#for_window [class="(?i)urxvt"] border pixel 4
+#for_window [class="^.*"] border pixel 1
+#for_window [class="(?i)urxvt"] border pixel 1
 for_window [class="^.*"] border normal 0
 
 # Enable or disable floating
@@ -324,13 +324,17 @@ for_window [class="Pavucontrol"] floating enable
 # for_window [class="^.*"] floating enable
 
 # Starting apps on a specific workspace
-assign [class="^Tor Browser$"]    $w1
-assign [class="^Firefox$"]        $w1
-assign [class="^Zathura"]         $w3
-assign [class="^mpv$"]            $w4
-assign [class="^VirtualBox$"]     $w7
-assign [class="^Gimp$"]           $w8
-assign [class="^Wireshark"]       $w8
-assign [class="^Pcmanfm"]         $w8
+assign [class="^Tor Browser$"]           $w1
+assign [class="^Firefox$"]               $w1
+assign [class="^Zathura"]                $w3
+assign [class="^mpv$"]                   $w4
+assign [class="^VirtualBox$"]            $w7
+assign [class="^Gimp$"]                  $w8
+assign [class="^Wireshark"]              $w8
+assign [class="^Pcmanfm"]                $w8
+assign [class="^burp-StartBurp"]         $w8
+assign [class="^OWASP ZAP"]              $w8
+assign [class="^jetbrains-studio"]       $w8
+assign [class="^Deluge"]                 $w8
 
 # vim:filetype=i3

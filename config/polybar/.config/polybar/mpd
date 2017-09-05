@@ -17,7 +17,7 @@ else
 
         if [[ $title_len > 30 ]];then  # If the title is more than 30 characters
                 title=$(echo $title | cut -b 1-30) # trim of some of them
-                echo "%{F$FG}${title}...%{F-} %{F$RED}-%{F-} %{F$FG}$album%{F-}"
+                echo "%{F$FG}$title%{F-} %{F$RED}-%{F-} %{F$FG}$album%{F-}"
         else
                 echo "%{F$FG}$title%{F-} %{F$RED}-%{F-} %{F$FG}$album%{F-}"
         fi

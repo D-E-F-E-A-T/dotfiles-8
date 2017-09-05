@@ -20,7 +20,7 @@ unset mp3_files_found
 unset title
 tracknr=0
 
-show_help(){
+show_help(){  # Show help options
 cat <<EOF
 Usage: ${0##*/} [OPTION]
 
@@ -48,7 +48,7 @@ else
                 case $1 in
                    -a|--artist)
                          if [[ "$2" ]];then
-                                 artist=$2        # Set the artist
+                                 artist=$2        # Set the artist name
                                  shift
                          else
                                echo "ERROR: "$1" requires non-empty argument option"
@@ -57,7 +57,7 @@ else
                          ;;
                 -d|--directory)
                         if [[ "$2" ]];then
-                                mp3_directory=$2  # Set the directory
+                                mp3_directory=$2  # Set the directory name
                                 shift
                         else
                                 echo "ERROR: "$1" requires non-empty argument option"
@@ -65,12 +65,12 @@ else
                         fi
                         ;;
                  -h|-\?|--help)
-                         show_help    # Show help message
+                         show_help                # Show help message
                          exit
                          ;;
                     -l|--album)
                          if [[ "$1" ]];then
-                                album=$2
+                                album=$2         # Set the album name
                                 shift
                         else
                                 echo "ERROR: "$1" requires non-empty argument option"
@@ -97,16 +97,15 @@ if [[ -d $mp3_directory ]];then  # Check if it actually a directory
                 # Iterate through the files to add tags
                 for file in $mp3_directory*;do
                         # Strip the filename to generate our tag title
-                        (( tracknr += 1 ))  # Generate track number
-                        title=$(echo ${file##*/} | cut -d '-' -f 1) || $(echo ${file##*/} | cut -b 1,30)
+                        (( tracknr += 1 ))       # Generate track number
+                        title=$(echo "${file##*/}" | cut -d '-' -f 1) || $(echo "${file##*/}" | cut -b 1-30)
                         id3 -t "$title" -l "$album" -a "$artist" -n "$tracknr" "$file"
                 done
-                echo "[+]Successfully generated tags"
+                echo "[+] Successfully generated tags"
                 notify-send "Successfully generated the tags"
                 exit 0
         fi
 else
-        echo "ERROR: invalid option $1"
-        echo "try: ${0##*/} --help"
+        echo "ERROR: try: ${0##*/} --help"
         exit 1
 fi

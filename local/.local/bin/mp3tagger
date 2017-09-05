@@ -11,6 +11,7 @@
 #      Version:  1.0
 #
 
+
 # Set and Unset shell options and varuables
 shopt -s nullglob dotglob       
 unset artist                    

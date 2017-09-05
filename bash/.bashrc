@@ -26,8 +26,10 @@ source virtualenvwrapper.sh
 source ~/.git-prompt.sh
 source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
 
 #-----------------------------------------------------------------------
 #

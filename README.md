@@ -45,7 +45,7 @@ Screenshot
 
 `ranger` `ncmpcpp` `weechat` `polybar`
 
-![Current](https://i.imgur.com/xcTXFsr.png)
+![Current](https://i.imgur.com/PH8ROpp.png)
 
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

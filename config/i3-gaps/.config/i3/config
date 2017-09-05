@@ -288,6 +288,7 @@ client.urgent             $darkblack  $darkblack   $white          $darkblack  $
 #          }
 # }
 
+
 # Fancy title bar
 #font pango:lemon 15
 #for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"

@@ -88,7 +88,7 @@ syntax on
 filetype on
 "set number                       " show line numbers
 set noshowmode                   " Hide UI
-set showcmd                      " show command in bottom bar
+"set showcmd                      " show command in bottom bar
 set tw=79                        " width of document (used by gd)
 set nowrap                       " don't automatically wrap on load
 set smartindent

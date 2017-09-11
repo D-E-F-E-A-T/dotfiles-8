@@ -1,5 +1,3 @@
-@import url('file:///home/mohabaks/.cache/wal/colors.css');
-
 
 *{
  padding: 0px;
@@ -13,8 +11,8 @@ body
    background-position:center center;
    background-attachment: fixed;
    background-size: cover;*/
-   background-color: var(--background) !important;
-   color: var(--color3) !important;
+   background-color: #0a0f14 !important;
+   color: #c33027 !important;
 }
 
 h1{
@@ -22,14 +20,14 @@ h1{
    font-family: 'Lobster', cursive !important; 
    padding: 10px;
    text-align: center;
-   color: var(--color3) !important;
+   color:  #d26939 !important;
 }
 
 hr{
   display: block;
   height: 3px;
   border: 0px;
-  border-top: 4px solid #271c24 !important;
+  border-top: 4px solid #111a22 !important;
 }
 
 ul{
@@ -70,35 +68,35 @@ a{
    font-family: Monofur for Powerline !important;
    font-size: 9pt;
    font-weight: medium; 
-   color: var(--foreground) !important;
+   color: #98d1ce !important;
    text-decoration: none;
 }
 
 a:hover{
-   background-color: var(--color3) !important;
-   color: var(--color15) !important;
+   background-color: #26a98b !important;
+   color: #d3ebe9 !important;
 }
 
 .ac{
-  color: var(--color15) !important;
+  color: #26a98b !important;
 }
 
 .doc{
-  color: var(--color15);
+  color: #26a98b;
 }
 
 .sec{
-  color: var(--color15);
+  color: #26a98b;
 }
 
 .lin{
-  color: var(--color15);
+  color: #26a98b;
 }
 
 .war{
-  color: var(--color15);
+  color: #26a98b;
 }
 
 .mis{
-  color: var(--color15);
+  color: #26a98b;
 }

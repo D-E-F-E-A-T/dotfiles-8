@@ -15,9 +15,9 @@
 
 [colors]
 ; Base colors from .Xresources
-bg        =   ${xrdb:color0}
-bg-alt    =   #271c24
-fg        =   ${xrdb:color15}
+bg        =   ${xrdb:background}
+bg-alt    =   #111a22
+fg        =   ${xrdb:foreground}
 fg-alt    =   ${xrdb:color8}
 red       =   ${xrdb:color1}
 green     =   ${xrdb:color2}
@@ -26,8 +26,7 @@ blue      =   ${xrdb:color4}
 blue-alt  =   ${xrdb:color12}
 magenta   =   ${xrdb:color5}
 cyan      =   ${xrdb:color6}
-white     =   ${xrdb:color7}
-white-alt =   ${xrdb:color15}
+white     =   ${xrdb:color15}
 
 ;**********************************************************
 ;
@@ -48,11 +47,11 @@ margin-bottom = 0
 [bar/top]
 monitor = ${env:MONITOR:LVDS1}
 bottom = false
-width = 98%
-height = 28
-offset-x = 1%
-offset-y = 10
-override-redirect = true
+width = 100%
+height = 26
+offset-x = 0
+offset-y = 0
+override-redirect = false
 
 background = ${colors.bg}
 foreground = ${colors.fg}
@@ -63,8 +62,8 @@ foreground = ${colors.fg}
 ;border-bottom-color = ${colors.bg-alt}
 
 spacing = 0
-padding-left = 2
-padding-right = 2
+padding-left = 1
+padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
@@ -102,20 +101,21 @@ ws-icon-default = 
 
 strip-wsnumbers = true
 
-label-focused = 
-label-focused-foreground = ${colors.fg}
+label-focused = %name%
+label-focused-foreground = ${colors.green}
+label-focused-background = ${colors.bg-alt}
 label-focused-padding = 1
 
-label-unfocused = 
+label-unfocused = %name%
 label-unfocused-padding = 1
 label-unfocused-foreground = ${colors.fg}
 ;label-unfocused-background = ${colors.bg-alt}
 
-label-urgent = 
+label-urgent = %name%
 label-urgent-foreground = ${colors.red}
 label-urgent-padding = 1
 
-label-visible = 
+label-visible = %name%
 label-visible-foreground = ${colors.fg}
 ;label-visible-background = ${colors.bg-alt}
 label-visible-padding = 1
@@ -179,7 +179,7 @@ time-alt = %H:%M:%S
 ;format-prefix = 
 ;format-prefix-foreground = ${colors.fg-alt}
 
-label = " %{F#D04A2E}%date%%{F-} %time% "
+label = " %{F#d26939}%date%%{F-} %{F#26a98b}%time%%{F-} "
 label-foreground = ${colors.fg}
 
 [module/battery]
@@ -192,7 +192,7 @@ format-charging = "<animation-charging> <label-charging> "
 format-discharging = "<ramp-capacity> <label-discharging> "
 
 format-full-prefix = " "
-format-full-prefix-foreground = ${colors.red}
+format-full-prefix-foreground = ${colors.blue}
 
 ramp-capacity-0 =  
 ramp-capacity-1 =  
@@ -202,7 +202,7 @@ ramp-capacity-foreground = ${colors.red}
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
-animation-charging-foreground = ${colors.white-alt}
+animation-charging-foreground = ${colors.green}
 animation-charging-framerate = 750
 
 [module/temperature]

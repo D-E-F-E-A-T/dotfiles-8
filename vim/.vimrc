@@ -56,17 +56,18 @@ Plugin 'junegunn/goyo.vim'
 "Plugin 'lilydjwg/colorizer'
 "Plugin 'morhetz/gruvbox'
 Plugin 'dylanaraps/wal.vim'
+Plugin 'whatyouhide/vim-gotham'
 
 call vundle#end()       
 filetype plugin indent on  
 
- "}}}
+ "}}} 
 
 
 "  Set Colorscheme and Statusline{{{
 
 set background=dark
-colorscheme wal
+colorscheme gotham
 
 "let g:gruvbox_contrast_dark = 'hard'
 
@@ -75,7 +76,7 @@ colorscheme wal
 set laststatus=0
 set t_Co=256
  let g:lightline = {
-       \ 'colorscheme': 'wal',
+       \ 'colorscheme': 'gotham',
       \ }
       
 "}}}
@@ -86,7 +87,7 @@ set t_Co=256
 "" These are options that changes random visuals in Vim
 syntax on
 filetype on
-"set number                       " show line numbers
+set number                       " show line numbers
 set noshowmode                   " Hide UI
 "set showcmd                      " show command in bottom bar
 set tw=79                        " width of document (used by gd)

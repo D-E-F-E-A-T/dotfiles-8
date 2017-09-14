@@ -6,15 +6,17 @@
 . $HOME/.local/bin/color-parser
 
 notify-send "
-<span foreground='$BBLACK'>
-<span foreground='$BWHITE' >    Weekdays </span>             <span foreground='$BWHITE' > Weekend </span>     
+<span foreground='$FG'>
+<span foreground='$BRED' >    TODO Weekdays </span> 
 
-<span foreground='$RED'>1. </span>Assembly    <span foreground='$FG'>1hr</span>    <span foreground='$RED'>1. </span>CounterHack  <span foreground='$FG'>2hr</span>
-<span foreground='$RED'>2. </span>C Code      <span foreground='$FG'>1hr</span>    <span foreground='$RED'>2. </span>Metasploit   <span foreground='$FG'>1hr</span>
-<span foreground='$RED'>3. </span>Networking  <span foreground='$FG'>1hr</span>    <span foreground='$RED'>3. </span>Privacy      <span foreground='$FG'>1hr</span>
-<span foreground='$RED'>4. </span>*NIX Stuff  <span foreground='$FG'>1hr</span>    <span foreground='$RED'>4. </span>PenLab       <span foreground='$FG'>1hr</span>
-<span foreground='$RED'>5. </span>Code Book   <span foreground='$FG'>1hr</span>    <span foreground='$RED'>5. </span>GoogleHack   <span foreground='$FG'>1hr</span>
-<span foreground='$RED'>6. </span>Perl Code   <span foreground='$FG'>1hr</span>
-<span foreground='$RED'>7. </span>Metasploit  <span foreground='$FG'>1hr</span>
+<span foreground='$RED'>1. </span>OpenSec Videos   <span foreground='$FG'></span>
+<span foreground='$RED'>2. </span>MIT Sec Videos   <span foreground='$FG'></span>
+<span foreground='$RED'>3. </span>SecTube Videos   <span foreground='$FG'></span>
+<span foreground='$RED'>4. </span>Metasploit       <span foreground='$FG'></span>
+<span foreground='$RED'>5. </span>HackArtExploit   <span foreground='$FG'></span>
+<span foreground='$RED'>6. </span>Network Admin    <span foreground='$FG'></span>
+<span foreground='$RED'>7. </span>DVW Basic        <span foreground='$FG'></span>
+<span foreground='$RED'>8. </span>WebApp Hack      <span foreground='$FG'></span>
+<span foreground='$RED'>9. </span>UNIX OS          <span foreground='$FG'></span>
 </span>
 "

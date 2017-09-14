@@ -31,9 +31,9 @@ class Default(ColorScheme):
                 fg = default
             if context.media:
                 if context.image:
-                    fg = blue
+                    fg = cyan
                 else:
-                    fg = magenta
+                    fg = blue
             if context.container:
                 fg = green
             if context.directory:

@@ -6,13 +6,13 @@
 
 body
 {
-   /*background-image: var(--wallpaper);
+   background-image: url(../Pictures/wallpapers/wallhaven-501871.jpg);
    background-repeat: repeat-x repeat-y;
    background-position:center center;
    background-attachment: fixed;
-   background-size: cover;*/
-   background-color: #0a0f14 !important;
-   color: #c33027 !important;
+   background-size: cover;
+   /*background-color: #1a1829 !important;*/
+   color: #934972 !important;
 }
 
 h1{
@@ -20,14 +20,14 @@ h1{
    font-family: 'Lobster', cursive !important; 
    padding: 10px;
    text-align: center;
-   color:  #d26939 !important;
+   color:  #934972 !important;
 }
 
 hr{
   display: block;
   height: 3px;
   border: 0px;
-  border-top: 4px solid #111a22 !important;
+  border-top: 4px solid #232035 !important;
 }
 
 ul{
@@ -58,45 +58,45 @@ ul > li > ul >li{
     column-gap:15px;
     columns:6;
     padding-top: 20px;
-    padding-left: 40px;
-   /* background-color: var(--background) !important;
+    padding-left: 20px;
+    background-color:  #1a1829 !important;
     box-shadow: 0 0 10px 6px #000;
-    opacity: .9;*/
+    opacity: .9
 }
 
 a{
    font-family: Monofur for Powerline !important;
    font-size: 9pt;
    font-weight: medium; 
-   color: #98d1ce !important;
+   color: #af9b9a !important;
    text-decoration: none;
 }
 
 a:hover{
-   background-color: #26a98b !important;
-   color: #d3ebe9 !important;
+   background-color: #934972 !important;
+   color: #af9b9a !important;
 }
 
 .ac{
-  color: #26a98b !important;
+  color: #af9b9a !important;
 }
 
 .doc{
-  color: #26a98b;
+  color: #af9b9a;
 }
 
 .sec{
-  color: #26a98b;
+  color: #af9b9a;
 }
 
 .lin{
-  color: #26a98b;
+  color: #af9b9a;
 }
 
 .war{
-  color: #26a98b;
+  color: #af9b9a;
 }
 
 .mis{
-  color: #26a98b;
+  color: #af9b9a;
 }

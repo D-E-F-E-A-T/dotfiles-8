@@ -5,49 +5,49 @@
 !              colors can be found here: https://alpha.wallhaven.cc/wallpaper/501871
 !
 
-URxvt*cursorColor:  #af9b9a
+URxvt*cursorColor:  #ac9b9d
 URxvt*borderColor:  #1A1829
-*colorUL:           #737561
+*colorUL:           #717557
 
 ! special
-*.foreground:   #af9b9a
+*.foreground:   #ac9b9d
 *.background:   #1a1829
-*.cursorColor:  #af9b9a
+*.cursorColor:  #ac9b9d
 
 ! black
-*.color0:       #1a1829
-*.color8:       #353248
+*.color0:       #1f1d2f
+*.color8:       #4e4c5e
 
 ! red
-*.color1:       #934972
-*.color9:       #934972
+*.color1:       #84305e
+*.color9:       #84305e
 
 ! green
-*.color2:       #777961
-*.color10:      #777961
+*.color2:       #717557
+*.color10:      #717557
 
 ! yellow
-*.color3:       #967378
-*.color11:      #967378
+*.color3:       #aa6772
+*.color11:      #aa6772
 
 ! blue
-*.color4:       #4d4361
-*.color12:      #4d4361
+*.color4:       #534475
+*.color12:      #534475
 
 ! magenta
-*.color5:       #664d68
-*.color13:      #664d68
+*.color5:       #805084
+*.color13:      #805084
 
 ! cyan
-*.color6:       #6b5d6d
-*.color14:      #6b5d6d
+*.color6:       #816886
+*.color14:      #816886
 
 ! white
-*.color7:       #af9b9a
-*.color15:      #af9b9a
+*.color7:       #ac9b9d
+*.color15:      #ac9b9d
 
 ! Rofi colors.
-rofi.color-window: #1A1829, #1A1829, #664d68
-rofi.color-normal: #1A1829, #af9b9a, #1A1829, #664d68, #1A1829
-rofi.color-active: #1A1829, #af9b9a, #1A1829, #664d68, #1A1829
-rofi.color-urgent: #1A1829, #934972, #1A1829, #934972, #af9b9a
+rofi.color-window: #1A1829, #1A1829, #805084
+rofi.color-normal: #1A1829, #af9b9a, #1A1829, #805084, #1A1829
+rofi.color-active: #1A1829, #af9b9a, #1A1829, #805084, #1A1829
+rofi.color-urgent: #1A1829, #ac9b9d, #1A1829, #ac9b9d, #af9b9a

@@ -50,6 +50,7 @@ Plugin 'tmux-plugins/vim-tmux'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'junegunn/goyo.vim'
+Plugin 'xolox/vim-notes'
 
 """ Colorscheme
 "Plugin 'altercation/vim-colors-solarized'
@@ -67,16 +68,16 @@ filetype plugin indent on
 "  Set Colorscheme and Statusline{{{
 
 set background=dark
-colorscheme gotham
+colorscheme wal
 
 "let g:gruvbox_contrast_dark = 'hard'
 
 
 "" Status line
 set laststatus=0
-set t_Co=256
+set t_Co=16
  let g:lightline = {
-       \ 'colorscheme': 'gotham',
+       \ 'colorscheme': 'wal',
       \ }
       
 "}}}
@@ -304,7 +305,9 @@ au BufNewFile,BufRead *.js,*.html,*.css
 
 "}}}
 
-
+" Vim-Notes {{{
+  let g:notes_directories = ['~/Documents/Notes']
+"}}}
 " Python/Django  IDE Setup {{{
 
 

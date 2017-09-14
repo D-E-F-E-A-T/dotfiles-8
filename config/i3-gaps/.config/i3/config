@@ -1,7 +1,7 @@
 # i3 version 4.12-8-gd7fd3c0 (2016-03-09, branch "gaps-next") © 2009 Michael Stapelberg and contributors
 # i3 config file.
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
-# Github https://github.com/mohabaks/dotfiles
+
 
 
 #*************** Keybindings ******************
@@ -153,7 +153,7 @@ bindsym $mod+minus scratchpad show
 # smart_borders on
 
 # Global gaps size
-gaps inner 0
+gaps inner 10
 gaps outer 0
 
 set $mode_gaps Gaps: (o) outer, (i) inner
@@ -242,8 +242,8 @@ bindsym $mod+p exec pcmanfm
 bindsym $mod+b exec luakit
 
 # Custom colors
-set_from_resource $black       color0  #000000
-#set_from_resource $darkblack   color8  #000000
+set_from_resource $black       color8  #000000
+#set_from_resource $darkblack   color0  #000000
 set_from_resource $darkred     color1  #000000
 set_from_resource $red         color9  #000000
 set_from_resource $darkgreen   color2  #000000
@@ -258,7 +258,7 @@ set_from_resource $darkcyan    color6  #000000
 set_from_resource $cyan        color14 #000000
 set_from_resource $white       color15 #000000
 
-set $darkblack #111a22
+set $darkblack #26243a
 
 # Window colors           border      background   text            indicator    child_border
 client.focused            $red        $red         $white          $darkblack  $darkblack
@@ -290,16 +290,16 @@ client.urgent             $darkblack  $darkblack   $white          $darkblack  $
 
 
 # Fancy title bar
-#font pango:lemon 15
+font pango:lemon 15
 #for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"
-#for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
+for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
 
 
 #*************  My apps settings  *********************
 
 # # Start apps during startup
 exec --no-startup-id nitrogen --restore  &
-#exec --no-startup-id conky -c $HOME/.config/polybar/conky_wrapper -d
+exec --no-startup-id conky -c $HOME/.config/polybar/conky_wrapper -d
 exec --no-startup-id compton --config ~/.compton.conf -b 
 exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc
 exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
@@ -307,8 +307,8 @@ exec --no-startup-id . $HOME/.local/bin/urxvt_daemon &
 exec --no-startup-id . $HOME/.local/bin/barstart &
 
 # Set per-application border
-for_window [class="^.*"] border pixel 1
-for_window [class="(?i)urxvt"] border pixel 1
+for_window [class="^.*"] border pixel 4
+for_window [class="(?i)urxvt"] border pixel 0
 #for_window [class="^.*"] border normal 0
 
 # Enable or disable floating

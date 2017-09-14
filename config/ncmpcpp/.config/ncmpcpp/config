@@ -212,8 +212,8 @@ song_status_format = {{%a{ "%b"{ (%y)}} - }{%t}}|{%f}
 song_library_format = {%n - }{%t}|{%f}
 #
 #
-alternative_header_first_line_format = $b$(237)$aqqu$/a$8 {%t}|{%f} $(237)$atqq$/a$9$/b
-alternative_header_second_line_format = {{$2$b%a$/b$9}{ - $4%b$9}{ ($4%y$9)}}|{%D}
+alternative_header_first_line_format = $b$1$aqqu$/a$8 {%t}|{%f} $1$atqq$/a$9$/b
+alternative_header_second_line_format = {{$2$b%a$/b$9}{ - $3%b$9}{ ($3%y$9)}}|{%D}
 now_playing_prefix = "$b$2▶ "
 now_playing_suffix = $/b
 #
@@ -279,7 +279,7 @@ now_playing_suffix = $/b
 ##
 #
 #song_columns_list_format = (20)[red]{a} (4f)[green]{NE} (50)[magenta]{t|f:Title} (20)[yellow]{b} (7f)[blue]{l}
-song_columns_list_format = (50)[green]{t|f:Title} (7f)[red]{l}
+song_columns_list_format = (50)[white]{t|f:Title} (7f)[red]{l}
 #
 ##### various settings #####
 #
@@ -480,18 +480,18 @@ use_console_editor = yes
 ##### colors definitions #####
 colors_enabled = yes
 empty_tag_color = black
-header_window_color = cyan
-volume_color = cyan
+header_window_color = magenta
+volume_color = green
 state_line_color = magenta
 state_flags_color = black
-main_window_color = magenta
+main_window_color = blue
 color1 = black
 color2 = red
 main_window_highlight_color = blue
-progressbar_color = magenta
-progressbar_elapsed_color = red
+progressbar_color = cyan
+progressbar_elapsed_color = green
 statusbar_color = cyan
-alternative_ui_separator_color = 235
+alternative_ui_separator_color = black
 active_column_color = red
 window_border_color = magenta
 active_window_border = green

@@ -16,7 +16,7 @@
 [colors]
 ; Base colors from .Xresources
 bg        =   ${xrdb:background}
-bg-alt    =   #111a22
+bg-alt    =   #{xrdb:color0}
 fg        =   ${xrdb:foreground}
 fg-alt    =   ${xrdb:color8}
 red       =   ${xrdb:color1}
@@ -47,11 +47,11 @@ margin-bottom = 0
 [bar/top]
 monitor = ${env:MONITOR:LVDS1}
 bottom = false
-width = 100%
-height = 26
-offset-x = 0
-offset-y = 0
-override-redirect = false
+width = 1349
+height = 30
+offset-x = 10
+offset-y = 10
+override-redirect = true
 
 background = ${colors.bg}
 foreground = ${colors.fg}
@@ -62,8 +62,8 @@ foreground = ${colors.fg}
 ;border-bottom-color = ${colors.bg-alt}
 
 spacing = 0
-padding-left = 1
-padding-right = 1
+padding-left = 0
+padding-right = 0
 module-margin-left = 1
 module-margin-right = 1
 
@@ -72,10 +72,7 @@ font-1 = Siji:antialias=false;1
 
 modules-left = menu i3 mpd
 modules-center = date
-modules-right = uptime mail temperature memory cpu wlan battery
-
-;tray-position = right
-;tray-padding = 0
+modules-right = uptime mail temperature cpu memory wlan battery power-label
 
 ;**********************************************************
 ;
@@ -102,13 +99,13 @@ ws-icon-default = 
 strip-wsnumbers = true
 
 label-focused = %name%
-label-focused-foreground = ${colors.green}
-label-focused-background = ${colors.bg-alt}
+label-focused-foreground = ${colors.fg}
+;label-focused-background = ${colors.blue}
 label-focused-padding = 1
 
 label-unfocused = %name%
 label-unfocused-padding = 1
-label-unfocused-foreground = ${colors.fg}
+label-unfocused-foreground = ${colors.fg-alt}
 ;label-unfocused-background = ${colors.bg-alt}
 
 label-urgent = %name%
@@ -116,7 +113,7 @@ label-urgent-foreground = ${colors.red}
 label-urgent-padding = 1
 
 label-visible = %name%
-label-visible-foreground = ${colors.fg}
+label-visible-foreground = ${colors.fg-alt}
 ;label-visible-background = ${colors.bg-alt}
 label-visible-padding = 1
 
@@ -179,7 +176,7 @@ time-alt = %H:%M:%S
 ;format-prefix = 
 ;format-prefix-foreground = ${colors.fg-alt}
 
-label = " %{F#d26939}%date%%{F-} %{F#26a98b}%time%%{F-} "
+label = " %{F#84305e}%date%%{F-} %{F#ac9b9d}%time%%{F-} "
 label-foreground = ${colors.fg}
 
 [module/battery]
@@ -198,6 +195,8 @@ ramp-capacity-0 = 
 ramp-capacity-1 =  
 ramp-capacity-2 =  
 ramp-capacity-foreground = ${colors.red}
+
+label-charging = Charging %percentage%%
 
 animation-charging-0 = 
 animation-charging-1 = 
@@ -223,16 +222,12 @@ ramp-2 = 
 ramp-foreground = ${colors.red}
 
 [module/menu]
-type = custom/menu
+type = custom/text
 
-menu-0-0 = " Todo "
-menu-0-0-foreground = ${colors.green}
-menu-0-0-exec = $HOME/.config/polybar/popups/todo/todo
-
-label-open = 
-label-open-foreground = ${colors.red}
-label-close = <<
-label-close-foreground = ${colors.fg}
+content = "    "
+content-foreground = ${colors.bg}
+content-background = ${colors.red}
+click-left = bash ~/.config/polybar/popups/todo/todo
 
 [module/mail]
 type = custom/script
@@ -257,4 +252,12 @@ format = "<label>"
 format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mpd
+
+[module/power-label]
+type = custom/text
+content = "    "
+content-foreground = ${colors.bg}
+content-background = ${colors.red}
+click-left = bash ~/.config/polybar/popups/power/power
+
 ; vim:ft=dosini

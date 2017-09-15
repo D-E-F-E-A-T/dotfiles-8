@@ -43,7 +43,9 @@ Installation
 Screenshot
 ----------
 
-![Current](https://i.imgur.com/dtZB3zI.png)
+`ranger` `ncmpcpp` `tmux` `weechat`
+
+![Current](https://i.imgur.com/B34aP8j.png)
 
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

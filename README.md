@@ -43,8 +43,6 @@ Installation
 Screenshot
 ----------
 
-`ranger` `ncmpcpp` `tmux` `polybar`
-
 ![Current](https://i.imgur.com/dtZB3zI.png)
 
 

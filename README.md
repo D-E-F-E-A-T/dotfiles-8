@@ -45,7 +45,7 @@ Screenshot
 
 `ranger` `ncmpcpp` `tmux` `polybar`
 
-![Current](https://i.imgur.com/NxI6Cil.png)
+![Current](https://i.imgur.com/dtZB3zI.png)
 
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

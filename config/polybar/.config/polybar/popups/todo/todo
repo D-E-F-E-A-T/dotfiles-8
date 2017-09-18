@@ -17,6 +17,6 @@ notify-send "
 <span foreground='$RED'>6. </span>Network Admin    <span foreground='$FG'></span>
 <span foreground='$RED'>7. </span>DVW Basic        <span foreground='$FG'></span>
 <span foreground='$RED'>8. </span>WebApp Hack      <span foreground='$FG'></span>
-<span foreground='$RED'>9. </span>UNIX OS          <span foreground='$FG'></span>
+<span foreground='$RED'>9. </span>*NIX stuff       <span foreground='$FG'></span>
 </span>
 "

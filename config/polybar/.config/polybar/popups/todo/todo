@@ -8,15 +8,21 @@
 notify-send "
 <span foreground='$FG'>
 <span foreground='$BRED' >    TODO Weekdays </span> 
+<span foreground='$WHITE' >    -=-=-=-=-=-=-</span> 
 
-<span foreground='$RED'>1. </span>OpenSec Videos   <span foreground='$FG'></span>
-<span foreground='$RED'>2. </span>MIT Sec Videos   <span foreground='$FG'></span>
-<span foreground='$RED'>3. </span>SecTube Videos   <span foreground='$FG'></span>
-<span foreground='$RED'>4. </span>Metasploit       <span foreground='$FG'></span>
-<span foreground='$RED'>5. </span>HackArtExploit   <span foreground='$FG'></span>
-<span foreground='$RED'>6. </span>Network Admin    <span foreground='$FG'></span>
-<span foreground='$RED'>7. </span>DVW Basic        <span foreground='$FG'></span>
-<span foreground='$RED'>8. </span>WebApp Hack      <span foreground='$FG'></span>
-<span foreground='$RED'>9. </span>*NIX stuff       <span foreground='$FG'></span>
+<span foreground='$RED'>1. </span>MIT Sec Videos   <span foreground='$FG'></span>
+<span foreground='$RED'>2. </span>HackArtExploit   <span foreground='$FG'></span>
+<span foreground='$RED'>3. </span>Metasploitable   <span foreground='$FG'></span>
+<span foreground='$RED'>4. </span>Hacker Playbook  <span foreground='$FG'></span>
+<span foreground='$RED'>5. </span>WebApp Hack      <span foreground='$FG'></span>
+
+<span foreground='$BRED' >    TODO Weekend </span> 
+<span foreground='$WHITE' >    -=-=-=-=-=-=-</span> 
+
+<span foreground='$RED'>1. </span>Google Hack      <span foreground='$FG'></span>
+<span foreground='$RED'>2. </span>TheShellcoders   <span foreground='$FG'></span>
+<span foreground='$RED'>3. </span>Counter Hack     <span foreground='$FG'></span>
+<span foreground='$RED'>4. </span>Practical vim    <span foreground='$FG'></span>
+<span foreground='$RED'>5. </span>GNS3             <span foreground='$FG'></span>
 </span>
 "

@@ -50,7 +50,7 @@ bottom = false
 width = 1349
 height = 30
 offset-x = 10
-offset-y = 10
+offset-y = 12
 override-redirect = true
 
 background = ${colors.bg}

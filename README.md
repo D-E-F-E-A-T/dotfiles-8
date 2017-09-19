@@ -45,5 +45,6 @@ Screenshot
 
 ![Current](https://i.imgur.com/VAXfqz7.png)
 
+View full [Album](https://imgur.com/a/VyfD0)
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

@@ -73,16 +73,16 @@ bindsym $mod+a focus parent
 
 # Initialize workspace
 # 
-set $w1   1:Surf
-set $w2   2:Code
-set $w3   3:Read
-set $w4   4:Flix
-set $w5   5:Core
-set $w6   6:Term
-set $w7   7:Hlab
-set $w8   8:Apps
-set $w9   9:Expl
-set $w10  10:Misc
+set $w1   1:surf
+set $w2   2:code
+set $w3   3:docs
+set $w4   4:vide
+set $w5   5:core
+set $w6   6:term
+set $w7   7:vlab
+set $w8   8:apps
+set $w9   9:hack
+set $w10  10:misc
 
  
 # Switch to workspace
@@ -153,8 +153,8 @@ bindsym $mod+minus scratchpad show
 # smart_borders on
 
 # Global gaps size
-gaps inner 10
-gaps outer 0
+gaps inner 0
+gaps outer 10
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -243,7 +243,7 @@ bindsym $mod+b exec luakit
 
 # Custom colors
 set_from_resource $black       color8  #000000
-set_from_resource $darkblack   color0  #000000
+#set_from_resource $darkblack   color0  #000000
 set_from_resource $darkred     color1  #000000
 set_from_resource $red         color9  #000000
 set_from_resource $darkgreen   color2  #000000
@@ -258,10 +258,10 @@ set_from_resource $darkcyan    color6  #000000
 set_from_resource $cyan        color14 #000000
 set_from_resource $white       color15 #000000
 
-#set $darkblack #26243a
+set $darkblack #ddd9cd
 
 # Window colors           border      background   text            indicator    child_border
-client.focused            $red        $red         $white          $darkblack  $darkblack
+client.focused            $blue       $blue        $white          $darkblack  $darkblack
 client.focused_inactive   $darkblack  $darkblack   $white          $darkblack  $darkblack
 client.unfocused          $darkblack  $darkblack   $white          $darkblack  $darkblack
 client.urgent             $darkblack  $darkblack   $white          $darkblack  $darkblack
@@ -307,9 +307,9 @@ exec --no-startup-id . $HOME/.local/bin/urxvt_daemon &
 exec --no-startup-id . $HOME/.local/bin/barstart &
 
 # Set per-application border
-for_window [class="^.*"] border pixel 4
-#for_window [class="(?i)urxvt"] border pixel 0
-for_window [class="(?i)urxvt"] border normal 0
+for_window [class="^.*"] border pixel 1 
+#for_window [class="(?i)urxvt"] border pixel 4
+#for_window [class="(?i)urxvt"] border normal 0
 
 # Enable or disable floating
 for_window [class="Arandr"] floating enable

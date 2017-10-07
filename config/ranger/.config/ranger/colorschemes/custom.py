@@ -35,10 +35,10 @@ class Default(ColorScheme):
                 else:
                     fg = blue
             if context.container:
-                fg = green
+                fg = 8
             if context.directory:
-                #attr |= bold
-                fg = magenta
+                attr |= bold
+                fg = blue
             elif context.executable and not \
                     any((context.media, context.container,
                          context.fifo, context.socket)):
@@ -64,7 +64,7 @@ class Default(ColorScheme):
                 attr |= bold
             if context.main_column:
                 if context.selected:
-                    attr |= bold
+                    attr |= normal
                 if context.marked:
                     attr |= bold
                     fg = cyan
@@ -86,6 +86,7 @@ class Default(ColorScheme):
             elif context.tab:
                 if context.good:
                     bg = red
+                    fg = white
             elif context.link:
                 fg = magenta
 

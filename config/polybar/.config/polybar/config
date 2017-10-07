@@ -12,28 +12,32 @@
 ;                          COLORS
 ;
 ;**********************************************************
-
 [colors]
 ; Base colors from .Xresources
-bg        =   ${xrdb:background}
-bg-alt    =   #{xrdb:color0}
-fg        =   ${xrdb:foreground}
-fg-alt    =   ${xrdb:color8}
-red       =   ${xrdb:color1}
-green     =   ${xrdb:color2}
-yellow    =   ${xrdb:color3}
-blue      =   ${xrdb:color4}
-blue-alt  =   ${xrdb:color12}
-magenta   =   ${xrdb:color5}
-cyan      =   ${xrdb:color6}
-white     =   ${xrdb:color15}
+bg          =  ${xrdb:background}
+bg-alt      =  ${xrdb:color0}
+fg          =  ${xrdb:foreground}
+fg-alt      =  ${xrdb:color8}
+red         =  ${xrdb:color1}
+red-alt     =  ${xrdb:color9}
+green       =  ${xrdb:color2}
+green-alt   =  ${xrdb:color10}
+yellow      =  ${xrdb:color3}
+yellow-alt  =  ${xrdb:color11}
+blue        =  ${xrdb:color4}
+blue-alt    =  ${xrdb:color12}
+magenta     =  ${xrdb:color5}
+magenta-alt =  ${xrdb:color13}
+cyan        =  ${xrdb:color6}
+cyan-alt    =  ${xrdb:color14}
+white       =  ${xrdb:color17}
+white-alt   =  ${xrdb:color15}
 
 ;**********************************************************
 ;
 ;                       GLOBAL WM SETTINGS
 ;
 ;**********************************************************
-
 [global/wm]
 margin-top = 0
 margin-bottom = 0
@@ -43,14 +47,13 @@ margin-bottom = 0
 ;                       BAR SETTINGS
 ;
 ;********************************************************
-
 [bar/top]
 monitor = ${env:MONITOR:LVDS1}
 bottom = false
-width = 1349
+width = 1347
 height = 30
 offset-x = 10
-offset-y = 12
+offset-y = 10
 override-redirect = true
 
 background = ${colors.bg}
@@ -64,15 +67,15 @@ foreground = ${colors.fg}
 spacing = 0
 padding-left = 0
 padding-right = 0
-module-margin-left = 1
-module-margin-right = 1
+module-margin-left = 0
+module-margin-right = 0
 
-font-0 = Dina:size=6:antialias=false;1
-font-1 = Siji:antialias=false;1
+font-0 = Iosevka Slab:size=8;3
+font-1 = Siji:antialias=false:size=12;3
 
 modules-left = menu i3 mpd
 modules-center = date
-modules-right = uptime mail temperature cpu memory wlan battery power-label
+modules-right = uptime mail temperature cpu memory wlan battery
 
 ;**********************************************************
 ;
@@ -99,37 +102,37 @@ ws-icon-default = 
 strip-wsnumbers = true
 
 label-focused = %name%
-label-focused-foreground = ${colors.fg}
+label-focused-foreground = ${colors.red-alt}
 ;label-focused-background = ${colors.blue}
 label-focused-padding = 1
 
 label-unfocused = %name%
 label-unfocused-padding = 1
-label-unfocused-foreground = ${colors.fg-alt}
+;label-unfocused-foreground = ${colors.blue-alt}
 ;label-unfocused-background = ${colors.bg-alt}
 
 label-urgent = %name%
-label-urgent-foreground = ${colors.red}
+label-urgent-foreground = ${colors.magenta}
 label-urgent-padding = 1
 
 label-visible = %name%
-label-visible-foreground = ${colors.fg-alt}
+;label-visible-foreground = ${colors.fg-alt}
 ;label-visible-background = ${colors.bg-alt}
 label-visible-padding = 1
 
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
-label = "%percentage%"
+label = "%percentage% "
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
-label = "%percentage_used%"
+label = "%percentage_used% "
 
 [module/wlan]
 type = internal/network
@@ -138,16 +141,16 @@ interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
 
-label-connected = %essid%
-label-connected-foreground = ${colors.fg}
+label-connected = "%essid% "
+;label-connected-foreground = ${colors.fg}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.fg-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 ramp-signal-foreground = ${colors.red}
 
 [module/eth]
@@ -176,7 +179,7 @@ time-alt = %H:%M:%S
 ;format-prefix = 
 ;format-prefix-foreground = ${colors.fg-alt}
 
-label = " %{F#84305e}%date%%{F-} %{F#ac9b9d}%time%%{F-} "
+label = %{F#dc322f}%date%%{F-} %{F#657b83}%time%%{F-}
 label-foreground = ${colors.fg}
 
 [module/battery]
@@ -185,9 +188,11 @@ battery = BAT1
 adapter = ADP1
 full-at = 100
 
-format-charging = "<animation-charging> <label-charging> "
-format-discharging = "<ramp-capacity> <label-discharging> "
+label-discharging = "%percentage%% "
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
 
+label-full = "full "
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.blue}
 
@@ -196,7 +201,7 @@ ramp-capacity-1 = 
 ramp-capacity-2 =  
 ramp-capacity-foreground = ${colors.red}
 
-label-charging = Charging %percentage%%
+label-charging = " Charging %percentage%% "
 
 animation-charging-0 = 
 animation-charging-1 = 
@@ -209,39 +214,39 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-format = "<ramp> <label>"
-format-warn = "<ramp> <label-warn>"
+format = <ramp> <label>
+format-warn = <ramp> <label-warn>
 
-label = %temperature%
-label-warn = %temperature%
+label = "%temperature% "
+label-warn = "%temperature% "
 label-warn-foreground = ${colors.red}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.red}
 
 [module/menu]
 type = custom/text
 
-content = "    "
-content-foreground = ${colors.bg}
-content-background = ${colors.red}
+content = " "
+content-foreground = ${colors.red}
+content-background = ${colors.bg}
 click-left = bash ~/.config/polybar/popups/todo/todo
 
 [module/mail]
 type = custom/script
 interval = 10
-format = "<label>"
-format-prefix = " "
+format = "<label> "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mail
 
 [module/uptime]
 type = custom/script
 interval = 50
-format = "<label>"
-format-prefix = " "
+format = "<label> "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/uptime
 
@@ -249,7 +254,7 @@ exec = ~/.config/polybar/uptime
 type = custom/script
 interval = 2
 format = "<label>"
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mpd
 

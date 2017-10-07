@@ -14,15 +14,16 @@ Setup Description
 * Browser :earth_africa: `firefox`
 * Compositor :droplet: `compton`
 * IRC client :busts_in_silhouette: `weechat`
-* File Manager :wheelchair: `ranger`
+* File Manager :file_folder: `ranger`
 * Font :ophiuchus: `Iosevka`
+* Mail client :mailbox: `mutt`
 * Media player :clapper: `mpv`
 * Music player :musical_note: `ncmpcpp`
-* Program launcher: `rofi`
+* Program launcher :wheelchair: `rofi`
 * PDF viewer :green_book: `zathura`
 * Text editor :memo: `vim`
 * Terminal emulator :heavy_dollar_sign: `urxvt-patched`
-* Window manager :construction: `i3-gaps`
+* Window manager :wrench: `i3-gaps`
 
 Installation
 ------------
@@ -53,7 +54,7 @@ stow -D zathura
 Screenshot
 ----------
 
-![Current](https://i.imgur.com/VAXfqz7.png)
+![Current](https://i.imgur.com/zqbHPAJ.png)
 
 Thanks
 ------

@@ -99,7 +99,7 @@ if [[ -d $mp3_directory ]];then  # Check if it actually a directory
                 for file in $mp3_directory*;do
                         # Strip the filename to generate our tag title
                         (( tracknr += 1 ))       # Generate track number
-                        title=$(echo "${file##*/}" | cut -d '-' -f 1) || $(echo "${file##*/}" | cut -b 1-30)
+                        title=$(echo "${file##*/}" | cut -d "." -f 1)
                         id3 -t "$title" -l "$album" -a "$artist" -n "$tracknr" "$file"
                 done
                 echo "[+] Successfully generated tags"

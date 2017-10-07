@@ -24,8 +24,8 @@ unset stop_msg
 # image="$HOME/Pictures/notify/todo/r00t.png"
 
 start_msg='
-<span foreground="'$RED'"  >           Do Not Disturb</span> 
-<span foreground="'$FG'">           **************</span>
+<span foreground="'$RED'"  >              Do Not Disturb</span> 
+<span foreground="'$FG'">              **************</span>
 <span foreground="'$FG'">
 " A day without learning is a day wasted. "
 

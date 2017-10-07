@@ -1,39 +1,43 @@
-*background:            #fdf6e3
-*foreground:            #657b83
-*fadeColor:             #fdf6e3
-*cursorColor:           #586e75
+! special
+*.foreground:   #657b83
+*.background:   #eee8d5
+*.cursorColor:  #657b83
+*colorUl:       #6c71c4
 
+! black
+*.color0:       #eee8d5
+*.color8:       #abaeaf
 
+! red
+*.color1:       #dc322f
+*.color9:       #cb4b16
 
-!! black dark/light
-*color0:                #fdf6e3
-*color8:                #fdf6e3
+! green
+*.color2:       #198844
+*.color10:      #586e75
 
+! yellow
+*.color3:       #e69014
+*.color11:      #657b83
 
-!! red dark/light
-*color1:                #dc322f
-*color9:                #cb4b16
+! blue
+*.color4:       #268bd2
+*.color12:      #839496
 
-!! green dark/light
-*color2:                #859900
-*color10:               #586e75
+! magenta
+*.color5:       #d33682
+*.color13:      #6c71c4
 
-!! yellow dark/light
-*color3:                #b58900
-*color11:               #657b83
+! cyan
+*.color6:       #2aa198
+*.color14:      #93a1a1
 
-!! blue dark/light
-*color4:                #268bd2
-*color12:               #839496
+! white
+*.color7:       #eee8d5
+*.color15:      #eee8d5
 
-!! magenta dark/light
-*color5:                #d33682
-*color13:               #6c71c4
-
-!! cyan dark/light
-*color6:                #2aa198
-*color14:               #93a1a1
-
-!! white dark/light
-*color7:                #eee8d5
-*color15:               #fdf6e3
+! Rofi colors.
+rofi.color-window: #eee8d5, #eee8d5, #268bd2
+rofi.color-normal: #eee8d5, #657b83, #eee8d5, #268bd2, #eee8d5
+rofi.color-active: #eee8d5, #657b83, #eee8d5, #268bd2, #eee8d5
+rofi.color-urgent: #eee8d5, #ac9b9d, #eee8d5, #ac9b9d, #657b83

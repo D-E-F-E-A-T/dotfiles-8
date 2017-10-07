@@ -3,7 +3,7 @@
 ! ------------------------------------------------------------------------------
 
 ! General
-rofi.font:                Fixed 8
+rofi.font:                Go Mono for Powerline 8
 rofi.fake-transparency:   true
 rofi.hide-scrollbar:      true
 

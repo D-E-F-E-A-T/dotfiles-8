@@ -8,21 +8,28 @@
 notify-send "
 <span foreground='$FG'>
 <span foreground='$BRED' >    TODO Weekdays </span> 
-<span foreground='$WHITE' >    -=-=-=-=-=-=-</span> 
+<span foreground='$BLUE' >    -=-=-=-=-=-=-</span> 
 
-<span foreground='$RED'>1. </span>MIT Sec Videos   <span foreground='$FG'></span>
-<span foreground='$RED'>2. </span>HackArtExploit   <span foreground='$FG'></span>
-<span foreground='$RED'>3. </span>Metasploitable   <span foreground='$FG'></span>
-<span foreground='$RED'>4. </span>Hacker Playbook  <span foreground='$FG'></span>
-<span foreground='$RED'>5. </span>WebApp Hack      <span foreground='$FG'></span>
+<span foreground='$RED'>1. </span>The Shellcoder's     <span foreground='$FG'></span>
+<span foreground='$RED'>2. </span>The Hack Art         <span foreground='$FG'></span>
+<span foreground='$RED'>3. </span>Hack Exposed 7       <span foreground='$FG'></span>
+<span foreground='$RED'>4. </span>OffensiveSec         <span foreground='$FG'></span>
+<span foreground='$RED'>5. </span>Hackers Play         <span foreground='$FG'></span>
+<span foreground='$RED'>6. </span>Web  Hacker's        <span foreground='$FG'></span>
+<span foreground='$RED'>7. </span>Counter Hack         <span foreground='$FG'></span>
+<span foreground='$RED'>8. </span>Violent Python       <span foreground='$FG'></span>
 
 <span foreground='$BRED' >    TODO Weekend </span> 
-<span foreground='$WHITE' >    -=-=-=-=-=-=-</span> 
+<span foreground='$BLUE' >    -=-=-=-=-=-=-</span> 
 
-<span foreground='$RED'>1. </span>Google Hack      <span foreground='$FG'></span>
-<span foreground='$RED'>2. </span>TheShellcoders   <span foreground='$FG'></span>
-<span foreground='$RED'>3. </span>Counter Hack     <span foreground='$FG'></span>
-<span foreground='$RED'>4. </span>Practical vim    <span foreground='$FG'></span>
-<span foreground='$RED'>5. </span>GNS3             <span foreground='$FG'></span>
+<span foreground='$RED'>1. </span>Google Hack         <span foreground='$FG'></span>
+<span foreground='$RED'>2. </span>OverTheWire         <span foreground='$FG'></span>
+<span foreground='$RED'>3. </span>PGP(1,2,4,5,7,8,12) <span foreground='$FG'></span>
+<span foreground='$RED'>4. </span>Practical vim       <span foreground='$FG'></span>
+<span foreground='$RED'>5. </span>GNS3 Lab            <span foreground='$FG'></span>
+<span foreground='$RED'>6. </span>Metasploit          <span foreground='$FG'></span>
+<span foreground='$RED'>7. </span>GNS3 Lab            <span foreground='$FG'></span>
+<span foreground='$RED'>8. </span>Server Admin        <span foreground='$FG'></span>
+
 </span>
 "

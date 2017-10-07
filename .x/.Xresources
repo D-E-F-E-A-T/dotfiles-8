@@ -26,8 +26,8 @@ Xft.hintstyle:          hintsfull
 !                        URxvt settings 
 !-----------------------------------------------------------------------
 
-URxvt.internalBorder:    30
-!URxvt.externalBorder:    15
+URxvt.internalBorder:    10
+URxvt.externalBorder:    0
 !URxvt.lineSpace:        0
 !urxvt*shading:          30
 URxvt.depth:             32
@@ -44,10 +44,14 @@ URxvt*scrollWithBuffer:  true
 URxvt*scrollTtyKeypress: true
 
 !! Fonts
-#define fonts xft:Tewi:size=8
+#define fonts xft:Iosevka:size=9,\
+              xft:Droid Sans Mono for Powerline:size=12,\
+              xft:Dejavu Sans Mono for Powerline:size=12,\
+              xft:Tewi:size=8,\
+              xft:Siji:size=12
 
 URxvt*font:              fonts
-URxvt*boldMode:          false
+URxvt*boldMode:          true
 URxvt*boldFont:          fonts
 
 URxvt.letterSpace:       true
@@ -90,11 +94,5 @@ URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
 URxvt.iso14755:            false
 URxvt.iso14755_52:         false
 
-!! Pointer
-!URxvt.pointerBlank:        true
-
-!! Url
-!*colorUL:                  #523946
-
 !! Colors
-#include "/home/mohabaks/.colors/sham"
+#include "/home/mohabaks/.colors/solarized.light"

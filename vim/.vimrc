@@ -4,7 +4,7 @@
 "   ░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░░░░▀░░▀▀▀░░░▀░▀░░▀░░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀
 "
 
-  " Vundle Settings{{{
+    " Vundle Set tings{{{ 
 
 "" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -39,7 +39,7 @@ Plugin 'PotatoesMaster/i3-vim-syntax'
 Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
-" Plugin 'itchyny/lightline.vim'
+"Plugin 'itchyny/lightline.vim'
 Plugin 'sukima/xmledit'
 Plugin 'python-mode/python-mode'
 Plugin 'Raimondi/delimitMate'
@@ -51,36 +51,36 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'junegunn/goyo.vim'
 Plugin 'xolox/vim-notes'
+Plugin 'xuhdev/vim-latex-live-preview'
 
 """ Colorscheme
-"Plugin 'altercation/vim-colors-solarized'
+Plugin 'altercation/vim-colors-solarized'
 "Plugin 'lilydjwg/colorizer'
-"Plugin 'morhetz/gruvbox'
+Plugin 'morhetz/gruvbox'
 Plugin 'dylanaraps/wal.vim'
-Plugin 'whatyouhide/vim-gotham'
+"Plugin 'whatyouhide/vim-gotham'
 
 call vundle#end()       
 filetype plugin indent on  
 
- "}}} 
+ "}}}  
 
 
 "  Set Colorscheme and Statusline{{{
 
-set background=dark
-colorscheme wal
+set background=light
+colorscheme solarized
 
-"let g:gruvbox_contrast_dark = 'hard'
-
+"let g:gruvbox_contrast_dark = 'medium'
 
 "" Status line
 set laststatus=0
-set t_Co=16
+set t_Co=256
  let g:lightline = {
        \ 'colorscheme': 'wal',
       \ }
       
-"}}}
+"}}} 
 
                         
 " UI Config {{{ 
@@ -331,6 +331,7 @@ let g:pymode_syntax_indent_errors = g:pymode_syntax_all
 let g:pymode_syntax_space_errors = g:pymode_syntax_all
 "Don't autofold code
 let g:pymode_folding = 0
+let g:pymode_rope_lookup_project = 0
 
 "" YouCompleteMe
 let g:ycm_autoclose_preview_window_after_completion=1

@@ -10,20 +10,20 @@
 
 Setup Description
 -----------------
-* Bar :octocat: `polybar`
-* Browser :earth_africa: `firefox`
-* Compositor :droplet: `compton`
-* IRC client :busts_in_silhouette: `weechat`
-* File Manager :file_folder: `ranger`
-* Font :ophiuchus: `Iosevka`
-* Mail client :mailbox: `mutt`
-* Media player :clapper: `mpv`
-* Music player :musical_note: `ncmpcpp`
-* Program launcher :wheelchair: `rofi`
-* PDF viewer :green_book: `zathura`
-* Text editor :memo: `vim`
-* Terminal emulator :heavy_dollar_sign: `urxvt-patched`
-* Window manager :wrench: `i3-gaps`
+* Bar `polybar`
+* Browser `firefox`
+* Compositor `compton`
+* IRC client `weechat`
+* File Manager `ranger`
+* Font `Iosevka`
+* Mail client `mutt`
+* Media player `mpv`
+* Music player `ncmpcpp`
+* Program launcher `rofi`
+* PDF viewer `zathura`
+* Text editor `vim`
+* Terminal emulator `urxvt-patched`
+* Window manager `i3-gaps`
 
 Installation
 ------------

@@ -6,7 +6,7 @@
 pac=$(checkupdates | wc -l)
 
 if [[ -n "$pac" ]];then
-        echo "%{F$WHITE}$pac %{F-}"
+        echo "%{F$FG}$pac %{F-}"
 else
-        echo "%{F#GREEN} 0 %{F-}"
+        echo "%{F#BYELLOW} 0 %{F-}"
 fi

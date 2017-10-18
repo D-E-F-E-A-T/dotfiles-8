@@ -7,6 +7,10 @@ try:
     obj = imaplib.IMAP4_SSL('imap.gmail.com', 993)
     obj.login(accounts.main_email, accounts.main_password)
     obj.select()
-    print(len(obj.search(None, 'UnSeen')[1][0].split()))
+    mail_no = len(obj.search(None, 'UnSeen')[1][0].split())
+    if mail_no == 0:
+        print("No mail")
+    else:
+        print("{} new".format(mail_no))
 except:
-    print("N")
+    pass

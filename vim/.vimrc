@@ -77,7 +77,7 @@ colorscheme solarized
 set laststatus=0
 set t_Co=256
  let g:lightline = {
-       \ 'colorscheme': 'wal',
+       \ 'colorscheme': 'solarized',
       \ }
       
 "}}} 

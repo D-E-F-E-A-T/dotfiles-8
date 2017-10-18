@@ -1,258 +1,353 @@
 <!DOCTYPE html>
+<!--
+
+    Author:        Twily                                        2015
+    Website:       http://twily.info/
+    Compatibility: Mozilla Firefox, Internet Explorer, Google Chrome
+
+    Search Usage:  "artist!i" will find images for "artist"
+
+-->
 <html>
-  <head>
-  <!-- >
-                 _____              _____
-      _________  /______ _________  /______________ _______ _____
-      __  ____  ___  __ `__  ____  _____  __ _  __ `__  __ `_  _ \
-      _(__  )/ /_ / /_/ /_  /   / /_ __  /_/ / /_/ /_  /_/ //  __/
-      /____/ \__/ \__,_/ /_/    \__/ _  .___/\__,_/ _\__, / \___/
-                               /_/            /____/
-    
-     Authors:
-        Original: https://startpages.github.io/startpages/su1ts-SimpleBoxes/
-        Copy|Cut|Paste|Edit: https://github.com/mohabaks
-     Last-Modified: Sat 07 Oct 2017 13:16:24
-  < -- >
-  <link rel="shortcut icon" href="favicon.ico">
-  <title>
-    startpage  
-  </title>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>New Tab</title>
 
-  <!-- META -->
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1.0, user-scalable=no">
-  <meta name="description" content="Personal startpage">
-  <meta name="keywords" content="account, docs, infosec, wargames, misc">
+<style type="text/css">
+/*
+    >> Search and Replace to change color scheme
 
-  <!-- JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  
-  <!-- CLOCK -->
-  <script type="text/javascript">
-    function GetClock(){
-    var d=new Date();
-    var nhour=d.getHours(),nmin=d.getMinutes();
-    if(nmin<=9) nmin="0"+nmin
+    * (If you make two or more the same value you will need to
+       manually separate the colors in the code later to undo) 
 
-    document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+"";
+    #dfddd5 - Background        #e5322f - Color Mnu1
+    #c5c5c5 - Content BG        #2aa198 - Color Mnu2
+    #657b83 - Content FG        #268bd2 - Color Mnu3
+    #586e75 - C FG Light        #d33682 - Color Mnu4
+    #eee8d5 - L FG Hover        #6c71c4 - Color Mnu5
+
+    Transition: "transition: .2s ease-out"
+    Menu Width: "width: 200px"
+    Margin Top: "margin-top: -75px"
+    Border Rad: "border-radius: 1px"
+*/
+
+html,body {
+    margin: 0; padding: 0; overflow: hidden;
+    width: 100%; height: 100%;
+    font-family: "Droid Sans", "Liberation Sans", "DejaVu Sans", "Segoe UI", Sans; font-size: 10pt;
+    background: #dfddd5;
+}
+*:focus  { outline: none; }
+ul, li   { list-style-type: none; margin: 0; padding: 0; }
+textarea { background: transparent; color: #586e75; }
+
+a, a:link, a:visited { color: #586e75; text-decoration: none; transition: .2s ease-out; }
+a:hover, a:active    { color: #eee8d5; }
+
+#preview { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
+#overlay {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%; z-index: 2;
+    opacity: 1; transition: .5s;
+    background: #dfddd5;
+    /* Uncomment below and disable 'showPreview' in the javascript to use custom background image */
+    /*
+    background: url('file:///home/guest/lewd-twily.jpg') no-repeat center center fixed;
+    background-size: cover; opacity: .25;
+    /**/
+}
+
+#center { position: relative; width: 100%; height: 100%; }
+#center #content {
+    margin: 0; overflow: visible; width: 100%; height: auto;
+    position: absolute; top: 50%; transform: translate(0,-50%);
+    text-align: center; opacity: 1; z-index: 10; background: #dfddd5; /* #dfddd5 || transparent */
+}
+
+#q {
+    width: calc((200px * 4) - (8px * 2));
+    background: #c5c5c5; color: #586e75;
+    border: 0; border-radius: 1px;
+    font-family: "Droid Sans", "Liberation Sans", "DejaVu Sans", "Segoe UI", Sans; font-size: 12pt;
+    padding: 4px 8px; height: 24px;
+}
+
+#more {
+    background: transparent; color: #657b83; display: block; 
+    text-align: center; margin: 0 auto; width: 32px; height: 32px;
+    font-weight: bold; cursor: default;
+}
+    #plus {
+        border: 0; border-radius: 1px 1px 0 0; width: 32px; height: 32px; font-size: 12pt;
+        background: transparent; color: #586e75; font-weight: bold; cursor: pointer;
+        transition: .2s ease-out;
+    }
+    #help {
+        display: block; visibility: hidden; width: 320px; cursor: default;
+        position: absolute; left: 0; right: 0; margin: auto;
+        font-family: "PragmataPro", "Droid Sans Mono", "Liberation Sans Mono", "DejaVu Sans Mono", "Consolas", "Lucida Console", monospace;
+        padding: 8px; text-align: left; border-radius: 1px; opacity: 0;
+        background: #c5c5c5; color: #657b83; transition: .2s ease-out;
+    }
+    #more:hover #plus { background: #c5c5c5; }
+    #more:hover #help { visibility: visible; opacity: 1; }
+        #note { width: 100%; height: 100px; resize: none; border: 0; outline: 0; }
+
+#menu {
+    width: 100%; height: 32px; margin: 0 auto;
+    background: transparent; color: #657b83; cursor: default;
+}
+    #mnu                   { height: 32px; line-height: 32px; width: calc((250px * 4) + 1px); }
+
+    #menu ul               { display: inline-table; position: relative; list-style: none; }
+    #menu label            { padding: 0; display: inline-block; font-weight: bold; width: 200px; /* menu width */ }
+
+    #menu ul li            { float: left; border-radius: 0 0 1px 1px; height: 32px; text-align: center; transition: .2s ease-out; }
+    #menu ul li:hover      { background: #c5c5c5; color: #839496;  }
+    #menu ul li a          { display: block; white-space: nowrap; padding: 0 10px; }
+
+    #menu ul ul {
+        display: flex; flex-flow: column wrap; /* column | row(-reverse) */ align-content: flex-start;
+        visibility: hidden; opacity: 0; width: calc(250px * 4); /* cols */ height: calc(32px * 3); /* rows */
+        position: absolute; bottom: 100%; left: 0; z-index: 11;
+        background: #c5c5c5; border-radius: 1px; transition: .2s ease-out;
+    }
+    #menu ul li:hover > ul { bottom: 100%; visibility: visible; opacity: 1; z-index: 12; height: calc(32px * 3); /* rows */ }
+    #menu ul ul li { background: #c5c5c5; border-radius: 1px; height: 32px; text-align: left; width: 200px; /* menu width */ }
+
+    /* Menu Colors */
+    #menu ul #mnu_1 li:hover { background: #e5322f; }
+    #menu ul #mnu_2 li:hover { background: #2aa198; }
+    #menu ul #mnu_3 li:hover { background: #268bd2; }
+    #menu ul #mnu_4 li:hover { background: #d33682; }
+    #menu ul #mnu_5 li:hover { background: #6c71c4; }
+
+    #menu img { position: relative; top: 3px; left: -3px; width: 16px; height: 16px; visibility: hidden; }
+</style>
+<script type="text/javascript" language="javascript">
+var $=function(id) { return document.getElementById(id); };
+
+var help="<ul> \
+    <li><b>!g</b> = Search Google (Default)</li> \
+    <li><b>!i</b> = Search Google Images</li> \
+    <li><b>!m</b> = Search IMDb</li> \
+    <li><b>!u</b> = Search Urban Dictionary</li> \
+    <li><b>!w</b> = Search Wikipedia</li> \
+    <li><b>!y</b> = Search YouTube</li> \
+</ul>";
+
+var search=[ // Search engines
+    ["",    "https://www.google.no/#q="],                           // Google (Default)
+    ["!g",  "https://www.google.no/#q="],                           // Google
+    ["!i",  "https://www.google.no/search?tbm=isch&q="],            // Google Images
+    ["!m",  "http://www.imdb.com/find?q="],                         // IMDb
+    ["!u",  "http://www.urbandictionary.com/define.php?term="],     // Urban Dictionary
+    ["!w",  "http://en.wikipedia.org/w/index.php?search="],         // Wikipedia
+    ["!y",  "https://www.youtube.com/results?search_query="],       // YouTube
+];
+
+var menu=[ // Menu titles
+    "News",                                                         // mnu_1
+    "Docs",                                                         // mnu_2
+    "InfoSec",                                                      // mnu_3
+    "Wargames",                                                     // mnu_4
+    "Others",                                                       // mnu_5
+];
+
+var showFavicon = true;                                             // Enable/Disable Link Favicons (img)
+var showPreview = true;                                             // Enable/Disable Link Hover Preview (iframe)
+
+// Link setup (separate with ["", "", ""],)
+// Format: ["Name", "URL", "Custom Favicon"],
+var links=[
+    // News -           mnu_1
+    ["Arch Linux",                      "http://archlinux.org",                 ""],
+    ["TorrentFreak",                    "http://torrentfreak.com",              ""],
+    ["Blackarch",                       "https://blackarch.org",                ""],
+
+    ["", "", ""],
+
+    // Docs -          mnu_2
+    ["BashFAQ",                         "http://mywiki.wooledge.org/BashFAQ",   ""],
+    ["C FAQ",                           "http://c-faq.com/",                    ""],
+    ["HOWTO",                           "http://en.tldp.org/HOWTO/",            ""],
+    ["Python",                          "https://docs.python.org/",             ""],
+    ["PerlFAQ",                         "http://www.perl.com/perl/faq",         ""],
+
+    ["", "", ""],
+
+    // InfoSec -  mnu_3
+    ["Rapid7",                          "https://community.rapid7.com/",        ""],
+    ["OffensiveSecurity",               "http://www.offensive-security.com/",                       ""],
+    ["OpenSec",                         "http://opensecuritytraining.info/Training.html",           ""],
+    ["ExploitDatabase",                 "https://www.exploit-db.com/",                              ""],
+    ["SecLists",                        "http://seclists.org/",                                     ""],
+    ["PentesterLab",                    "https://pentesterlab.com/bootcamp",                        ""],
+    ["PTES",                            "http://www.pentest-standard.org/index.php/Main_Page",      ""],
+
+    ["", "", ""],
+ 
+    // Wargames -  mnu_4
+    ["Exploit",                         "https://exploit-exercises.com/",       ""],
+    ["Cryptopal",                       "http://cryptopals.com/",               ""],
+    ["CryptoPuzzle",                    "https://potatopla.net/crypto/",        ""],
+    ["SmashTheStack",                   "http://smashthestack.org/",            ""],
+    ["Vulnub",                          "https://www.vulnhub.com/",             ""],
+    ["Metasploitable",                  "http://192.168.56.26",                 ""],
+    ["WeChall",                         "https://www.wechall.net/",             ""],
+    ["RingZer0",                        "https://ringzer0team.com/",            ""],
+    ["Root-Me",                         "http://root-me.org/",                  ""],
+    ["HackTheBox",                      "https://www.hackthebox.eu/",           ""],
+   
+    ["", "", ""],
+
+    // Other -          mnu_5
+    ["Bitbucket",                       "https://bitbucket.org/mohabaks",       ""],
+    ["Github",                          "https://mohabaks.github.io",           ""],
+    ["Twitter",                          "https://twitter.com/mohabaks", ""],
+    ["Dropbox",                         "https://www.dropbox.com",              "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico"],
+    ["PayPal",                          "http://www.paypal.com/",               ""],
+    ["Userstyles",                      "http://userstyles.org/",               ""],
+    ["Wallhaven",                       "http://alpha.wallhaven.cc",            ""],
+    ["/g/ - Technology",                "https://boards.4chan.org/g/catalog",   "http://s.4cdn.org/image/favicon-ws.ico"],
+    ["DeviantArt",                      "http://deviantart.com/",               ""],
+    ["Imgur",                           "https://imgur.com/",                   ""],
+    ["Netflix",                         "http://netflix.com",                   ""],
+    ["Unixporn",                        "http://reddit.com/r/unixporn",         ""],
+    ["YouTube",                         "http://youtube.com",                   ""],
+
+];
+
+var i,ss="";
+function init() {
+    for(i=0;i<search.length;i++) if(search[i][0]=="") ss=search[i][1];
+    if(ss=="") alert("Error: Missing default search engine!");
+
+    $('help').innerHTML=help;
+    if(localStorage.getItem('note')!=null) if(localStorage.getItem('note').length!=0) toggleNote();
+    build();
+
+    if(showPreview) preview(0,0);
+    $('q').value="";
+    $('q').focus();
+}
+
+function build() { // Build menu
+    $('mnu').innerHTML="";
+
+    for(i=0;i<menu.length;i++) { // Menu titles
+        $('mnu').innerHTML+="<li><label>"+menu[i]+"</label>\n<ul id=\"mnu_"+(i+1)+"\"></ul></li>";
     }
 
-    window.onload=function(){
-    GetClock();
-    setInterval(GetClock,1000);
-    }
-  </script>
+    var m=1,skip=false;
+    for(i=0;i<links.length;i++) { // Menu links
+        if(links[i][0]=="" && links[i][1]=="") skip=true;
 
-  <style>
-    @import 
-    url(https://fonts.googleapis.com/css?family=Lobster:400,100,100italic,300,300italic,400italic,500,700,500italic,700italic,900,900italic);
+        if(!skip) {
+            var prev="",printimg="";
 
-    * {
-      font-family: 'Iosevka';
-    }
+            if(showFavicon) {
+                var favicon;
+                if(links[i][2]!="") favicon=links[i][2];
+                else                favicon=getFavicon(links[i][1]);
 
-    body {
-      width: 100%;
-      height: 100%;
-      background-image:url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-452195.jpg');
-      background-repeat: repeat-x repeat-y;
-      background-position:center center;
-      background-attachment: fixed;
-      background-size: cover;
-      /*background-color: #eee8d5 !important;
-      color: #dc322f !important;*/
-    }
+                printimg="<img id=\"img_"+i+"\" src=\""+favicon+"\""+" onload=\"javascript:this.style.visibility='inherit';\" /> ";
+            }
+            if(showPreview) {
+                prev=" onmouseover=\"javascript:preview(1,this.href);\" onmouseout=\"javascript:preview(0,0);\"";
+            }
 
-    .main {
-      width: 100%;
-      height: 50%;
-      position: absolute;
-      top: 10%;
+            $('mnu_'+m).innerHTML+="<li><a href=\""+links[i][1]+"\" target=\"_self\""+prev+">"+printimg+links[i][0]+"</a></li>";
+        } else {
+            skip=false; m++;
+        }
     }
+}
 
-    .child {
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-flow: row wrap;
-      flex-flow: row wrap;
-    }
+/*
+    Optional patch for using "!i" before the search query: http://pastebin.com/Lw24tQ81
+*/
+function handleQuery(e,q) { // Handle search query
+    var key=e.keyCode || e.which;
 
-    .wrapper {
-      -webkit-flex: 1 0 8%;
-      flex: 1 0 8%;
-      height: 280px;
-      width: 262px;
-      margin: 20px;
-      margin-bottom: 80px;
-    }
+    if(key==13) { // Enter
+        var x=q.lastIndexOf("!");
 
-    @media only screen and (max-width: 900px) {
-      .wrapper {
-        -webkit-flex: 1 0 30%;
-        flex: 1 0 30%;
-      }
+        if(x!=-1 && x>=q.length-2) {
+            for(i=0;i<search.length;i++) {
+                if(search[i][0]==q.substr(x)) { // Find "*!i"
+                    window.location=search[i][1]+q.substr(0,x).replace(/&/g,"%26");
+                    return true;
+                }
+            }
+            // Invalid "!i", use default
+            window.location=ss+q.substr(0,x).replace(/&/g,"%26");
+        } else {
+            // "!i" where not specified, use default
+            window.location=ss+q.replace(/&/g,"%26");
+        }
     }
+}
 
-    @media only screen and (max-width: 600px) {
-      .wrapper {
-        -webkit-flex: 1 0 50%;
-        flex: 1 0 50%;
-      }
-    }
+function getFavicon(url) {
+    var l=document.createElement("a");
+    l.href=url;
 
-    .header {
-      text-align: center;
-      border-top: 5px solid rgba(159,23,73,0.1);
-      border-right: 5px solid rgba(159,23,73,0.1);
-      border-left: 5px solid rgba(159,23,73,0.1);
-      border-bottom: 5px solid rgba(159,23,73,0.1);
-      height: 55px;
-      line-height: 54px;
-      background: rgba(228,231,236,0.6); //* BOX HEADER BACKGROUND *//
-      font-weight: 900;
-      margin: 0;
-      color: #DF2353;
-      font-size: 24px;
-      font-family: Iosevka Slab;
-      margin-bottom: -10px;
-    }
+    return l.protocol+"//"+l.hostname+"/favicon.ico";
+}
 
-    ul {
-      width: 100%;
-      height: 130%;
-      background: rgba(42,54,59, 0.6); //* BOX BODY BACKGROUND *//
-      border: 5px solid rgba(159,23,73,0.1);
-      float: left;
-      padding: 20px 0px 20px 0px;
+function toggleNote() {
+    if($('note')==null) {
+        $('help').innerHTML="<textarea id='note' spellcheck='false' placeholder='Store temporary note...'></textarea>";
+        if(localStorage.getItem('note')!=null) $('note').value=localStorage.getItem('note');
+        $('note').addEventListener('change',function() { localStorage.setItem('note',$('note').value); });
+        $('plus').value="-";
+        $('note').focus();
+    } else {
+        $('help').innerHTML=help;
+        $('plus').value="+";
+        $('q').focus();
     }
+}
 
-    li {
-      padding: 5px;
-      font-size: 1.25vw;
-      text-align: center;
-      font-weight: 300;
-      list-style: none;
+var pT;
+function preview(c,x) {
+    clearTimeout(pT);
+    switch(c) {
+        case 0: // mouseout
+            $('overlay').style.opacity=1;
+            pT=setTimeout(function() { $('preview').src="about:blank"; },500);
+            break;
+        case 1: // mouseover
+            pT=setTimeout(function() { $('preview').src=x; },100);
+            break;
+        default: // load
+            if($('preview').src!="about:blank") $('overlay').style.opacity=.75;
     }
-
-    li a {
-      color: #fff; //* BODY FONT COLOR *//
-      cursor: pointer;
-    }
-
-    li a:hover {
-      color: #cb4b16;
-      cursor: pointer;
-      font-weight: 700;
-    }
-    
-    a{
-      text-decoration: none;
-    }
-
-    #clockbox {
-      position: absolute;
-      text-align: center;
-      top: 90%;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      font-size: 48px;
-      color:#E4E7EC; //* CLOCK FONT COLOR *//
-    }
-
-    @media only screen and (max-width: 900px) {
-      #clockbox {
-        top: 0;
-        margin-top: 40px;
-      }
-    }
-  </style>
-
+}
+</script>
 </head>
-<body>
+<body onload="javascript:init();">
 
-  <div class="main">
-    <div class="child">
-      <div class="wrapper">
-        <div class="header">Account</div>
-        <ul>
-          <li><a target="_blank" href="https://bitbucket.org/mohabaks/">Bitbucket</a></li> 
-          <li><a href="https://mohabaks.github.io" target="_blank">Blog</a></li>
-          <li><a target="_blank" href="https://github.com/mohabaks/">Github</a></li> 
-          <li><a target="_blank" href="https://plus.google.com/u/0/me?tab=wX&authuser=0">Google+</a></li> 
-          <li><a href="http://portal.jkuat.ac.ke/" target="_blank">StudentPortal</a></li>
-          <li><a href="https://twitter.com/mohabaks" target="_blank">Twitter</a></li>
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-        </ul>
-      </div>
-      <div class="wrapper">
-        <div class="header">Docs</div>
-        <ul>
-          <li><a target="_blank" href="http://mywiki.wooledge.org/BashFAQ">BashFAQ</a></li> 
-          <li><a target="_blank" href="https://docs.python.org/">Python</a></li> 
-          <li><a target="_blank" href="http://c-faq.com/">C FAQ</a></li>
-          <li><a target="_blank" href="http://www.perl.com/perl/faq">Perl FAQ</a></li>
-          <li><a target="_blank" href="http://en.tldp.org/HOWTO/">HOWTO</a></li>
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-        </ul>
-      </div>
-      <div class="wrapper">
-        <div class="header">InfoSec</div>
-        <ul>
-          <li><a target="_blank" href="https://community.rapid7.com/">Rapid7</a></li> 
-          <li><a target="_blank" href="http://www.offensive-security.com/">OffensiveSecurity</a></li> 
-          <li><a target="_blank" href="http://opensecuritytraining.info/Training.html">OpenSec</a></li> 
-          <li><a target="_blank" href="https://www.exploit-db.com/">ExploitDatabase</a></li> 
-          <li><a target="_blank" href="http://seclists.org/">SecLists</a></li> 
-          <li><a target="_blank" href="https://pentesterlab.com/bootcamp">PentesterLab</a></li> 
-          <li><a target="_blank" href="http://www.pentest-standard.org/index.php/Main_Page">PTES</a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-        </ul>
-      </div>
-      <div class="wrapper">
-        <div class="header">Wargames</div>
-        <ul>
-          <li><a target="_blank" href="https://exploit-exercises.com/">Exploit exercises</a></li>
-          <li><a target="_blank" href="http://cryptopals.com/">Cryptopals</a></li>
-          <li><a target="_blank" href=" https://potatopla.net/crypto/">CryptoPuzzle</a></li>
-          <li><a target="_blank" href="http://overthewire.org/">OverTheWire</a></li> 
-          <li><a target="_blank" href="http://smashthestack.org/">SmashTheStack</a></li> 
-          <li><a target="_blank" href="https://www.vulnhub.com/">Vulnhub</a></li> 
-          <li><a target="_blank" href="http://192.168.56.26">Metasploitable</a></li> 
-          <li><a target="_blank" href="http://eudyptula-challenge.org/">Euduptula</a></li>
-          <li><a target="_blank" href="https://www.wechall.net/">WeChall</a></li> 
-          <li><a target="_blank" href="https://ringzer0team.com/">RingZer0</a></li> 
-          <li><a target="_blank" href="http://root-me.org/">Root-Me</a></li> 
-        </ul>
-      </div>
-      <div class="wrapper">
-        <div class="header">Miscellaneous</div>
-        <ul> 
-          <li><a target="_blank" href="http://deviantart.com/">DeviantArt</a></li>
-          <li><a target="_blank" href="http://dotshare.it/">Dotshare</a></li>
-          <li><a target="_blank" href="http://imgur.com/">Imgur</a></li> 
-          <li><a target="_blank" href="https://thepiratebay.org/">Piratebay</a></li> 
-          <li><a target="_blank" href="http://alpha.wallhaven.cc">Wallhaven</a></li>
-          <li><a target="_blank" href="http://userstyles.org/">Userstyles</a></li> 
-          <li><a target="_blank" href="https://www.reddit.com/r/unixporn/">Unixporn</a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-          <li><a target="_blank" href="#"></a></li> 
-        </ul>
-      </div>
+<iframe id="preview" src="about:blank" onload="javascript:preview(2,0)" frameborder="0"></iframe>
+<div id="overlay"></div>
+
+<div id="center">
+    <div id="content">
+        <div id="menu">
+            <ul id="mnu"></ul>
+        </div>
+        <br />
+        <!-- <input type="text" id="q" value="" placeholder="Search..." onkeypress="javascript:handleQuery(event,this.value);" onfocus="this.value=this.value" /> -->
+        <br /><br />
+        <div id="more">
+            <!-- <input type="button" id="plus" value="+" onclick="javascript:toggleNote();" /> -->
+            <br />
+            <div id="help"></div>
+          </div>
     </div>
-  </div>
-
-  <div id="clockbox" style=""></div>
+</div>
 
 </body>
+</html>

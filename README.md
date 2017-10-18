@@ -51,10 +51,10 @@ stow zathura
 stow -D zathura
 ```
 
-Screenshot
-----------
+Demo
+----
 
-![Current](https://i.imgur.com/zqbHPAJ.png)
+![alt demo](https://github.com/mohabaks/dotfiles/blob/master/demo.gif)
 
 Thanks
 ------

@@ -38,7 +38,7 @@ class Default(ColorScheme):
                 fg = 8
             if context.directory:
                 attr |= bold
-                fg = blue
+                fg = green
             elif context.executable and not \
                     any((context.media, context.container,
                          context.fifo, context.socket)):

@@ -4,8 +4,7 @@
 "   ░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░░░░▀░░▀▀▀░░░▀░▀░░▀░░░░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀
 "
 
-    " Vundle Set tings{{{ 
-
+" Vundle Set tings{{{ 
 "" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -24,15 +23,15 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
 Plugin 'groenewege/vim-less'
-Plugin 'kchmck/vim-coffee-script'
+"Plugin 'kchmck/vim-coffee-script'
 Plugin 'scrooloose/syntastic'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'mattn/emmet-vim'
 Plugin 'nvie/vim-flake8'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'jmcomets/vim-pony'
-Plugin 'mjbrownie/vim-htmldjango_omnicomplete'
+"Plugin 'jistr/vim-nerdtree-tabs'
+"Plugin 'jmcomets/vim-pony'
+"Plugin 'mjbrownie/vim-htmldjango_omnicomplete'
 Plugin 'othree/html5.vim'
 Plugin 'PotatoesMaster/i3-vim-syntax'
 "Plugin 'twe4ked/vim-colorscheme-switcher'
@@ -48,26 +47,25 @@ Plugin 'xolox/vim-misc'
 "Plugin 'jez/vim-superman'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'vim-scripts/indentpython.vim'
+"Plugin 'vim-scripts/indentpython.vim'
 Plugin 'junegunn/goyo.vim'
 Plugin 'xolox/vim-notes'
-Plugin 'xuhdev/vim-latex-live-preview'
+"Plugin 'xuhdev/vim-latex-live-preview'
 
 """ Colorscheme
 Plugin 'altercation/vim-colors-solarized'
 "Plugin 'lilydjwg/colorizer'
-Plugin 'morhetz/gruvbox'
-Plugin 'dylanaraps/wal.vim'
+"Plugin 'morhetz/gruvbox'
+"Plugin 'dylanaraps/wal.vim'
 "Plugin 'whatyouhide/vim-gotham'
 
 call vundle#end()       
 filetype plugin indent on  
 
- "}}}  
+"}}}  
 
 
-"  Set Colorscheme and Statusline{{{
-
+" Set Colorscheme and Statusline{{{
 set background=light
 colorscheme solarized
 
@@ -78,13 +76,11 @@ set laststatus=0
 set t_Co=256
  let g:lightline = {
        \ 'colorscheme': 'solarized',
-      \ }
-      
+      \ }      
 "}}} 
 
                         
 " UI Config {{{ 
-
 "" These are options that changes random visuals in Vim
 syntax on
 filetype on
@@ -109,15 +105,14 @@ set splitbelow
 set splitright
 "set spell                        " Turn on spell checker
 "set spellsuggest=5               " Limit the number of suggested words
-
 "}}} 
 
 
 " Spaces & Tabs{ {{
-
 "set tabstop=4             " number of visual spaces per TAB
 "set softtabstop=4         " number of spaces in tab when editing
 "set expandtab             " tabs are spaces
+
 " Go to tab by number
 noremap <leader>1 1gt
 noremap <leader>2 2gt
@@ -129,22 +124,21 @@ noremap <leader>7 7gt
 noremap <leader>8 8gt
 noremap <leader>9 9gt
 noremap <leader>0 :tablast<cr>
+
 " Go to last active tab
 au TabLeave * let g:lasttab = tabpagenr()
 nnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
 vnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
- "}}}
+"}}}
 
 
 " System clipboar d{{{
-
 ""cut/copy/paste to/from other application
 set clipboard=unnamed     " access your system clipboard
+"}}}
 
-" }}}
 
-"  Split Layouts{{{
-
+" Split Layouts{{{
 ""specify different areas of the screen
 set splitbelow
 set splitright
@@ -153,19 +147,16 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
 "}}}
 
 
-" Searching{{{
-
+" Searching{{{ 
 set incsearch             " search as characters are entered
 set hlsearch              " highight matches
 
 "" turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR> 
-
-"}} } 
+"}}} 
 
 
 "" Code Folding
@@ -177,23 +168,19 @@ set foldnestmax=10        " 10 nested fold max
 "" space open/closes folds
 nnoremap <space> za
 set foldmethod=indent     " fold based on indent level
-
- "}}} 
+"}}} 
 
 
 "  Movement{{{ 
-
 "" easier moving of code blocks
 "" Try to go into visual mode (v), thenselect several lines of code here and
 "" then press ``>`` several times.
 vnoremap < <gv              " better indentation
 vnoremap > >gv              " better indentation
-
 "}}
 
 
-" Leader Shortcuts and Shortcuts{{{
-
+" Leader Shortcuts and Short cuts{{{
 let mapleader=","           " leader is comma
 
 "" jk is escape
@@ -203,38 +190,31 @@ inoremap jk <esc>
 noremap  <C-Z> :update<CR>
 vnoremap <C-Z> <C-C>:update<CR>
 inoremap <C-Z> <C-O>:update<CR>
-
 "}}}
 
 
-" CtrlP settings{{{
-
+" CtrlP settings{{{ 
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-
 "}}}
 
 
-" File Browsing{{{
-
+" File Browsing{{{ 
 "" Open NERDTree when no files are specified
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$', '\~$']
 
-
 "" hide .pyc files
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
-
 "}}}
 
 
-"Buffer Navigation {{{
-
+" Buffer Navigation{{{ 
 "" Ctrl Left/h & Right/l cycle between buffers
 noremap <silent> <C-left> :bprev<CR>
 noremap <silent> <C-h> :bprev<CR>
@@ -246,12 +226,10 @@ nnoremap <silent> <Leader>q :Bclose<CR>
 
 "" <Leader>Q Closes the current window
 nnoremap <silent> <Leader>Q <C-w>c
-
-" }}}
+"}}}
 
 
 " Commenting blocks of code{{{
-
 autocmd FileType c,cpp,java,scala let b:comment_leader = '// '
 autocmd FileType sh,ruby,python   let b:comment_leader = '# '
 autocmd FileType conf,fstab       let b:comment_leader = '# '
@@ -260,35 +238,31 @@ autocmd FileType mail             let b:comment_leader = '> '
 autocmd FileType vim              let b:comment_leader = '" '
 noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
 noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
-
- "}}}
+"}}}
 
 
 " Backups{{{
-
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
-
 "}}} 
 
 
-" Git  Integration {{{
+" Git  Integration{{{
 
 
 "}}}
 
 
-" Match Valid Ip Address {{{
-
+" Match Valid Ip A ddress {{{
 syn match ipaddr /\(\(25\_[0-5]\|2\_[0-4]\_[0-9]\|\_[01]\?\_[0-9]\_[0-9]\?\)\.\)\{3\}\(25\_[0-5]\|2\_[0-4]\_[0-9]\|\_[01]\?\_[0-9]\_[0-9]\?\)/
 hi link ipaddr Identifier
 
-" }}}
+"}}}
 
-" PEP8 {{{
+"  PEP8 {{{
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
@@ -302,15 +276,15 @@ au BufNewFile,BufRead *.js,*.html,*.css
     \ set tabstop=2 |
     \ set softtabstop=2 |
     \ set shiftwidth=2 |
-
 "}}}
+
 
 " Vim-Notes {{{
   let g:notes_directories = ['~/Documents/Notes']
 "}}}
-" Python/Django  IDE Setup {{{
 
 
+" Python/Django  IDE Setup{{{
 "" enable all Python syntax highlighting feautures
 let python_highlight_all = 1
 
@@ -409,7 +383,7 @@ fun SetAppDir()
     endif
 endfun
 autocmd BufEnter *.py call SetAppDir()
- "}}} 
+"}}} 
  
 
 " Java IDE Settings{{{
@@ -419,8 +393,8 @@ let g:EclimCompletionMethod = 'omnifunc'
 "}}}
 
 " Enabling transpacency for gruvbox
-hi NonText ctermbg=NONE 
-hi Normal guibg=NONE ctermbg=NONE
+"hi NonText ctermbg=NONE 
+"hi Normal guibg=NONE ctermbg=NONE
 
 " Organization{{{
 set modelines=1

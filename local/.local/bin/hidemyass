@@ -1,4 +1,8 @@
 #!/usr/bin/bash
+#      Author:  https://github.com/mohabaks
+# Description: A script to enable anomity of cli apps e.g wget, curl, nmap etc
+# Dependencies: tor, torscocks
+
 
 # A function to check for tor and other tools
 # for anomity

@@ -1,3 +1,7 @@
+!
+! A slight modification of solarized.light
+!
+
 ! special
 *.foreground:   #586e75
 *.background:   #dfddd5

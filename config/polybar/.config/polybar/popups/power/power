@@ -12,7 +12,7 @@ PY=78
 n30f -d -x 1176 -y 48 $HOME/.config/polybar/popups/power/bg.png &
 
 
-echo " %{F$RED}%{F-} %{A:s:}Suspend%{A}  %{F$RED} %{F-}%{A:l:}Lock%{A}  %{F$RED} %{F-}%{A:e:}Exit%{A}" | lemonbar -g ${PW}x${PH}+${PX}+${PY} -f "$FONT1" -f "$FONT3" -B "$BG" -F "$FG" -dp | \
+echo " %{F$RED}%{F-} %{A:s:}Suspend%{A}  %{F$BLUE} %{F-}%{A:l:}Lock%{A} %{F$MAGENTA} %{F-}%{A:e:}Exit%{A}" | lemonbar -g ${PW}x${PH}+${PX}+${PY} -f "$FONT1" -f "$FONT3" -B "$BG" -F "$FG" -dp | \
     while :; do
         read line
         case $line in 

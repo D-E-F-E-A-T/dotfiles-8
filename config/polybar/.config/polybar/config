@@ -71,8 +71,8 @@ module-margin-left = 0
 module-margin-right = 0
 
 font-0 = Iosevka Slab:size=10;3
-;font-1 = Siji:antialias=false:size=12;3
 font-1 = Material Icons:antialia=false:size=12;5
+;font-2 = Siji:antialias=false:size=12;3
 
 modules-left = menu i3 uptime
 modules-center = date
@@ -83,7 +83,6 @@ modules-right = updates mail temperature cpu memory wlan battery power-label
 ;                   MODULES SETTINGS
 ;
 ;**********************************************************
-
 [module/i3]
 type = internal/i3
 
@@ -191,7 +190,7 @@ adapter = ADP1
 full-at = 100
 
 label-discharging = "%percentage%% "
-;format-charging = <label-charging>
+;format-charging = <animation-charging><label-charging>
 format-discharging = <ramp-capacity><label-discharging>
 
 label-full = "full "
@@ -238,7 +237,7 @@ type = custom/text
 content = "  "
 content-foreground = ${colors.white}
 content-background = ${colors.magenta}
-click-left = bash ~/.config/polybar/popups/todo/todo
+click-left = ~/.config/polybar/popups/todo/todo
 
 [module/mail]
 type = custom/script
@@ -251,7 +250,7 @@ exec-if = "ping -q -w 2 -c 1 8.8.8.8"
 
 [module/uptime]
 type = custom/script
-interval = 50
+interval = 1200
 format = "<label> "
 format-prefix = "  "
 format-prefix-foreground = ${colors.green}

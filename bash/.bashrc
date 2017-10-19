@@ -11,6 +11,7 @@
 #     █▓██   ▒██▒█  ▒███▒  █   █   █      ▓██▒ 
 #                                                  
 
+
 export PROJECT_HOME=$HOME/Code/
 export PATH=$HOME/.local/bin:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
@@ -25,7 +26,6 @@ export MSF_DATABASE_CONFIG=~/.msf4/database.yml
 source virtualenvwrapper.sh
 source ~/.git-prompt.sh
 source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
-
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return

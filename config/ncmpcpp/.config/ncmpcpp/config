@@ -493,7 +493,7 @@ use_console_editor = yes
 #
 
 ## Display notify for the current playing song
-execute_on_song_change = /home/mohabaks/.config/polybar/popups/mpd/current_playing
+execute_on_song_change = /home/mohabaks/.config/polybar/popups/ncmpcpp/current_playing
 
 ##### colors definitions #####
 colors_enabled = yes

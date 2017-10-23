@@ -53,7 +53,7 @@ bottom = false
 width = 1347
 height = 30
 offset-x = 10
-offset-y = 13
+offset-y = 10
 override-redirect = true
 
 background = ${colors.bg}
@@ -88,12 +88,12 @@ type = internal/i3
 
 ;ws-icon-[0-9]+ = label;icon
 ws-icon-0 = 1;
-ws-icon-1 = 2;
+ws-icon-1 = 2;
 ws-icon-2 = 3;
 ws-icon-3 = 4;
 ws-icon-4 = 5;
 ws-icon-5 = 6;
-ws-icon-6 = 7;
+ws-icon-6 = 7;
 ws-icon-7 = 8;
 ws-icon-8 = 9;
 ws-icon-9 = 10;
@@ -197,7 +197,7 @@ label-full = "full "
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.blue}
 
-format-charging-prefix = 
+format-charging-prefix = 
 format-charging-prefix-foreground = ${colors.blue}
 
 ramp-capacity-0 = 
@@ -206,7 +206,7 @@ ramp-capacity-2 = 
 ramp-capacity-foreground = ${colors.cyan}
 
 label-charging = "Charging %percentage%% "
-label-charging-foreground = ${colors.blue}
+label-charging-foreground = ${colors.fg}
 
 ; animation-charging-0 = 
 ; animation-charging-1 = 
@@ -226,9 +226,9 @@ label = "%temperature% "
 label-warn = "%temperature% "
 label-warn-foreground = ${colors.red}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.magenta}
 
 [module/menu]
@@ -246,7 +246,7 @@ format = "<label> "
 format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mail
-exec-if = "ping -q -w 2 -c 1 8.8.8.8"
+exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
 
 [module/uptime]
 type = custom/script
@@ -274,7 +274,7 @@ click-left = bash ~/.config/polybar/popups/power/power
 
 [module/updates]
 type = custom/script
-interval = 1200
+interval = 86400
 format = "<label>"
 format-prefix = "  "
 format-prefix-foreground = ${colors.blue}

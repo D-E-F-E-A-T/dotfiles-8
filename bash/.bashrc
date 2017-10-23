@@ -13,7 +13,7 @@
 
 
 export PROJECT_HOME=$HOME/Code/
-export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/Repositories/penscripts:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
 export VISUAL=vim
 export EDITOR=vim

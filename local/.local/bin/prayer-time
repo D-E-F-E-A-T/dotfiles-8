@@ -7,15 +7,14 @@ export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 current_time=`date "+ %H:%M"`
 
 # load display image
-#image='/home/mohabaks/Pictures/notify/prayer/nor.png'
+image='/home/mohabaks/Pictures/notify/prayer/cover.jpg'
 
 # load colors
 . $HOME/.local/bin/color-parser
 
 # fajr msg
 fajr_msg='
-<span foreground="'$FG'">
-<span foreground="'$RED'">Salah:</span> Fajr
+<span foreground="'$FG'"><span foreground="'$RED'">Salah:</span> Fajr
 
 "Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
 </span>
@@ -23,8 +22,7 @@ fajr_msg='
 '
 # Dhuhr msg
 dhur_msg='
-<span foreground="'$FG'">
-<span foreground="'$RED'">Salah:</span> Dhuhr
+<span foreground="'$FG'"><span foreground="'$RED'">Salah:</span> Dhuhr
 
 "Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
 </span>
@@ -32,8 +30,7 @@ dhur_msg='
 
 # Asr msg
 asr_msg='
-<span foreground="'$FG'">
-<span foreground="'$RED'">Salah:</span> Asr
+<span foreground="'$FG'"><span foreground="'$RED'">Salah:</span> Asr
 
 "Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
 </span>
@@ -41,8 +38,7 @@ asr_msg='
 
 # Maghrib msg
 magh_msg='
-<span foreground="'$FG'">
-<span foreground="'$RED'">Salah:</span> Maghrib
+<span foreground="'$FG'"><span foreground="'$RED'">Salah:</span> Maghrib
 
 "Verily, the prayer is enjoined on the believers at a fixed hours".[Quran 4:103]
 </span>
@@ -50,12 +46,10 @@ magh_msg='
 
 # Isha'a
 isha_msg="
-<span foreground='$FG'>
-<span foreground='$RED'>Salah:</span> Isha'a
+<span foreground='$FG'><span foreground='$RED'>Salah:</span> Isha'a
 
 \"Verily, the prayer is enjoined on the believers at a fixed hours\".[Quran 4:103]
 </span>
-
 "
 
 # Fajr Prayer

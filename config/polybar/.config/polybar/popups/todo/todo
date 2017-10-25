@@ -13,7 +13,7 @@ notify-send -i $image "<span foreground='$FG'>
 <span foreground='$BLUE'>3. </span>Comp Netw        <span foreground='$FG'></span>
 <span foreground='$BLUE'>4. </span>Javascript       <span foreground='$FG'></span>
 <span foreground='$BLUE'>5. </span>Openssl          <span foreground='$FG'></span>
-<span foreground='$BLUE'>6. </span>Unix Stuff       <span foreground='$FG'></span>
+<span foreground='$BLUE'>6. </span>*NIX Stuff       <span foreground='$FG'></span>
 <span foreground='$BLUE'>7. </span>Metasploitable   <span foreground='$FG'></span>
 <span foreground='$BLUE'>8. </span>Master C         <span foreground='$FG'></span>
 </span>

@@ -167,22 +167,6 @@ label-connected = %local_ip%
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.fg}
 
-[module/date]
-type = internal/date
-interval = 5
-
-date =
-date-alt = %a %d %b %Y
-
-time = %H:%M
-time-alt = %H:%M:%S
-
-;format-prefix = 
-;format-prefix-foreground = ${colors.fg-alt}
-
-label = %{F#6c71c4}%date%%{F-} %{F#586e75}%time%%{F-}
-label-foreground = ${colors.fg}
-
 [module/battery]
 type = internal/battery
 battery = BAT1
@@ -247,6 +231,12 @@ format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mail
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
+
+[module/date]
+type = custom/script
+interval = 60
+exec = date +"%H:%M"
+click-left = ~/.config/polybar/popups/calendar/pop_cal
 
 [module/uptime]
 type = custom/script

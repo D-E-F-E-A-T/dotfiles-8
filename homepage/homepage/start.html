@@ -204,7 +204,7 @@ var links=[
 
     // Other -          mnu_5
     ["Bitbucket",                       "https://bitbucket.org/mohabaks",       ""],
-    ["Github",                          "https://mohabaks.github.io",           ""],
+    ["Github",                          "https://github.com/mohabaks",          ""],
     ["Twitter",                          "https://twitter.com/mohabaks", ""],
     ["Dropbox",                         "https://www.dropbox.com",              "https://cf.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico"],
     ["PayPal",                          "http://www.paypal.com/",               ""],
@@ -258,7 +258,7 @@ function build() { // Build menu
                 prev=" onmouseover=\"javascript:preview(1,this.href);\" onmouseout=\"javascript:preview(0,0);\"";
             }
 
-            $('mnu_'+m).innerHTML+="<li><a href=\""+links[i][1]+"\" target=\"_self\""+prev+">"+printimg+links[i][0]+"</a></li>";
+            $('mnu_'+m).innerHTML+="<li><a href=\""+links[i][1]+"\"target=\"_black\""+prev+">"+printimg+links[i][0]+"</a></li>";
         } else {
             skip=false; m++;
         }

@@ -12,6 +12,9 @@ if [[ -n "$album" ]];then
         elif [[ "$album" = "Quran — Shatri" ]] || [[ "$album" = "Quran" ]];then
                 image="/home/mohabaks/Pictures/notify/quran/cover.png"
                 notify-send -i $image "Now Playing" "$(mpc current)"
+        else
+                image="/home/mohabaks/Pictures/notify/other/cover.png"
+                notify-send -i $image "Now Playing" "$(mpc current)"
         fi
 else
         image="/home/mohabaks/Pictures/notify/other/cover.png"

@@ -7,47 +7,48 @@
 
 URxvt*cursorColor:  #ac9b9d
 URxvt*borderColor:  #1A1829
-*colorUL:           #587557
+*colorUL:           #558453
 
 ! special
-*.foreground:   #b39fa2
+*.foreground:   #c0b3b5
 *.background:   #1a1829
-*.cursorColor:  #b39fa2
+*.cursorColor:  #c0b3b5
 
 ! black
 *.color0:       #1f1d2f
 *.color8:       #4e4c5e
 
 ! red
-*.color1:       #84305e
-*.color9:       #84305e
+*.color1:       #a0286a
+*.color9:       #a0286a
 
 ! green
-*.color2:       #5d7b5c
-*.color10:      #5d7b5c
+*.color2:       #558453
+*.color10:      #558453
 
 ! yellow
-*.color3:       #aa6772
-*.color11:      #aa6772
+*.color3:       #b87b66
+*.color11:      #b87b66
 
 ! blue
-*.color4:       #534475
-*.color12:      #534475
+*.color4:       #5a4786
+*.color12:      #5a4786
 
 ! magenta
-*.color5:       #805084
-*.color13:      #805084
+*.color5:       #914e96
+*.color13:      #914e96
 
 ! cyan
 *.color6:       #816886
 *.color14:      #816886
 
 ! white
-*.color7:       #b39fa2
-*.color15:      #b39fa2
+*.color7:       #c0b3b5
+*.color15:      #c0b3b5
+
 
 ! Rofi colors.
 rofi.color-window: #1A1829, #1A1829, #805084
-rofi.color-normal: #1A1829, #af9b9a, #1A1829, #805084, #1A1829
-rofi.color-active: #1A1829, #af9b9a, #1A1829, #805084, #1A1829
-rofi.color-urgent: #1A1829, #ac9b9d, #1A1829, #ac9b9d, #af9b9a
+rofi.color-normal: #1A1829, #c0b3b5, #1A1829, #805084, #1A1829
+rofi.color-active: #1A1829, #c0b3b5, #1A1829, #805084, #1A1829
+rofi.color-urgent: #1A1829, #ac9b9d, #1A1829, #ac9b9d, #c0b3b5

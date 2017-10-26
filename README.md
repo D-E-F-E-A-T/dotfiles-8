@@ -51,10 +51,10 @@ stow zathura
 stow -D zathura
 ```
 
-Demo
-----
+Workflow
+--------
 
-![alt demo](https://github.com/mohabaks/dotfiles/blob/master/demo.gif)
+![workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 
 Thanks
 ------

@@ -54,7 +54,7 @@ stow -D zathura
 Workflow
 --------
 
-![workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
+![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 
 Thanks
 ------

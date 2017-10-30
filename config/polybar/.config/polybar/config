@@ -53,10 +53,10 @@ margin-bottom = 0
 [bar/top]
 monitor   = ${env:MONITOR:LVDS1}
 bottom    = false
-width     = 1342
+width     = 1346
 height    = 30
-offset-x  = 12
-offset-y  = 12
+offset-x  = 10
+offset-y  = 10
 override-redirect = false
 
 background = ${colors.bg}
@@ -87,6 +87,7 @@ modules-right = updates mail temperature cpu memory wlan battery
 ;                   MODULES SETTINGS
 ;
 ;**********************************************************
+
 ; [module/i3]
 ; type = internal/i3
 ; ;ws-icon-[0-9]+ = label;icon
@@ -255,7 +256,7 @@ type = custom/text
 content = "  "
 content-foreground = ${colors.white}
 content-background = ${colors.magenta}
-click-left = ~/.config/polybar/popups/todo/todo
+click-left = ~/.config/popups/todo/todo
 
 [module/mail]
 type = custom/script
@@ -270,7 +271,7 @@ exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
 type = custom/script
 interval = 60
 exec = date +"%H:%M"
-click-left = ~/.config/polybar/popups/calendar/pop_cal
+click-left = ~/.config/popups/calendar/pop_cal
 
 [module/uptime]
 type = custom/script
@@ -294,7 +295,7 @@ content = "  "
 
 content-foreground = ${colors.bg}
 content-background = ${colors.magenta-alt}
-click-left = bash ~/.config/polybar/popups/power/power
+click-left = bash ~/.config/popups/power/power
 
 [module/updates]
 type = custom/script

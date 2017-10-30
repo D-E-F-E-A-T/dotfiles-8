@@ -23,7 +23,7 @@ Setup Description
 * PDF viewer `zathura`
 * Text editor `vim`
 * Terminal emulator `urxvt-patched`
-* Window manager `i3-gaps`
+* Window manager `bspwm`
 
 Installation
 ------------

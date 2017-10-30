@@ -22,6 +22,7 @@ export TERM="rxvt-unicode-256color"
 export TZ=Africa/Nairobi
 export LFS=/mnt/lfs
 export MSF_DATABASE_CONFIG=~/.msf4/database.yml
+export XDG_CONFIG_HOME="$HOME/.config"
 
 source virtualenvwrapper.sh
 source ~/.git-prompt.sh

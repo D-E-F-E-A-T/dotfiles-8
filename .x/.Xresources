@@ -97,4 +97,4 @@ URxvt.iso14755_52:         false
 Xcursor.theme:             Paper
 
 !! Colors
-#include "/home/mohabaks/.colors/solarized.light"
+#include "/home/mohabaks/.colors/monocyan"

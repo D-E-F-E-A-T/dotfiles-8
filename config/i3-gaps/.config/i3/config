@@ -14,11 +14,11 @@ bindsym $mod+Return exec urxvtc
 bindsym $mod+Shift+q kill
 
 # Start dmenu (a program launcher)
-#bindsym $mod+d exec  dmenu_run -b -nf "#839496" -sb "#b58900" -sf "#002b36" -nb "#002b36" -fn "tewi-8"
+bindsym $mod+d exec  dmenu_run -b -nf "#b9b9b9" -sb "#038d6c" -sf "#f7f7f7" -nb "#101010" -fn "tewi-8"
 
 # Start Rofi (a program launcher, ssh, window switcher)
 # https://davedavenport.github.io/rofi/
-bindsym $mod+d exec --no-startup-id rofi -show run
+#bindsym $mod+d exec --no-startup-id rofi -show run
 
 # Change focus
 bindsym $mod+j focus left

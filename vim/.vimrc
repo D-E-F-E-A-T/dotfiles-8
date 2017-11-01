@@ -53,7 +53,7 @@ Plugin 'xolox/vim-notes'
 "Plugin 'xuhdev/vim-latex-live-preview'
 
 """ Colorscheme
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
 "Plugin 'lilydjwg/colorizer'
 "Plugin 'morhetz/gruvbox'
 "Plugin 'dylanaraps/wal.vim'
@@ -65,9 +65,9 @@ filetype plugin indent on
 "}}}  
 
 
-" Set Colorscheme and Statusline{{{
-set background=light
-colorscheme solarized
+"  Set Colorscheme and Statusline{{{
+set background=dark
+colorscheme wal
 
 "let g:gruvbox_contrast_dark = 'medium'
 
@@ -75,7 +75,7 @@ colorscheme solarized
 set laststatus=0
 set t_Co=256
  let g:lightline = {
-       \ 'colorscheme': 'solarized',
+       \ 'colorscheme': 'wal',
       \ }      
 "}}} 
 

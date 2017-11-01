@@ -1,15 +1,15 @@
-gtk-color-scheme = "base_color:#c5c5c5\nbg_color:#dfddd5"
-gtk-color-scheme = "text_color:#586e75\nfg_color:#657b83"
-gtk-color-scheme = "tooltip_bg_color:#c5c5c5\ntooltip_fg_color:#586e75\nlink_color:#4a90f9"
+gtk-color-scheme = "base_color:#151515\nbg_color:#101010"
+gtk-color-scheme = "text_color:#b9b9b9\nfg_color:#657b83"
+gtk-color-scheme = "tooltip_bg_color:#151515\ntooltip_fg_color:#b9b9b9\nlink_color:#4a90f9"
 
 ## Dark-Framed 
 #gtk-color-scheme = "theme_bg_dark_color:#575757\ntheme_fg_dark_color:#DCDCDC\ntheme_text_dark_color:#F5F5F5"
 
 ## Dark-Flat
-gtk-color-scheme = "theme_bg_dark_color:#dfddd5\ntheme_fg_dark_color:#586e75\ntheme_text_dark_color:#586e75"
+gtk-color-scheme = "theme_bg_dark_color:#101010\ntheme_fg_dark_color:#b9b9b9\ntheme_text_dark_color:#b9b9b9"
 
 #  selection text color
-gtk-color-scheme = "selected_fg_color:#dfddd5"
+gtk-color-scheme = "selected_fg_color:#101010"
 
 ## selection background color #####################################
 #  selection_wood		#7a6642;
@@ -17,13 +17,13 @@ gtk-color-scheme = "selected_fg_color:#dfddd5"
 #  selection_ubuntu		#aa502c;
 #  selection_ubuntu_mod	#9d533f;
 #  selection_acid_green	#3c7b7b;
-#  selection_blue		#dfddd5;
+#  selection_blue		#101010;
 #  selection_mint		#567557;
 #  selection_red		#754747;
 #  selection_mono		#646464;
 ###################################################################
 #  should be the same color that you have set in the file gtk.css #
-gtk-color-scheme = "selected_bg_color:#d41c1d"
+gtk-color-scheme = "selected_bg_color:#038d6c"
 ###################################################################
 
 gtk-auto-mnemonics	= 1
@@ -192,11 +192,11 @@ style "test" = "default" {
   text[SELECTED]    =  "#0000FF"
   text[INSENSITIVE] =  "#0000FF"
 
-  base[NORMAL]      =  "#dfddd5F00"
-  base[ACTIVE]      =  "#dfddd5F00"
-  base[PRELIGHT]    =  "#dfddd5F00"
-  base[SELECTED]    =  "#dfddd5F00"
-  base[INSENSITIVE] =  "#dfddd5F00"
+  base[NORMAL]      =  "#101010F00"
+  base[ACTIVE]      =  "#101010F00"
+  base[PRELIGHT]    =  "#101010F00"
+  base[SELECTED]    =  "#101010F00"
+  base[INSENSITIVE] =  "#101010F00"
 }
 
 style "wide" {
@@ -263,7 +263,7 @@ style "entry" { # text
 }
 
 style "expander" {
-	bg[NORMAL]		= "#dfddd5"
+	bg[NORMAL]		= "#101010"
 	fg[NORMAL]		= shade (2.0, @text_color)
 	fg[PRELIGHT]	= shade (2.0, @text_color)
 
@@ -543,7 +543,7 @@ style "tooltips" {
 	GtkWidget::new-tooltip-style	= 0
 
 	engine "murrine" {
-		border_colors	= { "#c5c5c5", "#c5c5c5" }
+		border_colors	= { "#151515", "#151515" }
 	}
 }
 

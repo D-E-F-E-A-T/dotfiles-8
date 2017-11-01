@@ -2,7 +2,7 @@
 !
 
 
-URxvt*cursorColor:  #101010
+URxvt*cursorColor:  #b9b9b9
 URxvt*borderColor:  #101010
 *colorUL:           #038d6c
 

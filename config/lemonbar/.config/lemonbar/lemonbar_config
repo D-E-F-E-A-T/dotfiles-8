@@ -16,9 +16,9 @@ PY=0
 
 
 #*************** Fonts *****************
-FONT1="Iosevka:size=9"
+FONT1="Tewi:size=8"
 FONT2="Siji:size=8"
-FONT3="FontAwesome:size=12"
+FONT3="FontAwesome:size=8"
 
 
 #*************** Icons ******************

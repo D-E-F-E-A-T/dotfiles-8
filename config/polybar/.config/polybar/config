@@ -57,7 +57,7 @@ width     = 1346
 height    = 30
 offset-x  = 10
 offset-y  = 10
-override-redirect = false
+override-redirect = true
 
 background = ${colors.bg}
 foreground = ${colors.fg}

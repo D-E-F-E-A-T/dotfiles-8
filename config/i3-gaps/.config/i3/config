@@ -14,7 +14,7 @@ bindsym $mod+Return exec urxvtc
 bindsym $mod+Shift+q kill
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -nf "#b9b9b9" -sb "#038d6c" -sf "#f7f7f7" -nb "#101010" -fn "tewi-8"
+bindsym $mod+d exec  --no-startup-id dmenu_run -b -lh 24 -nf "#b9b9b9" -sb "#038d6c" -sf "#f7f7f7" -nb "#101010" -fn "tewi-8"
 
 # Start Rofi (a program launcher, ssh, window switcher)
 # https://davedavenport.github.io/rofi/
@@ -250,7 +250,7 @@ bindsym $mod+b exec --no-startup-id luakit
 set_from_resource $black       color8  #000000
 #set_from_resource $darkblack   color0  #000000
 set_from_resource $darkred     color1  #000000
-set_from_resource $red         color9  #000000
+#set_from_resource $red         color9  #000000
 set_from_resource $darkgreen   color2  #000000
 set_from_resource $green       color10 #000000
 set_from_resource $darkyellow  color3  #000000
@@ -263,7 +263,7 @@ set_from_resource $darkcyan    color6  #000000
 set_from_resource $cyan        color14 #000000
 set_from_resource $white       color15 #000000
 
-set $darkblack #151515
+set $darkblack #181818
 
 # Window colors           border      background   text            indicator    child_border
 client.focused            $blue       $blue        $white          $darkblack  $darkblack

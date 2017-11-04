@@ -81,7 +81,7 @@ modules-right = power-label
 monitor   = ${env:MONITOR:LVDS1}
 bottom    = true
 width     = 1366
-height    = 20
+height    = 24
 offset-x  = 0
 offset-y  = 0
 
@@ -97,8 +97,8 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Dina:size=8;1
-font-1 = Siji:antialias=false:size=8;1
+font-0 = Dina:size=6;2
+font-1 = Siji:antialias=false:size=8;2
 
 tray-position = right
 tray-padding = 0
@@ -132,37 +132,37 @@ ws-icon-9 = 10;
 
 strip-wsnumbers = true
 
-label-focused = "%name%"
-label-focused-foreground = ${colors.red}
+label-focused = "%{F#038d6c}%{F-}%name%"
+label-focused-foreground = ${colors.fg}
 ;label-focused-background = ${colors.bg-alt}
 label-focused-padding = 1
 
 label-unfocused = "%name%"
 label-unfocused-padding = 1
-;label-unfocused-foreground = ${colors.blue-alt}
+label-unfocused-foreground = ${colors.fg-alt}
 ;label-unfocused-background = ${colors.bg-alt}
 
 label-urgent = "%name%"
-label-urgent-foreground = ${colors.white}
-label-urgent-background = ${colors.red}
+label-urgent-foreground = ${colors.red}
+;label-urgent-background = ${colors.red}
 label-urgent-padding = 1
 
 label-visible = "%name%"
-;label-visible-foreground = ${colors.fg-alt}
+label-visible-foreground = ${colors.fg-alt}
 ;label-visible-background = ${colors.bg-alt}
 label-visible-padding = 1
 
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = "CPU "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 label = "%percentage% "
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = "RAM "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 label = "%percentage_used% "
 
@@ -171,18 +171,18 @@ type = internal/network
 interface = wlp1s0
 interval = 3.0
 
-;format-connected = <ramp-signal> <label-connected>
+format-connected = <ramp-signal> <label-connected>
 
-label-connected = "%{F#038d6c}CON%{F-} %essid% "
+label-connected = "%essid% "
 ;label-connected-foreground = ${colors.fg}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.fg-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 ramp-signal-foreground = ${colors.magenta-alt}
 
 [module/eth]
@@ -204,30 +204,30 @@ battery = BAT1
 adapter = ADP1
 full-at = 100
 
-label-discharging = "%{F#038d6c}BAT%{F-} %percentage%% "
-;format-charging = <animation-charging><label-charging>
-;format-discharging = <ramp-capacity><label-discharging>
+label-discharging = "%percentage%% "
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
 
 label-full = " full "
-format-full-prefix = BAT
+format-full-prefix = 
 format-full-prefix-foreground = ${colors.red}
 
-format-charging-prefix = BAT
-format-charging-prefix-foreground = ${colors.red}
+;format-charging-prefix = BAT
+;format-charging-prefix-foreground = ${colors.red}
 
-ramp-capacity-0 = 
-ramp-capacity-1 =  
-ramp-capacity-2 = 
+ramp-capacity-0 = 
+ramp-capacity-1 =  
+ramp-capacity-2 = 
 ramp-capacity-foreground = ${colors.cyan}
 
-label-charging = " Charging %percentage%% "
+label-charging = "Charging %percentage%% "
 label-charging-foreground = ${colors.fg}
 
-; animation-charging-0 = 
-; animation-charging-1 = 
-; animation-charging-2 = 
-; animation-charging-foreground = ${colors.blue}
-; animation-charging-framerate = 750
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.red}
+animation-charging-framerate = 750
 
 [module/temperature]
 type = internal/temperature
@@ -237,13 +237,13 @@ warn-temperature = 60
 format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 
-label = "%{F#038d6c}TEM%{F-} %temperature% "
-label-warn = "%{F#038d6c}TEM%{F-} %temperature% "
+label = "%temperature% "
+label-warn = "%temperature% "
 label-warn-foreground = ${colors.fg-alt}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.magenta}
 
 [module/menu]
@@ -258,7 +258,7 @@ click-left = ~/.config/popups/todo/todo
 type = custom/script
 interval = 1200
 format = " <label>"
-format-prefix = "MSG "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mail
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
@@ -279,7 +279,7 @@ label = "%{F#038d6c}%date%%{F-} %time%"
 type = custom/script
 interval = 1200
 format = "<label> "
-format-prefix = " UPT "
+format-prefix = "  "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/uptime
 
@@ -303,7 +303,7 @@ click-left = bash ~/.config/popups/power/power
 type = custom/script
 interval = 86400
 format = "<label>"
-format-prefix = " UPD "
+format-prefix = "  "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/pkg 
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
@@ -312,7 +312,7 @@ exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
 type = custom/script
 interval = 86400
 format = "<label>"
-format-prefix = " KER "
+format-prefix = "  "
 format-prefix-foreground = ${colors.red}
 exec = uname -r
 
@@ -320,7 +320,7 @@ exec = uname -r
 type = custom/script
 interval = 86400
 format = "<label>"
-format-prefix = "TOR "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/tor 
 
@@ -328,7 +328,7 @@ exec = ~/.config/polybar/tor
 type = custom/script
 interval = 86400
 format = "<label>"
-format-prefix = " VPN "
+format-prefix = "  "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/vpn
 

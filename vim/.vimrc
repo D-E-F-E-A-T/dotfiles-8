@@ -73,7 +73,7 @@ colorscheme wal
 
 "" Status line
 set laststatus=0
-set t_Co=256
+set t_Co=16
  let g:lightline = {
        \ 'colorscheme': 'wal',
       \ }      

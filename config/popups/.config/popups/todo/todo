@@ -10,7 +10,7 @@
 # cli script to show/delete/add can be found
 # https://github.com/mohabaks/dotfiles/tree/master/local/.local/bin/todo
 todofile='/home/mohabaks/.todo'
-image='/home/mohabaks/Pictures/notify/todo/todo.jpg'
+image='/home/mohabaks/Pictures/notify/todo/todo.png'
 title="<span foreground='$BMAGENTA' >  TODO Weekdays</span>" # notify title
 
 # A function to read the todo file and nicely format the texts

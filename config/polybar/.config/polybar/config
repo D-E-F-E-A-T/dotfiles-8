@@ -62,11 +62,6 @@ override-redirect = true
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-;border-bottom-size = 1
-;border-top-size = 3
-;border-top-color = ${colors.green}
-;border-bottom-color = ${colors.bg-alt}
-
 spacing = 0
 padding-left = 0
 padding-right = 0
@@ -75,7 +70,6 @@ module-margin-right = 0
 
 font-0 = Iosevka Slab:size=10;3
 font-1 = Material Icons:antialia=false:size=12;5
-;font-2 = Siji:antialias=false:size=12;3
 
 modules-left = i3 uptime
 modules-center = date
@@ -281,7 +275,7 @@ time-alt = %H:%M:%S
 ;format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #0a6cf5
 
-label = %date% %time%
+label = "%{F#e5322f}%date% %{F-}%time%"
 
 [module/uptime]
 type = custom/script

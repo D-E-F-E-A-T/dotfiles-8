@@ -8,17 +8,20 @@
 set $mod Mod4
 
 # Start a terminal
-bindsym $mod+Return exec urxvtc
+bindsym $mod+Return exec --no-startup-id urxvtc
 
 # Kill focused window
 bindsym $mod+Shift+q kill
 
+# Quit i3
+bindsym $mod+Shift+Escape exec i3-msg exit
+
 # Start dmenu (a program launcher)
-#bindsym $mod+d exec  dmenu_run -b -nf "#839496" -sb "#b58900" -sf "#002b36" -nb "#002b36" -fn "tewi-8"
+bindsym $mod+d exec --no-startup-id dmenu_run -b -lh 24 -x 10 -y 10 -w 1347 -nf "#586e75" -sb "#268bd2" -sf "#dfddd5" -nb "#dfddd5" -fn "Iosevka-9"
 
 # Start Rofi (a program launcher, ssh, window switcher)
 # https://davedavenport.github.io/rofi/
-bindsym $mod+d exec --no-startup-id rofi -show run
+# bindsym $mod+d exec --no-startup-id rofi -show run
 
 # Change focus
 bindsym $mod+j focus left
@@ -239,6 +242,9 @@ bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures/screenshots' && no
 # Kill screencast
 bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
 
+# View Todo List
+bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
+
 # My apps shortcut
 bindsym $mod+p exec --no-startup-id pcmanfm 
 bindsym $mod+b exec --no-startup-id luakit
@@ -265,7 +271,7 @@ set_from_resource $white       color15 #000000
 # Window colors           border      background   text            indicator    child_border
 client.focused            $blue       $blue        $white          $darkblack  $darkblack
 client.focused_inactive   $darkblack  $darkblack   $white          $darkblack  $darkblack
-client.unfocused          $darkblack  $darkblack   $white          $darkblack  $darkblack
+client.unfocused          $yellow     $yellow      $white          $darkblack  $darkblack
 client.urgent             $darkblack  $darkblack   $white          $darkblack  $darkblack
 
 #Start i3bar to display a workspace bar
@@ -297,10 +303,13 @@ font pango:lemon 18
 for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
 
 
-#*************  My apps settings  *********************
+#************  Startup apps ***********************
 
 # Bar startup
 exec --no-startup-id . $HOME/.local/bin/barstart &
+
+
+#*************  Other settings  *********************
 
 # Set per-application border
 for_window [class="^.*"] border pixel 1 

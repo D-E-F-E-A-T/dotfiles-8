@@ -36,7 +36,7 @@ light(){
    compton --config ~/.compton.conf -b 
    conky -c ~/.config/polybar/conky_wrapper &  # polybar wrapper
    . $HOME/.local/bin/barstart &              #restart polybar
-   
+   pkill dunst 
    feh --bg-scale ~/Pictures/wallpapers/wallhaven-241999.jpg 
    
    notify-send "<span foreground='$BLUE'>Light Mode</span>" "Successfully switched to light-mode"

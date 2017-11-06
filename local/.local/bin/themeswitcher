@@ -29,17 +29,18 @@ light(){
    pkill firefox
    pkill conky
    pkill compton
+   pkill dunst
 
    # restart various applications
+   xrdb -load -I$HOME ~/.Xresources     
    i3-msg restart                            # restart i3
-   xrdb -load  -I$HOME ~/.Xresources
    compton --config ~/.compton.conf -b 
    conky -c ~/.config/polybar/conky_wrapper &  # polybar wrapper
    . $HOME/.local/bin/barstart &              #restart polybar
-   
    feh --bg-scale ~/Pictures/wallpapers/wallhaven-241999.jpg 
    
    notify-send "<span foreground='$BLUE'>Light Mode</span>" "Successfully switched to light-mode"
+   pkill dunst
 }
 
 dark(){ 
@@ -61,9 +62,9 @@ dark(){
    pkill compton
 
    # restart various applications
+   xrdb -load -I$HOME ~/.Xresources     
    i3-msg restart                            # restart i3
    compton --config ~/.compton.conf -b
-   xrdb -load -I$HOME ~/.Xresources     
    . $HOME/.local/bin/barstart &             # restart polybar
    pkill dunst
   

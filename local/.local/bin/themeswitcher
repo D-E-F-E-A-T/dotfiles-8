@@ -37,7 +37,6 @@ light(){
    feh --bg-scale ~/Pictures/wallpapers/wallhaven-241999.jpg 
    pkill dunst
    notify-send "<span foreground='$BLUE'>Light Mode</span>" "Successfully switched to light-mode"
-   pkill urxvt
 }
 
 dark(){ 
@@ -65,7 +64,6 @@ dark(){
    feh --bg-scale ~/Pictures/wallpapers/clean.png
 
    notify-send "<span foreground='$RED'>Dark Mode</span>" "Successfully switched to hackish-mode"
-   pkill urxvt
 }
 
 # Grab user options from dmenu

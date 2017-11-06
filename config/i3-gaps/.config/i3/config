@@ -246,6 +246,9 @@ bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
 bindsym $mod+p exec --no-startup-id pcmanfm 
 bindsym $mod+b exec --no-startup-id luakit
 
+# Theme switcher
+bindsym $mod+F11 exec --no-startup-id ~/.local/bin/themeswitcher
+
 # Custom colors
 set_from_resource $black       color8  #000000
 #set_from_resource $darkblack   color0  #000000

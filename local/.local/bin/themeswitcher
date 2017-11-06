@@ -28,14 +28,17 @@ light(){
    pkill luakit
    pkill firefox
    pkill conky
+   pkill compton
 
    # restart various applications
    i3-msg restart                            # restart i3
    xrdb -load  -I$HOME ~/.Xresources
+   compton --config ~/.compton.conf -b 
    conky -c ~/.config/polybar/conky_wrapper &  # polybar wrapper
    . $HOME/.local/bin/barstart &              #restart polybar
+   
    feh --bg-scale ~/Pictures/wallpapers/wallhaven-241999.jpg 
-   pkill dunst
+   
    notify-send "<span foreground='$BLUE'>Light Mode</span>" "Successfully switched to light-mode"
 }
 
@@ -55,12 +58,15 @@ dark(){
    pkill conky
    pkill luakit
    pkill firefox
+   pkill compton
 
    # restart various applications
    i3-msg restart                            # restart i3
+   compton --config ~/.compton.conf -b
    xrdb -load -I$HOME ~/.Xresources     
    . $HOME/.local/bin/barstart &             # restart polybar
    pkill dunst
+  
    feh --bg-scale ~/Pictures/wallpapers/clean.png
 
    notify-send "<span foreground='$RED'>Dark Mode</span>" "Successfully switched to hackish-mode"

@@ -31,7 +31,7 @@ light(){
 
    # restart various applications
    i3-msg restart                            # restart i3
-   xrdb -load  ~/.Xresources
+   xrdb -load  -I$HOME ~/.Xresources
    conky -c ~/.config/polybar/conky_wrapper &  # polybar wrapper
    . $HOME/.local/bin/barstart &              #restart polybar
    feh --bg-scale ~/Pictures/wallpapers/wallhaven-241999.jpg 
@@ -58,7 +58,7 @@ dark(){
 
    # restart various applications
    i3-msg restart                            # restart i3
-   xrdb -load ~/.Xresources     
+   xrdb -load -I$HOME ~/.Xresources     
    . $HOME/.local/bin/barstart &             # restart polybar
    pkill dunst
    feh --bg-scale ~/Pictures/wallpapers/clean.png

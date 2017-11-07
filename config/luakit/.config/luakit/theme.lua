@@ -12,7 +12,7 @@ theme.bg   = "#101010"
 -- Genaral colours
 theme.success_fg = "#b9b9b9"
 theme.loaded_fg  = "#b9b9b9"
-theme.error_fg = "#038d6c"
+theme.error_fg = "#2aa198"
 theme.error_bg = "#101010"
 
 -- Warning colours
@@ -27,7 +27,7 @@ theme.notif_bg = "#101010"
 theme.menu_fg                   = "#b9b9b9"
 theme.menu_bg                   = "#151515"
 theme.menu_selected_fg          = "#f7f7f7"
-theme.menu_selected_bg          = "#038d6c"
+theme.menu_selected_bg          = "#2aa198"
 theme.menu_title_bg             = "#101010"
 theme.menu_primary_title_fg     = "#686868"
 theme.menu_secondary_title_fg   = "#8e8e8e"
@@ -41,7 +41,7 @@ theme.menu_active_bg = theme.menu_bg
 
 -- Proxy manager
 theme.proxy_active_menu_fg      = '#f7f7f7'
-theme.proxy_active_menu_bg      = '#038d6c'
+theme.proxy_active_menu_bg      = '#2aa198'
 theme.proxy_inactive_menu_fg    = '#404040'
 theme.proxy_inactive_menu_bg    = '#151515'
 
@@ -51,8 +51,8 @@ theme.sbar_bg         = "#151515"
 
 -- Downloadbar specific
 theme.dbar_fg         = "#b9b9b9"
-theme.dbar_bg         = "#038d6c"
-theme.dbar_error_fg   = "#038d6c"
+theme.dbar_bg         = "#2aa198"
+theme.dbar_error_fg   = "#2aa198"
 
 -- Input bar specific
 theme.ibar_fg           = "#b9b9b9"
@@ -61,7 +61,7 @@ theme.ibar_bg           = "#101010"
 -- Tab label
 theme.tab_fg            = "#b9b9b9"
 theme.tab_bg            = "#101010"
-theme.tab_hover_bg      = "#038d6c"
+theme.tab_hover_bg      = "#2aa198"
 theme.tab_ntheme        = "#b9b9b9"
 theme.selected_fg       = "#b9b9b9"
 theme.selected_bg       = "#151515"
@@ -73,13 +73,13 @@ theme.selected_private_tab_bg = "#3d295b"
 theme.private_tab_bg    = "#22254a"
 
 -- Trusted/untrusted ssl colours
-theme.trust_fg          = "#038d6c"
+theme.trust_fg          = "#2aa198"
 theme.notrust_fg        = "#404040"
 
 -- General colour pairings
 theme.ok = { fg = "#b9b9b9", bg = "#101010" }
 theme.warn = { fg = "#5d7b5c", bg = "#101010" }
-theme.error = { fg = "#038d6c", bg = "#101010" }
+theme.error = { fg = "#2aa198", bg = "#101010" }
 
 return theme
 

@@ -242,7 +242,7 @@ date-alt = "%a %d %b %Y"
 time = %H:%M
 time-alt = %H:%M:%S
 
-label = "%{F#038d6c}%date%%{F-} %time%"
+label = "%{F#2aa198}%date%%{F-} %time%"
 
 [module/uptime]
 type = custom/script

@@ -317,6 +317,7 @@ exec --no-startup-id . $HOME/.local/bin/barstart &
 # Set per-application border
 for_window [class="^.*"] border pixel 1 
 #for_window [class="(?i)urxvt"] border pixel 4
+# Uncomment bellow line for fancy urxvt title bar
 #for_window [class="(?i)urxvt"] border normal 0
 
 # Enable or disable floating

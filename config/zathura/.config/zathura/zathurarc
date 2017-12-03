@@ -1,6 +1,6 @@
 # zathurarc
 
-set font                        "Cantarell 8"
+set font                        "GohuFont 8"
 set default-bg                  "#101010" #00
 set default-fg                  "#b9b9b9" #01
 

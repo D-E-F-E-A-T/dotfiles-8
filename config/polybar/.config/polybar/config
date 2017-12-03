@@ -70,17 +70,17 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Dina:size=6;1
+font-0 = GohuFont:pixelsize=4;1
 font-1 = Siji:antialias=false:size=6;1
 
 tray-position = right
-tray-padding = 2
-;tray-transparent = true
-;tray-background = #0063ff
+tray-padding = 1
+#tray-transparent = true
+tray-background = #101010
 
-modules-left = menu i3 uptime kernel updates
+modules-left = menu i3 uptime kernel
 modules-center = date
-modules-right = mail temperature cpu memory wlan battery
+modules-right = updates mail temperature cpu memory wlan battery
 
 
 ;**********************************************************
@@ -247,7 +247,7 @@ date-alt = "%a %d %b %Y"
 time = %H:%M
 time-alt = %H:%M:%S
 
-label = "%{F#2aa198}%date%%{F-} %time%"
+label = "%{F#2aa198}++%{F-}%{F#2aa198}%date%%{F-} %time% %{F#2aa198}++%{F-}"
 
 [module/uptime]
 type = custom/script
@@ -301,7 +301,7 @@ exec = ~/.config/polybar/tor
 [module/vpn]
 type = custom/script
 interval = 86400
-format = "<label>"
+format = "<label> "
 format-prefix = "  "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/vpn

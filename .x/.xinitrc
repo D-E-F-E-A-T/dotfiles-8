@@ -15,11 +15,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-conky -c ~/.config/polybar/conky_wrapper -d       # polybar wrapper
 nitrogen --restore  &                             # restore wallpaper
 compton --config ~/.compton.conf -b &
 dunst -config $HOME/.config/dunst/dunstrc &  
 xrdb -load -I$HOME ~/.Xresources
-. $HOME/.local/bin/urxvt_daemon &                 # urxvt daemon
+. $HOME/.local/bin/urxvt_daemon & 
 
 exec i3

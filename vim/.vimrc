@@ -65,17 +65,17 @@ filetype plugin indent on
 "}}}  
 
 
-" Set Colorscheme and Statusline{{{
-set background=light
-colorscheme solarized
+"  Set Colorscheme and Statusline{{{
+set background=dark
+colorscheme wal
 
 "let g:gruvbox_contrast_dark = 'medium'
 
 "" Status line
 set laststatus=0
-set t_Co=256
+set t_Co=16
  let g:lightline = {
-       \ 'colorscheme': 'solarized',
+       \ 'colorscheme': 'wal',
       \ }      
 "}}} 
 

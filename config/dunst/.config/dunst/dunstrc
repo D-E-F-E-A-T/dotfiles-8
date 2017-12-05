@@ -13,7 +13,7 @@
                                                  
                                                  
 [global]
-    font = Iosevka 9
+    font = Tewi 8
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -80,7 +80,7 @@
     # the top and down respectevly.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "350x10-10+55"
+    geometry = "350x10-10+35"
     
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
@@ -165,7 +165,7 @@
 
 [frame]
     width = 5
-    color = "#d3d2d0"
+    color = "#151515"
 
 [shortcuts]
 
@@ -191,18 +191,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#dfddd5"
-    foreground = "#198844"
+    background = "#101010"
+    foreground = "#404040"
     timeout = 10
 
 [urgency_normal]
-    background = "#dfddd5"
-    foreground = "#657b83"
+    background = "#101010"
+    foreground = "#b9b9b9"
     timeout = 10
 
 [urgency_critical]
-    background = "#dfddd5"
-    foreground = "#dc322f"
+    background = "#101010"
+    foreground = "#2aa198"
     timeout = 0
 
 

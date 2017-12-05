@@ -11,7 +11,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-<title>Startpage</title>
+<title> startpage </title>
 
 <style type="text/css">
 /*
@@ -20,10 +20,10 @@
     * (If you make two or more the same value you will need to
        manually separate the colors in the code later to undo) 
 
-    #dfddd5 - Background        #e5322f - Color Mnu1
-    #c5c5c5 - Content BG        #2aa198 - Color Mnu2
-    #657b83 - Content FG        #268bd2 - Color Mnu3
-    #586e75 - C FG Light        #d33682 - Color Mnu4
+    #101010 - Background        #e5322f - Color Mnu1
+    #151515 - Content BG        #2aa198 - Color Mnu2
+    #404040 - Content FG        #268bd2 - Color Mnu3
+    #b9b9b9 - C FG Light        #d33682 - Color Mnu4
     #eee8d5 - L FG Hover        #6c71c4 - Color Mnu5
 
     Transition: "transition: .2s ease-out"
@@ -36,13 +36,13 @@ html,body {
     margin: 0; padding: 0; overflow: hidden;
     width: 100%; height: 100%;
     font-family: "Droid Sans", "Liberation Sans", "DejaVu Sans", "Segoe UI", Sans; font-size: 10pt;
-    background: #dfddd5;
+    background: #101010;
 }
 *:focus  { outline: none; }
 ul, li   { list-style-type: none; margin: 0; padding: 0; }
-textarea { background: transparent; color: #586e75; }
+textarea { background: transparent; color: #b9b9b9; }
 
-a, a:link, a:visited { color: #586e75; text-decoration: none; transition: .2s ease-out; }
+a, a:link, a:visited { color: #b9b9b9; text-decoration: none; transition: .2s ease-out; }
 a:hover, a:active    { color: #eee8d5; }
 
 #preview { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
@@ -50,7 +50,7 @@ a:hover, a:active    { color: #eee8d5; }
     position: absolute; top: 0; left: 0;
     width: 100%; height: 100%; z-index: 2;
     opacity: 1; transition: .5s;
-    background: #dfddd5;
+    background: #101010;
     /* Uncomment below and disable 'showPreview' in the javascript to use custom background image */
     /*
     background: url('file:///home/guest/lewd-twily.jpg') no-repeat center center fixed;
@@ -62,25 +62,25 @@ a:hover, a:active    { color: #eee8d5; }
 #center #content {
     margin: 0; overflow: visible; width: 100%; height: auto;
     position: absolute; top: 50%; transform: translate(0,-50%);
-    text-align: center; opacity: 1; z-index: 10; background: #dfddd5; /* #dfddd5 || transparent */
+    text-align: center; opacity: 1; z-index: 10; background: #101010; /* #101010 || transparent */
 }
 
 #q {
     width: calc((200px * 4) - (8px * 2));
-    background: #c5c5c5; color: #586e75;
+    background: #151515; color: #b9b9b9;
     border: 0; border-radius: 1px;
     font-family: "Droid Sans", "Liberation Sans", "DejaVu Sans", "Segoe UI", Sans; font-size: 12pt;
     padding: 4px 8px; height: 24px;
 }
 
 #more {
-    background: transparent; color: #657b83; display: block; 
+    background: transparent; color: #404040; display: block; 
     text-align: center; margin: 0 auto; width: 32px; height: 32px;
     font-weight: bold; cursor: default;
 }
     #plus {
         border: 0; border-radius: 1px 1px 0 0; width: 32px; height: 32px; font-size: 12pt;
-        background: transparent; color: #586e75; font-weight: bold; cursor: pointer;
+        background: transparent; color: #b9b9b9; font-weight: bold; cursor: pointer;
         transition: .2s ease-out;
     }
     #help {
@@ -88,15 +88,15 @@ a:hover, a:active    { color: #eee8d5; }
         position: absolute; left: 0; right: 0; margin: auto;
         font-family: "PragmataPro", "Droid Sans Mono", "Liberation Sans Mono", "DejaVu Sans Mono", "Consolas", "Lucida Console", monospace;
         padding: 8px; text-align: left; border-radius: 1px; opacity: 0;
-        background: #c5c5c5; color: #657b83; transition: .2s ease-out;
+        background: #151515; color: #404040; transition: .2s ease-out;
     }
-    #more:hover #plus { background: #c5c5c5; }
+    #more:hover #plus { background: #151515; }
     #more:hover #help { visibility: visible; opacity: 1; }
         #note { width: 100%; height: 100px; resize: none; border: 0; outline: 0; }
 
 #menu {
     width: 100%; height: 32px; margin: 0 auto;
-    background: transparent; color: #657b83; cursor: default;
+    background: transparent; color: #404040; cursor: default;
 }
     #mnu                   { height: 32px; line-height: 32px; width: calc((250px * 4) + 1px); }
 
@@ -104,17 +104,17 @@ a:hover, a:active    { color: #eee8d5; }
     #menu label            { padding: 0; display: inline-block; font-weight: bold; width: 200px; /* menu width */ }
 
     #menu ul li            { float: left; border-radius: 0 0 1px 1px; height: 32px; text-align: center; transition: .2s ease-out; }
-    #menu ul li:hover      { background: #c5c5c5; color: #839496;  }
+    #menu ul li:hover      { background: #151515; color: #839496;  }
     #menu ul li a          { display: block; white-space: nowrap; padding: 0 10px; }
 
     #menu ul ul {
         display: flex; flex-flow: column wrap; /* column | row(-reverse) */ align-content: flex-start;
         visibility: hidden; opacity: 0; width: calc(250px * 4); /* cols */ height: calc(32px * 3); /* rows */
         position: absolute; bottom: 100%; left: 0; z-index: 11;
-        background: #c5c5c5; border-radius: 1px; transition: .2s ease-out;
+        background: #151515; border-radius: 1px; transition: .2s ease-out;
     }
     #menu ul li:hover > ul { bottom: 100%; visibility: visible; opacity: 1; z-index: 12; height: calc(32px * 3); /* rows */ }
-    #menu ul ul li { background: #c5c5c5; border-radius: 1px; height: 32px; text-align: left; width: 200px; /* menu width */ }
+    #menu ul ul li { background: #151515; border-radius: 1px; height: 32px; text-align: left; width: 200px; /* menu width */ }
 
     /* Menu Colors */
     #menu ul #mnu_1 li:hover { background: #e5322f; }
@@ -194,7 +194,7 @@ var links=[
     ["CryptoPuzzle",                    "https://potatopla.net/crypto/",        ""],
     ["SmashTheStack",                   "http://smashthestack.org/",            ""],
     ["Vulnub",                          "https://www.vulnhub.com/",             ""],
-    ["Metasploitable",                  "http://192.168.56.26",                 ""],
+    ["Metasploitable",                  "http://192.168.58.26",                 ""],
     ["WeChall",                         "https://www.wechall.net/",             ""],
     ["RingZer0",                        "https://ringzer0team.com/",            ""],
     ["Root-Me",                         "http://root-me.org/",                  ""],

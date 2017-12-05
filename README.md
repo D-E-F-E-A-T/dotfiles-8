@@ -51,15 +51,10 @@ stow zathura
 stow -D zathura
 ```
 
-Fancy Workflow
---------------
-
-![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
-
-Nonfancy
+Workflow
 --------
 
-![minimal](https://i.imgur.com/kKL96NE.png)
+![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 
 Thanks
 ------

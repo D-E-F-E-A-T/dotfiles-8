@@ -70,17 +70,17 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = GohuFont:pixelsize=4;1
+font-0 = Dina:size=6;1
 font-1 = Siji:antialias=false:size=6;1
 
 tray-position = right
 tray-padding = 1
-#tray-transparent = true
+tray-transparent = false
 tray-background = #101010
 
-modules-left = menu i3 uptime kernel
+modules-left = menu i3 mpd
 modules-center = date
-modules-right = updates mail temperature cpu memory wlan battery
+modules-right = mail temperature cpu memory wlan battery
 
 
 ;**********************************************************
@@ -247,7 +247,7 @@ date-alt = "%a %d %b %Y"
 time = %H:%M
 time-alt = %H:%M:%S
 
-label = "%{F#2aa198}++%{F-}%{F#2aa198}%date%%{F-} %time% %{F#2aa198}++%{F-}"
+label = "%{F#2aa198}%date%%{F-} %time%"
 
 [module/uptime]
 type = custom/script
@@ -261,7 +261,7 @@ exec = ~/.config/polybar/uptime
 type = custom/script
 interval = 2
 format = "<label>"
-format-prefix = "MPD "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mpd
 

@@ -4,7 +4,7 @@
 # Description: Simple mpd status script to show current song title and album
 # Dependencies: This requires mpd, ncmpcpp and mpc installed
 
-. $HOME/.config/polybar/lemonbar_config
+. $HOME/.config/lemonbar/lemonbar_config
 
 # Check if mpd daemon is running
 mpd_status=$(pgrep -c mpd)
@@ -19,6 +19,7 @@ else
                               
                 title=$(ncmpcpp --current-song={%t} 2> /dev/null)  # Set title
                 album=$(ncmpcpp --current-song={%b} 2> /dev/null)  # Set album
+                album=$(echo $album | cut -b 1-15)
                 title_len=${#title}  # Get the length of the title
 
                 if [[ $title_len > 30 ]];then  # If the title is more than 30 characters

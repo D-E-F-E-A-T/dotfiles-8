@@ -15,7 +15,7 @@
 [colors]
 ; Base colors from .Xresources
 bg          =  ${xrdb:background}
-bg-alt      =  #c5c5c5
+bg-alt      =  #151515
 fg          =  ${xrdb:foreground}
 fg-alt      =  ${xrdb:color8}
 red         =  ${xrdb:color1}
@@ -32,7 +32,6 @@ cyan        =  ${xrdb:color6}
 cyan-alt    =  ${xrdb:color14}
 white       =  ${xrdb:color7}
 white-alt   =  ${xrdb:color15}
-
 
 
 ;**********************************************************
@@ -53,14 +52,17 @@ margin-bottom = 0
 [bar/top]
 monitor   = ${env:MONITOR:LVDS1}
 bottom    = false
-width     = 1346
-height    = 30
-offset-x  = 10
-offset-y  = 10
-override-redirect = true
+width     = 1366
+height    = 24
+offset-x  = 0
+offset-y  = 0
+override-redirect = false
 
 background = ${colors.bg}
 foreground = ${colors.fg}
+
+border-bottom-size = 1
+border-bottom-color = ${colors.bg-alt}
 
 spacing = 0
 padding-left = 0
@@ -68,12 +70,17 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Iosevka Slab:size=10;3
-font-1 = Material Icons:antialia=false:size=12;5
+font-0 = Dina:size=6;1
+font-1 = Siji:antialias=false:size=6;1
 
-modules-left = i3 uptime
+tray-position = right
+tray-padding = 1
+tray-transparent = false
+tray-background = #101010
+
+modules-left = menu i3 mpd
 modules-center = date
-modules-right = updates mail temperature cpu memory wlan battery
+modules-right = mail temperature cpu memory wlan battery
 
 
 ;**********************************************************
@@ -99,69 +106,38 @@ ws-icon-9 = 10;
 
 strip-wsnumbers = true
 
-label-focused = "%icon%"
-label-focused-foreground = ${colors.blue}
-label-focused-background = ${colors.bg-alt}
+label-focused = "%name%"
+label-focused-foreground = ${colors.fg}
+;label-focused-background = ${colors.bg-alt}
 label-focused-padding = 1
 
-label-unfocused = "%icon%"
+label-unfocused =
 label-unfocused-padding = 1
-;label-unfocused-foreground = ${colors.blue-alt}
-label-unfocused-background = ${colors.bg-alt}
+label-unfocused-foreground = ${colors.fg-alt}
+;label-unfocused-background = ${colors.bg-alt}
 
-label-urgent = "%icon%"
-label-urgent-foreground = ${colors.magenta}
-label-urgent-background = ${colors.bg-alt}
+label-urgent = "%name%"
+label-urgent-foreground = ${colors.red}
+;label-urgent-background = ${colors.red}
 label-urgent-padding = 1
 
-label-visible = "%icon%"
-;label-visible-foreground = ${colors.fg-alt}
-label-visible-background = ${colors.bg-alt}
+label-visible =
+label-visible-foreground = ${colors.fg-alt}
+;label-visible-background = ${colors.bg-alt}
 label-visible-padding = 1
-
-[module/bspwm]
-type = internal/bspwm
-;ws-icon-[0-9]+ = label;icon
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;
-
-label-focused = %icon%
-label-focused-foreground = ${colors.blue}
-label-focused-background = ${colors.bg-alt}
-label-focused-padding = 1
-
-label-occupied = %icon%
-label-occupied-background = ${colors.bg-alt}
-label-occupied-padding = 1
-
-label-urgent = %icon%
-label-urgent-background = ${colors.bg-alt}
-label-urgent-padding = 1
-
-label-empty = %icon%
-label-empty-background = ${colors.bg-alt}
-label-empty-padding = 1
 
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.yellow}
+format-prefix = " "
+format-prefix-foreground = ${colors.red}
 label = "%percentage% "
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.cyan}
+format-prefix = " "
+format-prefix-foreground = ${colors.red}
 label = "%percentage_used% "
 
 [module/wlan]
@@ -176,11 +152,11 @@ label-connected = "%essid% "
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.fg-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 ramp-signal-foreground = ${colors.magenta-alt}
 
 [module/eth]
@@ -203,29 +179,29 @@ adapter = ADP1
 full-at = 100
 
 label-discharging = "%percentage%% "
-;format-charging = <animation-charging><label-charging>
-format-discharging = <ramp-capacity><label-discharging>
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
 
-label-full = "full "
-format-full-prefix = " "
-format-full-prefix-foreground = ${colors.blue}
+label-full = " full "
+format-full-prefix = 
+format-full-prefix-foreground = ${colors.red}
 
-format-charging-prefix = 
-format-charging-prefix-foreground = ${colors.blue}
+;format-charging-prefix = BAT
+;format-charging-prefix-foreground = ${colors.red}
 
-ramp-capacity-0 = 
-ramp-capacity-1 =  
-ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.cyan}
+ramp-capacity-0 = 
+ramp-capacity-1 =  
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.red}
 
 label-charging = "Charging %percentage%% "
 label-charging-foreground = ${colors.fg}
 
-; animation-charging-0 = 
-; animation-charging-1 = 
-; animation-charging-2 = 
-; animation-charging-foreground = ${colors.blue}
-; animation-charging-framerate = 750
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.red}
+animation-charging-framerate = 750
 
 [module/temperature]
 type = internal/temperature
@@ -237,26 +213,26 @@ format-warn = <ramp> <label-warn>
 
 label = "%temperature% "
 label-warn = "%temperature% "
-label-warn-foreground = ${colors.red}
+label-warn-foreground = ${colors.fg-alt}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.magenta}
 
 [module/menu]
 type = custom/text
 
-content = "  "
-content-foreground = ${colors.white}
-content-background = ${colors.magenta}
+content = " "
+content-foreground = ${colors.red}
+;content-background = ${colors.magenta}
 click-left = ~/.config/popups/todo/todo
 
 [module/mail]
 type = custom/script
 interval = 1200
-format = "<label> "
-format-prefix = " "
+format = " <label>"
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mail
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
@@ -271,43 +247,63 @@ date-alt = "%a %d %b %Y"
 time = %H:%M
 time-alt = %H:%M:%S
 
-;format-prefix = 
-;format-prefix-foreground = ${colors.foreground-alt}
-;format-underline = #0a6cf5
-
-label = "%{F#e5322f}%date% %{F-}%time%"
+label = "%{F#2aa198}%date%%{F-} %time%"
 
 [module/uptime]
 type = custom/script
 interval = 1200
 format = "<label> "
-format-prefix = "  "
-format-prefix-foreground = ${colors.cyan}
+format-prefix = " "
+format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/uptime
 
 [module/mpd]
 type = custom/script
 interval = 2
 format = "<label>"
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mpd
 
 [module/power-label]
 type = custom/text
-content = "  "
+content = "  "
 
-content-foreground = ${colors.bg}
-content-background = ${colors.magenta-alt}
+content-foreground = ${colors.red}
+;content-background = ${colors.magenta-alt}
 click-left = bash ~/.config/popups/power/power
 
 [module/updates]
 type = custom/script
 interval = 86400
 format = "<label>"
-format-prefix = "  "
-format-prefix-foreground = ${colors.blue}
+format-prefix = "  "
+format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/pkg 
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
+
+[module/kernel]
+type = custom/script
+interval = 86400
+format = "<label>"
+format-prefix = " "
+format-prefix-foreground = ${colors.red}
+exec = uname -r
+
+[module/tor]
+type = custom/script
+interval = 86400
+format = "<label>"
+format-prefix = "  "
+format-prefix-foreground = ${colors.red}
+exec = ~/.config/polybar/tor 
+
+[module/vpn]
+type = custom/script
+interval = 86400
+format = "<label> "
+format-prefix = "  "
+format-prefix-foreground = ${colors.red}
+exec = ~/.config/polybar/vpn
 
 ; vim:ft=dosini

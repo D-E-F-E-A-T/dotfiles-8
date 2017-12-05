@@ -2,9 +2,9 @@
 !
 
 
-URxvt*cursorColor:  #101010
+URxvt*cursorColor:  #b9b9b9
 URxvt*borderColor:  #101010
-*colorUL:           #038d6c
+*colorUL:           #2aa198
 
 ! special
 *.foreground:   #b9b9b9
@@ -12,12 +12,12 @@ URxvt*borderColor:  #101010
 *.cursorColor:  #b9b9b9
 
 ! black
-*.color0:       #101010
+*.color0:       #151515
 *.color8:       #404040
 
 ! red
-*.color1:       #038d6c
-*.color9:       #038d6c
+*.color1:       #2aa198
+*.color9:       #2aa198
 
 ! green
 *.color2:       #505050
@@ -32,8 +32,8 @@ URxvt*borderColor:  #101010
 *.color12:      #686868
 
 ! magenta
-*.color5:       #038d6c
-*.color13:      #038d6c
+*.color5:       #2aa198
+*.color13:      #2aa198
 
 ! cyan
 *.color6:       #8e8e8e

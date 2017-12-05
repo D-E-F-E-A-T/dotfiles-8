@@ -53,14 +53,13 @@ stow -D zathura
 
 Fancy Workflow
 --------------
-Light mode for office
 
 ![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 
 Nonfancy
 --------
 
-[alt minimal](https://i.imgur.com/kKL96NE.png)
+![minimal](https://i.imgur.com/kKL96NE.png)
 
 Thanks
 ------

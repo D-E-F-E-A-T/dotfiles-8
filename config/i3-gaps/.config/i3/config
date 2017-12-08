@@ -118,9 +118,6 @@ bindsym $mod+Shift+c reload
 # Restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 
-# Kill i3 
-bindsym $mod+Shift+Escape exec --no-startup-id i3-msg exit
-
 # Resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -254,9 +251,6 @@ bindsym $mod+b exec --no-startup-id luakit
 
 # Theme switcher
 bindsym $mod+F11 exec --no-startup-id ~/.local/bin/themeswitcher
-
-# View Todo list
-bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
 
 # Mpc play next song
 bindsym $mod+n exec --no-startup-id mpc next

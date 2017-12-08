@@ -61,8 +61,8 @@ override-redirect = false
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-border-bottom-size = 1
-border-bottom-color = ${colors.bg-alt}
+#border-bottom-size = 1
+#border-bottom-color = ${colors.bg-alt}
 
 spacing = 0
 padding-left = 0
@@ -70,17 +70,17 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Dina:size=6;1
-font-1 = Siji:antialias=false:size=6;1
+font-0 = Dina:pixelsize=4;1
+font-1 = Siji:pixelsize=4;2
 
 tray-position = right
 tray-padding = 1
 tray-transparent = false
 tray-background = #101010
 
-modules-left = menu i3 mpd
+modules-left = menu i3 vpn wlan
 modules-center = date
-modules-right = mail temperature cpu memory wlan battery
+modules-right = mail temperature cpu memory battery
 
 
 ;**********************************************************
@@ -152,11 +152,11 @@ label-connected = "%essid% "
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.fg-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 ramp-signal-foreground = ${colors.magenta-alt}
 
 [module/eth]
@@ -223,7 +223,7 @@ ramp-foreground = ${colors.magenta}
 [module/menu]
 type = custom/text
 
-content = " "
+content = " "
 content-foreground = ${colors.red}
 ;content-background = ${colors.magenta}
 click-left = ~/.config/popups/todo/todo
@@ -300,9 +300,9 @@ exec = ~/.config/polybar/tor
 
 [module/vpn]
 type = custom/script
-interval = 86400
+interval = 1200
 format = "<label> "
-format-prefix = "  "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/vpn
 

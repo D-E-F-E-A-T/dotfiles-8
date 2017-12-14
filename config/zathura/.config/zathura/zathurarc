@@ -2,34 +2,34 @@
 
 set font                        "GohuFont 8"
 set default-bg                  "#101010" #00
-set default-fg                  "#b9b9b9" #01
+set default-fg                  "#b2b2b2" #01
 
-set statusbar-fg                "#b9b9b9" #04
+set statusbar-fg                "#b2b2b2" #04
 set statusbar-bg                "#151515"  #01
 
 set inputbar-bg                 "#101010" #00 currently not used
 set inputbar-fg                 "#404040" #02
 
 set notification-error-bg       "#8e8e8e" #08
-set notification-error-fg       "#b9b9b9" #00
+set notification-error-fg       "#b2b2b2" #00
 
 set notification-warning-bg     "#505050" #08
-set notification-warning-fg     "#b9b9b9" #00
+set notification-warning-fg     "#b2b2b2" #00
 
 set highlight-color             "#404040" #0A
-set highlight-active-color      "#b9b9b9" #0D
+set highlight-active-color      "#b2b2b2" #0D
 
 set completion-highlight-fg     "#f7f7f7" #02
 set completion-highlight-bg     "#038d6c" #0C
 
 set completion-bg               "#101010" #02
-set completion-fg               "#b9b9b9" #0C
+set completion-fg               "#b2b2b2" #0C
 
 set notification-bg             "#979696" #0B
-set notification-fg             "#b9b9b9" #00
+set notification-fg             "#b2b2b2" #00
 
 set recolor-lightcolor          "#101010" #00
-set recolor-darkcolor           "#b9b9b9" #06
+set recolor-darkcolor           "#b2b2b2" #06
 set recolor                     "true"
 
 # setting recolor-keep true will keep any color your pdf has.

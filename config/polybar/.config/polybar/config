@@ -15,7 +15,7 @@
 [colors]
 ; Base colors from .Xresources
 bg          =  ${xrdb:background}
-bg-alt      =  #151515
+bg-alt      =  #202020
 fg          =  ${xrdb:foreground}
 fg-alt      =  ${xrdb:color8}
 red         =  ${xrdb:color1}
@@ -43,7 +43,6 @@ white-alt   =  ${xrdb:color15}
 margin-top = 0
 margin-bottom = 0
 
-
 ;*********************************************************
 ;
 ;                       BAR SETTINGS
@@ -53,7 +52,7 @@ margin-bottom = 0
 monitor   = ${env:MONITOR:LVDS1}
 bottom    = false
 width     = 1366
-height    = 24
+height    = 18
 offset-x  = 0
 offset-y  = 0
 override-redirect = false
@@ -61,26 +60,28 @@ override-redirect = false
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-#border-bottom-size = 1
-#border-bottom-color = ${colors.bg-alt}
+border-bottom-size = 5
+border-bottom-color = ${colors.bg}
+border-top-size = 5
+border-top-color = ${colors.bg}
 
 spacing = 0
-padding-left = 0
-padding-right = 0
+padding-left = 1
+padding-right = 1
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Dina:pixelsize=4;1
-font-1 = Siji:pixelsize=4;2
+font-0 = tewi:pixelsize=8;2
+font-1 = Wuncon Siji:pixelsize=8;2
 
 tray-position = right
 tray-padding = 1
 tray-transparent = false
 tray-background = #101010
 
-modules-left = menu i3 vpn wlan
+modules-left = i3
 modules-center = date
-modules-right = mail temperature cpu memory battery
+modules-right = temperature cpu memory battery
 
 
 ;**********************************************************
@@ -107,23 +108,23 @@ ws-icon-9 = 10;
 strip-wsnumbers = true
 
 label-focused = "%name%"
-label-focused-foreground = ${colors.fg}
-;label-focused-background = ${colors.bg-alt}
+label-focused-foreground = ${colors.white-alt}
+label-focused-background = ${colors.red}
 label-focused-padding = 1
 
-label-unfocused =
+label-unfocused = "%name%"
 label-unfocused-padding = 1
-label-unfocused-foreground = ${colors.fg-alt}
-;label-unfocused-background = ${colors.bg-alt}
+label-unfocused-foreground = ${colors.blue}
+label-unfocused-background = ${colors.bg-alt}
 
 label-urgent = "%name%"
-label-urgent-foreground = ${colors.red}
-;label-urgent-background = ${colors.red}
+label-urgent-foreground = ${colors.bg}
+label-urgent-background = ${colors.white}
 label-urgent-padding = 1
 
-label-visible =
-label-visible-foreground = ${colors.fg-alt}
-;label-visible-background = ${colors.bg-alt}
+label-visible = "%name%"
+label-visible-foreground = ${colors.blue}
+label-visible-background = ${colors.bg-alt}
 label-visible-padding = 1
 
 [module/cpu]
@@ -245,7 +246,7 @@ date =
 date-alt = "%a %d %b %Y"
 
 time = %H:%M
-time-alt = %H:%M:%S
+time-alt = %H:%M
 
 label = "%{F#2aa198}%date%%{F-} %time%"
 

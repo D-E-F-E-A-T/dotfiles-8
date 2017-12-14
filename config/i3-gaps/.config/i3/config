@@ -76,16 +76,16 @@ bindsym $mod+a focus parent
 # Initialize workspace
 #list of icons to use with i3bar requires fontawesome
 #
-set $w1 1:surf
-set $w2 2:code
-set $w3 3:docs
-set $w4 4:medi
-set $w5 5:file
-set $w6 6:term
-set $w7 7:vlab
-set $w8 8:apps
-set $w9 9:hack
-set $w10 10:misc
+set $w1 1:1
+set $w2 2:2
+set $w3 3:3
+set $w4 4:4
+set $w5 5:5
+set $w6 6:6
+set $w7 7:7
+set $w8 8:8
+set $w9 9:9
+set $w10 10:10
  
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -155,46 +155,46 @@ bindsym $mod+minus scratchpad show
 #smart_borders on
 
 # Global gaps size
-gaps inner 0
-gaps outer 0
+# gaps inner 0
+# gaps outer 0
 
-set $mode_gaps Gaps: (o) outer, (i) inner
-set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
-set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-bindsym $mod+Shift+g mode "$mode_gaps"
+# set $mode_gaps Gaps: (o) outer, (i) inner
+# set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+# set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+# bindsym $mod+Shift+g mode "$mode_gaps"
 
-mode "$mode_gaps" {
-        bindsym o      mode "$mode_gaps_outer"
-        bindsym i      mode "$mode_gaps_inner"
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
+# mode "$mode_gaps" {
+#         bindsym o      mode "$mode_gaps_outer"
+#         bindsym i      mode "$mode_gaps_inner"
+#         bindsym Return mode "default"
+#         bindsym Escape mode "default"
+# }
 
-mode "$mode_gaps_inner" {
-        bindsym plus  gaps inner current plus 5
-        bindsym minus gaps inner current minus 5
-        bindsym 0     gaps inner current set 0
+# mode "$mode_gaps_inner" {
+#         bindsym plus  gaps inner current plus 5
+#         bindsym minus gaps inner current minus 5
+#         bindsym 0     gaps inner current set 0
 
-        bindsym Shift+plus  gaps inner all plus 5
-        bindsym Shift+minus gaps inner all minus 5
-        bindsym Shift+0     gaps inner all set 0
+#         bindsym Shift+plus  gaps inner all plus 5
+#         bindsym Shift+minus gaps inner all minus 5
+#         bindsym Shift+0     gaps inner all set 0
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
+#         bindsym Return mode "default"
+#         bindsym Escape mode "default"
+# }
 
-mode "$mode_gaps_outer" {
-        bindsym plus  gaps outer current plus 5
-        bindsym minus gaps outer current minus 5
-        bindsym 0     gaps outer current set 0
+# mode "$mode_gaps_outer" {
+#         bindsym plus  gaps outer current plus 5
+#         bindsym minus gaps outer current minus 5
+#         bindsym 0     gaps outer current set 0
 
-        bindsym Shift+plus  gaps outer all plus 5
-        bindsym Shift+minus gaps outer all minus 5
-        bindsym Shift+0     gaps outer all set 0
+#         bindsym Shift+plus  gaps outer all plus 5
+#         bindsym Shift+minus gaps outer all minus 5
+#         bindsym Shift+0     gaps outer all set 0
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
+#         bindsym Return mode "default"
+#         bindsym Escape mode "default"
+# }
 
 # Specify gaps for specific workspace
 # workspace $w1 gaps outer 15
@@ -270,9 +270,11 @@ set_from_resource $darkmagenta color5  #000000
 set_from_resource $magenta     color13 #000000
 set_from_resource $darkcyan    color6  #000000
 set_from_resource $cyan        color14 #000000
-set_from_resource $white       color15 #000000
+set_from_resource $white       color7  #000000
+set_from_resource $darkwhite   color15 #000000
 
-set $darkblack #181818
+set $darkblack   #181818
+set $background  #101010
 
 # Window colors           border      background   text            indicator    child_border
 client.focused            $blue       $blue        $white          $darkblack  $darkblack
@@ -283,25 +285,24 @@ client.urgent             $darkblack  $darkblack   $white          $darkblack  $
 #Start i3bar to display a workspace bar
 #Uncomment to use the default i3bar status
 # bar {      
-#    
-#           status_command  $HOME/.local/bin/conkyi3.sh     
+    
+#           #status_command  $HOME/.local/bin/conkyi3.sh     
 #           position top
 #           font xft:tewi, FontAwesome 8
 #           strip_workspace_numbers yes
-#          
+          
 #           colors {
-#               separator          #161615
-#               background         #020202
-#               statusline         #111111
-#              
-#               # Bar colors       border    background    text 
-#               focused_workspace  #07090d   #020202       #5E468C
-#               active_workspace   #07090d   #020202       #268bd2
-#               inactive_workspace #07090d   #020202       #899CA1
-#               urgent_workspace   #07090d   #020202       #287373
+#               separator          $darkblack
+#               background         $background
+#               statusline         $darkblack
+              
+#               # Bar colors       border     background    text 
+#               focused_workspace  $darkblack $red          $white
+#               active_workspace   $darkblack $blue         $white
+#               inactive_workspace $darkblack $darkblack    $cyan
+#               urgent_workspace   $darkblack $white        $darkblack
 #          }
 # }
-
 
 # Fancy title bar
 font pango:lemon 18
@@ -312,7 +313,7 @@ for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
 #************  Startup apps ***********************
 
 # Bar start
-exec --no-startup-id . $HOME/.local/bin/barstart &
+#exec --no-startup-id . $HOME/.local/bin/barstart &
 
 
 #*************  Other settings  *********************

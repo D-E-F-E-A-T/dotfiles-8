@@ -53,7 +53,7 @@ Plugin 'xolox/vim-notes'
 "Plugin 'xuhdev/vim-latex-live-preview'
 
 """ Colorscheme
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
 "Plugin 'lilydjwg/colorizer'
 "Plugin 'morhetz/gruvbox'
 "Plugin 'dylanaraps/wal.vim'
@@ -73,7 +73,7 @@ colorscheme wal
 
 "" Status line
 set laststatus=0
-set t_Co=16
+set t_Co=256
  let g:lightline = {
        \ 'colorscheme': 'wal',
       \ }      

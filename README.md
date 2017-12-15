@@ -29,7 +29,7 @@ Installation
 ------------
 
 **Warning:** INSTALL ONLY THE CONFIG YOU NEED FOR EASIER DEBUGGING. I AM NOT
-RESPONSIBLE IF YOUR SYSTEM BREAK BUT IF YOU NEED HELP DEBUGGING AM WILLING TO
+RESPONSIBLE IF YOUR SYSTEM BREAK BUT IF YOU NEED HELP WITH DEBUGGING AM WILLING TO
 HELP :stuck_out_tongue_winking_eye:
 
 1. Clone this repo.
@@ -60,7 +60,7 @@ Current
 -------
 WM: `bspwm`
 
-![current](https://imgur.com/htkkc2b.png)
+![current](https://imgur.com/fk2BZZ1.png)
 
 full album [here](https://imgur.com/a/IqWMW).
 

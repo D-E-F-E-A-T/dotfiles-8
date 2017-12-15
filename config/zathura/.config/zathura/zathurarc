@@ -1,35 +1,45 @@
-# zathurarc
+# ▒███████▒ ▄▄▄     ▄▄▄█████▓ ██░ ██  █    ██  ██▀███   ▄▄▄       ██▀███   ▄████▄  
+# ▒ ▒ ▒ ▄▀░▒████▄   ▓  ██▒ ▓▒▓██░ ██▒ ██  ▓██▒▓██ ▒ ██▒▒████▄    ▓██ ▒ ██▒▒██▀ ▀█  
+# ░ ▒ ▄▀▒░ ▒██  ▀█▄ ▒ ▓██░ ▒░▒██▀▀██░▓██  ▒██░▓██ ░▄█ ▒▒██  ▀█▄  ▓██ ░▄█ ▒▒▓█    ▄ 
+# ▄▀▒   ░░██▄▄▄▄██░ ▓██▓ ░ ░▓█ ░██ ▓▓█  ░██░▒██▀▀█▄  ░██▄▄▄▄██ ▒██▀▀█▄  ▒▓▓▄ ▄██▒
+# ▒███████▒ ▓█   ▓██▒ ▒██▒ ░ ░▓█▒░██▓▒▒█████▓ ░██▓ ▒██▒ ▓█   ▓██▒░██▓ ▒██▒▒ ▓███▀ ░
+# ░▒▒ ▓░▒░▒ ▒▒   ▓▒█░ ▒ ░░    ▒ ░░▒░▒░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░░ ░▒ ▒  ░
+# ░░▒ ▒ ░ ▒  ▒   ▒▒ ░   ░     ▒ ░▒░ ░░░▒░ ░ ░   ░▒ ░ ▒░  ▒   ▒▒ ░  ░▒ ░ ▒░  ░  ▒   
+# ░ ░ ░ ░ ░  ░   ▒    ░       ░  ░░ ░ ░░░ ░ ░   ░░   ░   ░   ▒     ░░   ░ ░        
+# ░ ░          ░  ░         ░  ░  ░   ░        ░           ░  ░   ░     ░ ░      
+# ░                                                                       ░        
+#  
 
-set font                        "GohuFont 8"
-set default-bg                  "#101010" #00
-set default-fg                  "#b2b2b2" #01
+set font                        "Cantarell 8"
+set default-bg                  "#080a11" #00
+set default-fg                  "#a9aeb4" #01
 
-set statusbar-fg                "#b2b2b2" #04
-set statusbar-bg                "#151515"  #01
+set statusbar-fg                "#a9aeb4"    #04
+set statusbar-bg                "#0c0e17" #01
 
-set inputbar-bg                 "#101010" #00 currently not used
-set inputbar-fg                 "#404040" #02
+set inputbar-bg                 "#0c0e17" #00 currently not used
+set inputbar-fg                 "#3d4550" #02
 
-set notification-error-bg       "#8e8e8e" #08
-set notification-error-fg       "#b2b2b2" #00
+set notification-error-bg       "#49b5b5" #08
+set notification-error-fg       "#a9aeb4" #00
 
-set notification-warning-bg     "#505050" #08
-set notification-warning-fg     "#b2b2b2" #00
+set notification-warning-bg     "#484f59" #08
+set notification-warning-fg     "#a9aeb4" #00
 
-set highlight-color             "#404040" #0A
-set highlight-active-color      "#b2b2b2" #0D
+set highlight-color             "#3d4550" #0A
+set highlight-active-color      "#a9aeb4" #0D
 
-set completion-highlight-fg     "#f7f7f7" #02
-set completion-highlight-bg     "#038d6c" #0C
+set completion-highlight-fg     "#dedee0"  #02
+set completion-highlight-bg     "#0f8182" #0C
 
-set completion-bg               "#101010" #02
-set completion-fg               "#b2b2b2" #0C
+set completion-bg               "#080a11" #02
+set completion-fg               "#a9aeb4" #0C
 
-set notification-bg             "#979696" #0B
-set notification-fg             "#b2b2b2" #00
+set notification-bg             "#689eb4" #0B
+set notification-fg             "#a9aeb4" #00
 
-set recolor-lightcolor          "#101010" #00
-set recolor-darkcolor           "#b2b2b2" #06
+set recolor-lightcolor          "#080a11" #00
+set recolor-darkcolor           "#a9aeb4" #06
 set recolor                     "true"
 
 # setting recolor-keep true will keep any color your pdf has.

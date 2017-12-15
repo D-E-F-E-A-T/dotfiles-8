@@ -1,14 +1,14 @@
-gtk-color-scheme = "base_color:#151515\nbg_color:#101010"
-gtk-color-scheme = "text_color:#b9b9b9\nfg_color:#404040"
-gtk-color-scheme = "tooltip_bg_color:#151515\ntooltip_fg_color:#b9b9b9\nlink_color:#404040"
+gtk-color-scheme = "base_color:#0c0e17\nbg_color:#080a11"
+gtk-color-scheme = "text_color:#a9aeb4\nfg_color:#3d4550"
+gtk-color-scheme = "tooltip_bg_color:#0c0e17\ntooltip_fg_color:#a9aeb4\nlink_color:#3d4550"
 
 ## Dark-Flat
-gtk-color-scheme = "theme_bg_dark_color:#101010\ntheme_fg_dark_color:#b9b9b9\ntheme_text_dark_color:#b9b9b9"
+gtk-color-scheme = "theme_bg_dark_color:#080a11\ntheme_fg_dark_color:#a9aeb4\ntheme_text_dark_color:#a9aeb4"
 
 #  selection text color
-gtk-color-scheme = "selected_fg_color:#101010"
+gtk-color-scheme = "selected_fg_color:#080a11"
 
-gtk-color-scheme = "selected_bg_color:#2aa198"
+gtk-color-scheme = "selected_bg_color:#0f8182"
 
 gtk-auto-mnemonics	= 1
 
@@ -176,11 +176,11 @@ style "test" = "default" {
   text[SELECTED]    =  "#0000FF"
   text[INSENSITIVE] =  "#0000FF"
 
-  base[NORMAL]      =  "#101010F00"
-  base[ACTIVE]      =  "#101010F00"
-  base[PRELIGHT]    =  "#101010F00"
-  base[SELECTED]    =  "#101010F00"
-  base[INSENSITIVE] =  "#101010F00"
+  base[NORMAL]      =  "#080a11F00"
+  base[ACTIVE]      =  "#080a11F00"
+  base[PRELIGHT]    =  "#080a11F00"
+  base[SELECTED]    =  "#080a11F00"
+  base[INSENSITIVE] =  "#080a11F00"
 }
 
 style "wide" {
@@ -247,7 +247,7 @@ style "entry" { # text
 }
 
 style "expander" {
-	bg[NORMAL]		= "#101010"
+	bg[NORMAL]		= "#080a11"
 	fg[NORMAL]		= shade (2.0, @text_color)
 	fg[PRELIGHT]	= shade (2.0, @text_color)
 
@@ -527,7 +527,7 @@ style "tooltips" {
 	GtkWidget::new-tooltip-style	= 0
 
 	engine "murrine" {
-		border_colors	= { "#151515", "#151515" }
+		border_colors	= { "#0c0e17", "#0c0e17" }
 	}
 }
 

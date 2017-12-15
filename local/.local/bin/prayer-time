@@ -14,7 +14,7 @@ image='/home/mohabaks/Pictures/notify/prayer/cover1.jpg'
 
 # fajr msg
 fajr_msg='
-<span foreground="'$FG'"><span foreground="'$RED'">Salah:</span> Fajr
+<span foreground="'$FG'"><span foreground="'$MAGENTA'">Salah:</span> Fajr
 
 "Verily, the prayer is enjoined on the believers at a fixed hours".
 [Quran 4:103]
@@ -23,7 +23,7 @@ fajr_msg='
 '
 # Dhuhr msg
 dhur_msg='
-<span foreground="'$FG'"><span foreground="'$RED'">Salah:</span> Dhuhr
+<span foreground="'$FG'"><span foreground="'$MAGENTA'">Salah:</span> Dhuhr
 
 "Verily, the prayer is enjoined on the believers at a fixed hours".
 [Quran 4:103]
@@ -32,7 +32,7 @@ dhur_msg='
 
 # Asr msg
 asr_msg='
-<span foreground="'$FG'"><span foreground="'$RED'">Salah:</span> Asr
+<span foreground="'$FG'"><span foreground="'$MAGENTA'">Salah:</span> Asr
 
 "Verily, the prayer is enjoined on the believers at a fixed hours".
 [Quran 4:103]
@@ -41,7 +41,7 @@ asr_msg='
 
 # Maghrib msg
 magh_msg='
-<span foreground="'$FG'"><span foreground="'$RED'">Salah:</span> Maghrib
+<span foreground="'$FG'"><span foreground="'$MAGENTA'">Salah:</span> Maghrib
 
 "Verily, the prayer is enjoined on the believers at a fixed hours".
 [Quran 4:103]
@@ -50,7 +50,7 @@ magh_msg='
 
 # Isha'a
 isha_msg="
-<span foreground='$FG'><span foreground='$RED'>Salah:</span> Isha'a
+<span foreground='$FG'><span foreground='$MAGENTA'>Salah:</span> Isha'a
 
 \"Verily, the prayer is enjoined on the believers at a fixed hours\".
 [Quran 4:103]

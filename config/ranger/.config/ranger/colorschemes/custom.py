@@ -80,7 +80,7 @@ class Default(ColorScheme):
         elif context.in_titlebar:
             #attr |= bold
             if context.hostname:
-                fg = red if context.bad else red
+                fg = red if context.bad else magenta
             elif context.directory:
                 fg = green
             elif context.tab:

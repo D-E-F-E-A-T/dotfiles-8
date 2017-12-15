@@ -7,16 +7,26 @@
 . $HOME/.local/bin/color-parser
 
 cat <<EOF
-# zathurarc
+# ▒███████▒ ▄▄▄     ▄▄▄█████▓ ██░ ██  █    ██  ██▀███   ▄▄▄       ██▀███   ▄████▄  
+# ▒ ▒ ▒ ▄▀░▒████▄   ▓  ██▒ ▓▒▓██░ ██▒ ██  ▓██▒▓██ ▒ ██▒▒████▄    ▓██ ▒ ██▒▒██▀ ▀█  
+# ░ ▒ ▄▀▒░ ▒██  ▀█▄ ▒ ▓██░ ▒░▒██▀▀██░▓██  ▒██░▓██ ░▄█ ▒▒██  ▀█▄  ▓██ ░▄█ ▒▒▓█    ▄ 
+# ▄▀▒   ░░██▄▄▄▄██░ ▓██▓ ░ ░▓█ ░██ ▓▓█  ░██░▒██▀▀█▄  ░██▄▄▄▄██ ▒██▀▀█▄  ▒▓▓▄ ▄██▒
+# ▒███████▒ ▓█   ▓██▒ ▒██▒ ░ ░▓█▒░██▓▒▒█████▓ ░██▓ ▒██▒ ▓█   ▓██▒░██▓ ▒██▒▒ ▓███▀ ░
+# ░▒▒ ▓░▒░▒ ▒▒   ▓▒█░ ▒ ░░    ▒ ░░▒░▒░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░░ ░▒ ▒  ░
+# ░░▒ ▒ ░ ▒  ▒   ▒▒ ░   ░     ▒ ░▒░ ░░░▒░ ░ ░   ░▒ ░ ▒░  ▒   ▒▒ ░  ░▒ ░ ▒░  ░  ▒   
+# ░ ░ ░ ░ ░  ░   ▒    ░       ░  ░░ ░ ░░░ ░ ░   ░░   ░   ░   ▒     ░░   ░ ░        
+# ░ ░          ░  ░         ░  ░  ░   ░        ░           ░  ░   ░     ░ ░      
+# ░                                                                       ░        
+#  
 
 set font                        "Cantarell 8"
 set default-bg                  "$BG" #00
 set default-fg                  "$FG" #01
 
-set statusbar-fg                "$MAGENTA" #04
-set statusbar-bg                "$BLACK"  #01
+set statusbar-fg                "$FG"    #04
+set statusbar-bg                "$BLACK" #01
 
-set inputbar-bg                 "$BG" #00 currently not used
+set inputbar-bg                 "$BLACK" #00 currently not used
 set inputbar-fg                 "$BBLACK" #02
 
 set notification-error-bg       "$CYAN" #08
@@ -28,8 +38,8 @@ set notification-warning-fg     "$WHITE" #00
 set highlight-color             "$BBLACK" #0A
 set highlight-active-color      "$FG" #0D
 
-set completion-highlight-fg     "$FG" #02
-set completion-highlight-bg     "$BLUE" #0C
+set completion-highlight-fg     "$BWHITE"  #02
+set completion-highlight-bg     "$MAGENTA" #0C
 
 set completion-bg               "$BG" #02
 set completion-fg               "$FG" #0C

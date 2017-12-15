@@ -7,7 +7,7 @@
 #************** Colors ******************
 
 # Color directory
-CD="$HOME/.colors/monocyan"
+CD="$HOME/.colors/pare"
 
 # Fetch the Colors
 BG=`cat ${CD} | grep -i background: | tail -c 8`

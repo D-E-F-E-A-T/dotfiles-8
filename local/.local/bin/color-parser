@@ -4,7 +4,7 @@
 #              other scripts that relies on term colors.
 
 
-#************** Colors ******************
+##************** Colors ******************
 
 # Color directory
 CD="$HOME/.colors/pare"

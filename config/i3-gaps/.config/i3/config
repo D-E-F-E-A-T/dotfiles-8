@@ -150,6 +150,7 @@ bindsym $mod+minus scratchpad show
 
 #  i3-gaps settings 
 #  More info visit: https://github.com/Airblader/i3
+# Uncomment bellow lines if your using i3-gaps
 
 #smart_gaps on     
 #smart_borders on
@@ -274,6 +275,7 @@ set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
 set $darkblack   #161824
+set $background  #101010
 
 # Window colors           border      background   text            indicator    child_border
 client.focused            $blue       $blue        $white          $darkblack  $darkblack
@@ -312,13 +314,15 @@ for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
 #************  Startup apps ***********************
 
 # Bar start
-#exec --no-startup-id . $HOME/.local/bin/barstart &
-
+exec --no-startup-id . $HOME/.local/bin/barstart &
+# Other apps are being started by .xinitrc check it to see what apps are being
+# started so your i3 works correct e.g xresource file and import them here if
+# your using DM.
 
 #*************  Other settings  *********************
 
 # Set per-application border
-for_window [class="^.*"] border pixel 1 
+for_window [class="^.*"] border pixel 1
 #for_window [class="(?i)urxvt"] border pixel 4
 # Uncomment bellow line for fancy urxvt title bar
 #for_window [class="(?i)urxvt"] border normal 0
@@ -334,7 +338,8 @@ for_window [window_role="Preferences"] floating enable
 for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
 for_window [class="Pavucontrol"] floating enable
-#for_window [class="^.*"] floating enable
+# Uncomment bellow line for all i3 apps to be float e.g float wm
+#for_window [class="^.*"] floating enable 
 
 # Starting apps on a specific workspace
 assign [class="^Tor Browser$"]           $w1

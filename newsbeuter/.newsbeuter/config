@@ -20,12 +20,11 @@ player mpv
 refresh-on-startup yes
 reload-time 20
 reload-threads 2
-#show-read-articles no
+show-read-articles no
 show-read-feeds no
 
 
 # binds ----------------------------------------------------------------
-
 
 bind-key \ reload-all
 bind-key "RIGHT" select-tag
@@ -71,8 +70,3 @@ color listnormal                                            default   default
 color listfocus                                             black     green
 color info                                                  blue      black
 color article                                               default   default
-
-
-
-
-

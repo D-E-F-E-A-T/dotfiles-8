@@ -51,16 +51,18 @@ stow zathura
 stow -D zathura
 ```
 
-Current Screenshot
-------------------
-`bspwm`
+Current
+-------
+WM: `bspwm`
+
 ![current](https://imgur.com/htkkc2b.png)
 
-full album [here](https://imgur.com/a/IqWMW)
+full album [here](https://imgur.com/a/IqWMW).
 
 Previous Workflow
 -----------------
-`i3-gaps`
+
+WM: `i3-gaps`
 
 ![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 

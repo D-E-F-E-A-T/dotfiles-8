@@ -38,7 +38,7 @@ Plugin 'nvie/vim-flake8'
 "Plugin 'jistr/vim-nerdtree-tabs'
 "Plugin 'jmcomets/vim-pony'
 "Plugin 'mjbrownie/vim-htmldjango_omnicomplete'
-Plugin 'othree/html5.vim'
+"Plugin 'othree/html5.vim'
 Plugin 'PotatoesMaster/i3-vim-syntax'
 "Plugin 'twe4ked/vim-colorscheme-switcher'
 Plugin 'jmcantrell/vim-virtualenv'
@@ -55,7 +55,7 @@ Plugin 'tmux-plugins/vim-tmux'
 Plugin 'Valloric/YouCompleteMe'
 "Plugin 'vim-scripts/indentpython.vim'
 Plugin 'junegunn/goyo.vim'
-Plugin 'xolox/vim-notes'
+"Plugin 'xolox/vim-notes'
 "Plugin 'xuhdev/vim-latex-live-preview'
 
 """ Colorscheme
@@ -79,11 +79,11 @@ colorscheme wal
 
 "" Status line
 set laststatus=0
-set t_Co=256
+set t_Co=16
  let g:lightline = {
        \ 'colorscheme': 'wal',
       \ }      
-"}}} 
+ "}}} 
 
                         
 " UI Config {{{ 

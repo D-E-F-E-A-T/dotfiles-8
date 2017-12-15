@@ -36,8 +36,8 @@ theme.menu_disabled_fg = "#3d4550"
 theme.menu_disabled_bg = theme.menu_bg
 theme.menu_enabled_fg = theme.menu_fg
 theme.menu_enabled_bg = theme.menu_bg
-theme.menu_active_fg = "#686868"
-theme.menu_active_bg = theme.menu_bg
+theme.menu_active_fg =  "#686868"
+theme.menu_active_bg =  theme.menu_bg
 
 -- Proxy manager
 theme.proxy_active_menu_fg      = '#f7f7f7'

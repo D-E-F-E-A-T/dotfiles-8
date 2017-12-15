@@ -7,9 +7,7 @@ gtk-color-scheme = "theme_bg_dark_color:#080a11\ntheme_fg_dark_color:#a9aeb4\nth
 
 #  selection text color
 gtk-color-scheme = "selected_fg_color:#080a11"
-
 gtk-color-scheme = "selected_bg_color:#0f8182"
-
 gtk-auto-mnemonics	= 1
 
 style "default" {

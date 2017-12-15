@@ -10,20 +10,20 @@
 
 Setup Description
 -----------------
-* Bar `polybar`
-* Browser `firefox`
+* Bar `polybar` `lemonbar`
+* Browser `firefox` `luakit`
 * Compositor `compton`
 * IRC client `weechat`
 * File Manager `ranger`
-* Font `Iosevka`
+* Font `Iosevka` `tewi`
 * Mail client `mutt`
 * Media player `mpv`
 * Music player `ncmpcpp`
-* Program launcher `rofi`
+* Program launcher `dmenu`
 * PDF viewer `zathura`
 * Text editor `vim`
 * Terminal emulator `urxvt-patched`
-* Window manager `i3-gaps`
+* Window manager `i3-gaps` `bspwm`
 
 Installation
 ------------
@@ -51,8 +51,16 @@ stow zathura
 stow -D zathura
 ```
 
-Workflow
---------
+Current Screenshot
+------------------
+`bspwm`
+![current](https://imgur.com/htkkc2b.png)
+
+full album [here](https://imgur.com/a/IqWMW)
+
+Previous Workflow
+-----------------
+`i3-gaps`
 
 ![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 

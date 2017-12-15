@@ -20,5 +20,5 @@ compton --config ~/.compton.conf -b &
 dunst -config $HOME/.config/dunst/dunstrc &  
 xrdb -load -I$HOME ~/.Xresources
 . $HOME/.local/bin/urxvt_daemon & 
-
-exec i3
+sxhkd &
+exec bspwm

@@ -128,7 +128,7 @@ super + Return
 
 # program launcher
 super + d
-	rofi -show run
+	dmenu_run  -b -w 1346 -x 10 -y 10 -lh 30 -nf "#a9aeb4" -sb "#0f8182" -sf "#f7f7f7" -nb "#080a11" -fn "Iosevka-8"
 
 # make sxhkd reload its configuration files:
 super + Escape

@@ -7,10 +7,10 @@
 PW=180
 PH=70
 PX=1176
-PY=58
+PY=78
 
 # Settings for n30f for fancy look
-n30f -d -x 1176 -y 30 $HOME/.config/popups/power/bg.png &
+n30f -d -x 1176 -y 48 $HOME/.config/popups/power/bg.png &
 
 
 echo "  %{F$RED}%{F-} %{A:s:}Suspend%{A}  %{F$BLUE} %{F-}%{A:l:}Lock%{A} %{F$MAGENTA} %{F-}%{A:e:}Exit%{A}" | lemonbar -g ${PW}x${PH}+${PX}+${PY} -f "$FONT1" -f "$FONT3" -B "$BG" -F "$FG" -dp | \

@@ -54,11 +54,10 @@ stow -D zathura
 
 Current
 -------
+
 WM: `bspwm`
 
 ![current](https://imgur.com/fk2BZZ1.png)
-
-full album [here](https://imgur.com/a/IqWMW).
 
 Previous Workflow
 -----------------

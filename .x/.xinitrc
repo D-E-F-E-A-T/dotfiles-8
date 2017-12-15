@@ -15,10 +15,12 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-nitrogen --restore  &                             # restore wallpaper
+
+sxhkd &     
+nitrogen --restore  &   
 compton --config ~/.compton.conf -b &
 dunst -config $HOME/.config/dunst/dunstrc &  
 xrdb -load -I$HOME ~/.Xresources
 . $HOME/.local/bin/urxvt_daemon & 
-sxhkd &
+
 exec bspwm

@@ -17,7 +17,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+Escape exec i3-msg exit
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -lh 20 -nf "#b9b9b9" -sb "#2aa198" -sf "#f7f7f7" -nb "#101010" -fn "tewi-8"
+bindsym $mod+d exec  --no-startup-id dmenu_run -b -lh 20 -nf "#a9aeb4" -sb "#0f8182" -sf "#f7f7f7" -nb "#080a11" -fn "tewi-8"
 
 # Start Rofi (a program launcher, ssh, window switcher)
 # https://davedavenport.github.io/rofi/
@@ -76,16 +76,16 @@ bindsym $mod+a focus parent
 # Initialize workspace
 #list of icons to use with i3bar requires fontawesome
 #
-set $w1 1:1
-set $w2 2:2
-set $w3 3:3
-set $w4 4:4
-set $w5 5:5
-set $w6 6:6
-set $w7 7:7
-set $w8 8:8
-set $w9 9:9
-set $w10 10:10
+set $w1 1:surf
+set $w2 2:code
+set $w3 3:read
+set $w4 4:medi
+set $w5 5:file
+set $w6 6:term
+set $w7 7:vlab
+set $w8 8:apps
+set $w9 9:hack
+set $w10 10:misc
  
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -273,8 +273,7 @@ set_from_resource $cyan        color14 #000000
 set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
-set $darkblack   #181818
-set $background  #101010
+set $darkblack   #161824
 
 # Window colors           border      background   text            indicator    child_border
 client.focused            $blue       $blue        $white          $darkblack  $darkblack

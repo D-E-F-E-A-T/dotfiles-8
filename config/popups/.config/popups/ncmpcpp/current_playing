@@ -5,7 +5,7 @@
 . $HOME/.local/bin/color-parser
 
 # create notify title
-title="<span foreground='$RED'>Now Playing</span>"
+title="<span foreground='$MAGENTA'>Now Playing</span>"
 
 # get current album
 album=$(ncmpcpp --current-song={%b} 2> /dev/null)

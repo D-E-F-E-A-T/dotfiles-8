@@ -15,7 +15,7 @@
 [colors]
 ; Base colors from .Xresources
 bg          =  ${xrdb:background}
-bg-alt      =  #202020
+bg-alt      =  ${xrdb:color0}
 fg          =  ${xrdb:foreground}
 fg-alt      =  ${xrdb:color8}
 red         =  ${xrdb:color1}
@@ -52,7 +52,7 @@ margin-bottom = 0
 monitor   = ${env:MONITOR:LVDS1}
 bottom    = false
 width     = 1366
-height    = 18
+height    = 15
 offset-x  = 0
 offset-y  = 0
 override-redirect = false
@@ -66,22 +66,22 @@ border-top-size = 5
 border-top-color = ${colors.bg}
 
 spacing = 0
-padding-left = 1
-padding-right = 1
+padding-left = 0
+padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = tewi:pixelsize=8;2
-font-1 = Wuncon Siji:pixelsize=8;2
+font-0 = tewi:pixelsize=4;2
+font-1 = Wuncon Siji:pixelsize=4;2
 
 tray-position = right
 tray-padding = 1
 tray-transparent = false
 tray-background = #101010
 
-modules-left = i3
+modules-left = menu i3 sepa vpn sepa mail
 modules-center = date
-modules-right = temperature cpu memory battery
+modules-right = temperature sepa cpu sepa memory sepa battery
 
 
 ;**********************************************************
@@ -108,21 +108,21 @@ ws-icon-9 = 10;
 strip-wsnumbers = true
 
 label-focused = "%name%"
-label-focused-foreground = ${colors.white-alt}
-label-focused-background = ${colors.red}
-label-focused-padding = 1
+label-focused-foreground = ${colors.fg}
+;label-focused-background = ${colors.magenta}
+label-focused-padding = 0
 
-label-unfocused = "%name%"
+label-unfocused = 
 label-unfocused-padding = 1
 label-unfocused-foreground = ${colors.blue}
 label-unfocused-background = ${colors.bg-alt}
 
 label-urgent = "%name%"
-label-urgent-foreground = ${colors.bg}
-label-urgent-background = ${colors.white}
+label-urgent-foreground = ${colors.red}
+;label-urgent-background = ${colors.white}
 label-urgent-padding = 1
 
-label-visible = "%name%"
+label-visible = 
 label-visible-foreground = ${colors.blue}
 label-visible-background = ${colors.bg-alt}
 label-visible-padding = 1
@@ -131,14 +131,14 @@ label-visible-padding = 1
 type = internal/cpu
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 label = "%percentage% "
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 label = "%percentage_used% "
 
 [module/wlan]
@@ -185,15 +185,15 @@ format-discharging = <ramp-capacity> <label-discharging>
 
 label-full = " full "
 format-full-prefix = 
-format-full-prefix-foreground = ${colors.red}
+format-full-prefix-foreground = ${colors.magenta}
 
 ;format-charging-prefix = BAT
-;format-charging-prefix-foreground = ${colors.red}
+;format-charging-prefix-foreground = ${colors.magenta}
 
 ramp-capacity-0 = 
 ramp-capacity-1 =  
 ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.red}
+ramp-capacity-foreground = ${colors.magenta}
 
 label-charging = "Charging %percentage%% "
 label-charging-foreground = ${colors.fg}
@@ -201,7 +201,7 @@ label-charging-foreground = ${colors.fg}
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
-animation-charging-foreground = ${colors.red}
+animation-charging-foreground = ${colors.magenta}
 animation-charging-framerate = 750
 
 [module/temperature]
@@ -224,8 +224,8 @@ ramp-foreground = ${colors.magenta}
 [module/menu]
 type = custom/text
 
-content = " "
-content-foreground = ${colors.red}
+content = "  "
+content-foreground = ${colors.magenta}
 ;content-background = ${colors.magenta}
 click-left = ~/.config/popups/todo/todo
 
@@ -234,7 +234,7 @@ type = custom/script
 interval = 1200
 format = " <label>"
 format-prefix = " "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/mail
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
 
@@ -248,14 +248,14 @@ date-alt = "%a %d %b %Y"
 time = %H:%M
 time-alt = %H:%M
 
-label = "%{F#2aa198}%date%%{F-} %time%"
+label = "%date% %time%"
 
 [module/uptime]
 type = custom/script
 interval = 1200
 format = "<label> "
 format-prefix = " "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/uptime
 
 [module/mpd]
@@ -263,14 +263,14 @@ type = custom/script
 interval = 2
 format = "<label>"
 format-prefix = " "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/mpd
 
 [module/power-label]
 type = custom/text
 content = "  "
 
-content-foreground = ${colors.red}
+content-foreground = ${colors.magenta}
 ;content-background = ${colors.magenta-alt}
 click-left = bash ~/.config/popups/power/power
 
@@ -279,7 +279,7 @@ type = custom/script
 interval = 86400
 format = "<label>"
 format-prefix = "  "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/pkg 
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
 
@@ -288,7 +288,7 @@ type = custom/script
 interval = 86400
 format = "<label>"
 format-prefix = " "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 exec = uname -r
 
 [module/tor]
@@ -296,15 +296,21 @@ type = custom/script
 interval = 86400
 format = "<label>"
 format-prefix = "  "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/tor 
 
 [module/vpn]
 type = custom/script
 interval = 1200
-format = "<label> "
+format = "<label>"
 format-prefix = " "
-format-prefix-foreground = ${colors.red}
+format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/vpn
+
+[module/sepa]
+type = custom/text
+content = " // "
+
+content-foreground = ${colors.red}
 
 ; vim:ft=dosini

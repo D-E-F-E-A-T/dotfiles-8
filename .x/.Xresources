@@ -43,7 +43,7 @@ URxvt*scrollWithBuffer:  true
 URxvt*scrollTtyKeypress: true
 
 !! Fonts
-#define fonts xft:Tewi:size=8,\
+#define fonts xft:Iosevka Slab:size=9,\
               xft:Droid Sans Mono for Powerline:size=12,\
               xft:Dejavu Sans Mono for Powerline:size=12,\
               xft:Tewi:size=8,\

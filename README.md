@@ -27,6 +27,10 @@ Setup Description
 
 Installation
 ------------
+
+*Warning:* INSTALL ONLY THE CONFIG YOU NEED FOR EASIER DEBUGGING. I AM NOT
+RESPONSIBLE IF YOUR SYSTEM BREAK.
+
 1. Clone this repo.
    
    `git clone https://github.com/mohabaks/dotfiles`

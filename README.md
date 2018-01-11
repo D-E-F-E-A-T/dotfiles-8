@@ -23,7 +23,7 @@ Setup Description
 * PDF viewer `zathura`
 * Text editor `vim`
 * Terminal emulator `urxvt-patched`
-* Window manager `i3-gaps` `bspwm`
+* Window manager `i3` `bspwm`
 
 Installation
 ------------
@@ -57,7 +57,12 @@ Current
 
 WM: `bspwm`
 
-![current](https://imgur.com/fk2BZZ1.png)
+![bspwm_rice](https://imgur.com/fk2BZZ1.png)
+
+WM: `i3`
+
+![i3_rice](https://imgur.com/gMrthKj.png)
+
 
 Previous Workflow
 -----------------

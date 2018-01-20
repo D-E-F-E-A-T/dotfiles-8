@@ -11,15 +11,15 @@
 Setup Description
 -----------------
 * Bar `polybar` `lemonbar`
-* Browser `firefox` `luakit`
+* Browser `firefox` `luakit` `chromium` `tor-browser`
 * Compositor `compton`
 * IRC client `weechat`
-* File Manager `ranger`
+* File Manager `ranger` `pcmanfm`
 * Font `Iosevka` `tewi`
 * Mail client `mutt`
 * Media player `mpv`
 * Music player `ncmpcpp`
-* Program launcher `dmenu`
+* Program launcher `dmenu` `rofi`
 * PDF viewer `zathura`
 * Text editor `vim`
 * Terminal emulator `urxvt-patched`
@@ -52,22 +52,8 @@ stow zathura
 stow -D zathura
 ```
 
-Current
--------
-
-WM: `bspwm`
-
-![bspwm_rice](https://imgur.com/fk2BZZ1.png)
-
-WM: `i3`
-
-![i3_rice](https://imgur.com/gMrthKj.png)
-
-
-Previous Workflow
------------------
-
-WM: `i3-gaps`
+Workflow
+--------
 
 ![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 

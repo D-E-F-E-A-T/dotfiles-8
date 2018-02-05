@@ -43,7 +43,7 @@ URxvt*scrollWithBuffer:  true
 URxvt*scrollTtyKeypress: true
 
 !! Fonts
-#define fonts xft:Iosevka Slab:size=9,\
+#define fonts xft:Gohu GohuFont:size=8,\
               xft:Droid Sans Mono for Powerline:size=12,\
               xft:Dejavu Sans Mono for Powerline:size=12,\
               xft:Tewi:size=8,\
@@ -97,4 +97,4 @@ URxvt.iso14755_52:         false
 Xcursor.theme:             Paper
 
 !! Colors
-#include "/home/mohabaks/.colors/pare"
+#include "/home/mohabaks/.colors/monocyan"

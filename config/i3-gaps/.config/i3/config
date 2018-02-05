@@ -17,7 +17,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+Escape exec i3-msg exit
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -lh 20 -nf "#a9aeb4" -sb "#0f8182" -sf "#f7f7f7" -nb "#080a11" -fn "tewi-8"
+bindsym $mod+d exec  --no-startup-id dmenu_run -b -lh 20 -nf "#a8a8a8" -sb "#00a8a8" -sf "#f7f7f7" -nb "#020202" -fn "Gohu GohuFont-8"
 
 # Start Rofi (a program launcher, ssh, window switcher)
 # https://davedavenport.github.io/rofi/
@@ -78,13 +78,13 @@ bindsym $mod+a focus parent
 #
 set $w1 1:surf
 set $w2 2:code
-set $w3 3:read
+set $w3 3:docs
 set $w4 4:medi
 set $w5 5:file
 set $w6 6:term
 set $w7 7:vlab
 set $w8 8:apps
-set $w9 9:hack
+set $w9 9:expl
 set $w10 10:misc
  
 # Switch to workspace
@@ -250,9 +250,6 @@ bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
 bindsym $mod+p exec --no-startup-id pcmanfm 
 bindsym $mod+b exec --no-startup-id luakit
 
-# Theme switcher
-bindsym $mod+F11 exec --no-startup-id ~/.local/bin/themeswitcher
-
 # Mpc play next song
 bindsym $mod+n exec --no-startup-id mpc next
 
@@ -274,14 +271,14 @@ set_from_resource $cyan        color14 #000000
 set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
-set $darkblack   #161824
-set $background  #101010
+set $darkblack   #151515
+set $background  #151515
 
 # Window colors           border      background   text            indicator    child_border
-client.focused            $blue       $blue        $white          $darkblack  $darkblack
-client.focused_inactive   $darkblack  $darkblack   $white          $darkblack  $darkblack
+client.focused            $magenta    $magenta     $darkwhite      $darkblack  $darkblack
+client.focused_inactive   $darkblue   $darkblue    $white          $darkblack  $darkblack
 client.unfocused          $darkgreen  $darkgreen   $white          $darkblack  $darkblack
-client.urgent             $darkblack  $darkblack   $white          $darkblack  $darkblack
+client.urgent             $darkblue   $darkblue    $white          $darkblack  $darkblack
 
 #Start i3bar to display a workspace bar
 #Uncomment to use the default i3bar status
@@ -289,7 +286,7 @@ client.urgent             $darkblack  $darkblack   $white          $darkblack  $
     
 #           #status_command  $HOME/.local/bin/conkyi3.sh     
 #           position top
-#           font xft:tewi, FontAwesome 8
+#           font xft:Gohu GohuFont, FontAwesome 8
 #           strip_workspace_numbers yes
           
 #           colors {
@@ -307,8 +304,8 @@ client.urgent             $darkblack  $darkblack   $white          $darkblack  $
 
 # Fancy title bar
 font pango:lemon 18
-#for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"
-for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
+#for_window [class=".*"] title_format "<span font='Gohu GohuFont 8'> ➤ %title</span>"
+for_window [class=".*"] title_format "<span font='Gohu GohuFont 8'> </span>"
 
 
 #************  Startup apps ***********************
@@ -348,7 +345,8 @@ assign [class="^Luakit$"]                $w1
 assign [class="^Zathura"]                $w3
 assign [class="^mpv$"]                   $w4
 assign [class="^Pcmanfm"]                $w5
-assign [class="^VirtualBox$"]            $w7
+assign [class="^VirtualBox Manager$"]    $w7
+assign [class="^VBoxSDL$"]               $w7
 assign [class="^Gimp$"]                  $w8
 assign [class="^Wireshark"]              $w8
 assign [class="^burp-StartBurp"]         $w8

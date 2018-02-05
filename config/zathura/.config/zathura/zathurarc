@@ -8,37 +8,38 @@
 # ░ ░ ░ ░ ░  ░   ▒    ░       ░  ░░ ░ ░░░ ░ ░   ░░   ░   ░   ▒     ░░   ░ ░        
 # ░ ░          ░  ░         ░  ░  ░   ░        ░           ░  ░   ░     ░ ░      
 # ░                                                                       ░        
+#  
 
 set font                        "Cantarell 8"
-set default-bg                  "#080a11" #00
-set default-fg                  "#a9aeb4" #01
+set default-bg                  "#020202" #00
+set default-fg                  "#a8a8a8" #01
 
-set statusbar-fg                "#a9aeb4"    #04
-set statusbar-bg                "#0c0e17" #01
+set statusbar-fg                "#a8a8a8"    #04
+set statusbar-bg                "#080808" #01
 
-set inputbar-bg                 "#0c0e17" #00 currently not used
-set inputbar-fg                 "#3d4550" #02
+set inputbar-bg                 "#080808" #00 currently not used
+set inputbar-fg                 "#404040" #02
 
-set notification-error-bg       "#49b5b5" #08
-set notification-error-fg       "#a9aeb4" #00
+set notification-error-bg       "#8e8e8e" #08
+set notification-error-fg       "#a8a8a8" #00
 
-set notification-warning-bg     "#484f59" #08
-set notification-warning-fg     "#a9aeb4" #00
+set notification-warning-bg     "#505050" #08
+set notification-warning-fg     "#a8a8a8" #00
 
-set highlight-color             "#3d4550" #0A
-set highlight-active-color      "#a9aeb4" #0D
+set highlight-color             "#404040" #0A
+set highlight-active-color      "#a8a8a8" #0D
 
-set completion-highlight-fg     "#dedee0"  #02
-set completion-highlight-bg     "#0f8182" #0C
+set completion-highlight-fg     "#d7d7d7"  #02
+set completion-highlight-bg     "#00a8a8" #0C
 
-set completion-bg               "#080a11" #02
-set completion-fg               "#a9aeb4" #0C
+set completion-bg               "#020202" #02
+set completion-fg               "#a8a8a8" #0C
 
-set notification-bg             "#689eb4" #0B
-set notification-fg             "#a9aeb4" #00
+set notification-bg             "#686868" #0B
+set notification-fg             "#a8a8a8" #00
 
-set recolor-lightcolor          "#080a11" #00
-set recolor-darkcolor           "#a9aeb4" #06
+set recolor-lightcolor          "#020202" #00
+set recolor-darkcolor           "#a8a8a8" #06
 set recolor                     "true"
 
 # setting recolor-keep true will keep any color your pdf has.

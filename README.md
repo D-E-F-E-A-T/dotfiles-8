@@ -55,7 +55,13 @@ stow -D zathura
 Workflow
 --------
 
+`light`
+
 ![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
+
+`dark`
+
+![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/dark.gif)
 
 Thanks
 ------

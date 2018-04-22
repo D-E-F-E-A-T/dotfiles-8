@@ -1,5 +1,5 @@
 alias down="cd ~/Downloads"
-alias dots='cd ~/Repositories/dotfiles/'
+alias dots='cd ~/.dotfiles/'
 alias i3config='vim ~/.config/i3/config'
 alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'

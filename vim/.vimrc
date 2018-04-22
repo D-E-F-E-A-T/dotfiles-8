@@ -16,54 +16,34 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 "" let Vundle manage Vundle, required
-"Plugin 'VundleVim/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-markdown'
 Plugin 'cespare/vim-toml'
 Plugin 'kien/ctrlp.vim'
-"Plugin 'rking/ag.vim'
-Plugin 'mileszs/ack.vim'
-"Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-repeat'
-Plugin 'groenewege/vim-less'
-"Plugin 'kchmck/vim-coffee-script'
 Plugin 'scrooloose/syntastic'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'mattn/emmet-vim'
 Plugin 'nvie/vim-flake8'
-"Plugin 'jistr/vim-nerdtree-tabs'
-"Plugin 'jmcomets/vim-pony'
-"Plugin 'mjbrownie/vim-htmldjango_omnicomplete'
-"Plugin 'othree/html5.vim'
 Plugin 'PotatoesMaster/i3-vim-syntax'
-"Plugin 'twe4ked/vim-colorscheme-switcher'
 Plugin 'jmcantrell/vim-virtualenv'
-Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
-"Plugin 'itchyny/lightline.vim'
 Plugin 'sukima/xmledit'
 Plugin 'python-mode/python-mode'
 Plugin 'Raimondi/delimitMate'
 Plugin 'xolox/vim-easytags'
 Plugin 'xolox/vim-misc'
-"Plugin 'jez/vim-superman'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'Valloric/YouCompleteMe'
-"Plugin 'vim-scripts/indentpython.vim'
 Plugin 'junegunn/goyo.vim'
-"Plugin 'xolox/vim-notes'
-"Plugin 'xuhdev/vim-latex-live-preview'
-
+Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'moll/vim-node'
 """ Colorscheme
-"Plugin 'altercation/vim-colors-solarized'
-"Plugin 'lilydjwg/colorizer'
-"Plugin 'morhetz/gruvbox'
-"Plugin 'dylanaraps/wal.vim'
-"Plugin 'whatyouhide/vim-gotham'
+Plugin 'dylanaraps/wal.vim'
 
 call vundle#end()       
 filetype plugin indent on  
@@ -85,12 +65,12 @@ set t_Co=16
       \ }      
  "}}} 
 
-                        
 " UI Config {{{ 
 "" These are options that changes random visuals in Vim
 syntax on
 filetype on
 set number                       " show line numbers
+set encoding=utf-8
 set noshowmode                   " Hide UI
 "set showcmd                      " show command in bottom bar
 set tw=79                        " width of document (used by gd)
@@ -289,6 +269,7 @@ au BufNewFile,BufRead *.js,*.html,*.css
   let g:notes_directories = ['~/Documents/Notes']
 "}}}
 
+let g:easytags_suppress_ctags_warning = 1
 
 " Python/Django  IDE Setup{{{
 "" enable all Python syntax highlighting feautures
@@ -330,67 +311,6 @@ let g:UltiSnipsExpandTrigger       = "<c-j>"
 let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
 let g:UltiSnipsListSnippets        = "<c-k>"
-
-"" python with virtualenv support
-py << EOF
-import os
-import sys
-if 'VIRTUAL_ENV' in os.environ:
-  project_base_dir = os.environ['VIRTUAL_ENV']
-  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-  execfile(activate_this, dict(__file__=activate_this))
-EOF
-
-"" Django Settings
-if filereadable($VIRTUAL_ENV . '/.vimrc')
-         source $VIRTUAL_ENV/.vimrc
-endif
-au FileType htmldjango set omnifunc=htmldjangocomplete#CompleteDjango
-let g:htmldjangocomplete_html_flavour = 'html5'
-let g:django_projects = '~/Code/Python-3/Django-Projects' "Sets all projects under django
-let g:django_activate_virtualenv = 1 "Try to activate the associated virtualenv
-let g:django_activate_nerdtree = 1 "Try to open nerdtree at the project root.
-let g:htmldjangocomplete_html_flavour = 'html5' "Set html flavour
-au FileType htmldjango inoremap {% {% %}<left><left><left>
-au FileType htmldjango inoremap {{ {{ }}<left><left><left>
-
-let g:last_relative_dir = ''
-nnoremap \1 :call RelatedFile ("models.py")<cr>
-nnoremap \2 :call RelatedFile ("views.py")<cr>
-nnoremap \3 :call RelatedFile ("urls.py")<cr>
-nnoremap \4 :call RelatedFile ("admin.py")<cr>
-nnoremap \5 :call RelatedFile ("tests.py")<cr>
-nnoremap \6 :call RelatedFile ( "templates/" )<cr>
-nnoremap \7 :call RelatedFile ( "templatetags/" )<cr>
-nnoremap \8 :call RelatedFile ( "management/" )<cr>
-nnoremap \T :e templates/<cr>
-nnoremap \0 :e settings.py<cr>
-nnoremap \9 :e urls.py<cr>
-
-fun! RelatedFile(file)
-    #This is to check that the directory looks djangoish
-    if filereadable(expand("%:h"). '/models.py') || isdirectory(expand("%:h") . "/templatetags/")
-        exec "edit %:h/" . a:file
-        let g:last_relative_dir = expand("%:h") . '/'
-        return ''
-    endif
-    if g:last_relative_dir != ''
-        exec "edit " . g:last_relative_dir . a:file
-        return ''
-    endif
-    echo "Cant determine where relative file is : " . a:file
-    return ''
-endfun
-
-fun SetAppDir()
-    if filereadable(expand("%:h"). '/models.py') || isdirectory(expand("%:h") . "/templatetags/")
-        let g:last_relative_dir = expand("%:h") . '/'
-        return ''
-    endif
-endfun
-autocmd BufEnter *.py call SetAppDir()
-"}}} 
- 
 
 " Java IDE Settings{{{
 

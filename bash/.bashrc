@@ -13,21 +13,19 @@
 
 
 export PROJECT_HOME=$HOME/Code/
-export PATH=$HOME/.local/bin:$HOME/Repositories/penscripts:$PATH
+export PATH=$HOME/.local/bin:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 export VISUAL=vim
 export EDITOR=vim
-export BROWSER=luakit
+export BROWSER=firefox
 export TERM="rxvt-unicode-256color"
 export TZ=Africa/Nairobi
-export LFS=/mnt/lfs
 export MSF_DATABASE_CONFIG=~/.msf4/database.yml
 export XDG_CONFIG_HOME="$HOME/.config"
 
 source virtualenvwrapper.sh
 source ~/.git-prompt.sh
-source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -75,15 +73,8 @@ txtrst='\e[0m'    # Text Reset
 
 #PS1='\[\e[1;37m\]┌─\e[0m\e[34m[\[\e[0m\e[0;33m\] \w\[\e[0m\] \e[34m]\e[0m $(__git_ps1 "\[\e[0;31m\]@\[\e[0m\]\[\e[1;32m\]\[\e[5m \]%s\[\e[25m\]\[\e[0m\]")\n└─>\[\e[0m\] '
 #PS1='\[\e[0;31m\]────── \[\e[0;32m\]\W\[\e[0m\] $(__git_ps1 "\[\e[0;33m\]at\[\e[0m\] \[\e[0;34m\]%s\[\e[0m\]") '
-PS1='\[\e[0;31m\]$ \[\e[0;34m\]\W\[\e[0m\] $(__git_ps1 "\[\e[1;37m\]@\[\e[0m\] \[\e[0;35m\]%s\[\e[0m\]") '
+PS1='\[\e[0;31m\]$ \[\e[1;34m\]\W\[\e[0m\] $(__git_ps1 "\[\e[1;37m\]@\[\e[0m\] \[\e[0;35m\]%s\[\e[0m\]") '
 
-
-# function _update_ps1() {
-#     PS1="$(powerline-shell $?)"
-# }
-# if [ "$TERM" != "linux" ]; then
-#     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-# fi
 
 #-----------------------------------------------------------------------
 #                                           
@@ -100,9 +91,9 @@ fi
 #-----------------------------------------------------------------------
 
 export LESS_TERMCAP_mb=$'\e[0;33m'
-export LESS_TERMCAP_md=$'\e[0;35m'
+export LESS_TERMCAP_md=$'\e[0;36m'
 export LESS_TERMCAP_me=$'\e[0m'
 export LESS_TERMCAP_se=$'\e[0m'
-export LESS_TERMCAP_so=$'\e[1;34;33m'
+export LESS_TERMCAP_so=$'\e[1;34;35m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[0;31m'

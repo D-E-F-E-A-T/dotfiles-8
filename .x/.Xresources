@@ -13,12 +13,12 @@
 !-----------------------------------------------------------------------
 
 Xft.dpi:                96
-Xft.autohint:           0       
+Xft.autohint:           false
 Xft.antialias:          true
 Xft.rgba:               rgb
 Xft.hinting:            true
+Xft:hintstyle:          hintslight       
 Xft.lcdfilter:          lcddefault
-Xft.hintstyle:          hintsfull
 
 
 !-----------------------------------------------------------------------
@@ -32,22 +32,20 @@ URxvt.externalBorder:    0
 URxvt.depth:             32
 URxvt.saveLines:         10000
 URxvt*geometry:          96x30
-URxvt*terminalName:      rxvt-unicode-256color
+!URxvt*terminalName:      rxvt-unicode-256color
 URxvt*visualBell:        false
 
 !! Scrollbar
-!URxvt.scrollStyle:      rxvt
-URxvt.scrollBar:         false
-URxvt*scrollTtyOutput:   false
-URxvt*scrollWithBuffer:  true
-URxvt*scrollTtyKeypress: true
+URxvt.scrollBar:          false
+URxvt.scrollBar_right:    false
+URxvt.scrollBar_floating: false
+URxvt.scrollstyle:        rxvt
+URxvt*scrollTtyOutput:    false
+URxvt*scrollWithBuffer:   true
+URxvt*scrollTtyKeypress:  true
 
 !! Fonts
-#define fonts xft:Iosevka Slab:size=9,\
-              xft:Droid Sans Mono for Powerline:size=12,\
-              xft:Dejavu Sans Mono for Powerline:size=12,\
-              xft:Tewi:size=8,\
-              xft:Siji:size=12
+#define fonts xft:monofur for powerline:size=14
 
 URxvt*font:              fonts
 URxvt*boldMode:          true
@@ -75,26 +73,24 @@ URxvt.tabbed.autohide:   true
 URxvt.tabbed.new-button: false
 URxvt.tabbed.title:      true
 
-!! Perl extensions
+!! Copy/Paste and URl handling
 ! url-select (part of urxvt-perls package)
-URxvt.perl-ext-common:      default,clipboard,matcher,keyboard-select
-URxvt.keysym.M-u: perl:     url-select:select_next
-URxvt.url-select.autocopy:  true
-URxvt.url-select.button:    2
-URxvt.url-select.underline: true
-URxvt.url-launcher:         /usr/bin/luakit
-URxvt.matcher.button:       1
-
-!! CopyPaste Keys
-URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
-URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.perl-ext-common:         default,selection-to-clipboard,pasta,matcher,keyboard-select
+URxvt.keysym.M-u:              perl:url-select:select_next
+URxvt.underlineURLs:           True 
+URxvt.keysym.M-Escape:         perl:keyboard-select:activate
+URxvt.keysym.Control-Shift-V:  perl:pasta:paste
+URxvt.url-select.autocopy:     true
+URxvt.url-select.underline:    true
+URxvt.url-launcher:            /usr/bin/firefox
+URxvt.matcher.button:          1
 
 !! Disable the stupid ctrl+shift 'feature'
 URxvt.iso14755:            false
 URxvt.iso14755_52:         false
 
 !! Cursor
-Xcursor.theme:             Paper
+Xcursor.theme:             Adwait
 
-!! Colors
-#include "/home/mohabaks/.colors/pare"
+!! Color theme
+#include "/home/mohabaks/.colors/linux"

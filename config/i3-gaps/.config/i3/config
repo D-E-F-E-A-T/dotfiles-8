@@ -17,7 +17,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+Escape exec i3-msg exit
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -lh 20 -nf "#a9aeb4" -sb "#0f8182" -sf "#f7f7f7" -nb "#080a11" -fn "tewi-8"
+bindsym $mod+d exec  --no-startup-id dmenu_run -b -nf "#a8a8a8" -sb "#B218B2" -sf "#f7f7f7" -nb "#020202" -fn "monofur for powerline-13"
 
 # Start Rofi (a program launcher, ssh, window switcher)
 # https://davedavenport.github.io/rofi/
@@ -74,18 +74,16 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Initialize workspace
-#list of icons to use with i3bar requires fontawesome
-#
-set $w1 1:surf
-set $w2 2:code
-set $w3 3:read
-set $w4 4:medi
-set $w5 5:file
-set $w6 6:term
-set $w7 7:vlab
-set $w8 8:apps
-set $w9 9:hack
-set $w10 10:misc
+set $w1 1:web
+set $w2 2:dev
+set $w3 3:doc
+set $w4 4:mpv
+set $w5 5:job
+set $w6 6:sys
+set $w7 7:lab
+set $w8 8:app
+set $w9 9:pen
+set $w10 10:mis
  
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -148,81 +146,8 @@ bindsym $mod+Shift+minus move scratchpad
 # Show the first scratchpad window
 bindsym $mod+minus scratchpad show
 
-#  i3-gaps settings 
-#  More info visit: https://github.com/Airblader/i3
-# Uncomment bellow lines if your using i3-gaps
-
-#smart_gaps on     
-#smart_borders on
-
-# Global gaps size
-# gaps inner 0
-# gaps outer 0
-
-# set $mode_gaps Gaps: (o) outer, (i) inner
-# set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
-# set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-# bindsym $mod+Shift+g mode "$mode_gaps"
-
-# mode "$mode_gaps" {
-#         bindsym o      mode "$mode_gaps_outer"
-#         bindsym i      mode "$mode_gaps_inner"
-#         bindsym Return mode "default"
-#         bindsym Escape mode "default"
-# }
-
-# mode "$mode_gaps_inner" {
-#         bindsym plus  gaps inner current plus 5
-#         bindsym minus gaps inner current minus 5
-#         bindsym 0     gaps inner current set 0
-
-#         bindsym Shift+plus  gaps inner all plus 5
-#         bindsym Shift+minus gaps inner all minus 5
-#         bindsym Shift+0     gaps inner all set 0
-
-#         bindsym Return mode "default"
-#         bindsym Escape mode "default"
-# }
-
-# mode "$mode_gaps_outer" {
-#         bindsym plus  gaps outer current plus 5
-#         bindsym minus gaps outer current minus 5
-#         bindsym 0     gaps outer current set 0
-
-#         bindsym Shift+plus  gaps outer all plus 5
-#         bindsym Shift+minus gaps outer all minus 5
-#         bindsym Shift+0     gaps outer all set 0
-
-#         bindsym Return mode "default"
-#         bindsym Escape mode "default"
-# }
-
-# Specify gaps for specific workspace
-# workspace $w1 gaps outer 15
-# workspace $w2 gaps outer 15
-# workspace $w5 gaps outer 15
-# workspace $w8 gaps outer 15
-
 bindsym $mod+r mode "resize"
 
-# Lock screen
-set $Locker i3lock-fancy
-
-# Shutdwon, Restart, Logout, Suspend, Hibernate, Reboot, Lock
-# set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
-# mode "$mode_system" {
-#     bindsym l exec --no-startup-id $Locker, mode "default"
-#     bindsym e exec --no-startup-id i3-msg exit, mode "default"
-#     bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
-#     bindsym h exec --no-startup-id $Locker && systemctl hibernate,mode "default"
-#     bindsym r exec --no-startup-id systemctl reboot, mode "default"
-#     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
-
-#     # back to normal: Enter or Escape
-#     bindsym Return mode "default"
-#     bindsym Escape mode "default"
-# }
-#bindsym $mod+F9 mode "$mode_system"
 bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/power/power
 
 # Volume control
@@ -248,10 +173,7 @@ bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
 
 # My apps shortcut
 bindsym $mod+p exec --no-startup-id pcmanfm 
-bindsym $mod+b exec --no-startup-id luakit
-
-# Theme switcher
-bindsym $mod+F11 exec --no-startup-id ~/.local/bin/themeswitcher
+bindsym $mod+b exec --no-startup-id firefox
 
 # Mpc play next song
 bindsym $mod+n exec --no-startup-id mpc next
@@ -274,47 +196,54 @@ set_from_resource $cyan        color14 #000000
 set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
-set $darkblack   #161824
-set $background  #101010
+set $darkblack   #151515
+set $background  #000000
+set $idle        #202020
+set $hid         #101010
 
-# Window colors           border      background   text            indicator    child_border
-client.focused            $blue       $blue        $white          $darkblack  $darkblack
-client.focused_inactive   $darkblack  $darkblack   $white          $darkblack  $darkblack
-client.unfocused          $darkgreen  $darkgreen   $white          $darkblack  $darkblack
-client.urgent             $darkblack  $darkblack   $white          $darkblack  $darkblack
+# Window colors           border       background   text            indicator    child_border
+client.focused            $darkmagenta $darkmagenta $darkwhite      $darkblack  $darkblack
+client.focused_inactive   $idle        $idle        $white          $darkblack  $darkblack
+client.unfocused          $hid         $hid         $white          $darkblack  $darkblack
+client.urgent             $darkblue    $darkblue    $white          $darkblack  $darkblack
 
-#Start i3bar to display a workspace bar
-#Uncomment to use the default i3bar status
-# bar {      
+#start i3bar to display a workspace bar
+#uncomment to use the default i3bar status
+bar {      
     
-#           #status_command  $HOME/.local/bin/conkyi3.sh     
-#           position top
-#           font xft:tewi, FontAwesome 8
-#           strip_workspace_numbers yes
+          status_command  $HOME/.local/bin/conkyi3.sh     
+          position top
+
+          font xft:monofur for powerline 13
+          strip_workspace_numbers yes
           
-#           colors {
-#               separator          $darkblack
-#               background         $background
-#               statusline         $darkblack
+          colors {
+              separator          $darkblack
+              background         $background
+              statusline         $background
               
-#               # Bar colors       border     background    text 
-#               focused_workspace  $darkblack $red          $white
-#               active_workspace   $darkblack $blue         $white
-#               inactive_workspace $darkblack $darkblack    $cyan
-#               urgent_workspace   $darkblack $white        $darkblack
-#          }
-# }
+              # Bar colors       border       background    text 
+              focused_workspace  $darkblack   $darkmagenta  $darkwhite
+              active_workspace   $background  $blue         $white
+              inactive_workspace $background  $darkblack    $white
+              urgent_workspace   $background  $red          $darkwhite
+         }
+}
 
 # Fancy title bar
 font pango:lemon 18
-#for_window [class=".*"] title_format "<span font='tewi 8'> ➤ %title</span>"
-for_window [class=".*"] title_format "<span font='tewi 8'> </span>"
+#for_window [class=".*"] title_format "<span font='Tewi 8'> ➤ %title</span>"
+for_window [class=".*"] title_format "<span font='Tewi 8'> </span>"
 
 
 #************  Startup apps ***********************
 
 # Bar start
-exec --no-startup-id . $HOME/.local/bin/barstart &
+exec --no-startup-id nitrogen --restore  &
+exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc &
+exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
+exec --no-startup-id $HOME/.local/bin/urxvt_daemon &
+
 # Other apps are being started by .xinitrc check it to see what apps are being
 # started so your i3 works correct e.g xresource file and import them here if
 # your using DM.
@@ -323,23 +252,16 @@ exec --no-startup-id . $HOME/.local/bin/barstart &
 
 # Set per-application border
 for_window [class="^.*"] border pixel 1
-#for_window [class="(?i)urxvt"] border pixel 4
-# Uncomment bellow line for fancy urxvt title bar
-#for_window [class="(?i)urxvt"] border normal 0
 
 # Enable or disable floating
 for_window [class="Arandr"] floating enable
 for_window [class="Lxappearance"] floating enable
 for_window [class="Nitrogen"] floating enable
 for_window [class="Artha"] floating enable
-for_window [instance="dukto"] floating enable
 for_window [class="feh"] floating enable
 for_window [window_role="Preferences"] floating enable
 for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
-for_window [class="Pavucontrol"] floating enable
-# Uncomment bellow line for all i3 apps to be float e.g float wm
-#for_window [class="^.*"] floating enable 
 
 # Starting apps on a specific workspace
 assign [class="^Tor Browser$"]           $w1
@@ -347,13 +269,10 @@ assign [class="^Firefox$"]               $w1
 assign [class="^Luakit$"]                $w1
 assign [class="^Zathura"]                $w3
 assign [class="^mpv$"]                   $w4
-assign [class="^Pcmanfm"]                $w5
-assign [class="^VirtualBox$"]            $w7
+assign [class="^VirtualBox Manager$"]    $w7
+assign [class="^VBoxSDL$"]               $w7
 assign [class="^Gimp$"]                  $w8
 assign [class="^Wireshark"]              $w8
-assign [class="^burp-StartBurp"]         $w8
-assign [class="^OWASP ZAP"]              $w8
-assign [class="^jetbrains-studio"]       $w8
-assign [class="^Deluge"]                 $w8
+assign [class="^Pcmanfm"]                $w8
 
 # vim:filetype=i3

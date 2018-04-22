@@ -1,17 +1,5 @@
-#             █                                           
-#             █                         █                 
-#             █                         █                 
-#          ██▓█  █   █  █▒██▒  ▒███▒  █████   █▒██▒  ▓██▒ 
-#         █▓ ▓█  █   █  █▓ ▒█  █▒ ░█    █     ██  █ ▓█  ▓ 
-#         █   █  █   █  █   █  █▒░      █     █     █░    
-#         █   █  █   █  █   █  ░███▒    █     █     █     
-#         █   █  █   █  █   █     ▒█    █     █     █░    
-#         █▓ ▓█  █▒ ▓█  █   █  █░ ▒█    █░    █     ▓█  ▓ 
-#          ██▓█  ▒██▒█  █   █  ▒███▒    ▒██   █      ▓██▒ 
-                                                 
-                                                 
 [global]
-    font = Tewi 8
+    font = monofur for powerline 14
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -23,8 +11,7 @@
     # <http://developer.gnome.org/pango/stable/PangoMarkupFormat.html>.
     # If markup is not allowed, those tags will be stripped out of the
     # message.
-    
-    markup = yes
+    allow_markup = yes
     
     # The format of the message.  Possible variables are:
     #   %a  appname
@@ -34,8 +21,7 @@
     #   %I  iconname (without its path)
     #   %p  progress value if set ([  0%] to [100%]) or nothing
     # Markup is allowed
-    
-    format = "%s\n%b"
+    format = "<b>%s</b>\n%b"
     
     # Sort messages by urgency.
     sort = yes
@@ -78,11 +64,11 @@
     # the top and down respectevly.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "350x10-5+33"
+    geometry = "300x5-20+40"
     
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
-    shrink = yes
+    shrink = no
     
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing windowmanager is
@@ -115,7 +101,7 @@
     sticky_history = yes
     
     # Maximum amount of notifications kept in history
-    history_length = 10
+    history_length = 20
     
     # Display indicators for URLs (U) and actions (A).
     show_indicators = yes
@@ -134,7 +120,7 @@
     padding = 8
     
     # Horizontal padding.
-    horizontal_padding = 12
+    horizontal_padding = 8
     
     # Define a color for the separator.
     # possible values are:
@@ -159,11 +145,11 @@
     icon_position = left
 
     # Paths to default icons.
-    #icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 
 [frame]
     width = 3
-    color = "#0c0e17"
+    color = "#151515"
 
 [shortcuts]
 
@@ -189,18 +175,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#080a11"
-    foreground = "#404040"
+    background = "#000000"
+    foreground = "#18B218"
     timeout = 10
 
 [urgency_normal]
-    background = "#080a11"
-    foreground = "#a9aeb4"
+    background = "#000000"
+    foreground = "#ffffff"
     timeout = 10
 
 [urgency_critical]
-    background = "#080a11"
-    foreground = "#93282f"
+    background = "#000000"
+    foreground = "#B21818"
     timeout = 0
 
 

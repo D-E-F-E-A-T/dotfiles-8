@@ -48,13 +48,13 @@ margin-bottom = 0
 ;
 ;********************************************************
 [bar/top]
-monitor   = ${env:MONITOR:LVDS1}
+monitor   = ${env:MONITOR:eDP-1}
 bottom    = false
-width     = 1346
-height    = 28
+width     = 1900
+height    = 26
 offset-x  = 10
-offset-y  = 10
-override-redirect = false
+offset-y  = 6
+override-redirect = true
 
 background = ${colors.bg}
 foreground = ${colors.fg}
@@ -70,18 +70,17 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Iosevka Slab:pixelsize=10;3
-;font-1 = Wuncon Siji:pixelsize=8;2
+font-0 = Go Mono for Powerline:pixelsize=11;3
 font-1 = Material Icons:antialia=false:size=12;5
 
-tray-position = right
+tray-position =
 tray-padding = 1
 tray-transparent = false
 tray-background = #101010
 
-modules-left = bspwm
+modules-left = i3
 modules-center = date
-modules-right = vpn mail temperature cpu memory wlan battery
+modules-right = vpn temperature cpu memory wlan battery
 
 
 ;**********************************************************
@@ -92,74 +91,28 @@ modules-right = vpn mail temperature cpu memory wlan battery
 
 [module/i3]
 type = internal/i3
-;ws-icon-[0-9]+ = label;icon
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;
-;ws-icon-default = 
 
 strip-wsnumbers = true
 
 label-focused = "%name%"
-label-focused-foreground = ${colors.fg}
-;label-focused-background = ${colors.magenta}
-label-focused-padding = 0
+label-focused-foreground = ${colors.magenta}
+label-focused-background = ${colors.bg-alt}
+label-focused-padding = 1
 
-label-unfocused = 
+label-unfocused = "%name%"
 label-unfocused-padding = 1
 label-unfocused-foreground = ${colors.blue}
 label-unfocused-background = ${colors.bg-alt}
 
 label-urgent = "%name%"
 label-urgent-foreground = ${colors.red}
-;label-urgent-background = ${colors.white}
-label-urgent-padding = 1
-
-label-visible = 
-label-visible-foreground = ${colors.blue}
-label-visible-background = ${colors.bg-alt}
-label-visible-padding = 1
-
-[module/bspwm]
-type = internal/bspwm
-;ws-icon-[0-9]+ = label;icon
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;
-
-label-focused = %icon%
-label-focused-foreground = ${colors.red}
-label-focused-background = ${colors.bg-alt}
-label-focused-padding = 1
-
-label-occupied = %icon%
-label-occupied-foreground = ${colors.blue}
-label-occupied-background = ${colors.bg-alt}
-label-occupied-padding = 1
-
-label-urgent = %icon%
-label-urgent-foreground = ${colors.magenta}
 label-urgent-background = ${colors.bg-alt}
 label-urgent-padding = 1
 
-label-empty = %icon%
-label-empty-foreground = ${colors.blue}
-label-empty-background = ${colors.bg-alt}
-label-empty-padding = 1
+label-visible = "%name%" 
+label-visible-foreground = ${colors.blue}
+label-visible-background = ${colors.bg-alt}
+label-visible-padding = 1
 
 [module/cpu]
 type = internal/cpu
@@ -177,7 +130,7 @@ label = "%percentage_used% "
 
 [module/wlan]
 type = internal/network
-interface = wlp1s0
+interface = wlo1
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -194,22 +147,9 @@ ramp-signal-3 = 
 ramp-signal-4 = 
 ramp-signal-foreground = ${colors.red}
 
-[module/eth]
-type = internal/network
-interface = enp2s0
-interval = 3.0
-
-format-connected-prefix = " "
-format-connected-foreground-foreground = ${colors.fg-alt}
-label-connected = %local_ip%
-
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.fg}
-
 [module/battery]
 type = internal/battery
-battery = BAT1
+battery = BAT0
 adapter = ADP1
 full-at = 100
 
@@ -255,14 +195,6 @@ ramp-1 = 
 ramp-2 = 
 ramp-foreground = ${colors.magenta}
 
-[module/menu]
-type = custom/text
-
-content = "  "
-content-foreground = ${colors.magenta}
-;content-background = ${colors.magenta}
-click-left = ~/.config/popups/todo/todo
-
 [module/mail]
 type = custom/script
 interval = 1200
@@ -292,22 +224,6 @@ format-prefix = " "
 format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/uptime
 
-[module/mpd]
-type = custom/script
-interval = 2
-format = "<label>"
-format-prefix = " "
-format-prefix-foreground = ${colors.magenta}
-exec = ~/.config/polybar/mpd
-
-[module/power-label]
-type = custom/text
-content = "  "
-
-content-foreground = ${colors.magenta}
-;content-background = ${colors.magenta-alt}
-click-left = bash ~/.config/popups/power/power
-
 [module/updates]
 type = custom/script
 interval = 86400
@@ -317,22 +233,6 @@ format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/pkg 
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
 
-[module/kernel]
-type = custom/script
-interval = 86400
-format = "<label>"
-format-prefix = " "
-format-prefix-foreground = ${colors.magenta}
-exec = uname -r
-
-[module/tor]
-type = custom/script
-interval = 86400
-format = "<label>"
-format-prefix = "  "
-format-prefix-foreground = ${colors.magenta}
-exec = ~/.config/polybar/tor 
-
 [module/vpn]
 type = custom/script
 interval = 1200
@@ -340,11 +240,5 @@ format = "<label> "
 format-prefix = " "
 format-prefix-foreground = ${colors.magenta}
 exec = ~/.config/polybar/vpn
-
-[module/sepa]
-type = custom/text
-content = " // "
-
-content-foreground = ${colors.red}
 
 ; vim:ft=dosini

@@ -1,7 +1,7 @@
 #! /bin/bash
-DISPLAY=:0
-PATH=/home/mohabaks/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
-export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+export DISPLAY=:0
+export PATH=/home/mohabaks/.local/bin:$PATH
+export DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-oBwD1gyKmn,guid=fd1307a59f23f1cfa43fd3d05adad62f
 
 # Get current time
 current_time=`date "+ %H:%M"`

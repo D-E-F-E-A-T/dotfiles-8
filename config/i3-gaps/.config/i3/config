@@ -148,7 +148,7 @@ bindsym $mod+minus scratchpad show
 
 bindsym $mod+r mode "resize"
 
-bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/power/power
+#bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/power/power
 
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
@@ -241,7 +241,8 @@ for_window [class=".*"] title_format "<span font='Tewi 8'> </span>"
 # Bar start
 exec --no-startup-id nitrogen --restore  &
 exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc &
-exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
+#exec --no-startup-id compton -b --config $HOME/.compton.conf
+#exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
 exec --no-startup-id $HOME/.local/bin/urxvt_daemon &
 
 # Other apps are being started by .xinitrc check it to see what apps are being

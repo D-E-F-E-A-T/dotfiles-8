@@ -37,8 +37,8 @@ hi Comment ctermbg=0 ctermfg=8 cterm=NONE
 " hi TabLine ctermbg=NONE ctermfg=8 cterm=NONE
 " hi TabLineFill ctermbg=NONE ctermfg=8 cterm=NONE
 " hi TabLineSel ctermbg=4 ctermfg=0 cterm=NONE
-" hi TermCursorNC ctermbg=3 ctermfg=0 cterm=NONE
-" hi VertSplit ctermbg=NONE ctermfg=8 cterm=NONE
+hi TermCursorNC ctermbg=3 ctermfg=0 cterm=NONE
+hi VertSplit ctermbg=NONE ctermfg=8 cterm=NONE
 " hi Title ctermbg=NONE ctermfg=4 cterm=NONE
 " " Cursor
 hi CursorLine ctermbg=NONE ctermfg=NONE cterm=NONE

@@ -35,6 +35,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'sukima/xmledit'
 Plugin 'python-mode/python-mode'
 Plugin 'Raimondi/delimitMate'
+Plugin 'digitaltoad/vim-pug'
 Plugin 'xolox/vim-easytags'
 Plugin 'xolox/vim-misc'
 Plugin 'tmux-plugins/vim-tmux'
@@ -44,6 +45,7 @@ Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'moll/vim-node'
 """ Colorscheme
 Plugin 'dylanaraps/wal.vim'
+Plugin 'whatyouhide/vim-gotham'
 
 call vundle#end()       
 filetype plugin indent on  
@@ -53,16 +55,16 @@ filetype plugin indent on
 
 "  Set Colorscheme and Statusline{{{
 set background=dark
-colorscheme wal
+colorscheme bleh
 
 "let g:gruvbox_contrast_dark = 'medium'
 
 "" Status line
 set laststatus=0
-set t_Co=16
- let g:lightline = {
-       \ 'colorscheme': 'wal',
-      \ }      
+set t_Co=256
+" let g:lightline = {
+"       \ 'colorscheme': 'wal',
+"      \ }      
  "}}} 
 
 " UI Config {{{ 

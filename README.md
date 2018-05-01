@@ -52,16 +52,17 @@ stow zathura
 stow -D zathura
 ```
 
+Current
+--------
+
+![alt workflow](https://imgur.com/WT8nr6y.png)
+
 Workflow
 --------
 
 `light`
 
 ![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
-
-`dark`
-
-![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/dark.gif)
 
 Thanks
 ------

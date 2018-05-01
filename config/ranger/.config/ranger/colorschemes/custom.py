@@ -86,7 +86,7 @@ class Default(ColorScheme):
             elif context.tab:
                 if context.good:
                     bg = red
-                    fg = white
+                    fg = 15
             elif context.link:
                 fg = magenta
 

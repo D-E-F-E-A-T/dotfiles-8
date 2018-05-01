@@ -2,22 +2,22 @@
 !
 
 
-URxvt*cursorColor:  #a7a7a7
-URxvt*borderColor:  #101010
-*colorUL:           #31A097
+URxvt*cursorColor:  #00a8a8
+URxvt*borderColor:  #020202
+*colorUL:           #00a8a8
 
 ! special
-*.foreground:   #b2b2b2
-*.background:   #101010
-*.cursorColor:  #b2b2b2
+*.foreground:   #a8a8a8
+*.background:   #020202
+*.cursorColor:  #a8a8a8
 
 ! black
-*.color0:       #131313
+*.color0:       #080808
 *.color8:       #404040
 
 ! red
-*.color1:       #31a097
-*.color9:       #31a097
+*.color1:       #B52253
+*.color9:       #B52253
 
 ! green
 *.color2:       #505050
@@ -32,13 +32,13 @@ URxvt*borderColor:  #101010
 *.color12:      #787878
 
 ! magenta
-*.color5:       #31a097
-*.color13:      #31a097
+*.color5:       #00a8a8
+*.color13:      #00a8a8
 
 ! cyan
 *.color6:       #8e8e8e
 *.color14:      #8e8e8e
 
 ! white
-*.color7:       #b2b2b2
+*.color7:       #a8a8a8
 *.color15:      #d7d7d7

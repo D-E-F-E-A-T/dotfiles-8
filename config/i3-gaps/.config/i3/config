@@ -74,6 +74,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Initialize workspace
+<<<<<<< HEAD
 set $w1 1:web
 set $w2 2:dev
 set $w3 3:doc
@@ -84,6 +85,20 @@ set $w7 7:lab
 set $w8 8:app
 set $w9 9:pen
 set $w10 10:mis
+=======
+#list of icons to use with i3bar requires fontawesome
+#
+set $w1 1:surf
+set $w2 2:code
+set $w3 3:docs
+set $w4 4:medi
+set $w5 5:file
+set $w6 6:term
+set $w7 7:vlab
+set $w8 8:apps
+set $w9 9:expl
+set $w10 10:misc
+>>>>>>> 9a16360ec483aec2ca7f9f434ddeb49e1369b9f7
  
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -268,8 +283,7 @@ client.urgent             $darkblue    $darkblue    $white          $darkblack  
     
 #           status_command  $HOME/.local/bin/conkyi3.sh     
 #           position top
-
-#           font xft:Fixed 10
+#           font xft:Gohu GohuFont, FontAwesome 8
 #           strip_workspace_numbers yes
           
 #           colors {
@@ -325,6 +339,7 @@ assign [class="^Firefox$"]               $w1
 assign [class="^Luakit$"]                $w1
 assign [class="^Zathura"]                $w3
 assign [class="^mpv$"]                   $w4
+assign [class="^Pcmanfm"]                $w5
 assign [class="^VirtualBox Manager$"]    $w7
 assign [class="^VBoxSDL$"]               $w7
 assign [class="^Gimp$"]                  $w8

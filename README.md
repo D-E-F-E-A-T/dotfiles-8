@@ -55,10 +55,12 @@ stow -D zathura
 Current
 --------
 
-![alt workflow](https://imgur.com/WT8nr6y.png)
+`irssi` `vim` `tmux` `ranger` `ncmpcpp` `htop` `urxvt`
 
-Workflow
---------
+![minimal](https://imgur.com/jPU8GJx.png)
+
+Previous Workflow
+-----------------
 
 ![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 

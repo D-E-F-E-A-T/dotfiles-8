@@ -52,7 +52,6 @@ Plugin 'altercation/vim-colors-solarized'
 "Plugin 'morhetz/gruvbox'
 "Plugin 'dylanaraps/wal.vim'
 "Plugin 'whatyouhide/vim-gotham'
->>>>>>> 9a16360ec483aec2ca7f9f434ddeb49e1369b9f7
 
 call vundle#end()       
 filetype plugin indent on  

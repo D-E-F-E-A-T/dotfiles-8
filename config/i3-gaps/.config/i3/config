@@ -17,7 +17,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+Escape exec i3-msg exit
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -nf "#a8a8a8" -sb "#0caaab" -sf "#f7f7f7" -nb "#080a11" -fn "Iosevka Slab-13"
+bindsym $mod+d exec  --no-startup-id dmenu_run -b -nf "#a8a8a8" -sb "#0caaab" -sf "#f7f7f7" -nb "#080a11" -fn "Iosevka Slab-11"
 
 # Start Rofi (a program launcher, ssh, window switcher)
 # https://davedavenport.github.io/rofi/
@@ -154,8 +154,8 @@ bindsym $mod+minus scratchpad show
 #smart_borders on
 
 # Global gaps size
- gaps inner 10
-# gaps outer 0
+ gaps inner 0
+ gaps outer 0
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -203,7 +203,7 @@ mode "$mode_gaps_outer" {
 #
 bindsym $mod+r mode "resize"
 
-bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/status/status
+#bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/status/status
 
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
@@ -251,10 +251,10 @@ set_from_resource $cyan        color14 #000000
 set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
-set $darkblack   #d3dde8
-set $background  #d3dde8
-set $idle        #d3dde8
-set $hid         #d3dde8
+set $darkblack   #10121b
+set $background  #080a11
+set $idle        #10121b
+set $hid         #10121b
 
 # Window colors           border       background   text            indicator    child_border
 client.focused            $darkmagenta $darkmagenta $darkwhite      $darkblack  $darkblack
@@ -264,25 +264,25 @@ client.urgent             $darkblue    $darkblue    $white          $darkblack  
 
 #start i3bar to display a workspace bar
 #uncomment to use the default i3bar status
-# bar {      
+bar {      
     
-#           status_command  $HOME/.local/bin/conkyi3.sh     
-#           position top
-#           font xft:Gohu GohuFont, FontAwesome 8
-#           strip_workspace_numbers yes
+          status_command  $HOME/.local/bin/conkyi3.sh     
+          position top
+          font xft:Iosevka Slabs 10
+          strip_workspace_numbers yes
           
-#           colors {
-#               separator          $darkblack
-#               background         $background
-#               statusline         $background
+          colors {
+              separator          $darkblack
+              background         $background
+              statusline         $background
               
-#               # Bar colors       border       background    text 
-#               focused_workspace  $darkblack   $darkmagenta  $darkwhite
-#               active_workspace   $background  $blue         $white
-#               inactive_workspace $background  $darkblack    $white
-#               urgent_workspace   $background  $red          $darkwhite
-#          }
-# }
+              # Bar colors       border       background    text 
+              focused_workspace  $darkblack   $green        $background
+              active_workspace   $background  $blue         $white
+              inactive_workspace $background  $darkblack    $cyan
+              urgent_workspace   $background  $red          $darkwhite
+         }
+}
 
 # Fancy title bar
 font pango:lemon 18
@@ -306,7 +306,7 @@ exec --no-startup-id $HOME/.local/bin/urxvt_daemon &
 #*************  Other settings  *********************
 
 # Set per-application border
-for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] border pixel 1
 
 # Enable or disable floating
 for_window [class="Arandr"] floating enable
@@ -323,8 +323,7 @@ assign [class="^Tor Browser$"]           $w1
 assign [class="^Firefox$"]               $w1
 assign [class="^Luakit$"]                $w1
 assign [class="^Zathura"]                $w3
-assign [class="^mpv$"]                   $w4
-assign [class="^Pcmanfm"]                $w5
+#assign [class="^mpv$"]                   $w4
 assign [class="^VirtualBox Manager$"]    $w7
 assign [class="^VBoxSDL$"]               $w7
 assign [class="^Gimp$"]                  $w8

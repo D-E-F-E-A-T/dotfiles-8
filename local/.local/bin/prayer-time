@@ -1,9 +1,12 @@
-#! /bin/bash
+#! /usr/bin/env bash
+
 export DISPLAY=:0
 export PATH=/home/mohabaks/.local/bin:$PATH
-export DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-oBwD1gyKmn,guid=fd1307a59f23f1cfa43fd3d05adad62f
+export DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus
 
-# Get current time
+ #Get current time
+notify-send "Hello"
+
 current_time=`date "+ %H:%M"`
 
 # load display image

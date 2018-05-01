@@ -45,11 +45,11 @@ URxvt*scrollWithBuffer:   true
 URxvt*scrollTtyKeypress:  true
 
 !! Fonts
-#define fonts xft:monofur for powerline:size=14
+#define fonts xft:Iosevka Slab:size=9
 
 URxvt*font:              fonts
-URxvt*boldMode:          true
-URxvt*boldFont:          fonts
+!URxvt*boldMode:          true
+!URxvt*boldFont:          fonts
 
 URxvt.letterSpace:       true
 
@@ -93,4 +93,4 @@ URxvt.iso14755_52:         false
 Xcursor.theme:             Adwait
 
 !! Color theme
-#include "/home/mohabaks/.colors/linux"
+#include "/home/mohabaks/.colors/pare"

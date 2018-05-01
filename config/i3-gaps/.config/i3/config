@@ -146,9 +146,64 @@ bindsym $mod+Shift+minus move scratchpad
 # Show the first scratchpad window
 bindsym $mod+minus scratchpad show
 
+#  i3-gaps settings
+#  More info visit: https://github.com/Airblader/i3
+# Uncomment bellow lines if your using i3-gaps
+
+#smart_gaps on
+#smart_borders on
+
+# Global gaps size
+ gaps inner 10
+# gaps outer 0
+
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# Specify gaps for specific workspace
+# workspace $w1 gaps outer 15
+# workspace $w2 gaps outer 15
+# workspace $w5 gaps outer 15
+# workspace $w8 gaps outer 15
+#
 bindsym $mod+r mode "resize"
 
-#bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/power/power
+bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/status/status
 
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
@@ -196,10 +251,10 @@ set_from_resource $cyan        color14 #000000
 set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
-set $darkblack   #151515
-set $background  #000000
-set $idle        #202020
-set $hid         #101010
+set $darkblack   #d3dde8
+set $background  #d3dde8
+set $idle        #d3dde8
+set $hid         #d3dde8
 
 # Window colors           border       background   text            indicator    child_border
 client.focused            $darkmagenta $darkmagenta $darkwhite      $darkblack  $darkblack
@@ -209,26 +264,26 @@ client.urgent             $darkblue    $darkblue    $white          $darkblack  
 
 #start i3bar to display a workspace bar
 #uncomment to use the default i3bar status
-bar {      
+# bar {      
     
-          status_command  $HOME/.local/bin/conkyi3.sh     
-          position top
+#           status_command  $HOME/.local/bin/conkyi3.sh     
+#           position top
 
-          font xft:monofur for powerline 13
-          strip_workspace_numbers yes
+#           font xft:Fixed 10
+#           strip_workspace_numbers yes
           
-          colors {
-              separator          $darkblack
-              background         $background
-              statusline         $background
+#           colors {
+#               separator          $darkblack
+#               background         $background
+#               statusline         $background
               
-              # Bar colors       border       background    text 
-              focused_workspace  $darkblack   $darkmagenta  $darkwhite
-              active_workspace   $background  $blue         $white
-              inactive_workspace $background  $darkblack    $white
-              urgent_workspace   $background  $red          $darkwhite
-         }
-}
+#               # Bar colors       border       background    text 
+#               focused_workspace  $darkblack   $darkmagenta  $darkwhite
+#               active_workspace   $background  $blue         $white
+#               inactive_workspace $background  $darkblack    $white
+#               urgent_workspace   $background  $red          $darkwhite
+#          }
+# }
 
 # Fancy title bar
 font pango:lemon 18
@@ -241,7 +296,7 @@ for_window [class=".*"] title_format "<span font='Tewi 8'> </span>"
 # Bar start
 exec --no-startup-id nitrogen --restore  &
 exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc &
-#exec --no-startup-id compton -b --config $HOME/.compton.conf
+exec --no-startup-id compton -b --config $HOME/.compton.conf
 #exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
 exec --no-startup-id $HOME/.local/bin/urxvt_daemon &
 
@@ -252,7 +307,7 @@ exec --no-startup-id $HOME/.local/bin/urxvt_daemon &
 #*************  Other settings  *********************
 
 # Set per-application border
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 5
 
 # Enable or disable floating
 for_window [class="Arandr"] floating enable

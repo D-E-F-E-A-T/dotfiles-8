@@ -25,7 +25,7 @@
 ## file which defines that while launching ncmpcpp.
 ##
 #
-#ncmpcpp_directory = ~/.ncmpcpp
+ncmpcpp_directory = ~/.config/ncmpcpp
 #
 ##
 ## Directory for storing downloaded lyrics. It
@@ -55,7 +55,7 @@ audio_output {
         name            "Visualizer feed"
         path            "/tmp/mpd.fifo"
         format          "44100:16:2"
-## }
+}
 ##
 #
 visualizer_fifo_path = /tmp/mpd.fifo
@@ -493,7 +493,7 @@ use_console_editor = yes
 #
 
 ## Display notify for the current playing song
-execute_on_song_change = /home/mohabaks/.config/popups/ncmpcpp/current_playing
+#execute_on_song_change = /home/mohabaks/.config/popups/ncmpcpp/current_playing
 
 ##### colors definitions #####
 colors_enabled = yes

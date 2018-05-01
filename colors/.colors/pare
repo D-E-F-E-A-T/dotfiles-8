@@ -18,8 +18,8 @@
 *.color9:       #c22732
 
 ! green
-*.color2:       #484f59
-*.color10:      #484f59
+*.color2:       #0df2a4
+*.color10:      #0df1a2
 
 ! yellow
 *.color3:       #6ba5bd
@@ -34,8 +34,8 @@
 *.color13:      #0caaab
 
 ! cyan
-*.color6:       #4ec1c1
-*.color14:      #4ec1c1
+*.color6:       #505763
+*.color14:      #505763
 
 ! white
 *.color7:       #d3dde8

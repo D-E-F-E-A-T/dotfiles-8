@@ -1,5 +1,5 @@
 [global]
-    font = monofur for powerline 14
+    font = Iosevka Slab 16
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -64,7 +64,7 @@
     # the top and down respectevly.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x5-20+40"
+    geometry = "345x5-20+10"
     
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
@@ -148,8 +148,8 @@
     icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 
 [frame]
-    width = 3
-    color = "#151515"
+    width = 4
+    color = "#d3dde8"
 
 [shortcuts]
 
@@ -175,18 +175,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#000000"
-    foreground = "#18B218"
+    background = "#080a11"
+    foreground = "#0caaab"
     timeout = 10
 
 [urgency_normal]
-    background = "#000000"
-    foreground = "#ffffff"
+    background = "#080a11"
+    foreground = "#d3dde8"
     timeout = 10
 
 [urgency_critical]
-    background = "#000000"
-    foreground = "#B21818"
+    background = "#080a11"
+    foreground = "#c22732"
     timeout = 0
 
 

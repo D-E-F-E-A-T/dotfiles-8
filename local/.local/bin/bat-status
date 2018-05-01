@@ -5,7 +5,7 @@
 
 export DISPLAY=:0
 export PATH=/home/mohabaks/.local/bin:$PATH
-export DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-oBwD1gyKmn,guid=fd1307a59f23f1cfa43fd3d05adad62f
+export $(dbus-launch)
 
 if [[ -d /sys/class/power_supply/BAT0 ]]; then
 
@@ -13,11 +13,10 @@ if [[ -d /sys/class/power_supply/BAT0 ]]; then
         batteryPower=$(cat /sys/class/power_supply/BAT0/capacity)
     
         if [[ "${batteryState}" == "Discharging" && ${batteryPower} -le 20 ]]; then
-              notify-send -u critical -t 60000  "Battery Low ..."
+              notify-send -u critical -t 60000  " BATTERY LOW "
 
         elif [[ "${batteryState}" == "Charging" && ${batteryPower} -eq 80 ]]; then
-                notify-send -u normal "Battery Full ...."
-
+                notify-send -u normal " BATTERY FULL "
         fi
 
 fi	

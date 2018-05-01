@@ -96,6 +96,5 @@ URxvt.iso14755_52:         false
 !! Cursor
 Xcursor.theme:             Adwait
 
-<<<<<<< HEAD
 !! Color theme
 #include "/home/mohabaks/.colors/pare"

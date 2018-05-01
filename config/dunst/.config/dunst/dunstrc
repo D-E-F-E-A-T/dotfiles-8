@@ -64,7 +64,11 @@
     # the top and down respectevly.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
+<<<<<<< HEAD
     geometry = "345x5-20+10"
+=======
+    geometry = "350x10-10+40"
+>>>>>>> 9a16360ec483aec2ca7f9f434ddeb49e1369b9f7
     
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
@@ -148,8 +152,13 @@
     icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 
 [frame]
+<<<<<<< HEAD
     width = 4
     color = "#d3dde8"
+=======
+    width = 3
+    color = "#101010"
+>>>>>>> 9a16360ec483aec2ca7f9f434ddeb49e1369b9f7
 
 [shortcuts]
 
@@ -175,6 +184,7 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
+<<<<<<< HEAD
     background = "#080a11"
     foreground = "#0caaab"
     timeout = 10
@@ -187,6 +197,20 @@
 [urgency_critical]
     background = "#080a11"
     foreground = "#c22732"
+=======
+    background = "#020202"
+    foreground = "#404040"
+    timeout = 10
+
+[urgency_normal]
+    background = "#020202"
+    foreground = "#a8a8a8"
+    timeout = 10
+
+[urgency_critical]
+    background = "#020202"
+    foreground = "#B52253"
+>>>>>>> 9a16360ec483aec2ca7f9f434ddeb49e1369b9f7
     timeout = 0
 
 

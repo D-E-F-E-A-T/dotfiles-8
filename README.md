@@ -60,8 +60,6 @@ Current
 Workflow
 --------
 
-`light`
-
 ![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 
 Thanks

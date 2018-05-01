@@ -45,7 +45,11 @@ URxvt*scrollWithBuffer:   true
 URxvt*scrollTtyKeypress:  true
 
 !! Fonts
-#define fonts xft:Iosevka Slab:size=9
+#define fonts xft:Iosevka Slab:size=9,\
+              xft:Droid Sans Mono for Powerline:size=12,\
+              xft:Dejavu Sans Mono for Powerline:size=12,\
+              xft:Tewi:size=8,\
+              xft:Siji:size=12
 
 URxvt*font:              fonts
 !URxvt*boldMode:          true
@@ -92,5 +96,6 @@ URxvt.iso14755_52:         false
 !! Cursor
 Xcursor.theme:             Adwait
 
+<<<<<<< HEAD
 !! Color theme
 #include "/home/mohabaks/.colors/pare"

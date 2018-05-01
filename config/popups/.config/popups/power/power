@@ -6,14 +6,13 @@
 # Override Panel Settings
 PW=180
 PH=70
-PX=1720
-PY=80
+
 
 # Settings for n30f for fancy look
-n30f -d -x 1720 -y 50 $HOME/.config/popups/power/bg.png &
+n30f -d -x 1176 -y 26 $HOME/.config/popups/power/bg.png &
 
 
-echo "  %{F$RED}%{F-} %{A:s:}Suspend%{A}  %{F$BLUE} %{F-}%{A:l:}Lock%{A} %{F$MAGENTA} %{F-}%{A:e:}Exit%{A}" | lemonbar -g ${PW}x${PH}+${PX}+${PY} -f "$FONT1" -f "$FONT3" -B "$BG" -F "$FG" -dp | \
+echo "  %{F$RED}%{F-} %{A:s:}Suspend%{A}  %{F$BLUE} %{F-}%{A:l:}Lock%{A}  %{F$MAGENTA} %{F-}%{A:e:}Exit%{A}" | lemonbar -g ${PW}x${PH}+${PX}+${PY} -f "$FONT1" -f "$FONT3" -B "$BG" -F "$FG" -dp | \
     while :; do
         read line
         case $line in 

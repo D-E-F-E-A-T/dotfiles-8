@@ -6,7 +6,6 @@ alias blog='cd ~/Blog'
 alias pen='cd ~/PenTest'
 
 # Quick Config Editing
->>>>>>> 9a16360ec483aec2ca7f9f434ddeb49e1369b9f7
 alias i3config='vim ~/.config/i3/config'
 alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'

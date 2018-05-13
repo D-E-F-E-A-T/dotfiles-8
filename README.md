@@ -52,12 +52,10 @@ stow zathura
 stow -D zathura
 ```
 
-Current
---------
+Current Office Light Mode
+--------------------------
 
-`irssi` `vim` `tmux` `ranger` `ncmpcpp` `htop` `urxvt`
-
-![minimal](https://imgur.com/jPU8GJx.png)
+![minimal](https://imgur.com/4JvR2Gl.png)
 
 Previous Workflow
 -----------------

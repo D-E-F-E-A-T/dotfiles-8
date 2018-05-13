@@ -22,4 +22,4 @@ else:
 
     fullcount = contents[ifrom:ito]
 
-    print(fullcount)
+    print(fullcount +" new")

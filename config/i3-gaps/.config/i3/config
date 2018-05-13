@@ -16,8 +16,7 @@ bindsym $mod+Shift+q kill
 # Quit i3
 bindsym $mod+Shift+Escape exec i3-msg exit
 
-# Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -nf "#a8a8a8" -sb "#0caaab" -sf "#f7f7f7" -nb "#080a11" -fn "Iosevka Slab-11"
+
 
 # Start Rofi (a program launcher, ssh, window switcher)
 # https://davedavenport.github.io/rofi/
@@ -74,16 +73,16 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Initialize workspace
-set $w1 1:web
-set $w2 2:dev
-set $w3 3:doc
-set $w4 4:mpv
-set $w5 5:job
-set $w6 6:sys
-set $w7 7:lab
-set $w8 8:app
-set $w9 9:pen
-set $w10 10:mis
+set $w1 1:
+set $w2 2:
+set $w3 3:
+set $w4 4:
+set $w5 5:
+set $w6 6:
+set $w7 7:
+set $w8 8:
+set $w9 9:
+set $w10 10:
  
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -154,8 +153,8 @@ bindsym $mod+minus scratchpad show
 #smart_borders on
 
 # Global gaps size
- gaps inner 0
- gaps outer 0
+gaps inner 15
+gaps outer 0
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -201,37 +200,37 @@ mode "$mode_gaps_outer" {
 # workspace $w5 gaps outer 15
 # workspace $w8 gaps outer 15
 #
-bindsym $mod+r mode "resize"
+        bindsym $mod+r mode "resize"
 
 #bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/status/status
 
 # Volume control
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+        bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+        bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
+        bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
 # Brightness control
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20
+        bindsym XF86MonBrightnessUp exec xbacklight -inc 20
+        bindsym XF86MonBrightnessDown exec xbacklight -dec 20
 
 # Touchpad controls
-bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh
+        bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh
 
 # Screenshot with scrot
-bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures/screenshots' && notify-send "Screenshot Taken"
+        bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures/screenshots' && notify-send "Screenshot Taken"
 
 # Kill screencast
-bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
+        bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
 
 # View Todo List
-bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
+        bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
 
 # My apps shortcut
-bindsym $mod+p exec --no-startup-id pcmanfm 
-bindsym $mod+b exec --no-startup-id firefox
+        bindsym $mod+p exec --no-startup-id pcmanfm 
+        bindsym $mod+b exec --no-startup-id firefox
 
 # Mpc play next song
-bindsym $mod+n exec --no-startup-id mpc next
+        bindsym $mod+n exec --no-startup-id mpc next
 
 # Custom colors
 set_from_resource $black       color8  #000000
@@ -251,53 +250,52 @@ set_from_resource $cyan        color14 #000000
 set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
-set $darkblack   #10121b
-set $background  #080a11
-set $idle        #10121b
-set $hid         #10121b
+set $background  #e0eaf9
+
+# Start dmenu (a program launcher)
+bindsym $mod+d exec  --no-startup-id dmenu_run -b -y 10 -x 13 -w 1892 -nf "$white" -sb "$magenta" -sf "$background" -nb "$background" -fn "Anonymous Pro for Powerline-14"
 
 # Window colors           border       background   text            indicator    child_border
 client.focused            $darkmagenta $darkmagenta $darkwhite      $darkblack  $darkblack
-client.focused_inactive   $idle        $idle        $white          $darkblack  $darkblack
-client.unfocused          $hid         $hid         $white          $darkblack  $darkblack
-client.urgent             $darkblue    $darkblue    $white          $darkblack  $darkblack
+client.focused_inactive   $darkblack   $darkblack   $white          $darkblack  $darkblack
+client.unfocused          $darkblack   $darkblack   $white          $darkblack  $darkblack
+client.urgent $darkblue   $darkblue    $white       $darkblack      $darkblack  $darkblack
 
 #start i3bar to display a workspace bar
 #uncomment to use the default i3bar status
-bar {      
+# bar {      
     
-          status_command  $HOME/.local/bin/conkyi3.sh     
-          position top
-          font xft:Iosevka Slabs 10
-          strip_workspace_numbers yes
+#           status_command  $HOME/.local/bin/conkyi3.sh     
+#           position top
+#           font xft:Anonymous Pro for Powerline 8
+#           strip_workspace_numbers yes
           
-          colors {
-              separator          $darkblack
-              background         $background
-              statusline         $background
+#           colors {
+#               separator          $darkblack
+#               background         $background
+#               statusline         $background
               
-              # Bar colors       border       background    text 
-              focused_workspace  $darkblack   $green        $background
-              active_workspace   $background  $blue         $white
-              inactive_workspace $background  $darkblack    $cyan
-              urgent_workspace   $background  $red          $darkwhite
-         }
-}
+#               # Bar colors       border       background    text 
+#               focused_workspace  $background  $darkmagenta  $darkwhite
+#               active_workspace   $background  $blue         $white
+#               inactive_workspace $background  #202020    $white
+#               urgent_workspace   $background  $red          $darkwhite
+#          }
+# }
 
 # Fancy title bar
 font pango:lemon 18
-#for_window [class=".*"] title_format "<span font='Tewi 8'> ➤ %title</span>"
 for_window [class=".*"] title_format "<span font='Tewi 8'> </span>"
 
 
 #************  Startup apps ***********************
 
 # Bar start
-exec --no-startup-id nitrogen --restore  &
-exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc &
-exec --no-startup-id compton -b --config $HOME/.compton.conf
-#exec --no-startup-id xrdb -load -I$HOME ~/.Xresources
-exec --no-startup-id $HOME/.local/bin/urxvt_daemon &
+exec --no-startup-id $HOME/.local/bin/barstart
+#exec --no-startup-id nitrogen --restore  &
+#exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc &
+#exec --no-startup-id compton -b --config $HOME/.compton.conf
+#exec --no-startup-id $HOME/.local/bin/urxvt_daemon &
 
 # Other apps are being started by .xinitrc check it to see what apps are being
 # started so your i3 works correct e.g xresource file and import them here if
@@ -309,23 +307,17 @@ exec --no-startup-id $HOME/.local/bin/urxvt_daemon &
 for_window [class="^.*"] border pixel 1
 
 # Enable or disable floating
-for_window [class="Arandr"] floating enable
 for_window [class="Lxappearance"] floating enable
 for_window [class="Nitrogen"] floating enable
-for_window [class="Artha"] floating enable
 for_window [class="feh"] floating enable
 for_window [window_role="Preferences"] floating enable
 for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
 
 # Starting apps on a specific workspace
-assign [class="^Tor Browser$"]           $w1
 assign [class="^Firefox$"]               $w1
-assign [class="^Luakit$"]                $w1
 assign [class="^Zathura"]                $w3
-#assign [class="^mpv$"]                   $w4
-assign [class="^VirtualBox Manager$"]    $w7
-assign [class="^VBoxSDL$"]               $w7
+assign [class="^mpv$"]                   $w4
 assign [class="^Gimp$"]                  $w8
 assign [class="^Wireshark"]              $w8
 assign [class="^Pcmanfm"]                $w8

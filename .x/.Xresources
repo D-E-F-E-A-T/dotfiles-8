@@ -26,7 +26,7 @@ Xft.lcdfilter:          lcddefault
 !-----------------------------------------------------------------------
 
 URxvt.internalBorder:    10
-URxvt.externalBorder:    0
+URxvt.externalBorder:    10
 !URxvt.lineSpace:        0
 !urxvt*shading:          30
 URxvt.depth:             32
@@ -45,15 +45,11 @@ URxvt*scrollWithBuffer:   true
 URxvt*scrollTtyKeypress:  true
 
 !! Fonts
-#define fonts xft:Iosevka Slab:size=9,\
-              xft:Droid Sans Mono for Powerline:size=12,\
-              xft:Dejavu Sans Mono for Powerline:size=12,\
-              xft:Tewi:size=8,\
-              xft:Siji:size=12
+#define fonts xft:Iosevka Slab:size=9
 
 URxvt*font:              fonts
-!URxvt*boldMode:          true
-!URxvt*boldFont:          fonts
+URxvt*boldMode:          true
+URxvt*boldFont:          fonts
 
 URxvt.letterSpace:       true
 
@@ -97,4 +93,4 @@ URxvt.iso14755_52:         false
 Xcursor.theme:             Adwait
 
 !! Color theme
-#include "/home/mohabaks/.colors/pare"
+#include "/home/mohabaks/.colors/wal"

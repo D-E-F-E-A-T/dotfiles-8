@@ -2,11 +2,9 @@
 
 export DISPLAY=:0
 export PATH=/home/mohabaks/.local/bin:$PATH
-export DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus
+export $(dbus-launch)
 
- #Get current time
-notify-send "Hello"
-
+#Get current time
 current_time=`date "+ %H:%M"`
 
 # load display image

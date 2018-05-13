@@ -19,7 +19,7 @@ let g:colors_name = 'wal'
 hi Normal ctermbg=NONE ctermfg=7 cterm=NONE
 hi NonText ctermbg=NONE ctermfg=0 cterm=NONE
 " comment
-hi Comment ctermbg=0 ctermfg=8 cterm=NONE
+hi Comment ctermbg=NONE ctermfg=8 cterm=NONE
 hi Constant ctermbg=NONE ctermfg=3 cterm=NONE
 hi Error ctermbg=1 ctermfg=7 cterm=NONE
 hi Identifier ctermbg=NONE ctermfg=1 cterm=NONE

@@ -20,7 +20,10 @@ alias ls="ls --group-directories-first --time-style=+'%d.%m.%Y %H:%M' --color=au
 alias ll="ls -l --group-directories-first --time-style=+'%d.%m.%Y %H:%M' --color=auto -F"
 alias la="ls -la --group-directories-first --time-style=+'%d.%m.%Y %H:%M' --color=auto -F"
 alias grep='grep --color=tty -d skip'
+alias google='ping -c1 8.8.8.8'
 alias cp='cp -i'
+alias homelab='ssh blackman@blacklab'
+alias tcolor='for i in {0..255}; do printf "\x1b[38;5;${i}mcolor%-5i\x1b[0m" $i ; if ! (( ($i + 1 ) % 8 )); then echo ; fi ; done'
 alias df='df -h'
 alias free='free -m'
 alias rm='rm -i'

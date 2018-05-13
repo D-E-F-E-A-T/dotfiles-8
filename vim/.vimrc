@@ -49,9 +49,7 @@ Plugin 'dylanaraps/wal.vim'
 Plugin 'whatyouhide/vim-gotham'
 Plugin 'altercation/vim-colors-solarized'
 "Plugin 'lilydjwg/colorizer'
-"Plugin 'morhetz/gruvbox'
-"Plugin 'dylanaraps/wal.vim'
-"Plugin 'whatyouhide/vim-gotham'
+Plugin 'morhetz/gruvbox'
 
 call vundle#end()       
 filetype plugin indent on  
@@ -63,13 +61,13 @@ filetype plugin indent on
 set background=dark
 colorscheme bleh
 
-"let g:gruvbox_contrast_dark = 'medium'
+let g:gruvbox_contrast_dark = 'hard'
 
 "" Status line
 set laststatus=0
 set t_Co=256
 " let g:lightline = {
-"       \ 'colorscheme': 'wal',
+"       \ 'colorscheme': 'gotham',
 "      \ }      
  "}}} 
 
@@ -77,7 +75,7 @@ set t_Co=256
 "" These are options that changes random visuals in Vim
 syntax on
 filetype on
-set number                       " show line numbers
+"set number                       " show line numbers
 set encoding=utf-8
 set noshowmode                   " Hide UI
 "set showcmd                      " show command in bottom bar

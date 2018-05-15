@@ -57,7 +57,7 @@ Current Office Light Mode
 
 ![minimal](https://imgur.com/4JvR2Gl.png)
 
-Full album [here](https://imgur.com/a/SPpkfeP)
+Full album [here](https://imgur.com/a/hlVzbmx)
 
 Previous Workflow
 -----------------

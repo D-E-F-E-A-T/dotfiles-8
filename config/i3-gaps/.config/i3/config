@@ -153,8 +153,8 @@ bindsym $mod+minus scratchpad show
 #smart_borders on
 
 # Global gaps size
-gaps inner 15
-gaps outer 0
+gaps inner 0
+gaps outer 15
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -316,6 +316,7 @@ for_window [window_type="menu"] floating enable
 
 # Starting apps on a specific workspace
 assign [class="^Firefox$"]               $w1
+assign [class="^Chromium-browser-chromium$"]               $w1
 assign [class="^Zathura"]                $w3
 assign [class="^mpv$"]                   $w4
 assign [class="^Gimp$"]                  $w8

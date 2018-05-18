@@ -6,7 +6,7 @@
 #
 
 auto-reload yes
-browser firefox
+macro y set browser "mpv %u"; open-in-browser ; set browser "w3m %u"
 cleanup-on-quit yes
 download-path "/home/mohabaks/Videos/Podcasts"
 feed-sort-order title-dec
@@ -49,24 +49,26 @@ ignore-mode "display"
 
 articlelist-format "%4i %f %D  %?T?|%-17T| ?%t"
 
-highlight feedlist    "^  *[0-9]+  *N  "                    red      default
-highlight articlelist "^  *[0-9]+  *N  "                    blue     white
+highlight feedlist    "^  *[0-9]+  *N  "                    cyan     cyan
+highlight articlelist "^  *[0-9]+  *N  "                    cyan     cyan
 
-highlight article     "(^Feed:.*|^Title:.*|^Author:.*)"     magenta    default
+highlight article     "(^Feed:.*|^Title:.*|^Author:.*)"     red      default
 highlight article     "(^Link:.*|^Date:.*)"                 white    default
-highlight article     "^Podcast Download URL:.*"            red      default
-highlight article     "^Links:"                             red      black    underline
-highlight article     "https?://[^ ]+"                      red      default
+highlight article     "^Podcast Download URL:.*"            cyan     default
+highlight article     "^Links:"                             magenta  black    underline
+highlight article     "https?://[^ ]+"                      green    default
 highlight article     "^(Title):.*$"                        blue     default
 highlight article     "\\[[0-9][0-9]*\\]"                   magenta  default  bold
 highlight article     "\\[image\\ [0-9]+\\]"                green    default  bold
 highlight article     "\\[embedded flash: [0-9][0-9]*\\]"   green    default  bold
-highlight article     ":.*\\(link\\)$"                      color6   default
-highlight article     ":.*\\(image\\)$"                     color15  default
-highlight article     ":.*\\(embedded flash\\)$"            color9   default
+highlight article     ":.*\\(link\\)$"                      cyan     default
+highlight article     ":.*\\(image\\)$"                     blue     default
+highlight article     ":.*\\(embedded flash\\)$"            magenta  default
 
 color background                                            default   default
 color listnormal                                            default   default
-color listfocus                                             black     green
-color info                                                  blue      black
+color listfocus                                             default   default
+color info                                                  cyan      black
 color article                                               default   default
+color listnormal_unread                                     white     default
+color listfocus_unread                                      color255  cyan   bold

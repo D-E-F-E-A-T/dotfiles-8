@@ -82,7 +82,7 @@ URxvt.keysym.M-Escape:         perl:keyboard-select:activate
 URxvt.keysym.Control-Shift-V:  perl:pasta:paste
 URxvt.url-select.autocopy:     true
 URxvt.url-select.underline:    true
-URxvt.url-launcher:            /usr/bin/firefox
+URxvt.url-launcher:            /usr/bin/chromium
 URxvt.matcher.button:          1
 
 !! Disable the stupid ctrl+shift 'feature'

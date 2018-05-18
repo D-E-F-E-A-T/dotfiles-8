@@ -1,21 +1,11 @@
-```
-              ▄▄                         ▄▄▄▄      ██     ▄▄▄▄                         
-              ██              ██        ██▀▀▀      ▀▀     ▀▀██                         
-         ▄███▄██   ▄████▄   ███████   ███████    ████       ██       ▄████▄   ▄▄█████▄ 
-        ██▀  ▀██  ██▀  ▀██    ██        ██         ██       ██      ██▄▄▄▄██  ██▄▄▄▄ ▀ 
-        ██    ██  ██    ██    ██        ██         ██       ██      ██▀▀▀▀▀▀   ▀▀▀▀██▄ 
-        ▀██▄▄███  ▀██▄▄██▀    ██▄▄▄     ██      ▄▄▄██▄▄▄    ██▄▄▄   ▀██▄▄▄▄█  █▄▄▄▄▄██ 
-          ▀▀▀ ▀▀    ▀▀▀▀       ▀▀▀▀     ▀▀      ▀▀▀▀▀▀▀▀     ▀▀▀▀     ▀▀▀▀▀    ▀▀▀▀▀▀  
-```
-
 Setup Description
 -----------------
-* Bar `polybar` `lemonbar`
-* Browser `firefox` `luakit` `chromium` `tor-browser`
+* Bar `polybar`
+* Browser `firefox` `chromium`
 * Compositor `compton`
-* IRC client `weechat`
+* IRC client `weechat` `irssi`
 * File Manager `ranger` `pcmanfm`
-* Font `Iosevka` `tewi`
+* Font `Iosevka` `tewi` `Anonymous Pro for Powerline`
 * Mail client `mutt`
 * Media player `mpv`
 * Music player `ncmpcpp`
@@ -23,46 +13,22 @@ Setup Description
 * PDF viewer `zathura`
 * Text editor `vim`
 * Terminal emulator `urxvt-patched`
+* Terminal multiplexer: `tmux`
 * Window manager `i3` `bspwm`
 
 Installation
 ------------
 
-1. Clone this repo.
-   
-   `git clone https://github.com/mohabaks/dotfiles`
-2. Change directory to dotfiles and install using [GNU stow]
+Make sure you have [GNU stow] installed;then run the `install` script.
+
 ```bash
-# Change to dotfiles
-cd dotfiles
-# Install tmux config
-# Note: If you haven't clone the repo to your $HOME
-# do e.g: stow -t ~ tmux
-stow tmux
-
-# Only for files in config directory
-# you will need to change directory to that
-# example to install zathura config 
-cd config
-
-# Install zathura config
-stow zathura
-
-# Unstow zathura config
-stow -D zathura
+$./install
 ```
 
-Current Office Light Mode
---------------------------
+Current
+-------
 
-![minimal](https://imgur.com/4JvR2Gl.png)
-
-Full album [here](https://imgur.com/a/hlVzbmx)
-
-Previous Workflow
------------------
-
-![alt workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
+![minimal](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
 
 Thanks
 ------

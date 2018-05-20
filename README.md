@@ -25,6 +25,9 @@ Make sure you have [GNU stow] installed;then run the `install` script.
 $./install
 ```
 
+Above script give you options whether to install all the configs or a
+specific config.
+
 Current
 -------
 

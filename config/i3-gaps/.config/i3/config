@@ -73,16 +73,16 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Initialize workspace
-set $w1 1:
-set $w2 2:
-set $w3 3:
-set $w4 4:
-set $w5 5:
-set $w6 6:
-set $w7 7:
-set $w8 8:
-set $w9 9:
-set $w10 10:
+set $w1 1:surf
+set $w2 2:code
+set $w3 3:docs
+set $w4 4:medi
+set $w5 5:core
+set $w6 6:term
+set $w7 7:labs
+set $w8 8:apps
+set $w9 9:kali
+set $w10 10:misc
  
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -154,7 +154,7 @@ bindsym $mod+minus scratchpad show
 
 # Global gaps size
 gaps inner 0
-gaps outer 15
+gaps outer 0
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -250,10 +250,10 @@ set_from_resource $cyan        color14 #000000
 set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
-set $background  #e0eaf9
+set $background  #000000
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -y 10 -x 13 -w 1892 -nf "$white" -sb "$magenta" -sf "$background" -nb "$background" -fn "Anonymous Pro for Powerline-14"
+bindsym $mod+d exec  --no-startup-id dmenu_run -b -nf "$white" -sb "$magenta" -sf "$background" -nb "$background" -fn "Fixed-9"
 
 # Window colors           border       background   text            indicator    child_border
 client.focused            $darkmagenta $darkmagenta $darkwhite      $darkblack  $darkblack
@@ -263,25 +263,25 @@ client.urgent $darkblue   $darkblue    $white       $darkblack      $darkblack  
 
 #start i3bar to display a workspace bar
 #uncomment to use the default i3bar status
-# bar {      
+bar {      
     
-#           status_command  $HOME/.local/bin/conkyi3.sh     
-#           position top
-#           font xft:Anonymous Pro for Powerline 8
-#           strip_workspace_numbers yes
+          status_command  $HOME/.local/bin/conkyi3.sh     
+          position top
+          font xft:Fixed 9
+          strip_workspace_numbers yes
           
-#           colors {
-#               separator          $darkblack
-#               background         $background
-#               statusline         $background
+          colors {
+              separator          $darkblack
+              background         $background
+              statusline         $background
               
-#               # Bar colors       border       background    text 
-#               focused_workspace  $background  $darkmagenta  $darkwhite
-#               active_workspace   $background  $blue         $white
-#               inactive_workspace $background  #202020    $white
-#               urgent_workspace   $background  $red          $darkwhite
-#          }
-# }
+              # Bar colors       border       background    text 
+              focused_workspace  $background  $darkmagenta  $darkwhite
+              active_workspace   $background  $blue         $white
+              inactive_workspace $background  #202020       $white
+              urgent_workspace   $background  $red          $darkwhite
+         }
+}
 
 # Fancy title bar
 font pango:lemon 18
@@ -291,7 +291,7 @@ for_window [class=".*"] title_format "<span font='Tewi 8'> </span>"
 #************  Startup apps ***********************
 
 # Bar start
-exec --no-startup-id $HOME/.local/bin/barstart
+#exec --no-startup-id $HOME/.local/bin/barstart
 #exec --no-startup-id nitrogen --restore  &
 #exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc &
 #exec --no-startup-id compton -b --config $HOME/.compton.conf

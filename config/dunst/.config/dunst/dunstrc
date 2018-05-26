@@ -1,5 +1,5 @@
 [global]
-    font = Anonymous Pro for Powerline 9
+    font = lucy tewi 8
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -149,7 +149,7 @@
 
 [frame]
     width = 4
-    color = "#c7d0de"
+    color = "#080808"
 
 [shortcuts]
 
@@ -175,18 +175,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#e3ecf9"
-    foreground = "#057490"
+    background = "#000000"
+    foreground = "#B218B2"
     timeout = 10
 
 [urgency_normal]
-    background = "#e3ecf9"
-    foreground = "#1f1b3f"
+    background = "#000000"
+    foreground = "#B2B2B2"
     timeout = 10
 
 [urgency_critical]
-    background = "#e3ecf9"
-    foreground = "#da3e4e"
+    background = "#000000"
+    foreground = "#B21818"
     timeout = 0
 
 

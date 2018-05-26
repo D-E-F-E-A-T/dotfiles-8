@@ -21,9 +21,9 @@
     * (If you make two or more the same value you will need to
        manually separate the colors in the code later to undo) 
 
-    #e3ecf9 - Background        #e5322f - Color Mnu1
+    #000000 - Background        #e5322f - Color Mnu1
     #0c0e17 - Content BG        #0f8182 - Color Mnu2
-    #1f1b3f - Content FG        #268bd2 - Color Mnu3
+    #B2B2B2 - Content FG        #268bd2 - Color Mnu3
     #a9aeb4 - C FG Light        #d33682 - Color Mnu4
     #eee8d5 - L FG Hover        #6c71c4 - Color Mnu5
 
@@ -37,13 +37,13 @@ html,body {
     margin: 0; padding: 0; overflow: hidden;
     width: 100%; height: 100%;
     font-family: "Iosevka Slab", "Liberation Sans", "DejaVu Sans", "Segoe UI", Sans; font-size: 10pt;
-    background: #e3ecf9;
+    background: #000000;
 }
 *:focus  { outline: none; }
 ul, li   { list-style-type: none; margin: 0; padding: 0; }
-textarea { background: transparent; color: #1f1b3f; }
+textarea { background: transparent; color: #B2B2B2; }
 
-a, a:link, a:visited { color: #1f1b3f; text-decoration: none; transition: .2s ease-out; }
+a, a:link, a:visited { color: #B2B2B2; text-decoration: none; transition: .2s ease-out; }
 a:hover, a:active    { color: #eee8d5; }
 
 #preview { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
@@ -51,7 +51,7 @@ a:hover, a:active    { color: #eee8d5; }
     position: absolute; top: 0; left: 0;
     width: 100%; height: 100%; z-index: 2;
     opacity: 1; transition: .5s;
-    background: #e3ecf9;
+    background: #000000;
     /* Uncomment below and disable 'showPreview' in the javascript to use custom background image */
     /*
     background: url('file:///home/guest/lewd-twily.jpg') no-repeat center center fixed;
@@ -63,25 +63,25 @@ a:hover, a:active    { color: #eee8d5; }
 #center #content {
     margin: 0; overflow: visible; width: 100%; height: auto;
     position: absolute; top: 50%; transform: translate(0,-50%);
-    text-align: center; opacity: 1; z-index: 10; background: #e3ecf9; /* #e3ecf9 || transparent */
+    text-align: center; opacity: 1; z-index: 10; background: #000000; /* #000000 || transparent */
 }
 
 #q {
     width: calc((200px * 4) - (8px * 2));
-    background: #e1e6ef; color: #1f1b3f;
+    background: #080808; color: #B2B2B2;
     border: 0; border-radius: 1px;
     font-family: "Iosevka Slab", "Liberation Sans", "DejaVu Sans", "Segoe UI", Sans; font-size: 12pt;
     padding: 4px 8px; height: 24px;
 }
 
 #more {
-    background: transparent; color: #1f1b3f; display: block; 
+    background: transparent; color: #B2B2B2; display: block; 
     text-align: center; margin: 0 auto; width: 32px; height: 32px;
     font-weight: bold; cursor: default;
 }
     #plus {
         border: 0; border-radius: 1px 1px 0 0; width: 32px; height: 32px; font-size: 12pt;
-        background: transparent; color: #1f1b3f; font-weight: bold; cursor: pointer;
+        background: transparent; color: #B2B2B2; font-weight: bold; cursor: pointer;
         transition: .2s ease-out;
     }
     #help {
@@ -89,15 +89,15 @@ a:hover, a:active    { color: #eee8d5; }
         position: absolute; left: 0; right: 0; margin: auto;
         font-family: "PragmataPro", "Droid Sans Mono", "Liberation Sans Mono", "DejaVu Sans Mono", "Consolas", "Lucida Console", monospace;
         padding: 8px; text-align: left; border-radius: 1px; opacity: 0;
-        background: #0c0e17; color: #1f1b3f; transition: .2s ease-out;
+        background: #0c0e17; color: #B2B2B2; transition: .2s ease-out;
     }
-    #more:hover #plus { background: #e1e6ef; }
+    #more:hover #plus { background: #080808; }
     #more:hover #help { visibility: visible; opacity: 1; }
         #note { width: 100%; height: 100px; resize: none; border: 0; outline: 0; }
 
 #menu {
     width: 100%; height: 32px; margin: 0 auto;
-    background: transparent; color: #1f1b3f; cursor: default;
+    background: transparent; color: #B2B2B2; cursor: default;
 }
     #mnu                   { height: 32px; line-height: 32px; width: calc((250px * 4) + 1px); }
 
@@ -105,17 +105,17 @@ a:hover, a:active    { color: #eee8d5; }
     #menu label            { padding: 0; display: inline-block; font-weight: bold; width: 200px; /* menu width */ }
 
     #menu ul li            { float: left; border-radius: 0 0 1px 1px; height: 32px; text-align: center; transition: .2s ease-out; }
-    #menu ul li:hover      { background: #e1e6ef; color: #839496;  }
+    #menu ul li:hover      { background: #080808; color: #839496;  }
     #menu ul li a          { display: block; white-space: nowrap; padding: 0 10px; }
 
     #menu ul ul {
         display: flex; flex-flow: column wrap; /* column | row(-reverse) */ align-content: flex-start;
         visibility: hidden; opacity: 0; width: calc(250px * 4); /* cols */ height: calc(32px * 3); /* rows */
         position: absolute; bottom: 100%; left: 0; z-index: 11;
-        background: #e1e6ef; border-radius: 1px; transition: .2s ease-out;
+        background: #080808; border-radius: 1px; transition: .2s ease-out;
     }
     #menu ul li:hover > ul { bottom: 100%; visibility: visible; opacity: 1; z-index: 12; height: calc(32px * 3); /* rows */ }
-    #menu ul ul li { background: #e1e6ef; border-radius: 1px; height: 32px; text-align: left; width: 200px; /* menu width */ }
+    #menu ul ul li { background: #080808; border-radius: 1px; height: 32px; text-align: left; width: 200px; /* menu width */ }
 
     /* Menu Colors */
     #menu ul #mnu_1 li:hover { background: #e5322f; }

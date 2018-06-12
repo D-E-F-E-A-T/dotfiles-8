@@ -36,11 +36,11 @@ ncmpcpp_directory = ~/.config/ncmpcpp
 #lyrics_directory = ~/.lyrics
 #
 ##### connection settings #####
-mpd_host = localhost
+mpd_host = 192.168.100.5
 mpd_port = 6600
-mpd_connection_timeout = 5
+mpd_connection_timeout = 20
 ## Needed for tag editor and file operations to work.
-mpd_music_dir = /srv/nas/thevault/music
+mpd_music_dir = /home/blackman/Musics
 mpd_crossfade_time = 5
 ##### music visualizer #####
 ##
@@ -50,12 +50,12 @@ mpd_crossfade_time = 5
 ## or 44100:16:2 for stereo visualization. Example
 ## configuration (it has to be put into mpd.conf):
 ##
-audio_output {
-        type            "my_fifo"
-        name            "Visualizer feed"
-        path            "/tmp/mpd.fifo"
-        format          "44100:16:2"
-}
+#audio_output {
+#        type            "my_fifo"
+#        name            "Visualizer feed"
+#        path            "/tmp/mpd.fifo"
+#        format          "44100:16:2"
+#}
 ##
 #
 visualizer_fifo_path = /tmp/mpd.fifo
@@ -493,7 +493,7 @@ use_console_editor = yes
 #
 
 ## Display notify for the current playing song
-execute_on_song_change = /home/mohabaks/.config/popups/ncmpcpp/current_playing
+#execute_on_song_change = /home/mohabaks/.config/popups/ncmpcpp/current_playing
 
 ##### colors definitions #####
 colors_enabled = yes

@@ -73,16 +73,16 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Initialize workspace
-set $w1 1:surf
-set $w2 2:code
-set $w3 3:docs
-set $w4 4:medi
-set $w5 5:core
-set $w6 6:term
-set $w7 7:labs
-set $w8 8:apps
-set $w9 9:kali
-set $w10 10:misc
+set $w1 1:web
+set $w2 2:dev
+set $w3 3:doc
+set $w4 4:mpv
+set $w5 5:atl
+set $w6 6:sys
+set $w7 7:lab
+set $w8 8:app
+set $w9 9:pen
+set $w10 10:mis
  
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -205,36 +205,36 @@ mode "$mode_gaps_outer" {
 #bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/status/status
 
 # Volume control
-        bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
-        bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
-        bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
 # Brightness control
-        bindsym XF86MonBrightnessUp exec xbacklight -inc 20
-        bindsym XF86MonBrightnessDown exec xbacklight -dec 20
+bindsym XF86MonBrightnessUp exec xbacklight -inc 20
+bindsym XF86MonBrightnessDown exec xbacklight -dec 20
 
 # Touchpad controls
-        bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh
+bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh
 
 # Screenshot with scrot
-        bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures/screenshots' && notify-send "Screenshot Taken"
+bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures/screenshots' && notify-send "Screenshot Taken"
 
 # Kill screencast
-        bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
+bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
 
 # View Todo List
-        bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
+bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
 
 # My apps shortcut
-        bindsym $mod+p exec --no-startup-id pcmanfm 
-        bindsym $mod+b exec --no-startup-id firefox
+bindsym $mod+p exec --no-startup-id pcmanfm 
+bindsym $mod+b exec --no-startup-id firefox
 
 # Mpc play next song
-        bindsym $mod+n exec --no-startup-id mpc next
+bindsym $mod+n exec --no-startup-id mpc -h 192.168.100.5 -p 6600 next
 
 # Custom colors
 set_from_resource $black       color8  #000000
-set_from_resource $darkblack   color0  #000000
+#set_from_resource $darkblack   color0  #000000
 set_from_resource $darkred     color1  #000000
 set_from_resource $red         color9  #000000
 set_from_resource $darkgreen   color2  #000000
@@ -251,6 +251,7 @@ set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
 set $background  #000000
+set $darkblack   #151515
 
 # Start dmenu (a program launcher)
 bindsym $mod+d exec  --no-startup-id dmenu_run -b -nf "$white" -sb "$magenta" -sf "$background" -nb "$background" -fn "Fixed-9"
@@ -263,25 +264,25 @@ client.urgent $darkblue   $darkblue    $white       $darkblack      $darkblack  
 
 #start i3bar to display a workspace bar
 #uncomment to use the default i3bar status
-bar {      
+# bar {      
     
-          status_command  $HOME/.local/bin/conkyi3.sh     
-          position top
-          font xft:Fixed 9
-          strip_workspace_numbers yes
+#           status_command  $HOME/.local/bin/conkyi3.sh     
+#           position top
+#           font xft:Fixed 9
+#           strip_workspace_numbers yes
           
-          colors {
-              separator          $darkblack
-              background         $background
-              statusline         $background
+#           colors {
+#               separator          $darkblack
+#               background         $background
+#               statusline         $background
               
-              # Bar colors       border       background    text 
-              focused_workspace  $background  $darkmagenta  $darkwhite
-              active_workspace   $background  $blue         $white
-              inactive_workspace $background  #202020       $white
-              urgent_workspace   $background  $red          $darkwhite
-         }
-}
+#               # Bar colors       border       background    text 
+#               focused_workspace  $background  $darkmagenta  $darkwhite
+#               active_workspace   $background  $blue         $white
+#               inactive_workspace $background  #252525       #888888
+#               urgent_workspace   $background  $red          $darkwhite
+#          }
+# }
 
 # Fancy title bar
 font pango:lemon 18
@@ -291,7 +292,7 @@ for_window [class=".*"] title_format "<span font='Tewi 8'> </span>"
 #************  Startup apps ***********************
 
 # Bar start
-#exec --no-startup-id $HOME/.local/bin/barstart
+exec --no-startup-id $HOME/.local/bin/barstart
 #exec --no-startup-id nitrogen --restore  &
 #exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc &
 #exec --no-startup-id compton -b --config $HOME/.compton.conf

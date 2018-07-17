@@ -34,6 +34,7 @@ alias polybarconf="vim ~/.config/polybar/config"
 alias pen="cd ~/PenTest"
 alias mpv="mpv --shuffle"
 alias getip='grep -oE "\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b"'
+alias getemail="grep -Eiorh '([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})' "$@" *"
 alias kali="docker run -it --net=host -e DISPLAY=$DISPLAY -p 8080:8080 -v /tmp/.X11-unix/:/tmp/.X11-unix kali-rolling"
 alias mpc='mpc -h 192.168.100.5 -p 6600'
 alias sshloadkey='eval "$(ssh-agent)" && ssh-add'

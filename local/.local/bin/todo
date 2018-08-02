@@ -28,7 +28,7 @@ elif [[ $1 = '--show' || $1 = '-s' || $1 == "show" ]]; then
 	while true;
 	do
 		clear
-		echo ""
+		echo -e "\0033[32m"
 		echo "     ██                 ██"
 		echo "    ░██                ░██"
 		echo "   ██████  ██████   ██████  ██████"
@@ -37,8 +37,9 @@ elif [[ $1 = '--show' || $1 = '-s' || $1 == "show" ]]; then
 		echo "    ░░██ ░░██████ ░░██████░░██████"
 		echo "     ░░   ░░░░░░   ░░░░░░  ░░░░░░"
 		echo ""
+                echo -e "\0033[31m"
 		echo "     _ __ __________________ __ _"
-		echo ""
+		echo -e "\0033[0m"
 		nl -b a $file
 		sleep 4
 	done;

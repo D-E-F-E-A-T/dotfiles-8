@@ -16,7 +16,6 @@ Setup Description
 * Terminal multiplexer: `tmux`
 * Window manager `i3` `bspwm`
 
-**NOTE** `This dotfile has two branches The master[fancy] and the Minimal_Dark_Rice[ugly]`
 
 Installation
 ------------

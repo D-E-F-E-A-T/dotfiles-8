@@ -74,7 +74,7 @@ bindsym $mod+a focus parent
 
 # Initialize workspace
 set $w1 1:web
-set $w2 2:dev
+set $w2 2:vim
 set $w3 3:doc
 set $w4 4:mpv
 set $w5 5:atl
@@ -230,7 +230,7 @@ bindsym $mod+p exec --no-startup-id pcmanfm
 bindsym $mod+b exec --no-startup-id firefox
 
 # Mpc play next song
-bindsym $mod+n exec --no-startup-id mpc -h 192.168.100.5 -p 6600 next
+#bindsym $mod+n exec --no-startup-id mpc -h 192.168.100.5 -p 6600 next
 
 # Custom colors
 set_from_resource $black       color8  #000000
@@ -254,7 +254,9 @@ set $background  #000000
 set $darkblack   #151515
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -nf "$white" -sb "$magenta" -sf "$background" -nb "$background" -fn "Fixed-9"
+#bindsym $mod+d exec  --no-startup-id dmenu_run -nf "$white" -sb "$magenta" -sf "$background" -nb "$background" -fn "Fixed-9"
+bindsym $mod+d exec --no-startup-id dmenu_extended_run
+bindsym $mod+shift+d exec --no-startup-id dmenu_extended_run "-> Internet search: " "Google"
 
 # Window colors           border       background   text            indicator    child_border
 client.focused            $darkmagenta $darkmagenta $darkwhite      $darkblack  $darkblack

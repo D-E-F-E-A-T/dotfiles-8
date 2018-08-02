@@ -7,7 +7,7 @@
 # Tip:          Use CRF 10 for WEBM and 0 for GIF
 #
 
-DIR='/home/user/'    # Directory to store files
+DIR='/home/mohabaks/'    # Directory to store files
 FILE='out'              # Output filename(.*)
 TEMP='edit'             # Edit filename(.*)
 
@@ -16,7 +16,7 @@ MARGIN=$(( 24 + 0 ))    # Margin in window mode (px) (+ 0 for border)
 TITLEBAR=0              # Titlebar height in window mode (px)
 SLOPWIDTH=2             # Slop border width (px)
 
-PRESET='ultrafast'      # Default 'ultrafast' (x264 --help for preset list)
+PRESET='normal'      # Default 'ultrafast' (x264 --help for preset list)
 FPS=30                  # Frames per second [12-60]
 CRF=10                  # Constant rate factor [0-51] (Lower is better quality)
 QMAX=10                 # Maximum Quantization [1-31] (Lower is better quality)
@@ -96,10 +96,10 @@ recordmkv() {
     if $SOUND; then
         ffmpeg -f alsa -ac 2 -i hw:$LOOPBACK \
             -f x11grab -s $w'x'$h -r $FPS -i $DISPLAY'+'$x','$y \
-            -c:v libx264 -preset $PRESET -crf $CRF -y "$DIR$FILE.mkv"
+            -c:v libx264 -pre $PRESET -crf $CRF -y "$DIR$FILE.mkv"
     else
         ffmpeg -f x11grab -s $w'x'$h -r $FPS -i $DISPLAY'+'$x','$y \
-            -c:v libx264 -preset $PRESET -crf $CRF -y "$DIR$FILE.mkv"
+            -c:v libx264 -pre $PRESET -crf $CRF -y "$DIR$FILE.mkv"
     fi
 
     notify-send "Screencast has stopped recording."
@@ -148,11 +148,11 @@ convertwebm() {
         durationDiff=$(echo "$duration-$diff"|bc -l)
 
         ffmpeg -i "$DIR$FILE.mkv" -t $durationDiff \
-            -c:v libvpx -qmin 1 -qmax $wQMAX -preset $PRESET \
+            -c:v libvpx -qmin 1 -qmax $wQMAX -pre $PRESET \
             -c:a libvorbis "$DIR$FILE.webm"
     else
         ffmpeg -i "$DIR$FILE.mkv" \
-            -c:v libvpx -qmin 1 -qmax $wQMAX -preset $PRESET \
+            -c:v libvpx -qmin 1 -qmax $wQMAX -pre $PRESET \
             -c:a libvorbis "$DIR$FILE.webm"
     fi
 
@@ -199,7 +199,7 @@ editmkv() {
                 rm -f "/tmp/output-"*.png
                 read -r -p $'\nSpeed up video by reducing frames to (<'$FPS$') fps: \n' vfps
                 ffmpeg -i "$DIR$FILE.mkv" -r $vfps -f image2 "/tmp/output-%06d.png"
-                ffmpeg -r $FPS -i "/tmp/output-%06d.png" -c:v libx264 -preset $PRESET -crf 0 "$DIR$TEMP.mkv"
+                ffmpeg -r $FPS -i "/tmp/output-%06d.png" -c:v libx264 -pre $PRESET -crf 0 "$DIR$TEMP.mkv"
                 ;;
             'w')
                 echo -e "\nOverwriting original '\033[1;32m$DIR$FILE.mkv'."

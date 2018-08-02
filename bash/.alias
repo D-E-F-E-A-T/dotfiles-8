@@ -45,6 +45,8 @@ alias kvm1="ssh root@kvm1"
 alias kvm2="ssh root@kvm2"
 alias clouddb="ssh ubuntu@clouddb"
 alias blacklab="ssh blackman@blacklab"
+alias shellcoders="ssh msfadmin@192.168.122.131"
+alias nmaplivehost="awk '/is up/ {print up}; {gsub (/\(|\)/,""); up = $NF}'"
 
 # Gentoo commands
 alias gentoo-update-repos="emerge-webrsync"

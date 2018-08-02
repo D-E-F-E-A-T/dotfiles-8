@@ -31,7 +31,7 @@ specific config.
 Current
 -------
 
-![minimal](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
+![minimal](https://github.com/mohabaks/dotfiles/blob/Minimal_Dark_Rice/demo.gif)
 
 Thanks
 ------

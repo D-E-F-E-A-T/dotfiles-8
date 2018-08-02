@@ -1,0 +1,164 @@
+/home/mohabaks/Documents/Tech/Networking/
+/home/mohabaks/Documents/Tech/Programming/
+/home/mohabaks/Documents/Tech/Cert/
+/home/mohabaks/Documents/Tech/LinuxReloaded/
+/home/mohabaks/Documents/Tech/Windows/
+/home/mohabaks/Documents/Tech/Cloud/
+/home/mohabaks/Documents/Tech/OperatingSystems(Generic)/
+/home/mohabaks/Documents/Tech/Algorithm/
+/home/mohabaks/Documents/Tech/Essentials/
+/home/mohabaks/Documents/Tech/MacOS/
+/home/mohabaks/Documents/Tech/Infosec/
+/home/mohabaks/Documents/Tech/Networking/Wireless/
+/home/mohabaks/Documents/Tech/Networking/Tools/
+/home/mohabaks/Documents/Tech/Networking/HTTP/
+/home/mohabaks/Documents/Tech/Networking/Firewall/
+/home/mohabaks/Documents/Tech/Networking/Programming/
+/home/mohabaks/Documents/Tech/Networking/Misc/
+/home/mohabaks/Documents/Tech/Networking/Security/
+/home/mohabaks/Documents/Tech/Networking/TCP_!P/
+/home/mohabaks/Documents/Tech/Networking/Mail/
+/home/mohabaks/Documents/Tech/Networking/NetworkAnalysis/
+/home/mohabaks/Documents/Tech/Networking/DNS/
+/home/mohabaks/Documents/Tech/Networking/WiresharkLabs/
+/home/mohabaks/Documents/Tech/Networking/CCNA/
+/home/mohabaks/Documents/Tech/Networking/General/
+/home/mohabaks/Documents/Tech/Programming/Assembly/
+/home/mohabaks/Documents/Tech/Programming/Java/
+/home/mohabaks/Documents/Tech/Programming/PenTest/
+/home/mohabaks/Documents/Tech/Programming/Ruby/
+/home/mohabaks/Documents/Tech/Programming/Compiler/
+/home/mohabaks/Documents/Tech/Programming/PowerShell/
+/home/mohabaks/Documents/Tech/Programming/Web/
+/home/mohabaks/Documents/Tech/Programming/C-C++/
+/home/mohabaks/Documents/Tech/Programming/lisp/
+/home/mohabaks/Documents/Tech/Programming/ShellScript/
+/home/mohabaks/Documents/Tech/Programming/Perl/
+/home/mohabaks/Documents/Tech/Programming/General/
+/home/mohabaks/Documents/Tech/Programming/Python/
+/home/mohabaks/Documents/Tech/Programming/LinuxProg/
+/home/mohabaks/Documents/Tech/Programming/Web/HTML_CSS/
+/home/mohabaks/Documents/Tech/Programming/Web/PHP/
+/home/mohabaks/Documents/Tech/Programming/Web/JQuery_AJax/
+/home/mohabaks/Documents/Tech/Programming/Web/DataMining/
+/home/mohabaks/Documents/Tech/Programming/Web/Javascript/
+/home/mohabaks/Documents/Tech/Programming/Web/Javascript/YouDon'tKnowJs/
+/home/mohabaks/Documents/Tech/LinuxReloaded/Kernel/
+/home/mohabaks/Documents/Tech/LinuxReloaded/Tools/
+/home/mohabaks/Documents/Tech/LinuxReloaded/Overview/
+/home/mohabaks/Documents/Tech/LinuxReloaded/Devices_Drivers/
+/home/mohabaks/Documents/Tech/LinuxReloaded/Security/
+/home/mohabaks/Documents/Tech/LinuxReloaded/Administration/
+/home/mohabaks/Documents/Tech/LinuxReloaded/LFS/
+/home/mohabaks/Documents/Tech/Windows/Servers/
+/home/mohabaks/Documents/Tech/Windows/General/
+/home/mohabaks/Documents/Tech/Windows/WindowsInternals/
+/home/mohabaks/Documents/Tech/Essentials/Regex/
+/home/mohabaks/Documents/Tech/Essentials/BurpSuite/
+/home/mohabaks/Documents/Tech/Essentials/Firewall/
+/home/mohabaks/Documents/Tech/Essentials/Bitcoin/
+/home/mohabaks/Documents/Tech/Essentials/HIDS&SIEM/
+/home/mohabaks/Documents/Tech/Essentials/Vim/
+/home/mohabaks/Documents/Tech/Essentials/Interview/
+/home/mohabaks/Documents/Tech/Essentials/Git/
+/home/mohabaks/Documents/Tech/Essentials/Gimp/
+/home/mohabaks/Documents/Tech/Essentials/LaTex/
+/home/mohabaks/Documents/Tech/Essentials/ComputerArch/
+/home/mohabaks/Documents/Tech/Essentials/OpenSSL/
+/home/mohabaks/Documents/Tech/Essentials/OpenVPN/
+/home/mohabaks/Documents/Tech/Essentials/VM_Container/
+/home/mohabaks/Documents/Tech/Essentials/Databases/
+/home/mohabaks/Documents/Tech/Infosec/Reverse Engineering/
+/home/mohabaks/Documents/Tech/Infosec/SecureCodeReview/
+/home/mohabaks/Documents/Tech/Infosec/Forensics/
+/home/mohabaks/Documents/Tech/Infosec/Security/
+/home/mohabaks/Documents/Tech/Infosec/Database/
+/home/mohabaks/Documents/Tech/Infosec/Malware_Virus/
+/home/mohabaks/Documents/Tech/Infosec/WebApplication/
+/home/mohabaks/Documents/Tech/Infosec/Exploiting/
+/home/mohabaks/Documents/Tech/Infosec/Mobile/
+/home/mohabaks/Documents/Tech/Infosec/Cryptograph/
+/home/mohabaks/Documents/Tech/Infosec/SocialEngineering/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/
+/home/mohabaks/Documents/Tech/Infosec/Papers/
+/home/mohabaks/Documents/Tech/Infosec/WebApplication/SANS/
+/home/mohabaks/Documents/Tech/Infosec/WebApplication/Misc/
+/home/mohabaks/Documents/Tech/Infosec/Cryptograph/AppliedCryptography/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Wireless/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/KaliLinux/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/HackingExposed/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/PenTest/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Google/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Metasploit/
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Wireless/SANS/
+/home/mohabaks/Documents/Tech/Infosec/Papers/SANS/
+/home/mohabaks/Documents/Tech/Infosec/Papers/SANS/SEC524/
+/home/mohabaks/Videos/Tech/open security training - videos/
+/home/mohabaks/Videos/Tech/OffensiveSecurity/
+/home/mohabaks/Videos/Tech/Cryprography/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/
+/home/mohabaks/Videos/Tech/Crypto/
+/home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/
+/home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/text/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 5 - Digital Forensics For Linux-Unix/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 5 - Digital Forensics For Linux-Unix/Extra/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Extra/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/Extra/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Extra/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Extra/
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/text/2000/
+/home/mohabaks/Videos/Misc/Sausage Party (2016) [1080p] [YTS.AG]/
+/home/mohabaks/Videos/Misc/Ready Player One (2018) [BluRay] [1080p] [YTS.AM]/
+/home/mohabaks/Pictures/notify/
+/home/mohabaks/Pictures/Misc/
+/home/mohabaks/Pictures/WebApp/
+/home/mohabaks/Pictures/Pentest/
+/home/mohabaks/Pictures/Walls/
+/home/mohabaks/Pictures/screenshots/
+/home/mohabaks/Pictures/notify/todo/
+/home/mohabaks/Pictures/notify/other/
+/home/mohabaks/Pictures/notify/quran/
+/home/mohabaks/Pictures/notify/prayer/
+/home/mohabaks/Pictures/notify/nasheed/
+/home/mohabaks/Pictures/Pentest/ATL/
+/home/mohabaks/Downloads/AARCS/
+/home/mohabaks/Downloads/dark_dotted2/
+/home/mohabaks/Downloads/SANS/
+/home/mohabaks/Downloads/simple_dashed/
+/home/mohabaks/Downloads/packers/
+/home/mohabaks/Downloads/spiration dark/
+/home/mohabaks/Downloads/pure evil 2/
+/home/mohabaks/Downloads/country-quilt-dark/
+/home/mohabaks/Downloads/slash_it/
+/home/mohabaks/Downloads/Backs/
+/home/mohabaks/Downloads/dmenu-4.6/
+/home/mohabaks/Downloads/Metasploitable2-Linux/
+/home/mohabaks/Downloads/Font2/
+/home/mohabaks/Downloads/binding_dark/
+/home/mohabaks/Downloads/what-the-hex-dark/
+/home/mohabaks/Downloads/LGPL/
+/home/mohabaks/Downloads/curls/
+/home/mohabaks/Downloads/darkness/
+/home/mohabaks/Downloads/Torrents/
+/home/mohabaks/Downloads/flash/
+/home/mohabaks/Downloads/Fonts/
+/home/mohabaks/Downloads/AARCS/Font/
+/home/mohabaks/Downloads/Torrents/session/
+/home/mohabaks/Downloads/flash/LGPL/

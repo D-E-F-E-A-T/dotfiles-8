@@ -1,0 +1,82 @@
+Firefox
+Postman
+MuPDF
+Customize Look and Feel
+i3
+Wireshark (GTK+)
+Mozilla Firefox
+Zathura
+Shortcut Editor
+File Manager PCManFM
+Burp Suite Community Edition
+Virtual Machine Manager
+Feh
+CherryTree
+Preferred Applications
+compton
+Inkscape
+rxvt-unicode
+XDVI
+GNU Image Manipulation Program
+Texmaker
+Htop
+sandbox
+nitrogen
+Chromium
+Print Preview
+Zeal
+FLUID
+mpv Media Player
+Spicy
+TigerVNC Viewer
+ranger
+Document Viewer
+Access Prompt
+View file
+Desktop Preferences
+HTMLDOC
+dots
+down
+code
+blog
+pen
+i3config
+vimrc
+bashrc
+aliasadd
+xresources
+polybarconf
+reload
+htop
+ls
+ll
+la
+grep
+google
+cp
+homelab
+tcolor
+df
+free
+rm
+pastebin
+msf
+add_alias
+polybarconf
+pen
+mpv
+getip
+getemail
+kali
+mpc
+sshloadkey
+cloudmaster
+kvm1
+kvm2
+clouddb
+blacklab
+shellcoders
+nmaplivehost
+gentoo-update-repos
+gentoo-remove-packages
+gentoo-update-system

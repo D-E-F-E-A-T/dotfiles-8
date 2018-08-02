@@ -16,7 +16,7 @@ MARGIN=$(( 24 + 0 ))    # Margin in window mode (px) (+ 0 for border)
 TITLEBAR=0              # Titlebar height in window mode (px)
 SLOPWIDTH=2             # Slop border width (px)
 
-PRESET='normal'      # Default 'ultrafast' (x264 --help for preset list)
+PRESET='ultrafast'      # Default 'ultrafast' (x264 --help for preset list)
 FPS=30                  # Frames per second [12-60]
 CRF=10                  # Constant rate factor [0-51] (Lower is better quality)
 QMAX=10                 # Maximum Quantization [1-31] (Lower is better quality)
@@ -96,10 +96,10 @@ recordmkv() {
     if $SOUND; then
         ffmpeg -f alsa -ac 2 -i hw:$LOOPBACK \
             -f x11grab -s $w'x'$h -r $FPS -i $DISPLAY'+'$x','$y \
-            -c:v libx264 -pre $PRESET -crf $CRF -y "$DIR$FILE.mkv"
+            -c:v libx264 -preset $PRESET -crf $CRF -y "$DIR$FILE.mkv"
     else
         ffmpeg -f x11grab -s $w'x'$h -r $FPS -i $DISPLAY'+'$x','$y \
-            -c:v libx264 -pre $PRESET -crf $CRF -y "$DIR$FILE.mkv"
+            -c:v libx264 -preset $PRESET -crf $CRF -y "$DIR$FILE.mkv"
     fi
 
     notify-send "Screencast has stopped recording."

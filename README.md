@@ -32,7 +32,11 @@ specific config.
 Current
 -------
 
-![minimal](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
+![fancy-office-look](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
+
+Minimal Workflow
+----------------
+![minimal-dark-mode](https://github.com/mohabaks/dotfiles/tree/master/demo.gif)
 
 Thanks
 ------

@@ -36,7 +36,7 @@ Current
 
 Minimal Workflow
 ----------------
-![minimal-dark-mode](https://github.com/mohabaks/dotfiles/tree/master/demo.gif)
+![minimal-dark-mode](https://github.com/mohabaks/dotfiles/blob/master/demo.gif)
 
 Thanks
 ------

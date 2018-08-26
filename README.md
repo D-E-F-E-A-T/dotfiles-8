@@ -31,12 +31,12 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Current
+Current `fancy`
 -------
 
 ![fancy-office-look](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
 
-Minimal Workflow
+Minimal Workflow `suckless`
 ----------------
 ![minimal-dark-mode](https://github.com/mohabaks/dotfiles/blob/master/demo.gif)
 

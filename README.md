@@ -1,21 +1,21 @@
 Setup Description
 -----------------
 ```
-> Bar `polybar`
-> Browser `firefox` `chromium`
-* Compositor `compton`
-* IRC client `weechat` `irssi`
-* File Manager `ranger` `pcmanfm`
-* Font `Iosevka` `tewi` `Anonymous Pro for Powerline`
-* Mail client `mutt`
-* Media player `mpv`
-* Music player `ncmpcpp`
-* Program launcher `dmenu` `rofi`
-* PDF viewer `zathura`
-* Text editor `vim`
-* Terminal emulator `urxvt-patched`
-* Terminal multiplexer: `tmux`
-* Window manager `i3` `bspwm`
+Bar                    > polybar, lemonbar
+Browser                > firefox, chromium
+Compositor             > compton
+IRC client             > weechat, irssi
+File Manager           > ranger, pcmanfm
+Font                   > Iosevka, tewi
+Mail client            > mutt
+Media player           > mpv
+Music player           > ncmpcpp
+Program launcher       > dmenu, rofi
+PDF viewer             > zathura
+Text editor            > vim
+Terminal emulator      > urxvt-patched
+Terminal multiplexer   > tmux
+Window manager         > i3, bspwm
 ```
 
 Installation

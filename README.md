@@ -1,7 +1,8 @@
 Setup Description
 -----------------
-* Bar `polybar`
-* Browser `firefox` `chromium`
+```
+> Bar `polybar`
+> Browser `firefox` `chromium`
 * Compositor `compton`
 * IRC client `weechat` `irssi`
 * File Manager `ranger` `pcmanfm`
@@ -15,7 +16,7 @@ Setup Description
 * Terminal emulator `urxvt-patched`
 * Terminal multiplexer: `tmux`
 * Window manager `i3` `bspwm`
-
+```
 
 Installation
 ------------

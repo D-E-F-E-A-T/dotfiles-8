@@ -12,6 +12,7 @@ Media player           > mpv
 Music player           > ncmpcpp
 Program launcher       > dmenu, rofi
 PDF viewer             > zathura
+RSS/Atom feed reader   > newsboat
 Text editor            > vim
 Terminal emulator      > urxvt-patched
 Terminal multiplexer   > tmux

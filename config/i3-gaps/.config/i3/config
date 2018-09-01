@@ -226,7 +226,7 @@ bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
 bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
 
 # My apps shortcut
-bindsym $mod+p exec --no-startup-id pcmanfm 
+bindsym $mod+p exec --no-startup-id BurpSuiteCommunity
 bindsym $mod+b exec --no-startup-id firefox
 
 # Mpc play next song

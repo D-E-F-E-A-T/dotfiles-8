@@ -82,122 +82,47 @@ Burp Suite Community Edition
 /home/mohabaks/Pictures/Misc/
 GNU Image Manipulation Program
 /home/mohabaks/Pictures/Walls/
-/home/mohabaks/Downloads/SANS/
-/home/mohabaks/Downloads/LGPL/
+/home/mohabaks/Videos/Tech/CBT/
 /home/mohabaks/Pictures/notify/
 /home/mohabaks/Pictures/WebApp/
-/home/mohabaks/Downloads/AARCS/
-/home/mohabaks/Downloads/Backs/
-/home/mohabaks/Downloads/Font2/
-/home/mohabaks/Downloads/curls/
-/home/mohabaks/Downloads/flash/
-/home/mohabaks/Downloads/Fonts/
-/home/mohabaks/Pictures/Pentest/
-/home/mohabaks/Downloads/res.txt
-/home/mohabaks/Downloads/packers/
+/home/mohabaks/Downloads/Tools/
+/home/mohabaks/Downloads/Scripts/
 /home/mohabaks/Videos/Tech/Crypto/
-/home/mohabaks/Downloads/slash_it/
-/home/mohabaks/Downloads/darkness/
-/home/mohabaks/Downloads/Torrents/
-/home/mohabaks/Downloads/2-mp3.zip
-/home/mohabaks/Downloads/1-mp3.zip
-/home/mohabaks/Downloads/curls.zip
-/home/mohabaks/Downloads/shell.iso
+/home/mohabaks/Videos/Islam/Quran/
 /home/mohabaks/Documents/Tech/Cert/
-/home/mohabaks/Downloads/dmenu-4.6/
-/home/mohabaks/Downloads/Welcome.ps
-/home/mohabaks/Downloads/FW%3a_.zip
-/home/mohabaks/Downloads/bakari.pdf
-/home/mohabaks/Downloads/readme.txt
-/home/mohabaks/Downloads/xcolor.zip
 /home/mohabaks/Documents/Tech/Cloud/
 /home/mohabaks/Documents/Tech/MacOS/
 /home/mohabaks/Pictures/screenshots/
 /home/mohabaks/Pictures/notify/todo/
-/home/mohabaks/Pictures/Pentest/ATL/
-/home/mohabaks/Downloads/AARCS/Font/
-/home/mohabaks/Downloads/flash/LGPL/
-/home/mohabaks/Pictures/workflow.gif
-/home/mohabaks/Downloads/Read Me.txt
-/home/mohabaks/Downloads/license.pdf
-/home/mohabaks/Downloads/inferno.zip
-/home/mohabaks/Downloads/inferno.txt
+/home/mohabaks/Downloads/Inspectors/
+/home/mohabaks/Downloads/credits.txt
+/home/mohabaks/Downloads/license.txt
 /home/mohabaks/Pictures/notify/other/
 /home/mohabaks/Pictures/notify/quran/
-/home/mohabaks/Downloads/pure evil 2/
-/home/mohabaks/Downloads/Secure_C.pdf
-/home/mohabaks/Downloads/cenobyte.zip
-/home/mohabaks/Downloads/fsociety.zip
-/home/mohabaks/Downloads/darkness.zip
-/home/mohabaks/Downloads/slash_it.zip
-/home/mohabaks/Downloads/fs0ciety.zip
-/home/mohabaks/Downloads/Cenobyte.zip
-/home/mohabaks/Downloads/SCAN0803.pdf
-/home/mohabaks/Downloads/biblatex.zip
 /home/mohabaks/Documents/Tech/Windows/
 /home/mohabaks/Documents/Tech/Infosec/
 /home/mohabaks/Pictures/notify/prayer/
-/home/mohabaks/Downloads/dark_dotted2/
-/home/mohabaks/Downloads/binding_dark/
-/home/mohabaks/Downloads/Pureevil2.zip
-/home/mohabaks/Downloads/TerrorPro.zip
-/home/mohabaks/Downloads/Blackhole.zip
-/home/mohabaks/Downloads/LGPL/LGPL.txt
+/home/mohabaks/Downloads/ImportExport/
 /home/mohabaks/Pictures/notify/nasheed/
-/home/mohabaks/Downloads/simple_dashed/
 /home/mohabaks/Documents/Tech/tcpip.pdf
 /home/mohabaks/Pictures/Misc/avatar.png
 /home/mohabaks/Pictures/Walls/Clean.png
-/home/mohabaks/Downloads/CSNPWDTNFI.zip
-/home/mohabaks/Downloads/infosec101.pdf
-/home/mohabaks/Downloads/terror-pro.zip
-/home/mohabaks/Downloads/00-Overview.ps
 /home/mohabaks/Documents/Tech/Algorithm/
 /home/mohabaks/Videos/Tech/Cryprography/
-/home/mohabaks/Downloads/spiration dark/
-/home/mohabaks/Pictures/Walls/gotham.png
-/home/mohabaks/Downloads/immigration.pdf
-/home/mohabaks/Downloads/HawaMohamed.pdf
-/home/mohabaks/Downloads/drip_costs.xlsx
-/home/mohabaks/Downloads/gypsy-curse.zip
-/home/mohabaks/Downloads/acquisitions.md
-/home/mohabaks/Downloads/pure-evil-2.zip
-/home/mohabaks/Downloads/csnpwdt-nfi.zip
-/home/mohabaks/Downloads/SANS/poster.pdf
-/home/mohabaks/Downloads/LGPL/notice.txt
 /home/mohabaks/Documents/Tech/Networking/
 /home/mohabaks/Documents/Tech/Essentials/
-/home/mohabaks/Downloads/eastere.gg%00.md
-/home/mohabaks/Downloads/Font License.txt
-/home/mohabaks/Downloads/MetalMacabre.zip
-/home/mohabaks/Downloads/binding_dark.zip
-/home/mohabaks/Downloads/dark_dotted2.zip
-/home/mohabaks/Downloads/curls/readme.txt
-/home/mohabaks/Downloads/flash/readme.txt
+/home/mohabaks/Documents/Tech/RE4B-EN.pdf
+/home/mohabaks/Pictures/Walls/ilphXnU.jpg
+/home/mohabaks/Downloads/bWAPP_latest.zip
 /home/mohabaks/Documents/Tech/Programming/
-/home/mohabaks/Downloads/Torrents/session/
 /home/mohabaks/Pictures/Walls/slash_it.png
 /home/mohabaks/Pictures/Walls/darkness.png
-/home/mohabaks/Downloads/metal-macabre.zip
-/home/mohabaks/Downloads/simple_dashed.zip
-/home/mohabaks/Downloads/flash/license.pdf
-/home/mohabaks/Downloads/what-the-hex-dark/
+/home/mohabaks/Downloads/fiddler-linux.zip
+/home/mohabaks/Downloads/ResponseTemplates/
 /home/mohabaks/Pictures/notify/todo/tod.png
-/home/mohabaks/Downloads/hackanywebsite.pdf
-/home/mohabaks/Downloads/spiration-dark.zip
 /home/mohabaks/Documents/Tech/LinuxReloaded/
-/home/mohabaks/Downloads/country-quilt-dark/
 /home/mohabaks/Pictures/notify/todo/todo.jpg
 /home/mohabaks/Pictures/notify/todo/todo.png
-/home/mohabaks/Downloads/20180506_084325.jpg
-/home/mohabaks/Downloads/ZombieHolocaust.zip
-/home/mohabaks/Downloads/tails-amd64-3.8.iso
-/home/mohabaks/Downloads/AbuBakrAlShatri.zip
-/home/mohabaks/Downloads/ETR INVOICE-KPA.pdf
-/home/mohabaks/Downloads/Acknowledgement.pdf
-/home/mohabaks/Downloads/slash_it/readme.txt
-/home/mohabaks/Downloads/darkness/readme.txt
-/home/mohabaks/Downloads/flash/LGPL/LGPL.txt
 /home/mohabaks/Documents/Tech/Networking/DNS/
 /home/mohabaks/Documents/Tech/Essentials/Vim/
 /home/mohabaks/Documents/Tech/Essentials/Git/
@@ -205,8 +130,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Papers/
 /home/mohabaks/Videos/Tech/OffensiveSecurity/
 /home/mohabaks/Documents/Tech/ws-commands.pdf
-/home/mohabaks/Downloads/zombie-holocaust.zip
-/home/mohabaks/Downloads/IE8.Win7.Vagrant.zip
 /home/mohabaks/Documents/Tech/Networking/HTTP/
 /home/mohabaks/Documents/Tech/Networking/Misc/
 /home/mohabaks/Documents/Tech/Networking/Mail/
@@ -222,9 +145,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Pictures/notify/quran/cover.jpg
 /home/mohabaks/Pictures/Walls/dark_dotted2.png
 /home/mohabaks/Pictures/Walls/binding_dark.png
-/home/mohabaks/Downloads/what-the-hex-dark.zip
-/home/mohabaks/Downloads/Iosevka-Slab-Bold.zip
-/home/mohabaks/Downloads/flash/LGPL/notice.txt
 /home/mohabaks/Documents/Tech/Networking/Tools/
 /home/mohabaks/Documents/Tech/Programming/Java/
 /home/mohabaks/Documents/Tech/Programming/Ruby/
@@ -234,14 +154,8 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Essentials/LaTex/
 /home/mohabaks/Documents/Tech/Infosec/Security/
 /home/mohabaks/Documents/Tech/Infosec/Database/
-/home/mohabaks/Downloads/Metasploitable2-Linux/
 /home/mohabaks/Pictures/notify/prayer/cover.jpg
-/home/mohabaks/Pictures/Walls/1529394562733.png
 /home/mohabaks/Pictures/Walls/simple_dashed.png
-/home/mohabaks/Downloads/country-quilt-dark.zip
-/home/mohabaks/Downloads/ospf_dmvpn_anycast.pdf
-/home/mohabaks/Downloads/package.json.bak%00.md
-/home/mohabaks/Downloads/pure evil 2/README.txt
 /home/mohabaks/Documents/Tech/Networking/TCP_!P/
 /home/mohabaks/Documents/Tech/Programming/C-C++/
 /home/mohabaks/Documents/Tech/LinuxReloaded/LFS/
@@ -249,9 +163,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Cloud/O160202H.pdf
 /home/mohabaks/Pictures/notify/prayer/cover1.jpg
 /home/mohabaks/Pictures/notify/nasheed/cover.png
-/home/mohabaks/Downloads/sshcreds_datacenter.txt
-/home/mohabaks/Downloads/dark_dotted2/readme.txt
-/home/mohabaks/Downloads/binding_dark/readme.txt
+/home/mohabaks/Downloads/AutoRepeater-master.zip
 /home/mohabaks/Documents/Tech/Networking/General/
 /home/mohabaks/Documents/Tech/Programming/Python/
 /home/mohabaks/Documents/Tech/Essentials/Bitcoin/
@@ -260,10 +172,13 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Exploiting/
 /home/mohabaks/Documents/Tech/Cloud/security3.pdf
 /home/mohabaks/Documents/Tech/Cloud/1301.1912.pdf
+/home/mohabaks/Pictures/Walls/wallhaven-18330.png
+/home/mohabaks/Pictures/Walls/wallhaven-34390.png
 /home/mohabaks/Pictures/Walls/wallhaven-59448.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-34389.png
 /home/mohabaks/Pictures/Walls/wallhaven-49880.png
-/home/mohabaks/Downloads/rpt-apt29-hammertoss.pdf
-/home/mohabaks/Downloads/simple_dashed/readme.txt
+/home/mohabaks/Pictures/Walls/wallhaven-26569.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-75963.png
 /home/mohabaks/Documents/Tech/Networking/Wireless/
 /home/mohabaks/Documents/Tech/Networking/Firewall/
 /home/mohabaks/Documents/Tech/Networking/Security/
@@ -274,40 +189,28 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Essentials/Firewall/
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/
-/home/mohabaks/Pictures/Walls/wallhaven-674454.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-671805.png
-/home/mohabaks/Pictures/Walls/wallhaven-484266.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-673688.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-677183.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-150088.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-499937.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-474721.jpg
 /home/mohabaks/Pictures/Walls/wallhaven-189350.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-675395.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-206444.png
+/home/mohabaks/Pictures/Walls/wallhaven-266815.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-279948.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-327884.png
 /home/mohabaks/Pictures/Walls/wallhaven-334252.jpg
 /home/mohabaks/Pictures/Walls/wallhaven-308672.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-675594.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-210651.jpg
 /home/mohabaks/Pictures/Walls/wallhaven-427015.jpg
 /home/mohabaks/Pictures/Walls/wallhaven-365154.png
 /home/mohabaks/Pictures/Walls/wallhaven-308644.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-161231.jpg
 /home/mohabaks/Pictures/Walls/wallhaven-447992.png
-/home/mohabaks/Pictures/Walls/wallhaven-664930.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-142302.jpg
-/home/mohabaks/Pictures/Walls/QJm-mGbJ_400x400.png
-/home/mohabaks/Pictures/Walls/wallhaven-308645.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-161008.png
-/home/mohabaks/Pictures/Walls/wallhaven-206407.png
-/home/mohabaks/Pictures/Walls/wallhaven-192177.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-579182.jpg
-/home/mohabaks/Pictures/Walls/wallhaven-308647.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-432101.png
+/home/mohabaks/Pictures/Walls/wallhaven-121690.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-210653.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-171833.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-210652.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-180680.png
 /home/mohabaks/Pictures/Walls/wallhaven-350674.jpg
-/home/mohabaks/Downloads/Return of The Pharaoh.pdf
-/home/mohabaks/Downloads/cloud_cube_model_v1.0.pdf
-/home/mohabaks/Downloads/haider-english-739738.zip
-/home/mohabaks/Downloads/MIUI-7-i9082-18072017.zip
-/home/mohabaks/Downloads/Novel_Ghuraba_english.pdf
-/home/mohabaks/Downloads/SANS/misc-tools-sheet.pdf
-/home/mohabaks/Downloads/spiration dark/readme.txt
-/home/mohabaks/Downloads/slash_it/slash_it_@2X.png
+/home/mohabaks/Pictures/Walls/wallhaven-327317.jpg
 /home/mohabaks/Documents/Tech/Programming/Assembly/
 /home/mohabaks/Documents/Tech/Programming/Compiler/
 /home/mohabaks/Documents/Tech/LinuxReloaded/Kernel/
@@ -316,40 +219,24 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Essentials/Interview/
 /home/mohabaks/Documents/Tech/Essentials/Databases/
 /home/mohabaks/Documents/Tech/21st-century-c-2e.pdf
-/home/mohabaks/Downloads/SKonica Min18050314190.pdf
-/home/mohabaks/Downloads/SKMBT_C220 18050811280.pdf
-/home/mohabaks/Downloads/Full_Report_Watermelon.pdf
-/home/mohabaks/Downloads/icimp_2014_1_30_300125.pdf
-/home/mohabaks/Downloads/xposed-v89-sdk23-arm64.zip
-/home/mohabaks/Downloads/SANS/linux-cheat-sheet.pdf
+/home/mohabaks/Downloads/BurpAuthzPlugin-master.zip
 /home/mohabaks/Documents/Tech/Programming/LinuxProg/
 /home/mohabaks/Documents/Tech/Infosec/Malware_Virus/
 /home/mohabaks/Documents/Tech/NmapCheatSheetv1.1.pdf
 /home/mohabaks/Pictures/Misc/cloudstack_topology.png
-/home/mohabaks/Pictures/Walls/549988999_1280x720.jpg
 /home/mohabaks/Pictures/Walls/country-quilt-dark.png
-/home/mohabaks/Downloads/pwning-owasp-juice-shop.pdf
-/home/mohabaks/Downloads/from_sqli_to_shell_i386.iso
-/home/mohabaks/Downloads/doc00242020180706113058.pdf
-/home/mohabaks/Downloads/doc00076320180523100314.pdf
-/home/mohabaks/Downloads/suspicious_errors.yml%00.md
-/home/mohabaks/Downloads/SANS/netcat-cheat-sheet.pdf
 /home/mohabaks/Documents/Tech/Networking/Programming/
 /home/mohabaks/Documents/Tech/Programming/PowerShell/
 /home/mohabaks/Documents/Tech/LinuxReloaded/Overview/
 /home/mohabaks/Documents/Tech/LinuxReloaded/Security/
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/
-/home/mohabaks/Downloads/venom_by_grynays-d3dq9mg.zip
-/home/mohabaks/Downloads/SANS/windows-cheat-sheet.pdf
-/home/mohabaks/Downloads/what-the-hex-dark/readme.txt
 /home/mohabaks/Documents/Tech/Programming/ShellScript/
 /home/mohabaks/Documents/Tech/Essentials/ComputerArch/
 /home/mohabaks/Documents/Tech/Essentials/VM_Container/
 /home/mohabaks/Documents/Tech/Infosec/Database/sql.pdf
-/home/mohabaks/Downloads/CentOS-6.0-x86_64-minimal.iso
-/home/mohabaks/Downloads/Cryptography Engineering.epub
-/home/mohabaks/Downloads/SQL_Injection_Cheat_Sheet.pdf
-/home/mohabaks/Downloads/country-quilt-dark/readme.txt
+/home/mohabaks/Downloads/BurplikeInspector-ver0_02.zip
+/home/mohabaks/Downloads/ISMS implementation guide.PDF
+/home/mohabaks/Downloads/20170612ac-ir_research_en.pdf
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/
 /home/mohabaks/Documents/Tech/Programming/Web/HTML_CSS/
 /home/mohabaks/Documents/Tech/Windows/WindowsInternals/
@@ -357,17 +244,11 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/
 /home/mohabaks/Documents/Tech/webconfs-status-codes.pdf
 /home/mohabaks/Documents/Tech/Programming/Perl/perl.pdf
-/home/mohabaks/Downloads/1001fonts-pure-evil-2-eula.txt
-/home/mohabaks/Downloads/pwning-owasp-juice-shop(1).pdf
-/home/mohabaks/Downloads/metasploitable-linux-2.0.0.zip
 /home/mohabaks/Documents/Tech/OperatingSystems(Generic)/
 /home/mohabaks/Documents/Tech/Infosec/SocialEngineering/
 /home/mohabaks/Documents/Tech/OWASP_Cheatsheets_Book.pdf
 /home/mohabaks/Documents/Tech/Essentials/Regex/regex.pdf
-/home/mohabaks/Downloads/How_to_hack_like_a_pornstar.pdf
-/home/mohabaks/Downloads/The_Crazy_Bastards_Cookbook.pdf
-/home/mohabaks/Downloads/PHPMagicTricks-TypeJuggling.pdf
-/home/mohabaks/Downloads/SANS/metasploit_cheat_sheet.pdf
+/home/mohabaks/Downloads/twrp-3.0.3.0-i9082-20161218.zip
 /home/mohabaks/Documents/Tech/Networking/NetworkAnalysis/
 /home/mohabaks/Documents/Tech/Programming/Web/DataMining/
 /home/mohabaks/Documents/Tech/Programming/Web/Javascript/
@@ -376,45 +257,23 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Networking/Misc/unixnet.pdf
 /home/mohabaks/Documents/Tech/Networking/TCP_!P/tcpip.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/Security.pdf
-/home/mohabaks/Pictures/Walls/kali-linux-wallpaper-v5.png
-/home/mohabaks/Downloads/BurpSuiteHTTPSmuggler-master.zip
-/home/mohabaks/Downloads/180608-PP-Cloud Project Plan.pdf
+/home/mohabaks/Downloads/the_c_programming_language_2.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/JQuery_AJax/
 /home/mohabaks/Documents/Tech/Infosec/Reverse Engineering/
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/SANS/
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/Misc/
-/home/mohabaks/Downloads/penetration-testing-with-kali.pdf
-/home/mohabaks/Downloads/CCC14 - CloudStack Networking.pdf
-/home/mohabaks/Downloads/Atlancis Employee Handbook_V1.pdf
-/home/mohabaks/Downloads/Intelligence_Gathering_Report.pdf
-/home/mohabaks/Downloads/dark_dotted2/dark_dotted2_@2X.png
-/home/mohabaks/Downloads/binding_dark/binding_dark_@2X.png
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/
 /home/mohabaks/Videos/Tech/open security training - videos/
 /home/mohabaks/Documents/Tech/sqlmap-cheatsheet-1.0-SDB.pdf
 /home/mohabaks/Documents/Tech/Infosec/Forensics/wf-book.pdf
-/home/mohabaks/Pictures/2018-06-10-121655_469x352_scrot.png
-/home/mohabaks/Pictures/2018-06-10-121757_461x341_scrot.png
-/home/mohabaks/Downloads/pfSense-CE-2.4.3-RELEASE-amd64.iso
-/home/mohabaks/Downloads/Battle of the Hearts and Minds.pdf
-/home/mohabaks/Downloads/pfSense-CE-2.3.5-RELEASE-amd64.iso
 /home/mohabaks/Documents/Tech/LinuxReloaded/Devices_Drivers/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/
 /home/mohabaks/Documents/Tech/Programming/C-C++/Let Us C.pdf
 /home/mohabaks/Documents/Tech/Programming/C-C++/C book 1.pdf
-/home/mohabaks/Downloads/How_to_hack_like_a_pornstar (1).pdf
-/home/mohabaks/Downloads/The-Dust-Will-Never-Settle-Down.pdf
-/home/mohabaks/Downloads/SANS/windows-command-line-sheet.pdf
-/home/mohabaks/Downloads/simple_dashed/simple_dashed_@2X.png
+/home/mohabaks/Downloads/Application Form ISO 27001 1(1).pdf
 /home/mohabaks/Documents/Tech/Cloud/HannaCloudComputingv2.pdf
 /home/mohabaks/Documents/Tech/Essentials/Databases/sqlmap.pdf
-/home/mohabaks/Downloads/open_gapps-arm-4.4-pico-20180525.zip
-/home/mohabaks/Downloads/open_gapps-arm-7.1-pico-20180722.zip
-/home/mohabaks/Downloads/Signs_of_ar-Rahman in afghan war.pdf
-/home/mohabaks/Downloads/2033bb1b194adace86f99c7bb7d72e81.jpg
-/home/mohabaks/Downloads/open_gapps-arm-6.0-pico-20180525.zip
-/home/mohabaks/Downloads/SANS/spring-pen-test-poster-2015.pdf
-/home/mohabaks/Downloads/packers/packer_1.2.3_linux_amd64.zip
+/home/mohabaks/Downloads/open_gapps-arm-6.0-pico-20180812.zip
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Google/
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/
 /home/mohabaks/Documents/Tech/Cloud/CloudComputingSecurity.pdf
@@ -422,6 +281,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Security/Cuckoo'sEGG.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/MaliciousHTTP.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/smashthestack.pdf
+/home/mohabaks/Downloads/sample-penetration-testing-report.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/PenTest/
 /home/mohabaks/Documents/Tech/Programming/PenTest/Crypto101.pdf
 /home/mohabaks/Documents/Tech/Programming/General/kernighan.pdf
@@ -430,8 +290,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Essentials/Git/progit-en.1084.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/Crypto101.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/return-to-libc.pdf
-/home/mohabaks/Downloads/from_sqli_to_shell_pg_edition_i386.iso
-/home/mohabaks/Downloads/Font2/1001fonts-metal-macabre-eula.txt
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Wireless/
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/
 /home/mohabaks/Documents/Tech/Networking/CCNA/HTMS-V2-SAMPLE.pdf
@@ -439,15 +297,12 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Programming/C-C++/programmingc.pdf
 /home/mohabaks/Documents/Tech/Programming/LinuxProg/APUE-3rd.pdf
 /home/mohabaks/Videos/Tech/Crypto/understanding_cryptography.pdf
-/home/mohabaks/Downloads/School_example_of_supporting_letter.doc
-/home/mohabaks/Downloads/passporting-template-request-letter.doc
-/home/mohabaks/Downloads/open_gapps-x86_64-7.1-nano-20180722.zip
-/home/mohabaks/Downloads/Fonts/Zombie_Holocaust_Font_Read_Me.txt
+/home/mohabaks/Downloads/RR-N-v5.8.2-20170220-i9082-Official.zip
+/home/mohabaks/Downloads/NETSCOUT_ThreatReport_FINAL_080618b.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/KaliLinux/
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/text/
-/home/mohabaks/Videos/Misc/Sausage Party (2016) [1080p] [YTS.AG]/
 /home/mohabaks/Documents/Tech/Kali-Linux-Revealed-1st-edition.pdf
 /home/mohabaks/Documents/Tech/Networking/Programming/bgnet_A4.pdf
 /home/mohabaks/Documents/Tech/Networking/TCP_!P/TCP IP Family.pdf
@@ -458,7 +313,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Essentials/HIDS&SIEM/ossec-docs.pdf
 /home/mohabaks/Documents/Tech/MacOS/The Mac Hacker's Handbook.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/thecodebook.pdf
-/home/mohabaks/Downloads/Backs/pfSense-CE-2.3.5-RELEASE-amd64.iso
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Metasploit/
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/
@@ -470,31 +324,25 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Papers/qmailsec-20071101.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/SEC524/524.1.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/SEC524/524.2.pdf
-/home/mohabaks/Downloads/Expert_C_Programming_-_Deep_C_Secrets.pdf
-/home/mohabaks/Downloads/SANS/Unix_Command-Line_Kung_Fu_(SANS).pdf
+/home/mohabaks/Downloads/BOSS Lab Guide - Cross Site Scripting.pdf
 /home/mohabaks/Documents/Tech/Programming/ShellScript/bashguide.pdf
 /home/mohabaks/Documents/Tech/Programming/ShellScript/abs-guide.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/nag2.pdf
 /home/mohabaks/Documents/Tech/Essentials/Firewall/iptablesrocks.pdf
 /home/mohabaks/Documents/Tech/Infosec/Forensics/bh-us-03-willis.pdf
 /home/mohabaks/Documents/Tech/Infosec/SocialEngineering/mitnick.pdf
-/home/mohabaks/Downloads/install-amd64-minimal-20180408T214502Z.iso
-/home/mohabaks/Downloads/lineage-14.1-20170130-UNOFFICIAL-i9082.zip
-/home/mohabaks/Downloads/Font2/Gypsy_Curse_Font_Info_and_ReadMe.txt
 /home/mohabaks/Documents/Tech/Programming/PenTest/hackingciphers.pdf
 /home/mohabaks/Documents/Tech/Programming/C-C++/bgnet_USLetter_2.pdf
 /home/mohabaks/Documents/Tech/Programming/Python/DjangoByExample.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Devices_Drivers/ldd3.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/hackingciphers.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/l-harden-server-pdf.pdf
-/home/mohabaks/Downloads/Watermelon Sukari Cultivation Practices.pdf
+/home/mohabaks/Videos/Islam/e7120c3e-132f-4847-88de-cd7f9a435a59.mp4
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Wireless/SANS/
 /home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/
 /home/mohabaks/Documents/Tech/Networking/CCNA/how-to-master-ccna1.pdf
 /home/mohabaks/Documents/Tech/Cloud/Cloud_Infrastructure_Security.pdf
 /home/mohabaks/Documents/Tech/Infosec/SecureCodeReview/CERTOracle.pdf
-/home/mohabaks/Downloads/The Explanation of Aqīdah aṭ-Ṭaḥāwīyyah .pdf
-/home/mohabaks/Downloads/AARCS/Font/ReadMeOrI'llTearYourSoulApart.txt
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/AppliedCryptography/
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/HackingExposed/
 /home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/
@@ -508,14 +356,10 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Security/a-bug-hunters-diary.pdf
 /home/mohabaks/Documents/Tech/Infosec/Database/xss_security_days_1.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/The_CodeBreakers.pdf
-/home/mohabaks/Downloads/Universal_SlimBean_theme_lockscreen_black.zip
-/home/mohabaks/Downloads/Cisco - Annual Cybersecurity Report -2018.pdf
+/home/mohabaks/Downloads/ResurrectionRemix-M-v5.7.4-20161012-i9082.zip
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/
 /home/mohabaks/Documents/Tech/Programming/LinuxProg/53_ILMIAH_DOSEN.pdf
 /home/mohabaks/Documents/Tech/Infosec/SecureCodeReview/SecureCoding.pdf
-/home/mohabaks/Pictures/cIvqUtQ7wXgU9Cl6LnTgMJcmy-btdFWL8zeloTfs87Q.png
-/home/mohabaks/Pictures/Pentest/ATL/2018-06-22-152857_750x437_scrot.png
-/home/mohabaks/Downloads/Universal_SlimBean_theme_settings_ics_blue.zip
 /home/mohabaks/Documents/Tech/Programming/Web/Javascript/YouDon'tKnowJs/
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/
 /home/mohabaks/Documents/Tech/cloud-security-compliance-primer-34910.pdf
@@ -529,44 +373,21 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Essentials/Databases/postgresql-9.2-A4.pdf
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/web-hacking-101.pdf
 /home/mohabaks/Videos/Tech/OffensiveSecurity/OSCP Review-AwOEPI0KkCs.mp4
-/home/mohabaks/Pictures/Pentest/ATL/2018-06-21-092409_1215x858_scrot.png
-/home/mohabaks/Pictures/Pentest/ATL/2018-06-22-152912_1010x786_scrot.png
-/home/mohabaks/Downloads/Universal_SlimBean_theme_powermenu_ics_blue.zip
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/
 /home/mohabaks/Documents/Tech/unified-communications-technologies-972.pdf
 /home/mohabaks/Documents/Tech/Infosec/Mobile/Android Hackers Handbook.pdf
-/home/mohabaks/Pictures/screenshots/2018-07-11-092131_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083625_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-30-122905_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-16-215029_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-06-15-065925_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-26-072149_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-07-15-102637_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-07-09-052226_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083209_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083332_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-07-20-103804_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-07-28-215621_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083157_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083224_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083315_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083629_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-101856_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083029_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-083234_1920x1080_scrot.png
-/home/mohabaks/Pictures/screenshots/2018-05-15-085229_1920x1080_scrot.png
-/home/mohabaks/Downloads/haider-movie-subtitle-download-free_2ec9ce3a.zip
+/home/mohabaks/Pictures/screenshots/2018-08-07-093546_1920x1080_scrot.png
 /home/mohabaks/Documents/Tech/Networking/Mail/Mail-Administrator-HOWTO.pdf
 /home/mohabaks/Documents/Tech/Programming/PenTest/Coding For Pentester.pdf
 /home/mohabaks/Documents/Tech/Programming/C-C++/CNotesForProfessionals.pdf
 /home/mohabaks/Documents/Tech/OperatingSystems(Generic)/patterson_book.pdf
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/web_for_pentester.pdf
-/home/mohabaks/Downloads/SANS/writing-penetration-testing-report-33343.pdf
 /home/mohabaks/Documents/Tech/Programming/Assembly/AT＆TAssemblyLanguage.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/JQuery_AJax/ajax_tutorial.pdf
 /home/mohabaks/Documents/Tech/Programming/C-C++/Deep C Programming Best.pdf
 /home/mohabaks/Documents/Tech/Programming/Python/opencv-python-tutroals.pdf
 /home/mohabaks/Documents/Tech/Cert/Certified Ethical Hacker Study Guide.pdf
+/home/mohabaks/Downloads/BOSS Lab Guide - Broken Access Control Testing.pdf
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/
 /home/mohabaks/Documents/Tech/Networking/TCP_!P/tcp_ip-illustrated-vol-1.pdf
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Wireshark_IP_v7.0.pdf
@@ -577,7 +398,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Essentials/BurpSuite/Burp Suite Essentials.pdf
 /home/mohabaks/Documents/Tech/Essentials/HIDS&SIEM/MOD SECURITY handbook.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Wireless/wifihack.pdf
-/home/mohabaks/Videos/Misc/Ready Player One (2018) [BluRay] [1080p] [YTS.AM]/
 /home/mohabaks/Documents/Tech/No Starch Press - Practical Packet Analysis.pdf
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Wireshark_TCP_v7.0.pdf
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Wireshark_UDP_v7.0.pdf
@@ -590,7 +410,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/web_for_pentester_II.pdf
 /home/mohabaks/Documents/Tech/Infosec/Exploiting/the_shellcoders_handbook.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/hacking_gps.pdf
-/home/mohabaks/Downloads/Universal_SlimBean_theme_framework_complete_dark.zip
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Wireshark_ICMP_v7.0.pdf
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Wireshark_HTTP_v7.0.pdf
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Wireshark_DHCP_v7.0.pdf
@@ -600,7 +419,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/debian-handbook.pdf
 /home/mohabaks/Documents/Tech/Essentials/ComputerArch/code-charles-petzold.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/AppliedCryptography/toc3.pdf
-/home/mohabaks/Downloads/huawei-mate9pro-pwn2own-write-up-final-2018-04-26.pdf
 /home/mohabaks/Documents/Tech/Networking/Tools/TroubleshootingWithWireshark.pdf
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Wireshark_Intro_v7.0.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/PHP/PHP Cookbook, 3rd Edition.pdf
@@ -621,8 +439,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/AppliedCryptography/chap4.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/AppliedCryptography/chap6.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/chromium-security-architecture.pdf
-/home/mohabaks/Videos/Misc/Sausage Party (2016) [1080p] [YTS.AG]/WWW.YTS.AG.jpg
-/home/mohabaks/Downloads/Slim-i9082-4.4.2.beta.1.7-UNOFFICIAL-20131216-1949.zip
 /home/mohabaks/Documents/Tech/bookofpf_ano-nonsenseguidetotheopenbsdfirewall.pdf
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Wireshark_802.11_v7.0.pdf
 /home/mohabaks/Documents/Tech/Programming/Ruby/Learn to Program, 2nd Edition.pdf
@@ -641,8 +457,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Cloud/Apache_CloudStack-4.0.2-Admin_Guide-en-US.pdf
 /home/mohabaks/Documents/Tech/Cloud/Apache CloudStack Cloud Computing [eBook].pdf
 /home/mohabaks/Documents/Tech/Essentials/Databases/Postgres-tutorial-7.3.2-US.pdf
-/home/mohabaks/Downloads/Notes on the Elucidation of the Nullifiers of Islam .pdf
-/home/mohabaks/Downloads/FreeBSD-12.0-CURRENT-amd64-20180618-r335317-bootonly.iso
 /home/mohabaks/Documents/Tech/Programming/C-C++/C++ For Hackers - Hack Insight.pdf
 /home/mohabaks/Documents/Tech/Windows/WindowsInternals/Windows Internals Part1.pdf
 /home/mohabaks/Documents/Tech/Windows/WindowsInternals/Windows Internals Part2.pdf
@@ -653,8 +467,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/Syngress_-_XSS_Attacks_en.pdf
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/SANS/542.5 - Exploitation.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/NIST.SP.800-82r2.pdf
-/home/mohabaks/Downloads/Slim-ms013g-6.0.1.build.1.17-UNOFFICIAL-20170112-0658.zip
-/home/mohabaks/Downloads/csv-w03-_defending-the-cloud-from-the-full-stack-hack.pdf
 /home/mohabaks/Documents/Tech/Cert/CompTIA Security+ Deluxe Study Guide SY0-201.pdf
 /home/mohabaks/Documents/Tech/Cert/2. CEH v9 Certified Ethical Hacker Version 9.pdf
 /home/mohabaks/Documents/Tech/Infosec/Exploiting/Hacker Disassembling Uncovered.pdf
@@ -666,7 +478,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/SocialEngineering/The_Art_of_Human_Hacking.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/PenTest/hacker-playbook-3.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/Hacking Windows XP.pdf
-/home/mohabaks/Downloads/ProtectWise-Minimizing-Security-Challenges-eBrief-Rev-B.pdf
 /home/mohabaks/Documents/Tech/Networking/TCP_!P/02.-_TCPIP_Network_Administration.pdf
 /home/mohabaks/Documents/Tech/Programming/Python/Python Cookbook 3rd Edition 2013.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Overview/How Linux Works, 2nd Edition.pdf
@@ -680,7 +491,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Forensics/info_file_system_forensic_analysis.pdf
 /home/mohabaks/Documents/Tech/Infosec/Database/Microsoft SQL Server 2012 Internals.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/PenTest/Penetration Testing.pdf
-/home/mohabaks/Downloads/wallpaper-security-offensive-humor-computers-jokes-images.jpg
 /home/mohabaks/Documents/Tech/Programming/PowerShell/secrets-of-powershell-remoting.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/HTML_CSS/Head First HTML5 Programming.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/PHP/Learn Php MySql and Css(2012)[A4].pdf
@@ -701,6 +511,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/01.4-intro-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/01.3-intro-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/01.2-intro-annotated.pdf
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Joined Letters - Imam Raza--NhlpT2qwNA.mp4
 /home/mohabaks/Documents/Tech/Programming/ShellScript/OReilly - Sed & Awk 2nd Edition.pdf
 /home/mohabaks/Documents/Tech/Programming/LinuxProg/OReilly_-_POSIX_Programmers_Guide.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Tools/Gnu Autoconf, Automake, And Libtool.pdf
@@ -718,6 +529,12 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Programming/Python/Python Penetration Testing Essentials.pdf
 /home/mohabaks/Documents/Tech/Algorithm/Algorithms and Data Structures - Niklaus Wirth.pdf
 /home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-6)-Macros.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Huroof Muqattaah - Imam Raza-UzLENyYt6ls.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters - Part 2 - Imam Raza-QwbbzuY4RPY.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters - Part 3 - Imam Raza-SYxmEpLEqRk.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters - Part 1 - Imam Raza-v1lP80wN-bo.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Leen (Weak Madd) - Imam Raza-IhAX7WhMiXk.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters - Part 4 - Imam Raza-7eQxfTVOTww.mp4
 /home/mohabaks/Documents/Tech/LinuxReloaded/Overview/O'Reilly Running Linux 4th Edition.pdf
 /home/mohabaks/Documents/Tech/Cloud/implementing-critical-security-controls-cloud-36725.pdf
 /home/mohabaks/Documents/Tech/Infosec/Reverse Engineering/Practical Reverse Engineering.pdf
@@ -732,7 +549,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.4-stream-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.5-stream-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.7-stream-annotated.pdf
-/home/mohabaks/Videos/Misc/Ready Player One (2018) [BluRay] [1080p] [YTS.AM]/www.YTS.AM.jpg
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Shaddah (Emphasis) -Imam Raza-LxCI5l6RRm8.mp4
 /home/mohabaks/Documents/Tech/Networking/WiresharkLabs/Kurose_Ross_Wireshark_labs_6th_ed.zip
 /home/mohabaks/Documents/Tech/Programming/PowerShell/windows-powershell-networking-guide.pdf
 /home/mohabaks/Documents/Tech/Programming/PowerShell/a-unix-person-s-guide-to-powershell.pdf
@@ -775,7 +592,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Wireless/SANS/617_5_wireless_networks.pdf
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 5 - HMAC (7 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 5 - HMAC (7 min).mp4
-/home/mohabaks/Pictures/Walls/Try-Harder-Song-Motivates-Offensive-Security-Students-470756-2.jpg
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Madd_Leen - Imam Raza-juTsXhXmJlw.mp4
 /home/mohabaks/Documents/Tech/Networking/Security/The Practice of Network Security Monitoring.pdf
 /home/mohabaks/Documents/Tech/Programming/Python/RASPBERRY_PI_COOKBOOK_FOR_PYTHON_PROGRAMMERS.pdf
 /home/mohabaks/Documents/Tech/OperatingSystems(Generic)/operating-systems-in-depth-t-doeppner.pdf
@@ -789,10 +606,13 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.4-numth-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.2-numth-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.5-numth-annotated.pdf
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Tanween (Double Vowels) - Imam Raza-QFo5IrfUvVY.mp4
 /home/mohabaks/Documents/Tech/Infosec/SecureCodeReview/the-art-of-software-security-assessment.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/The_Hackers_Underground_Handbook.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/basic-reverse-engineering-immunity-debugger-36982.pdf
 /home/mohabaks/Videos/Tech/open security training - videos/ASM-WIndows-(Part-2)-Protected-Mode.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Harakaat (Arabic Vowels) - Imam Raza-us3MGpjh4iY.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Extra Madd (4 Movements) - Imam Raza-GCS5eCqzMyM.mp4
 /home/mohabaks/Documents/Tech/LinuxReloaded/Overview/OREILLY-Learning_The_UNIX_Operating_System.pdf
 /home/mohabaks/Documents/Tech/OperatingSystems(Generic)/Operating System Concepts - 9th Edition.pdf
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/SANS/542.1 - The Attackers View of the Web.pdf
@@ -801,6 +621,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-4)-MASM Data Types.mp4
 /home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/05.4-integrity-mac-padding.pdf
 /home/mohabaks/Videos/Tech/Crypto/Lecture 21 - SHA-1 Hash Function by Christof Paar-JIhZWgJA-9o.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Madd Laazim (6 Movements) - Imam Raza-W_L4W1Hrqbw.mp4
 /home/mohabaks/Documents/Tech/Networking/Security/Security.Lab.A.Field.Guide.for.Network.Testing.pdf
 /home/mohabaks/Documents/Tech/Programming/Assembly/Introduction to Assembly Language Programming.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Tools/(ebook) O'Reilly - sendmail Desktop Reference..pdf
@@ -821,6 +642,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.3-using-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.1-using-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.5-using-block-annotated.pdf
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Introduction and guidelines - Imam Raza-Dl6g_zDZ_v0.mp4
 /home/mohabaks/Documents/Tech/Networking/Firewall/O'Reilly_Building_Internet_Firewalls_2nd_Edition.pdf
 /home/mohabaks/Documents/Tech/Networking/NetworkAnalysis/wireshark-network-analysis-second-edition.pdf
 /home/mohabaks/Documents/Tech/Programming/C-C++/Data Structures and Algorithms in C++, 4th edition.pdf
@@ -844,6 +666,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-8)-Decision-Directives.mp4
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 1 - Notation (15 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 1 - Notation (15 min).mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Harakaat_Tanween - Imam Raza-C8bQHmwLnCA.mp4
 /home/mohabaks/Documents/Tech/Programming/LinuxProg/System Programming with C and Unix - Adam Hoover.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Devices_Drivers/Linux Device Drivers 3rd Edition V413HAV.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Google/OReilly  Google Hacks, 1st Edition2003.pdf
@@ -904,6 +727,8 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 6 - Block ciphers from PRGs(12 min).mp4
 /home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 2 - MACs Based On PRFs (10 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 2 - MACs Based On PRFs (10 min).mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters of Madd (Stretch) - Part 1 - Imam Raza-y9F6PccEXfs.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters of Madd (Stretch) - Part 2 - Imam Raza-0ouA-OZe_64.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/
 /home/mohabaks/Documents/Tech/Programming/LinuxProg/UNIX Network Programming - The Sockets Networking API.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/Linux System Administration Recipes (MrDanTe4).pdf
@@ -913,6 +738,8 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/OffensiveSecurity/Three Benefits to an Offensive Security Approach-tLL5bElMqUc.mp4
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 1 - What are block ciphers_ (17 min).mp4
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 1 - What are block ciphers_ (17 min).txt
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Rules of Meem Saakin with Exercises - Imam Raza-IaRBN3r69Cw.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Rules of Noon Saakin with Exercises - Imam Raza-3HPsh50vDvI.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/
 /home/mohabaks/Documents/Tech/Networking/NetworkAnalysis/analyzing-network-traffic-basic-linux-tools-34037.pdf
@@ -950,6 +777,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.4-pubkey-dh.pdf
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.5-pubkey-dh.pdf
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.3-pubkey-dh.pdf
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Sukoon (Absence of Harakah) & Qalqalah - Imam Raza-ThG5RiubP9s.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 5 - Digital Forensics For Linux-Unix/Extra/
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/Linux System Administration 2nd Edition (MrDanTe4).pdf
 /home/mohabaks/Documents/Tech/Infosec/Security/No Starch Press - PGP and GPG Email for the Practical Paranoid.pdf
@@ -964,6 +792,11 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 1 - Review_ PRPs and PRFs (12 min).txt
 /home/mohabaks/Videos/Tech/Crypto/Lecture 17 - Elliptic Curve Cryptography (ECC) by Christof Paar-zTt4gvuQ6sY.mp4
 /home/mohabaks/Videos/Tech/Crypto/Lecture 8 - Advanced Encryption Standard (AES) by Christof Paar-NHuibtoL_qk.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Sukoon & Qalqalah - Part 3 - Imam Raza-1dIlQAAKSHU.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Sukoon & Qalqalah - Part 1 - Imam Raza-7JJn_HpAmzI.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Shaddah & Ghunnah - Part 2 - Imam Raza-OVSgVXK56p8.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Sukoon & Qalqalah - Part 2 - Imam Raza-oe6Z2ZNMcvM.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Shaddah & Ghunnah - Part 1 - Imam Raza-LiW1ENu-j5c.mp4
 /home/mohabaks/Documents/Tech/Programming/Web/PHP/PHP and MySQL by Example by Ellie Quigley and Marko Gargenta.pdf
 /home/mohabaks/Documents/Tech/Programming/C-C++/Data Structures and Algorithm Analysis in C - Mark Allen Weiss.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/KaliLinux/Basic Security Testing with Kali Linux (2014).PDF
@@ -979,7 +812,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 2 - The Data Encryption Standard (22 min).txt
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 6 - Apache.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 4 - DNSSec.mp4
-/home/mohabaks/Videos/Misc/Sausage Party (2016) [1080p] [YTS.AG]/Sausage.Party.2016.1080p.BluRay.x264-[YTS.AG].mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Extra/
 /home/mohabaks/Documents/Tech/Programming/Web/Javascript/Javascript_ Novice to Ninja - Darren Jones {TechieAce}.pdf
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/The Tagled Web A Guide to Securing Modern Web Applications.pdf
@@ -994,6 +826,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 4 - More attacks on block ciphers (16 min).mp4
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 4 - More attacks on block ciphers (16 min).txt
 /home/mohabaks/Videos/Tech/Crypto/Lecture 9 - Modes of Operation for Block Ciphers by Christof Paar-4FBgb2uobWI.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Makhraj (Visiting Letters in their homes) - Imam Raza-k8R59aAcBaQ.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Extra/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/Extra/
 /home/mohabaks/Documents/Tech/Programming/Assembly/Assembly Language Programming- ARM Cortex-M3 - Vincent Mahout.pdf
@@ -1025,7 +858,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 3 - Security for many-time key (23 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 1 - Message Authentication Codes (16 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 1 - Message Authentication Codes (16 min).mp4
-/home/mohabaks/Downloads/Hacking Exposed VoIP Voice Over IP Security Secrets and Solutions (2006) Spy [0072263644].pdf
 /home/mohabaks/Documents/Tech/Networking/NetworkAnalysis/Network Security Assessment Know Your Network, 3rd Edition.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Overview/design-of-the-unix-operating-system-maurice-bach-1986-scan-ocr.pdf
 /home/mohabaks/Documents/Tech/Infosec/Malware_Virus/Jones.And.Bartlett.Rootkit.2nd.Edition.Mar.2012.ISBN.144962636X.pdf
@@ -1044,6 +876,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Crypto/Lecture 7 - Introduction to Galois Fields for the AES by Christof Paar-x1v2tX4_dkQ.mp4
 /home/mohabaks/Videos/Tech/Crypto/Lecture 18 - Digital Signatures and Security Services by Christof Paar-jbBe4AS5pk0.mp4
 /home/mohabaks/Videos/Tech/Crypto/Lecture 23 - Symmetric Key Establishment and Kerberos by Christof Paar-iaH8UG2yMg4.mp4
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/
 /home/mohabaks/Documents/Tech/Networking/Programming/UNIX Network Programming Volume 1, 2nd Edition - Richard Stevens.pdf
 /home/mohabaks/Documents/Tech/Cert/CompTIA_Security-_Certification_Study_Guide-_Second_Edition_(Exam_SY0-401)[Dr.Soc].pdf
 /home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-9)-Conditional-Branching.mp4
@@ -1079,6 +912,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 7 - Stream ciphers are semantically secure (11 min).mp4
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.2-collision-resistance-generic-birthday-attack.pdf
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.5-collision-resistance-HMAC-a-MAC-from-SHA-256.pdf
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/
 /home/mohabaks/Documents/Tech/Programming/PenTest/Black Hat Python - Python Programming for Hackers and Pentesters - 2014.epub
 /home/mohabaks/Documents/Tech/LinuxReloaded/Overview/Practical LPIC-1 Linux Certification Study Guide - 1st Edition (2016).pdf
 /home/mohabaks/Videos/Tech/open security training - videos/Format-String-Vulnerabilities-Primer-(Part-4-Viewing-the-Stack).mp4
@@ -1115,7 +949,6 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.3-collision-resistance-the-merkle-damgard-paradigm.pdf
 /home/mohabaks/Videos/Tech/Crypto/Lecture 12 - The RSA Cryptosystem and Efficient Exponentiation by Christof Paar-QSlWzKNbKrU.mp4
 /home/mohabaks/Videos/Tech/Crypto/Lecture 4 - Stream Ciphers and Linear Feedback Shift Registers by Christof Paar-sKUhFpVxNWc.mp4
-/home/mohabaks/Videos/Misc/Ready Player One (2018) [BluRay] [1080p] [YTS.AM]/Ready.Player.One.2018.1080p.BluRay.x264-[YTS.AM].mp4
 /home/mohabaks/Documents/Tech/Infosec/Forensics/Practical Forensic Imaging - Securing Digital Evidence with Linux Tools (2016).pdf
 /home/mohabaks/Documents/Tech/Infosec/SocialEngineering/The Art Of Intrusion - The Real Stories Behind The Exploits Of Hackers.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/HackingExposed/hacking_exposed_7_network_security_secrets_and_solutions.pdf
@@ -1124,6 +957,7 @@ GNU Image Manipulation Program
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 2 - Stream ciphers and pseudo random generators (20 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 2 - Stream ciphers and pseudo random generators (20 min).mp4
 /home/mohabaks/Videos/Tech/Crypto/Lecture 3 - Stream Ciphers, Random Numbers and the One Time Pad by Christof Paar-AELVJL0axRs.mp4
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/
 /home/mohabaks/Documents/Tech/Infosec/WebApplication/Misc/ULTIMATE XSS PROTECTION CHEATSHEET FOR DEVELOPERS, THE - Ajin Abraham.pdf
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 4 - Modes of operation_ many time key (CBC) (16 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 5 - Modes of operation_ many time key (CTR) (10 min).txt
@@ -1213,14 +1047,20 @@ GNU Image Manipulation Program
 /home/mohabaks/Documents/Tech/Programming/PenTest/Violent Python - A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers.pdf
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 5 - Digital Forensics For Linux-Unix/Part 3 - Evidence Collection and Preservation.mp4
 /home/mohabaks/Documents/Tech/OperatingSystems(Generic)/William Stallings - Computer Organization and Architecture Designing for Performance (8th Edition).pdf
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.6 - Capture the Flag.pdf
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 5 - Digital Forensics For Linux-Unix/Part 2 - Forensic Preparation and Incident Handling.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/Part 1 - SSH Trips and Tricks - Automated Logins.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Part 1 - Hardening Unix-Linux Systems - Introduction.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 6 - Hardening unix-Linux Systems-parttwo Summary.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/Part 3 - SSH Tips and Tricks - X11 and TCP Forwarding.mp4
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.3 - Web Application Encryption.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/Evi Nemeth, Garth Snyder, Trent R. Hein - UNIX and Linux System Administration Handbook, 4th Edition - 2010.pdf
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 3 - Physical- user account and Password Access Control.mp4
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 5 - Best Practices for Kernel Tuning and Warning Banners.mp4
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.1 - Advanced Discovery and Exploitation.pdf
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.4 - Mobile Application and Web Services.pdf
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.5 - Web Application Firewall and Filter Bypass.pdf
 /home/mohabaks/Documents/Tech/Infosec/Security/Ivan Ristic-Bulletproof SSL and TLS_ Understanding and Deploying SSL_TLS and PKI to Secure Servers and Web Applications-Feisty Duck (2014).pdf
 /home/mohabaks/Documents/Tech/Programming/Web/DataMining/Matthew A. Russell-Mining the social web_ data mining Facebook, Twitter, LinkedIn, Google+, GitHub, and more-O'Reilly Media (2013).pdf
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.2 - Discovery and Exploitation for Specific Applications.pdf
 rebuild cache

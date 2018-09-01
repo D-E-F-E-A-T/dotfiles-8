@@ -76,6 +76,7 @@
         "/home/mohabaks/Documents/Tech",
         "/home/mohabaks/Videos/Tech",
         "/home/mohabaks/Videos/Misc",
+        "/home/mohabaks/Videos/Islam",
         "/home/mohabaks/Pictures",
         "/home/mohabaks/Downloads"
 

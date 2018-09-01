@@ -94,11 +94,15 @@
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Wireless/SANS/
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/SEC524/
+/home/mohabaks/Videos/Tech/CBT/
 /home/mohabaks/Videos/Tech/open security training - videos/
 /home/mohabaks/Videos/Tech/OffensiveSecurity/
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/
 /home/mohabaks/Videos/Tech/Cryprography/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/
 /home/mohabaks/Videos/Tech/Crypto/
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/
+/home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/
@@ -124,12 +128,10 @@
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Extra/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Extra/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/text/2000/
-/home/mohabaks/Videos/Misc/Sausage Party (2016) [1080p] [YTS.AG]/
-/home/mohabaks/Videos/Misc/Ready Player One (2018) [BluRay] [1080p] [YTS.AM]/
+/home/mohabaks/Videos/Islam/Quran/
 /home/mohabaks/Pictures/notify/
 /home/mohabaks/Pictures/Misc/
 /home/mohabaks/Pictures/WebApp/
-/home/mohabaks/Pictures/Pentest/
 /home/mohabaks/Pictures/Walls/
 /home/mohabaks/Pictures/screenshots/
 /home/mohabaks/Pictures/notify/todo/
@@ -137,28 +139,8 @@
 /home/mohabaks/Pictures/notify/quran/
 /home/mohabaks/Pictures/notify/prayer/
 /home/mohabaks/Pictures/notify/nasheed/
-/home/mohabaks/Pictures/Pentest/ATL/
-/home/mohabaks/Downloads/AARCS/
-/home/mohabaks/Downloads/dark_dotted2/
-/home/mohabaks/Downloads/SANS/
-/home/mohabaks/Downloads/simple_dashed/
-/home/mohabaks/Downloads/packers/
-/home/mohabaks/Downloads/spiration dark/
-/home/mohabaks/Downloads/pure evil 2/
-/home/mohabaks/Downloads/country-quilt-dark/
-/home/mohabaks/Downloads/slash_it/
-/home/mohabaks/Downloads/Backs/
-/home/mohabaks/Downloads/dmenu-4.6/
-/home/mohabaks/Downloads/Metasploitable2-Linux/
-/home/mohabaks/Downloads/Font2/
-/home/mohabaks/Downloads/binding_dark/
-/home/mohabaks/Downloads/what-the-hex-dark/
-/home/mohabaks/Downloads/LGPL/
-/home/mohabaks/Downloads/curls/
-/home/mohabaks/Downloads/darkness/
-/home/mohabaks/Downloads/Torrents/
-/home/mohabaks/Downloads/flash/
-/home/mohabaks/Downloads/Fonts/
-/home/mohabaks/Downloads/AARCS/Font/
-/home/mohabaks/Downloads/Torrents/session/
-/home/mohabaks/Downloads/flash/LGPL/
+/home/mohabaks/Downloads/Tools/
+/home/mohabaks/Downloads/ResponseTemplates/
+/home/mohabaks/Downloads/Inspectors/
+/home/mohabaks/Downloads/ImportExport/
+/home/mohabaks/Downloads/Scripts/

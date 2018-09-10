@@ -162,7 +162,7 @@ channels = (
   { name = "#oftc"; chatnet = "OFTC"; autojoin = "No"; },
   { name = "silc"; chatnet = "SILC"; autojoin = "No"; },
   {
-    name = "#vim,#git,##javascript,#nodejs,#i3,##c,##crypto,#metasploit,#offsec,#android,#hardware,#corelan,#vulnhub,#r_netsec,##networking,#irssi,#bash,#python,#gentoo,##security,##linux,#archlinux";
+    name = "##crypto,#metasploit,#offsec,#corelan,#vulnhub,#r_netsec,##networking,#irssi,#bash,#gentoo,##security,##linux,#archlinux";
     chatnet = "freenodetor";
     autojoin = "Yes";
   }
@@ -355,7 +355,7 @@ statusbar = {
 
     window = {
 
-      disabled = "no";
+      disabled = "yes";
       type = "window";
       placement = "bottom";
       position = "1";
@@ -457,7 +457,7 @@ ignores = (
       "##hardware",
       "#corelan",
       "#vulnhub",
-      "#r_netsec",
+      "#r_netsec"
     );
   }
 );

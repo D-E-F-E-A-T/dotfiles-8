@@ -16,7 +16,7 @@ RSS/Atom feed reader   > newsboat
 Text editor            > vim
 Terminal emulator      > urxvt-patched
 Terminal multiplexer   > tmux
-Window manager         > i3, bspwm
+Window manager         > i3, bspwm, dwm
 ```
 
 Installation

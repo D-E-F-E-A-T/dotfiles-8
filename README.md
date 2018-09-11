@@ -14,7 +14,7 @@ Program launcher       > dmenu, rofi
 PDF viewer             > zathura
 RSS/Atom feed reader   > newsboat
 Text editor            > vim
-Terminal emulator      > urxvt-patched
+Terminal emulator      > urxvt-patched, st
 Terminal multiplexer   > tmux
 Window manager         > i3, bspwm, dwm
 ```
@@ -33,11 +33,11 @@ specific config.
 
 Current 
 -------
-`i3`
+`i3` `HP Pavilion`
 
 ![gotham minimal](https://i.redd.it/twncpk3y0ll11.png)
 
-`dwm`
+`dwm` `patched` `thinkpad Yoga 260`
 
 ![suckless](https://imgur.com/CkuXWXC.png)
 
@@ -45,7 +45,7 @@ Current
 Previous
 --------
 
-`i3`
+`i3` `HP Pavilion`
 
 ![fancy-office-look](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
 

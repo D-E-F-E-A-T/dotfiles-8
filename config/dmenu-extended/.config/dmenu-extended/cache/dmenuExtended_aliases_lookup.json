@@ -1,0 +1,146 @@
+[
+    [
+        "Firefox",
+        "/usr/lib64/firefox/firefox"
+    ],
+    [
+        "Postman",
+        "/usr/lib64/chromium-browser/chromium-launcher.sh --profile-directory=Default --app-id=fhbjgbiflinjbdggehcddcbncdddomop"
+    ],
+    [
+        "MuPDF",
+        "mupdf"
+    ],
+    [
+        "Customize Look and Feel",
+        "lxappearance"
+    ],
+    [
+        "i3",
+        "i3"
+    ],
+    [
+        "Wireshark (GTK+)",
+        "wireshark-gtk"
+    ],
+    [
+        "Mozilla Firefox",
+        "firefox"
+    ],
+    [
+        "Zathura",
+        "zathura"
+    ],
+    [
+        "Shortcut Editor",
+        "lxshortcut -i"
+    ],
+    [
+        "File Manager PCManFM",
+        "pcmanfm"
+    ],
+    [
+        "Burp Suite Community Edition",
+        "\"/opt/BurpSuiteCommunity/BurpSuiteCommunity\""
+    ],
+    [
+        "Virtual Machine Manager",
+        "virt-manager"
+    ],
+    [
+        "Feh",
+        "feh"
+    ],
+    [
+        "CherryTree",
+        "cherrytree"
+    ],
+    [
+        "Preferred Applications",
+        "libfm-pref-apps"
+    ],
+    [
+        "compton",
+        "compton"
+    ],
+    [
+        "Inkscape",
+        "inkscape"
+    ],
+    [
+        "rxvt-unicode",
+        "urxvt"
+    ],
+    [
+        "XDVI",
+        "xdvi"
+    ],
+    [
+        "GNU Image Manipulation Program",
+        "gimp-2.8"
+    ],
+    [
+        "Texmaker",
+        "texmaker"
+    ],
+    [
+        "Htop",
+        "htop;"
+    ],
+    [
+        "sandbox",
+        "sandbox;"
+    ],
+    [
+        "nitrogen",
+        "nitrogen"
+    ],
+    [
+        "Chromium",
+        "chromium-browser"
+    ],
+    [
+        "Print Preview",
+        "evince-previewer"
+    ],
+    [
+        "Zeal",
+        "zeal"
+    ],
+    [
+        "FLUID",
+        "fluid"
+    ],
+    [
+        "mpv Media Player",
+        "mpv --player-operation-mode=pseudo-gui --"
+    ],
+    [
+        "Spicy",
+        "spicy"
+    ],
+    [
+        "TigerVNC Viewer",
+        "vncviewer"
+    ],
+    [
+        "ranger",
+        "ranger;"
+    ],
+    [
+        "Document Viewer",
+        "evince"
+    ],
+    [
+        "Access Prompt",
+        "/usr/libexec/gcr-prompter"
+    ],
+    [
+        "View file",
+        "gcr-viewer"
+    ],
+    [
+        "Desktop Preferences",
+        "pcmanfm --desktop-pref"
+    ]
+]

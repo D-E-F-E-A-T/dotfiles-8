@@ -1,20 +1,23 @@
 Setup Description
 -----------------
-* Bar `polybar`
-* Browser `firefox` `chromium`
-* Compositor `compton`
-* IRC client `weechat` `irssi`
-* File Manager `ranger` `pcmanfm`
-* Font `Iosevka` `tewi` `Anonymous Pro for Powerline`
-* Mail client `mutt`
-* Media player `mpv`
-* Music player `ncmpcpp`
-* Program launcher `dmenu` `rofi`
-* PDF viewer `zathura`
-* Text editor `vim`
-* Terminal emulator `urxvt-patched`
-* Terminal multiplexer: `tmux`
-* Window manager `i3` `bspwm`
+```
+Bar                    > polybar, lemonbar
+Browser                > firefox, chromium
+Compositor             > compton
+IRC client             > weechat, irssi
+File Manager           > ranger, pcmanfm
+Font                   > Iosevka, tewi
+Mail client            > mutt
+Media player           > mpv
+Music player           > ncmpcpp
+Program launcher       > dmenu, rofi
+PDF viewer             > zathura
+RSS/Atom feed reader   > newsboat
+Text editor            > vim
+Terminal emulator      > urxvt-patched
+Terminal multiplexer   > tmux
+Window manager         > i3, bspwm, dwm
+```
 
 Installation
 ------------
@@ -28,10 +31,17 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Current
+Current 
 -------
+`fancy`
 
-![minimal](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
+![fancy-office-look](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
+
+Minimal Workflow 
+----------------
+`suckless`
+
+![minimal-dark-mode](https://github.com/mohabaks/dotfiles/blob/master/demo.gif)
 
 Thanks
 ------

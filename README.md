@@ -37,6 +37,11 @@ Current
 
 ![gotham minimal](https://i.redd.it/twncpk3y0ll11.png)
 
+`dwm`
+
+![suckless](https://imgur.com/CkuXWXC.png)
+
+
 Previous
 --------
 

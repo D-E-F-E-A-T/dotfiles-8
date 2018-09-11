@@ -34,3 +34,52 @@ Document Viewer
 Access Prompt
 View file
 Desktop Preferences
+<<<<<<< HEAD
+=======
+HTMLDOC
+dots
+down
+code
+blog
+pen
+i3config
+vimrc
+bashrc
+aliasadd
+xresources
+polybarconf
+reload
+htop
+ls
+ll
+la
+grep
+google
+cp
+homelab
+tcolor
+df
+free
+rm
+pastebin
+msf
+add_alias
+polybarconf
+pen
+mpv
+getip
+getemail
+kali
+mpc
+sshloadkey
+cloudmaster
+kvm1
+kvm2
+clouddb
+blacklab
+shellcoders
+nmaplivehost
+gentoo-update-repos
+gentoo-remove-packages
+gentoo-update-system
+>>>>>>> Minimal_Dark_Rice

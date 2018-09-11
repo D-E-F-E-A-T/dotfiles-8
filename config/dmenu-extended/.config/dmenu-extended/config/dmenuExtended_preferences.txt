@@ -19,6 +19,7 @@
     "indicator_submenu": "->",
     "menu": "dmenu",
     "menu_arguments": [
+<<<<<<< HEAD
         "-b",
         "-i",
         "-nf",
@@ -31,6 +32,19 @@
         "#1D1F21",
         "-fn",
         "terminus",
+=======
+        "-i",
+        "-nf",
+        "#B2B2B2",
+        "-nb",
+        "#000000",
+        "-sf",
+        "#FFFFFF",
+        "-sb",
+        "#18B2B2",
+        "-fn",
+        "lucy tewi",
+>>>>>>> Minimal_Dark_Rice
         "-l",
         "20"
     ],
@@ -39,7 +53,11 @@
         "--password",
         "--title={prompt}"
     ],
+<<<<<<< HEAD
     "path_aliasFile": "",
+=======
+    "path_aliasFile": "/home/mohabaks/.alias",
+>>>>>>> Minimal_Dark_Rice
     "path_shellCommand": "~/.dmenuEextended_shellCommand.sh",
     "prompt": "Open:",
     "scan_hidden_folders": false,
@@ -48,6 +66,10 @@
         "py",
         "svg",
         "pdf",
+<<<<<<< HEAD
+=======
+        "epub",
+>>>>>>> Minimal_Dark_Rice
         "txt",
         "png",
         "jpg",
@@ -59,6 +81,10 @@
         "avi",
         "mpg",
         "mp3",
+<<<<<<< HEAD
+=======
+        "mp4",
+>>>>>>> Minimal_Dark_Rice
         "lyx",
         "bib",
         "iso",
@@ -69,6 +95,7 @@
         "docxxls",
         "xlsx",
         "md",
+<<<<<<< HEAD
         "html",
         "sublime-project"
     ],
@@ -77,3 +104,18 @@
     ],
     "webbrowser": "xdg-open"
 }
+=======
+        "html"
+    ],
+    "watch_folders": [
+        "/home/mohabaks/Documents/Tech",
+        "/home/mohabaks/Videos/Tech",
+        "/home/mohabaks/Videos/Misc",
+        "/home/mohabaks/Videos/Islam",
+        "/home/mohabaks/Pictures",
+        "/home/mohabaks/Downloads"
+
+    ],
+    "webbrowser": "xdg-open"
+}
+>>>>>>> Minimal_Dark_Rice

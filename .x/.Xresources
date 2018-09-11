@@ -25,8 +25,8 @@ Xft.lcdfilter:          lcddefault
 !                        URxvt settings 
 !-----------------------------------------------------------------------
 
-URxvt.internalBorder:    10
-URxvt.externalBorder:    0
+URxvt.internalBorder:    15
+URxvt.externalBorder:    5
 !URxvt.lineSpace:        0
 !urxvt*shading:          30
 URxvt.depth:             32
@@ -45,9 +45,9 @@ URxvt*scrollWithBuffer:   true
 URxvt*scrollTtyKeypress:  true
 
 !! Fonts
-#define fonts xft:Iosevka Slab:size=9
+!#define fonts xft:Iosevka Slab:size=9
 
-URxvt*font:              fonts
+!URxvt*font:              fonts
 URxvt*boldMode:          true
 URxvt*boldFont:          fonts
 
@@ -90,7 +90,7 @@ URxvt.iso14755:            false
 URxvt.iso14755_52:         false
 
 !! Cursor
-Xcursor.theme:             Adwait
+Xcursor.theme:             Venom
 
 !! Color theme
-#include "/home/mohabaks/.colors/wal"
+#include "/home/mohabaks/.colors/gotham"

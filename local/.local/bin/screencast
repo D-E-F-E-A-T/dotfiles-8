@@ -7,7 +7,7 @@
 # Tip:          Use CRF 10 for WEBM and 0 for GIF
 #
 
-DIR='/home/user/'    # Directory to store files
+DIR='/home/mohabaks/'    # Directory to store files
 FILE='out'              # Output filename(.*)
 TEMP='edit'             # Edit filename(.*)
 
@@ -148,11 +148,11 @@ convertwebm() {
         durationDiff=$(echo "$duration-$diff"|bc -l)
 
         ffmpeg -i "$DIR$FILE.mkv" -t $durationDiff \
-            -c:v libvpx -qmin 1 -qmax $wQMAX -preset $PRESET \
+            -c:v libvpx -qmin 1 -qmax $wQMAX -pre $PRESET \
             -c:a libvorbis "$DIR$FILE.webm"
     else
         ffmpeg -i "$DIR$FILE.mkv" \
-            -c:v libvpx -qmin 1 -qmax $wQMAX -preset $PRESET \
+            -c:v libvpx -qmin 1 -qmax $wQMAX -pre $PRESET \
             -c:a libvorbis "$DIR$FILE.webm"
     fi
 
@@ -199,7 +199,7 @@ editmkv() {
                 rm -f "/tmp/output-"*.png
                 read -r -p $'\nSpeed up video by reducing frames to (<'$FPS$') fps: \n' vfps
                 ffmpeg -i "$DIR$FILE.mkv" -r $vfps -f image2 "/tmp/output-%06d.png"
-                ffmpeg -r $FPS -i "/tmp/output-%06d.png" -c:v libx264 -preset $PRESET -crf 0 "$DIR$TEMP.mkv"
+                ffmpeg -r $FPS -i "/tmp/output-%06d.png" -c:v libx264 -pre $PRESET -crf 0 "$DIR$TEMP.mkv"
                 ;;
             'w')
                 echo -e "\nOverwriting original '\033[1;32m$DIR$FILE.mkv'."

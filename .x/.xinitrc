@@ -11,6 +11,7 @@
 # conky -d -c $HOME/.config/polybar/conky_wrapper
 dunst -config $HOME/.config/dunst/dunstrc &
 compton -b --config $HOME/.compton.conf 
-$HOME/.local/bin/urxvt_daemon &
-nitrogen --restore 2> /dev/null
-exec i3
+nitrogen --restore 2> /dev/null &
+source .local/bin/dwm-status &
+
+exec  dwm

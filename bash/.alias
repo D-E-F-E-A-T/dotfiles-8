@@ -22,7 +22,7 @@ alias la="ls -la --group-directories-first --time-style=+'%d.%m.%Y %H:%M' --colo
 alias grep='grep --color=tty -d skip'
 alias google='ping -c1 8.8.8.8'
 alias cp='cp -i'
-alias homelab='ssh blackman@blacklab'
+alias homelab='ssh blackman@192.168.100.5'
 alias tcolor='for i in {0..255}; do printf "\x1b[38;5;${i}mcolor%-5i\x1b[0m" $i ; if ! (( ($i + 1 ) % 8 )); then echo ; fi ; done'
 alias df='df -h'
 alias free='free -m'

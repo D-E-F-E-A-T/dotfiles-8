@@ -73,16 +73,16 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Initialize workspace
-set $w1 1:
-set $w2 2:
-set $w3 3:
-set $w4 4:
-set $w5 5:
-set $w6 6:
-set $w7 7:
-set $w8 8:
-set $w9 9:
-set $w10 10:
+set $w1 1:web
+set $w2 2:vim
+set $w3 3:doc
+set $w4 4:mpv
+set $w5 5:atl
+set $w6 6:sys
+set $w7 7:lab
+set $w8 8:app
+set $w9 9:pen
+set $w10 10:mis
  
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -153,7 +153,7 @@ bindsym $mod+minus scratchpad show
 #smart_borders on
 
 # Global gaps size
-gaps inner 15
+gaps inner 0
 gaps outer 0
 
 set $mode_gaps Gaps: (o) outer, (i) inner
@@ -202,39 +202,39 @@ mode "$mode_gaps_outer" {
 #
         bindsym $mod+r mode "resize"
 
-bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/status/status
+#bindsym $mod+F9 exec --no-startup-id $HOME/.config/popups/status/status
 
 # Volume control
-        bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
-        bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
-        bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
 # Brightness control
-        bindsym XF86MonBrightnessUp exec xbacklight -inc 20
-        bindsym XF86MonBrightnessDown exec xbacklight -dec 20
+bindsym XF86MonBrightnessUp exec xbacklight -inc 20
+bindsym XF86MonBrightnessDown exec xbacklight -dec 20
 
 # Touchpad controls
-        bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh
+bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh
 
 # Screenshot with scrot
-        bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures/screenshots' && notify-send "Screenshot Taken"
+bindsym Print exec --no-startup-id scrot -e 'mv $f ~/Pictures/screenshots' && notify-send "Screenshot Taken"
 
 # Kill screencast
-        bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
+bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
 
 # View Todo List
-        bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
+bindsym $mod+F10 exec --no-startup-id ~/.config/popups/todo/todo
 
 # My apps shortcut
-        bindsym $mod+p exec --no-startup-id pcmanfm 
-        bindsym $mod+b exec --no-startup-id firefox
+bindsym $mod+p exec --no-startup-id BurpSuiteCommunity
+bindsym $mod+b exec --no-startup-id firefox
 
 # Mpc play next song
-        bindsym $mod+n exec --no-startup-id mpc next
+#bindsym $mod+n exec --no-startup-id mpc -h 192.168.100.5 -p 6600 next
 
 # Custom colors
 set_from_resource $black       color8  #000000
-set_from_resource $darkblack   color0  #000000
+#set_from_resource $darkblack   color0  #000000
 set_from_resource $darkred     color1  #000000
 set_from_resource $red         color9  #000000
 set_from_resource $darkgreen   color2  #000000
@@ -250,15 +250,18 @@ set_from_resource $cyan        color14 #000000
 set_from_resource $white       color7  #000000
 set_from_resource $darkwhite   color15 #000000
 
-set $background  #e0eaf9
+set $background  #000000
+set $darkblack   #10151b
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec  --no-startup-id dmenu_run -b -y 10 -x 13 -w 1892 -nf "$white" -sb "$magenta" -sf "$background" -nb "$background" -fn "Anonymous Pro for Powerline-11"
+#bindsym $mod+d exec  --no-startup-id dmenu_run -nf "$white" -sb "$magenta" -sf "$background" -nb "$background" -fn "Fixed-9"
+bindsym $mod+d exec --no-startup-id dmenu_extended_run
+bindsym $mod+shift+d exec --no-startup-id dmenu_extended_run "-> Internet search: " "Google"
 
 # Window colors           border       background   text            indicator    child_border
 client.focused            $darkmagenta $darkmagenta $darkwhite      $darkblack  $darkblack
 client.focused_inactive   $darkblack   $darkblack   $white          $darkblack  $darkblack
-client.unfocused          $green   $green   $white          $darkblack  $darkblack
+client.unfocused          $darkblack   $darkblack   $white          $darkblack  $darkblack
 client.urgent $darkblue   $darkblue    $white       $darkblack      $darkblack  $darkblack
 
 #start i3bar to display a workspace bar
@@ -267,7 +270,7 @@ client.urgent $darkblue   $darkblue    $white       $darkblack      $darkblack  
     
 #           status_command  $HOME/.local/bin/conkyi3.sh     
 #           position top
-#           font xft:Anonymous Pro for Powerline 8
+#           font xft:Fixed 9
 #           strip_workspace_numbers yes
           
 #           colors {
@@ -278,7 +281,7 @@ client.urgent $darkblue   $darkblue    $white       $darkblack      $darkblack  
 #               # Bar colors       border       background    text 
 #               focused_workspace  $background  $darkmagenta  $darkwhite
 #               active_workspace   $background  $blue         $white
-#               inactive_workspace $background  #202020    $white
+#               inactive_workspace $background  #252525       #888888
 #               urgent_workspace   $background  $red          $darkwhite
 #          }
 # }
@@ -291,7 +294,7 @@ for_window [class=".*"] title_format "<span font='Tewi 8'> </span>"
 #************  Startup apps ***********************
 
 # Bar start
-# exec --no-startup-id $HOME/.local/bin/barstart
+exec --no-startup-id $HOME/.local/bin/barstart
 #exec --no-startup-id nitrogen --restore  &
 #exec --no-startup-id dunst -config $HOME/.config/dunst/dunstrc &
 #exec --no-startup-id compton -b --config $HOME/.compton.conf
@@ -304,7 +307,7 @@ for_window [class=".*"] title_format "<span font='Tewi 8'> </span>"
 #*************  Other settings  *********************
 
 # Set per-application border
-for_window [class="^.*"] border normal 0
+for_window [class="^.*"] border pixel 1
 
 # Enable or disable floating
 for_window [class="Lxappearance"] floating enable

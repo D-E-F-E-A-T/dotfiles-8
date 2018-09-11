@@ -33,13 +33,22 @@ specific config.
 
 Current 
 -------
-`fancy`
+`i3`
+
+![gotham minimal](https://i.redd.it/twncpk3y0ll11.png)
+
+Previous
+--------
+
+`i3`
 
 ![fancy-office-look](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
 
+
 Minimal Workflow 
 ----------------
-`suckless`
+
+`i3`
 
 ![minimal-dark-mode](https://github.com/mohabaks/dotfiles/blob/master/demo.gif)
 

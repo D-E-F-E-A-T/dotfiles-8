@@ -39,8 +39,12 @@ elif [[ $1 = '--show' || $1 = '-s' || $1 == "show" ]]; then
 		echo ""
                 echo -e "\0033[31m"
 		echo "     _ __ __________________ __ _"
+                echo ""
 		echo -e "\0033[0m"
 		nl -b a $file
+                echo -e "\0033[34m"
+		echo "     =-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+		echo -e "\0033[0m"
 		sleep 4
 	done;
 elif [[ $1 = '--delete' || $1 = '-d' || $1 == "delete" ]]; then

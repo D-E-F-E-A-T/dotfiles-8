@@ -1,0 +1,56 @@
+@import url('file:///home/mohabaks/homepage/colors/gotham.css');
+
+/****** NAVBAR COLOUR CHANGE ** BEGIN ******/
+#nav-bar, .tab-background[selected="true"] {
+  background: var(--background) !important;
+  border-color: var(--foreground) !important;
+  font-family: lucy tewi !important;
+}
+
+#main-window #urlbar {
+  background: var(--background) !important;
+  color: var(--foreground) !important;
+  font-family: lucy tewi !important;
+}
+/****** NAVBAR COLOUR CHANGE ** END ******/
+
+
+/****** TAB CENTER REDUX ** BEGIN ******/
+
+#tabbrowser-tabs {
+  visibility: collapse !important;
+}
+
+#sidebar-box {
+  overflow: hidden;
+  min-width: 0px;
+  max-width: 0px;
+  position: fixed;
+  border-right: 1px solid rgba(0,0,0,0);
+  transition: all 0.25s ease;
+  z-index: 2;
+}
+
+#sidebar-box:hover, #sidebar-box #sidebar {
+  min-width: 400px !important;
+  max-width: 400px !important;
+}
+
+#sidebar-box #sidebar-header, #sidebar-box ~ #sidebar-splitter {
+  display: none;
+}
+
+#sidebar-box #sidebar {
+  height: 100vh;
+}
+
+#urlbar {
+  border-radius: 0px !important;
+}
+
+#content browser {
+ margin-right: -14px !important;
+  overflow-y: scroll;
+ overflow-x: hidden;
+}
+/****** TAB CENTER REDUX ** END ******/

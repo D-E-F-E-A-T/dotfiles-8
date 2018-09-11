@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/mohabaks/Desktop/
 /home/mohabaks/Pictures/
 /home/mohabaks/CTFs/
@@ -102,6 +103,8 @@
 /home/mohabaks/Documents/LaTeX-Docs/Atlancis/Reports/General/
 /home/mohabaks/Documents/LaTeX-Docs/Atlancis/Templates/Letter/
 /home/mohabaks/Documents/LaTeX-Docs/Atlancis/Templates/Report/
+=======
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/Networking/
 /home/mohabaks/Documents/Tech/Programming/
 /home/mohabaks/Documents/Tech/Cert/
@@ -198,6 +201,7 @@
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Wireless/SANS/
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/SEC524/
+<<<<<<< HEAD
 /home/mohabaks/Audio/Al-Huthaify/
 /home/mohabaks/Audio/AbdulBasitMujawwad/
 /home/mohabaks/Videos/Compressed/
@@ -205,6 +209,8 @@
 /home/mohabaks/Videos/Islam/
 /home/mohabaks/Videos/Tech/
 /home/mohabaks/Videos/Islam/Quran/
+=======
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/CBT/
 /home/mohabaks/Videos/Tech/open security training - videos/
 /home/mohabaks/Videos/Tech/OffensiveSecurity/
@@ -239,6 +245,7 @@
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Extra/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Extra/
 /home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/text/2000/
+<<<<<<< HEAD
 /home/mohabaks/Code/Cryptopal/
 /home/mohabaks/Code/Penscripts/
 /home/mohabaks/Code/C_Programming/
@@ -1633,3 +1640,21 @@
 /home/mohabaks/Atlancis/Pentest/Targets/iLearn/
 /home/mohabaks/Atlancis/Pentest/Targets/HCM/
 /home/mohabaks/Atlancis/Pentest/Targets/HCM/php-reverse-shell-1.0/
+=======
+/home/mohabaks/Videos/Islam/Quran/
+/home/mohabaks/Pictures/notify/
+/home/mohabaks/Pictures/Misc/
+/home/mohabaks/Pictures/WebApp/
+/home/mohabaks/Pictures/Walls/
+/home/mohabaks/Pictures/screenshots/
+/home/mohabaks/Pictures/notify/todo/
+/home/mohabaks/Pictures/notify/other/
+/home/mohabaks/Pictures/notify/quran/
+/home/mohabaks/Pictures/notify/prayer/
+/home/mohabaks/Pictures/notify/nasheed/
+/home/mohabaks/Downloads/Tools/
+/home/mohabaks/Downloads/ResponseTemplates/
+/home/mohabaks/Downloads/Inspectors/
+/home/mohabaks/Downloads/ImportExport/
+/home/mohabaks/Downloads/Scripts/
+>>>>>>> Minimal_Dark_Rice

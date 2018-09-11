@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/mohabaks/iso27001-2013.pdf
 /home/mohabaks/openSUSE-Leap-42.3-DVD-x86_64.iso
 /home/mohabaks/archlinux-2018.08.01-x86_64.iso
@@ -216,11 +217,18 @@
 /home/mohabaks/Documents/Islam/quran_tajwid.pdf
 /home/mohabaks/Documents/Tech/unified-communications-technologies-972.pdf
 /home/mohabaks/Documents/Tech/book_storage_admin.pdf
+=======
+/home/mohabaks/Documents/Tech/unified-communications-technologies-972.pdf
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/21st-century-c-2e.pdf
 /home/mohabaks/Documents/Tech/ws-commands.pdf
 /home/mohabaks/Documents/Tech/practicalpacketanalysis.pdf
 /home/mohabaks/Documents/Tech/Handbook of Applied Cryptography, Fifth Edition.pdf
 /home/mohabaks/Documents/Tech/bookofpf_ano-nonsenseguidetotheopenbsdfirewall.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Documents/Tech/cloud-security-compliance-primer-34910.pdf
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/sqlmap-cheatsheet-1.0-SDB.pdf
 /home/mohabaks/Documents/Tech/tcpip.pdf
 /home/mohabaks/Documents/Tech/No Starch Press - Practical Packet Analysis.pdf
@@ -229,13 +237,21 @@
 /home/mohabaks/Documents/Tech/webconfs-status-codes.pdf
 /home/mohabaks/Documents/Tech/NmapCheatSheetv1.1.pdf
 /home/mohabaks/Documents/Tech/OWASP_Cheatsheets_Book.pdf
+<<<<<<< HEAD
 /home/mohabaks/Documents/Tech/Red_Hat_Ceph_Storage-3-Storage_Strategies_Guide-en-US.pdf
 /home/mohabaks/Documents/Tech/RE4B-EN.pdf
 /home/mohabaks/Documents/Tech/Google.Hacking.Filters.pdf
+=======
+/home/mohabaks/Documents/Tech/RE4B-EN.pdf
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/Networking/Wireless/802.11 Wireless Networks The Definitive Guide Oreilly Excellent.pdf
 /home/mohabaks/Documents/Tech/Networking/Tools/Mastering Nmap Scripting Engine - Pale, Paulino Caldern.pdf
 /home/mohabaks/Documents/Tech/Networking/Tools/Nmap Network Scanning.pdf
 /home/mohabaks/Documents/Tech/Networking/Tools/Network Analysis Using Wireshark Cookbook - Yoram Orzach.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Documents/Tech/Networking/Tools/Nmap 6 Cookbook The Fat-free Guide to Network Scanning - Nicholas Marsh.epub
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/Networking/Tools/TroubleshootingWithWireshark.pdf
 /home/mohabaks/Documents/Tech/Networking/HTTP/O'Reilly - HTTP - The Definitive Guide.pdf
 /home/mohabaks/Documents/Tech/Networking/Firewall/O'Reilly_Building_Internet_Firewalls_2nd_Edition.pdf
@@ -289,6 +305,10 @@
 /home/mohabaks/Documents/Tech/Programming/PenTest/Packt.Web.Oct.2015.ISBN.1782164367.pdf
 /home/mohabaks/Documents/Tech/Programming/PenTest/Gray Hat Python - Python Programming for Hackers and Reverse Engineers.pdf
 /home/mohabaks/Documents/Tech/Programming/PenTest/EFFECTIVE_PYTHON_PENETRATION_TESTING.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Documents/Tech/Programming/PenTest/Black Hat Python - Python Programming for Hackers and Pentesters - 2014.epub
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/Programming/Ruby/Russ_Olsen-Eloquent_Ruby-EN.pdf
 /home/mohabaks/Documents/Tech/Programming/Ruby/Ruby Best Practices.pdf
 /home/mohabaks/Documents/Tech/Programming/Ruby/Learn to Program, 2nd Edition.pdf
@@ -301,6 +321,10 @@
 /home/mohabaks/Documents/Tech/Programming/Web/HTML_CSS/Responsive Web Design with HTML5 and CSS3 - B. Frain (Packt, 2012) BBS.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/HTML_CSS/Head First HTML5 Programming.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/PHP/PHP Cookbook, 3rd Edition.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Documents/Tech/Programming/Web/PHP/PHP & MySQL. Novice to Ninja (SitePoint; 5th Ed.; 2012).epub
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/Programming/Web/PHP/PHP and MySQL by Example by Ellie Quigley and Marko Gargenta.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/PHP/Learning PHP, MySQL, JavaScript, CSS & HTML5 A Step-by-Step Guide to Creating Dynamic Websites.pdf
 /home/mohabaks/Documents/Tech/Programming/Web/PHP/Learn Php MySql and Css(2012)[A4].pdf
@@ -381,6 +405,10 @@
 /home/mohabaks/Documents/Tech/LinuxReloaded/Devices_Drivers/ldd3.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Devices_Drivers/Linux Device Drivers 3rd Edition V413HAV.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Devices_Drivers/FreeBSD Device Drivers - A Guide for the Intrepid - J. Kong (No Starch, 2012) BBS.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Documents/Tech/LinuxReloaded/Security/Practical Linux Security Cookbook (Packt; 2016).epub
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/LinuxReloaded/Security/designing bsd rootkits.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Security/PracticalUnixSecurity.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/The_Practice_of_System_and_Network_Administration(2007).pdf
@@ -392,6 +420,10 @@
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/tm4saana-screen.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/Red_Hat_Enterprise_Linux-7-System_Administrators_Guide-en-US.pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/Python for Unix and Linux System Administration.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Documents/Tech/LinuxReloaded/Administration/SSH_Mastery-B006ZO9ULK.epub
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/Linux System Administration Recipes (MrDanTe4).pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/Linux System Administration 2nd Edition (MrDanTe4).pdf
 /home/mohabaks/Documents/Tech/LinuxReloaded/Administration/CentOS System Administration Essentials.pdf
@@ -416,8 +448,11 @@
 /home/mohabaks/Documents/Tech/Cloud/Mastering VMware vSphere 5.pdf
 /home/mohabaks/Documents/Tech/Cloud/Apache CloudStack Cloud Computing [eBook].pdf
 /home/mohabaks/Documents/Tech/Cloud/cloudstack-installation.pdf
+<<<<<<< HEAD
 /home/mohabaks/Documents/Tech/Cloud/cloud-security-compliance-primer-34910.pdf
 /home/mohabaks/Documents/Tech/Cloud/weil-crush-sc06.pdf
+=======
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/Cloud/security3.pdf
 /home/mohabaks/Documents/Tech/Cloud/Container Networking Deep Dive.pdf
 /home/mohabaks/Documents/Tech/Cloud/Essentials of cloud computing (2015).pdf
@@ -524,6 +559,10 @@
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/The_CodeBreakers.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/hackingciphers.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/thecodebook.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Documents/Tech/Infosec/Cryptograph/Cryptography Engineering.epub
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/Serious Cryptography A Practical Introduction to Modern Encryption (2).pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/Cryptography and Network Security Principles and Practice, 5th Edition.pdf
 /home/mohabaks/Documents/Tech/Infosec/Cryptograph/AppliedCryptography/chap3.pdf
@@ -586,6 +625,10 @@
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/hacking_gps.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/How to Hack - Hacking Secrets Exposed - A Beginner's Guide (Kat) - superunitedkingdom.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/Counter Hack Reloaded.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/Gray Hat Hacking - The Ethical Hacker's Handbook - 4th Edition (2015).epub
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/From Hacking to Report Writing - 1st Edition (2016).pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/The-Secret-of-hacking -1st edition.pdf
 /home/mohabaks/Documents/Tech/Infosec/Hacking(General)/Random/Vulnerability Management for Dummies.pdf
@@ -606,6 +649,7 @@
 /home/mohabaks/Documents/Tech/Infosec/Papers/smashthestack.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/SEC524/524.1.pdf
 /home/mohabaks/Documents/Tech/Infosec/Papers/SANS/SEC524/524.2.pdf
+<<<<<<< HEAD
 /home/mohabaks/Audio/Al-Huthaify/072-Huthaify.mp3
 /home/mohabaks/Audio/Al-Huthaify/062-Huthaify.mp3
 /home/mohabaks/Audio/Al-Huthaify/097-Huthaify.mp3
@@ -836,6 +880,100 @@
 /home/mohabaks/Audio/AbdulBasitMujawwad/110.mp3
 /home/mohabaks/Audio/AbdulBasitMujawwad/052.mp3
 /home/mohabaks/Videos/Tech/Watch_List.txt
+=======
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-7-Espia and Sniffer Extensions with Meterpreter Scripts.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-13-Post Exploitation Pivoting and Port Forwarding.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-10)-Functions.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-4-Meterpreter Extensions Stdapi and Priv.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-14-Backdooring Executables.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Scenario-Based-Hacking-Part-4-(OS-And-Software-Patched-No-AV-Behind-NAT).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-7)-Program-Control-using-JMP.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-2-Getting Started with Metasploit.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-11-Post Exploitation and Stealing Data.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-6)-Working-with-Strings.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-4)-Hello-World.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Format-String-Vulnerabilities-Primer-(Part-2-Crashing-the-Program).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-5-(Shellcode-for-Execve).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-12-Post Exploitation Backdoors and Rootkits.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-5)-Data-Types.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-3-Meterpreter Basics and using Stdapi.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-WIndows-(Part-1)-Processor-Modes.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Format-String-Vulnerabilities-Primer-(Part-2-Understanding-Format-Functions).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Router Hacking Part 3 (Bruteforcing and Dictionary Attacks with Hydra).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-2)-Virtual-Memory-Organization.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Router Hacking Part 1 (The Basics).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Router Hacking Part 4 (SNMP Attacks using SNMPCheck).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-3)-Win32-ASM-using-MASM32.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-1)-System-Organization.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-6-Espia and Sniffer Extensions with Meterpreter Scripts.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-WIndows-(Part-2)-Protected-Mode.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-1-Exploitation Basics and need for Metasploit.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-11)-Functions-Stack.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-6)-Moving-Data.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-10-Post Exploitation Log Deletion and AV Killing.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-9-Post Exploitation Privilege Escalation.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-3-(Executing-Shellcode).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Router Hacking Part 2 (Service Enumeration, Fingerprinting and Default Accounts).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-6)-Macros.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-17-Scenario Based Hacking.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-5)-Procedures.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Scenario-Based-Hacking-Part-3-(OS-Patched-No-AV-Behind-NAT).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-3)-GDB-Usage-Primer.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-8)-Decision-Directives.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-1-(Smashing the Stack).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-9)-Loops.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Scenario-Based-Hacking-Part-1-(No-Patches-No-AV-Direct-Access).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-8-(Return-to-Libc-Theory).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-2-(Writing-Exit-Shellcode).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Router Hacking Part 5 (SNMP Attacks using SNMPEnum).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-15-Auxiliary Modules.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Format-String-Vulnerabilities-Primer-(Part-1-The-Basics).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-7-(Exploiting-a-Program-Demo).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-8-(Return-to-Libc-Demo).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Router Hacking Part 6 (Dictionary Attack using Metasploit on SNMP).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-6-(Exploiting-a-Program).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-5-Understanding Windows Tokens and Meterpreter Incognito.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/ASM-Windows-(Part-4)-MASM Data Types.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-9)-Conditional-Branching.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Assembly-Primer-for-Hackers-(Part-8)-Unconditional-Branching.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Buffer-Overflow-Primer-Part-4-(Shellcode-for-Execve).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Scenario-Based-Hacking-Part-2-(No-Patches-No-AV-Behind-NAT).mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-16-Pass the Hash Attack.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Metasploit-8-Post Exploitation Kung Fu.mp4
+/home/mohabaks/Videos/Tech/open security training - videos/Format-String-Vulnerabilities-Primer-(Part-4-Viewing-the-Stack).mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Session Hijacking - SSL Session Sidejacking (Reupload)-ZSdQESKGyzY.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Active Sniffing - Mac Flooding (macof and Wireshark)-HEhRzyEC-ns.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 20 Return Oriented Programming (Hands on)-1xFxJuT0SQM.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Privilege Escalation - Pass The Hash-d7ygN-rvGaw.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 18-W_RP7F7MDkM.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 22 (Metasploit)-JH6iHY3jMAE.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 25 (Revisiting old topics)-hsRscsh1PTM.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 10 (Part 1 Exploit Development 101)-1UzOTsvPYYg.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 05-qlPhpvZCWAI.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 04-MnmX911MqMU.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Active Sniffing - DHCP Starvation, Rogue DHCP Server and SSLStrip (Reupload)-Uo6HoXfITOg.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 17 (Web Application Hacking_Security 103)-PpKjY00b0mY.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 10 (Part 1 Advanced Fuzzing Topics)-kWmyGZsFc2c.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 23 (Post Exploitation)-2OdI5KBKglg.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 26 Social Engineering-KmMFuekpyhQ.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 14 (Networking 102)-JK0BsefRdJ0.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 15 (Web Application Hacking_Security 101)-g8hxbWKqI9w.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Maintaining Access - Reverse Connecting Trojan Cybergate-TChEEUnadmU.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 07-Opz9xIYthD4.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 19 (Exploit Development 105)-QD_N7CJ1f2s.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 02-lbjS2mXyMEQ.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Security Intro-Y7RNmyrQaBA.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 03-yXX6DWFTLaQ.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Three Benefits to an Offensive Security Approach-tLL5bElMqUc.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - MIDTERM#2 Review-WbinXJxBJXI.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 01-lk3rp53b2NA.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 08-F4WC26_SpKA.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 11 (Exploit Development 102)-jF1tQk270b0.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Session Hijacking - Basic Session Sidejacking (Ettercap and Hamster)-MagJZupoCcs.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/OSCP Review-AwOEPI0KkCs.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/Offensive Computer Security 2014 - Lecture 13 (Networking 101)-xG2VBysUaCY.mp4
+/home/mohabaks/Videos/Tech/OffensiveSecurity/SQL Injection - (Blind String) Webgoat v5.3-rfPtZ9wbuu0.mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.1 - Advanced Discovery and Exploitation.pdf
 /home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.6 - Capture the Flag.pdf
 /home/mohabaks/Videos/Tech/SANS 642 - Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques/text/2013/642.4 - Mobile Application and Web Services.pdf
@@ -845,28 +983,65 @@
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/08.3-odds-and-ends.pdf
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/08.1-odds-and-ends.pdf
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/08.4-odds-and-ends.pdf
+<<<<<<< HEAD
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/08.5-odds-and-ends.pdf
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 1 - Key Derivation (14 min).txt
+=======
+/home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 1 - Key Derivation (14 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/08.5-odds-and-ends.pdf
+/home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 2 - Deterministic Encryption (15 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 1 - Key Derivation (14 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 3 - Deterministic Encryption_SIV and wide PRP (21 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 5 - Format preserving encryption (13 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 2 - Deterministic Encryption (15 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/08.2-odds-and-ends.pdf
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 4 - Tweakable encryption (15 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 3 - Deterministic Encryption_SIV and wide PRP (21 min).txt
+<<<<<<< HEAD
+=======
+/home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 4 - Tweakable encryption (15 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/8 Odds and ends (week 4)/8 - 5 - Format preserving encryption (13 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 4 - PKCS 1 (23 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.6-pubkey-trapdoor.pdf
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.2-pubkey-trapdoor.pdf
+<<<<<<< HEAD
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.4-pubkey-trapdoor.pdf
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.3-pubkey-trapdoor.pdf
+=======
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 2 - Constructions (11 min) .mp4
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.4-pubkey-trapdoor.pdf
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 3 - The RSA trapdoor permutation (18 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 4 - PKCS 1 (23 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.3-pubkey-trapdoor.pdf
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 5 - Is RSA a one-way function_ (17 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 1 - Definitions and security (16 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 6 - RSA in practice (14 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 3 - The RSA trapdoor permutation (18 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.5-pubkey-trapdoor.pdf
+<<<<<<< HEAD
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 2 - Constructions (11 min) .txt
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 5 - Is RSA a one-way function_ (17 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.1-pubkey-trapdoor.pdf
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 1 - Course Overview (11 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/01.1-intro-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 4 - Discrete probability  (16 min).txt
+=======
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 6 - RSA in practice (14 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 2 - Constructions (11 min) .txt
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 5 - Is RSA a one-way function_ (17 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11 - 1 - Definitions and security (16 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/11 Public Key Encryption from trapdoor permutations (week 6)/11.1-pubkey-trapdoor.pdf
+/home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 4 - Discrete probability  (16 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 3 - History of cryptography (19 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 1 - Course Overview (11 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 1 - Course Overview (11 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/01.1-intro-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 4 - Discrete probability  (16 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 2 - What is cryptography_ (15 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/01.4-intro-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/1 - 3 - History of cryptography (19 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/1 Introduction (week 1)/01.3-intro-annotated.pdf
@@ -880,15 +1055,30 @@
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 1 - Information theoretic security and the one time pad (19 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 7 - Stream ciphers are semantically secure (11 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.2-stream-annotated.pdf
+<<<<<<< HEAD
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.1-stream-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.4-stream-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.5-stream-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.7-stream-annotated.pdf
+=======
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 2 - Stream ciphers and pseudo random generators (20 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 3 - Attacks on stream ciphers and the one time pad (24 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.1-stream-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.4-stream-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 4 - Real-world stream ciphers (20 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 5 - PRG Security Definitions (25 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 7 - Stream ciphers are semantically secure (11 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.5-stream-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/02.7-stream-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 1 - Information theoretic security and the one time pad (19 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 6 - Semantic Security (16 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 5 - PRG Security Definitions (25 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/2 Stream Ciphers (week 1)/2 - 3 - Attacks on stream ciphers and the one time pad (24 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 3 - The Diffie-Hellman protocol (19 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 4 - Public-key encryption (11 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/09.2-basic-key-exchange-annotated.pdf
+<<<<<<< HEAD
 /home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 2 - Merkle Puzzles (11 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/09.3-basic-key-exchange-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/09.1-basic-key-exchange-annotated.pdf
@@ -899,11 +1089,30 @@
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.2-pubkey-dh.pdf
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.4-pubkey-dh.pdf
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.5-pubkey-dh.pdf
+=======
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 1 - Trusted 3rd parties (11 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 2 - Merkle Puzzles (11 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 3 - The Diffie-Hellman protocol (19 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/09.3-basic-key-exchange-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/09.1-basic-key-exchange-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 1 - Trusted 3rd parties (11 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 4 - Public-key encryption (11 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/09.4-basic-key-exchange-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/9 Basic key exchange (week 5)/9 - 2 - Merkle Puzzles (11 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.1-pubkey-dh.pdf
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 1 - The ElGamal Public-key System (23 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 5 - Farewell   (for now) (6 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.2-pubkey-dh.pdf
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.4-pubkey-dh.pdf
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.5-pubkey-dh.pdf
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 3 - ElGamal Variants With Better Security (11 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 5 - Farewell   (for now) (6 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12.3-pubkey-dh.pdf
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 2 - ElGamal Security (14 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 4 - A Unifying Theme (12 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 3 - ElGamal Variants With Better Security (11 min).txt
+<<<<<<< HEAD
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 3 - Modular e'th roots (17 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 1 - Notation (15 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.3-numth-annotated.pdf
@@ -919,11 +1128,46 @@
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.1-authenc-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.3-authenc-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.4-authenc-annotated.pdf
+=======
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 4 - A Unifying Theme (12 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 2 - ElGamal Security (14 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/12 Public key encryption from Diffie-Hellman (week 6)/12 - 1 - The ElGamal Public-key System (23 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 2 - Fermat and Euler (18 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 3 - Modular e'th roots (17 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 1 - Notation (15 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.3-numth-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 5 - Intractable problems (19 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 2 - Fermat and Euler (18 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.1-numth-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 4 - Arithmetic algorithms (13 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.4-numth-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 1 - Notation (15 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.2-numth-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 5 - Intractable problems (19 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 4 - Arithmetic algorithms (13 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10 - 3 - Modular e'th roots (17 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/10 Intro. Number Theory (week 5)/10.5-numth-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 2 - Definitions (6 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 3 - Chosen ciphertext attacks (12 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 5 - Case study_  TLS (18 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.5-authenc-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.1-authenc-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 1 - Active attacks on CPA-secure encryption (13 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.3-authenc-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 3 - Chosen ciphertext attacks (12 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 6 - CBC padding attacks (14 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.4-authenc-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 7 - Attacking non-atomic decryption (10 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 7 - Attacking non-atomic decryption (10 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.7-authenc-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 2 - Definitions (6 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.2-authenc-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/07.6-authenc-annotated.pdf
+<<<<<<< HEAD
+=======
+/home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 4 - Constructions from ciphers and MACs (21 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 6 - CBC padding attacks (14 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 5 - Case study_  TLS (18 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/7 Authenticated Encryption (week 4)/7 - 1 - Active attacks on CPA-secure encryption (13 min).txt
@@ -934,22 +1178,49 @@
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.1-collision-resistance-introduction.pdf
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 3 - The Merkle-Damgard Paradigm (12 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 4 - Constructing compression functions (8 min).txt
+<<<<<<< HEAD
+=======
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 3 - The Merkle-Damgard Paradigm (12 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 2 - Generic birthday attack (16 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 1 - Introduction (11 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.5-collision-resistance-HMAC-a-MAC-from-SHA-256.pdf
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.3-collision-resistance-the-merkle-damgard-paradigm.pdf
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.6-collision-resistance-Timing-attacks-on-MAC-verification.pdf
+<<<<<<< HEAD
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.4-collision-resistance-constructing-compression-functions.pdf
 /home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 6 - Timing attacks on MAC verification (9 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.4-using-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.2-using-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.3-using-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.1-using-block-annotated.pdf
+=======
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 4 - Constructing compression functions (8 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 5 - HMAC (7 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/06.4-collision-resistance-constructing-compression-functions.pdf
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 6 - Timing attacks on MAC verification (9 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 1 - Introduction (11 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/6 Collision Resistance (week 3)/6 - 6 - Timing attacks on MAC verification (9 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.4-using-block-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.2-using-block-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 1 - Review_ PRPs and PRFs (12 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 3 - Security for many-time key (23 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.3-using-block-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.1-using-block-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 2 - Modes of operation_ one time key (8 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 3 - Security for many-time key (23 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/04.5-using-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 2 - Modes of operation_ one time key (8 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 4 - Modes of operation_ many time key (CBC) (16 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 5 - Modes of operation_ many time key (CTR) (10 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 1 - Review_ PRPs and PRFs (12 min).txt
+<<<<<<< HEAD
+=======
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 4 - Modes of operation_ many time key (CBC) (16 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/4 Using Block Ciphers (week 2)/4 - 5 - Modes of operation_ many time key (CTR) (10 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 1 - What are block ciphers_ (17 min).mp4
+>>>>>>> Minimal_Dark_Rice
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 5 - The AES block cipher (14 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/03.5-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 3 - Exhaustive search attacks (20 min).txt
@@ -958,6 +1229,7 @@
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/03.4-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/03.6-block-annotated.pdf
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/03.3-block-annotated.pdf
+<<<<<<< HEAD
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 6 - Block ciphers from PRGs(12 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 4 - More attacks on block ciphers (16 min).txt
 /home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/03.1-block-annotated.pdf
@@ -2129,3 +2401,178 @@
 /home/mohabaks/Atlancis/Pentest/Targets/HCM/2018-08-07-091622_999x191_scrot.png
 /home/mohabaks/Atlancis/Pentest/Targets/HCM/2018-08-07-092616_784x190_scrot.png
 /home/mohabaks/Atlancis/Pentest/Targets/HCM/2018-08-07-094241_628x302_scrot.png
+=======
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 4 - More attacks on block ciphers (16 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 6 - Block ciphers from PRGs(12 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 3 - Exhaustive search attacks (20 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 4 - More attacks on block ciphers (16 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 5 - The AES block cipher (14 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/03.1-block-annotated.pdf
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 2 - The Data Encryption Standard (22 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 6 - Block ciphers from PRGs(12 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/3 Block Ciphers (week 2)/3 - 2 - The Data Encryption Standard (22 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 1 - Message Authentication Codes (16 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 3 - CBC-MAC and NMAC (20 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 1 - Message Authentication Codes (16 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 2 - MACs Based On PRFs (10 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/05.1-integrity-message-authentication-codes.pdf
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/05.2-integrity-macs-based-on-PRFs.pdf
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 2 - MACs Based On PRFs (10 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/05.5-integrity-a-parallel-mac.pdf
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 5 - PMAC and the Carter-Wegman MAC (16 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/05.4-integrity-mac-padding.pdf
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/05.3-integrity-cbc-mac-and-nmac.pdf
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 4 - MAC padding (9 min).txt
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 4 - MAC padding (9 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 3 - CBC-MAC and NMAC (20 min).mp4
+/home/mohabaks/Videos/Tech/Cryprography/5 Message Integrity (week 3)/5 - 5 - PMAC and the Carter-Wegman MAC (16 min).txt
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 5 - Digital Forensics For Linux-Unix/Part 1 - Intro to forensics.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 5 - Digital Forensics For Linux-Unix/Part 3 - Evidence Collection and Preservation.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 5 - Digital Forensics For Linux-Unix/Part 2 - Forensic Preparation and Incident Handling.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Part 5 - SSH.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Part 7 - Hardening Unix-Linux Systems.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Part 2 - Memory Attacks and Overflows.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Part 6 - Host Based Firewalls - iptables.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Part 1 - Hardening Unix-Linux Systems - Introduction.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Part 3 - OS Install and Patching.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 1 - Hardening Unix-Linux Systems Part 1/Part 4 - Boot Services.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/Part 4 - SyslogNG.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/Part 3 - SSH Tips and Tricks - X11 and TCP Forwarding.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/Part 1 - SSH Trips and Tricks - Automated Logins.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 3 - Hardening Unix-Linux Systems Part 3/Part 2 - Unix Logging.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 3 - DNS- BIND.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 6 - Apache.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 4 - DNSSec.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 7 - Application Security Summary.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 5 - Sendmail.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 1 - Application Security - Chroot.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 4 - Application Security/Part 2 - SE Linux.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 5 - Best Practices for Kernel Tuning and Warning Banners.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 4 - sudo.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 1 - Todays Agenda.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 6 - Hardening unix-Linux Systems-parttwo Summary.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 3 - Physical- user account and Password Access Control.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/video/Day 2 - Hardening Unix-Linux Systems Part2/Part 2 - AIDE.mp4
+/home/mohabaks/Videos/Tech/SANS 506 - Securing Linux & UNIX/text/2000/SANS Securing Linux.pdf
+/home/mohabaks/Videos/Tech/Crypto/Lecture 11 - Number Theory for PKC - Euclidean Algorithm, Euler's Phi Function & Euler's Theorem-fq6SXByItUI.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 2 - Modular Arithmetic and Historical Ciphers by Christof Paar-W1SY6qKZrUk.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 1 - Introduction to Cryptography by Christof Paar-2aHkqB2-46k.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 7 - Introduction to Galois Fields for the AES by Christof Paar-x1v2tX4_dkQ.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 12 - The RSA Cryptosystem and Efficient Exponentiation by Christof Paar-QSlWzKNbKrU.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 15 - Elgamal Encryption Scheme by Christof Paar-tKNY1zhK3sQ.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 6 - Data Encryption Standard (DES) - Key Schedule and Decryption by Christof Paar-l-7YW06BFNs.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 24 - Man-in-the-middle Attack, Certificates and PKI by Christof Paar-B9UirR9YDnQ.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 21 - SHA-1 Hash Function by Christof Paar-JIhZWgJA-9o.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 17 - Elliptic Curve Cryptography (ECC) by Christof Paar-zTt4gvuQ6sY.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 16 - Introduction to Elliptic Curves by Christof Paar-vnpZXJL6QCQ.mp4
+/home/mohabaks/Videos/Tech/Crypto/understanding_cryptography.pdf
+/home/mohabaks/Videos/Tech/Crypto/Lecture 13 - Diffie-Hellman Key Exchange and the Discrete Log Problem by Christof Paar-aeOzBCbwxUo.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 3 - Stream Ciphers, Random Numbers and the One Time Pad by Christof Paar-AELVJL0axRs.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 4 - Stream Ciphers and Linear Feedback Shift Registers by Christof Paar-sKUhFpVxNWc.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 22 - MAC (Message Authentication Codes) and HMAC by Christof Paar-DiLPn_ldAAQ.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 8 - Advanced Encryption Standard (AES) by Christof Paar-NHuibtoL_qk.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 20 - Hash Functions by Christof Paar-tLkHk__-M6Q.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 9 - Modes of Operation for Block Ciphers by Christof Paar-4FBgb2uobWI.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 14 - The Generalized Discrete Log Problem and the Security of Diffie-Hellman by Christof Paar-IGqrbM52wtg.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 10 - Multiple Encryption and Brute-Force Attacks by Christof Paar-M10BVpTCzGg.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 5 - Data Encryption Standard (DES) - Encryption by Christof Paar-kPBJIhpcZgE.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 18 - Digital Signatures and Security Services by Christof Paar-jbBe4AS5pk0.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 19 - Elgamal Digital Signature by Christof Paar-AQXRX55hgHs.mp4
+/home/mohabaks/Videos/Tech/Crypto/Lecture 23 - Symmetric Key Establishment and Kerberos by Christof Paar-iaH8UG2yMg4.mp4
+/home/mohabaks/Videos/Islam/e7120c3e-132f-4847-88de-cd7f9a435a59.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Rules of Meem Saakin with Exercises - Imam Raza-IaRBN3r69Cw.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Sukoon & Qalqalah - Part 3 - Imam Raza-1dIlQAAKSHU.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Sukoon & Qalqalah - Part 1 - Imam Raza-7JJn_HpAmzI.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Joined Letters - Imam Raza--NhlpT2qwNA.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Shaddah (Emphasis) -Imam Raza-LxCI5l6RRm8.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Makhraj (Visiting Letters in their homes) - Imam Raza-k8R59aAcBaQ.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Huroof Muqattaah - Imam Raza-UzLENyYt6ls.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Sukoon (Absence of Harakah) & Qalqalah - Imam Raza-ThG5RiubP9s.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Harakaat_Tanween - Imam Raza-C8bQHmwLnCA.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Tanween (Double Vowels) - Imam Raza-QFo5IrfUvVY.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters - Part 2 - Imam Raza-QwbbzuY4RPY.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Madd Laazim (6 Movements) - Imam Raza-W_L4W1Hrqbw.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Madd_Leen - Imam Raza-juTsXhXmJlw.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Shaddah & Ghunnah - Part 2 - Imam Raza-OVSgVXK56p8.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Rules of Noon Saakin with Exercises - Imam Raza-3HPsh50vDvI.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters - Part 3 - Imam Raza-SYxmEpLEqRk.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Harakaat (Arabic Vowels) - Imam Raza-us3MGpjh4iY.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters of Madd (Stretch) - Part 1 - Imam Raza-y9F6PccEXfs.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Sukoon & Qalqalah - Part 2 - Imam Raza-oe6Z2ZNMcvM.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Introduction and guidelines - Imam Raza-Dl6g_zDZ_v0.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Exercises on Shaddah & Ghunnah - Part 1 - Imam Raza-LiW1ENu-j5c.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Extra Madd (4 Movements) - Imam Raza-GCS5eCqzMyM.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters - Part 1 - Imam Raza-v1lP80wN-bo.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Leen (Weak Madd) - Imam Raza-IhAX7WhMiXk.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters of Madd (Stretch) - Part 2 - Imam Raza-0ouA-OZe_64.mp4
+/home/mohabaks/Videos/Islam/Quran/Nuraniyah - Letters - Part 4 - Imam Raza-7eQxfTVOTww.mp4
+/home/mohabaks/Pictures/notify/todo/todo.jpg
+/home/mohabaks/Pictures/notify/todo/todo.png
+/home/mohabaks/Pictures/notify/todo/tod.png
+/home/mohabaks/Pictures/notify/other/cover.png
+/home/mohabaks/Pictures/notify/other/cover.jpg
+/home/mohabaks/Pictures/notify/quran/cover.png
+/home/mohabaks/Pictures/notify/quran/cover.jpg
+/home/mohabaks/Pictures/notify/prayer/cover1.jpg
+/home/mohabaks/Pictures/notify/prayer/cover.jpg
+/home/mohabaks/Pictures/notify/nasheed/cover.png
+/home/mohabaks/Pictures/Misc/cloudstack_topology.png
+/home/mohabaks/Pictures/Misc/avatar.png
+/home/mohabaks/Pictures/Walls/wallhaven-499937.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-18330.png
+/home/mohabaks/Pictures/Walls/wallhaven-34390.png
+/home/mohabaks/Pictures/Walls/dark_dotted2.png
+/home/mohabaks/Pictures/Walls/wallhaven-474721.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-59448.jpg
+/home/mohabaks/Pictures/Walls/slash_it.png
+/home/mohabaks/Pictures/Walls/wallhaven-189350.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-206444.png
+/home/mohabaks/Pictures/Walls/wallhaven-266815.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-279948.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-327884.png
+/home/mohabaks/Pictures/Walls/wallhaven-334252.jpg
+/home/mohabaks/Pictures/Walls/country-quilt-dark.png
+/home/mohabaks/Pictures/Walls/wallhaven-308672.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-34389.png
+/home/mohabaks/Pictures/Walls/wallhaven-210651.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-427015.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-365154.png
+/home/mohabaks/Pictures/Walls/wallhaven-308644.jpg
+/home/mohabaks/Pictures/Walls/ilphXnU.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-447992.png
+/home/mohabaks/Pictures/Walls/Clean.png
+/home/mohabaks/Pictures/Walls/wallhaven-49880.png
+/home/mohabaks/Pictures/Walls/simple_dashed.png
+/home/mohabaks/Pictures/Walls/wallhaven-432101.png
+/home/mohabaks/Pictures/Walls/wallhaven-26569.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-121690.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-210653.jpg
+/home/mohabaks/Pictures/Walls/darkness.png
+/home/mohabaks/Pictures/Walls/wallhaven-171833.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-210652.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-75963.png
+/home/mohabaks/Pictures/Walls/wallhaven-180680.png
+/home/mohabaks/Pictures/Walls/binding_dark.png
+/home/mohabaks/Pictures/Walls/wallhaven-350674.jpg
+/home/mohabaks/Pictures/Walls/wallhaven-327317.jpg
+/home/mohabaks/Pictures/screenshots/2018-08-07-093546_1920x1080_scrot.png
+/home/mohabaks/Downloads/BurpAuthzPlugin-master.zip
+/home/mohabaks/Downloads/BurplikeInspector-ver0_02.zip
+/home/mohabaks/Downloads/sample-penetration-testing-report.pdf
+/home/mohabaks/Downloads/the_c_programming_language_2.pdf
+/home/mohabaks/Downloads/bWAPP_latest.zip
+/home/mohabaks/Downloads/ResurrectionRemix-M-v5.7.4-20161012-i9082.zip
+/home/mohabaks/Downloads/BOSS Lab Guide - Cross Site Scripting.pdf
+/home/mohabaks/Downloads/AutoRepeater-master.zip
+/home/mohabaks/Downloads/ISMS implementation guide.PDF
+/home/mohabaks/Downloads/Application Form ISO 27001 1(1).pdf
+/home/mohabaks/Downloads/open_gapps-arm-6.0-pico-20180812.zip
+/home/mohabaks/Downloads/credits.txt
+/home/mohabaks/Downloads/RR-N-v5.8.2-20170220-i9082-Official.zip
+/home/mohabaks/Downloads/BOSS Lab Guide - Broken Access Control Testing.pdf
+/home/mohabaks/Downloads/fiddler-linux.zip
+/home/mohabaks/Downloads/20170612ac-ir_research_en.pdf
+/home/mohabaks/Downloads/NETSCOUT_ThreatReport_FINAL_080618b.pdf
+/home/mohabaks/Downloads/license.txt
+/home/mohabaks/Downloads/twrp-3.0.3.0-i9082-20161218.zip
+>>>>>>> Minimal_Dark_Rice

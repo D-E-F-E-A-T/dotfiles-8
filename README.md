@@ -34,13 +34,13 @@ specific config.
 Screenshots 
 -----------
 
-WM: `i3` Apps: `irssi` `slurm` `tmux` `rtv` `ranger` `newsboat`
+**WM**: `i3` **Apps**: `irssi` `slurm` `tmux` `rtv` `ranger` `newsboat`
 ![gotham minimal](https://i.redd.it/twncpk3y0ll11.png)
 
-WM: `dwm-patched`: `irssi` `dmenu`
+**WM**: `dwm-patched` **Apps**: `irssi` `dmenu`
 ![suckless](https://imgur.com/CkuXWXC.png)
 
-WM: `i3` Apps: `irssi` `rtv` `polybar`
+**WM**: `i3` **Apps**: `irssi` `rtv` `polybar`
 ![fancy-office-look](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
 
 

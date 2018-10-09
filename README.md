@@ -48,12 +48,19 @@ specific config.
 Screenshots 
 -----------
 
+`i3`
+
 ![gotham minimal](https://i.redd.it/twncpk3y0ll11.png)
 
+`dwm`
 
 ![suckless](https://imgur.com/CkuXWXC.png)
 
+`bspwm`
+
 ![usambara](https://i.imgur.com/fk2BZZ1.png)
+
+`i3`
 
 ![fancy-office-look](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
 

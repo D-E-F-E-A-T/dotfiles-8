@@ -8,7 +8,7 @@ $ sudo qubes-dom0-update gcc-c++ cairo-devel cmake automake xcb-util-devel libxc
 ```
 Rofi
 ```
-$ sudo qubes-dom0-update flex bison libxkbcommon-devel libxkbcommon-x11-devel xcb-util-xrm-devel pango-devel libstart-notifaction-devel librsvg2-devel
+$ sudo qubes-dom0-update flex bison libxkbcommon-devel libxkbcommon-x11-devel xcb-util-xrm-devel pango-devel startup-notifaction-devel librsvg2-devel
 ```
 i3
 ```

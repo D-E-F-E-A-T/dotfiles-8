@@ -2,24 +2,21 @@ Introduction
 ------------
 This is a short guide on how to customize the look and feel of your [Qubes OS].
 If your a big fun of using WM as I do. At first when I installed Qubes I
-diidn't like the default xfce4 destop environment since am used to window
+didn't like the default xfce4 destop environment since am used to a window
 manager.
 
 After a searching I found out they have an article on setting up [i3] on
-`dom0`;so I gave it a shot but it turn out I didn't like the default look
+`dom0`;so I gave it a shot but it turn out the default didn't look nice
 either. So I decided to rice it a bit.
 
 Rice Overview
 -------------
 1. Application launcher for `dom0`
-   
-    I choose to use [rofi] since it supports icons and it over some extra
-    features than the `dmenu`.
+    I choose to use [rofi] since it supports icons and it has some extra
+    features than `dmenu`.
 2. Terminal emulator `rxvt-unicode` 
 3. Nitrogen for changing my `dom0` wallpaper.
-4. [Polybar] as my status bar of choose.
-
-
+4. [Polybar] as my status bar of choice.
 
 Getting our files ready
 -----------------------
@@ -52,8 +49,8 @@ i3
 ```
 $ sudo qubes-dom0-update i3 i3-settings-qubes
 ```
-If your not ble to download `i3-settings-qubes` you can get those scripts from
-[here]. Make sure to copy those files under `/usr/bin`
+If your not able to download `i3-settings-qubes` you can get those scripts from
+[here]. Make sure to copy them under `/usr/bin`
 
 Polybar
 ```
@@ -66,15 +63,6 @@ Rofi
 $ sudo qubes-dom0-update flex bison libxkbcommon-devel libxkbcommon-x11-devel xcb-util-xrm-devel pango-devel startup-notifaction-devel librsvg2-devel
 ```
 
-
-[Qubes OS]: https://www.qubes-os.org/
-[i3]: https://i3wm.org/
-[rofi]: https://github.com/DaveDavenport/rofi
-[Polybar]: https://github.com/jaagr/polybar
-[bitmap]: https://github.com/Tecate/bitmap-fonts
-[siji]:https://github.com/stark/siji
-[here]:https://github.com/mohabaks/dotfiles/tree/master/config/Qubes-os/i3-settings-qubes
-
 Installing Rofi and Polybar
 ---------------------------
 #### Polybar
@@ -85,7 +73,7 @@ $ ./build.sh # Alternative mkdir build && cd build && cmake ..
 
 #### Rofi
 ```
-$ # cd toyour rofi dir you had uncompressed reviously
+$ # cd to your rofi dir you had uncompressed
 $ ./configure --disable-check # disable-check is needed since I was not able to
 install check.
 ```
@@ -95,3 +83,11 @@ Screenshots
 ![rxvt,polybar,i3](https://i.imgur.com/2BVETGf.png)
 
 ![rofi](https://i.imgur.com/h31yTlf.png)
+
+[Qubes OS]: https://www.qubes-os.org/
+[i3]: https://i3wm.org/
+[rofi]: https://github.com/DaveDavenport/rofi
+[Polybar]: https://github.com/jaagr/polybar
+[bitmap]: https://github.com/Tecate/bitmap-fonts
+[siji]:https://github.com/stark/siji
+[here]:https://github.com/mohabaks/dotfiles/tree/master/config/Qubes-os/i3-settings-qubes

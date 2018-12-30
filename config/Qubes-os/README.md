@@ -77,8 +77,14 @@ $ # cd to your rofi dir you had uncompressed
 $ ./configure --disable-check # disable-check is needed since I was not able to
 install check.
 ```
-
-Screenshots
+Add the following line to your `.config/i3/config`
+```
+# Start polybar
+exec --no-startup-id $HOME/.local/bin/barstart
+```
+ [barstart] a script that start polybar
+ 
+ Screenshots
 ------------
 ![rxvt,polybar,i3](https://i.imgur.com/2BVETGf.png)
 
@@ -86,6 +92,7 @@ Screenshots
 
 [Qubes OS]: https://www.qubes-os.org/
 [i3]: https://i3wm.org/
+[barstart]:https://github.com/mohabaks/dotfiles/blob/master/local/.local/bin/barstart
 [rofi]: https://github.com/DaveDavenport/rofi
 [Polybar]: https://github.com/jaagr/polybar
 [bitmap]: https://github.com/Tecate/bitmap-fonts

@@ -2,18 +2,15 @@ Introduction
 ------------
 This is a short guide on how to customize the look and feel of your [Qubes OS].
 If your a big fun of using WM as I do. At first when I installed Qubes I
-didn't like the default xfce4 destop environment since am used to a window
-manager.
+didn't like the default xfce4 destop environment since am used to a WM.
 
-After a searching I found out they have an article on setting up [i3] on
-`dom0`;so I gave it a shot but it turn out the default didn't look nice
-either. So I decided to rice it a bit.
+After a long searching I found out [Qubes OS] have an article on setting up [i3] and give it a shot. As always the default i3 look does not look that fancy :blush:. So it was time to rice Qubes.
 
 Rice Overview
 -------------
 1. Application launcher for `dom0`
     I choose to use [rofi] since it supports icons and it has some extra
-    features than `dmenu`.
+    features than `dmenu`.Though I use `dmenu_extended` with my personal domain for quick file browsing e.g pdf and videos.
 2. Terminal emulator `rxvt-unicode` 
 3. Nitrogen for changing my `dom0` wallpaper.
 4. [Polybar] as my status bar of choice.
@@ -34,7 +31,7 @@ $ tar cvf rofi.tar rofi
 ```
 3. Bonus if you need some nice icon-theme download and compress them to any
    form.
-4. Transfer your compressed files to `dom0`. Open a new terminal form `dom0`
+4. Transfer your compressed files to `dom0`.
 ```
 [username@dom0]$ qvm-run --pass-io untrusted "cat rofi.tar" > rofi.tar
 [username@dom0]$ tar xvf rofi.tar
@@ -43,8 +40,8 @@ $ tar cvf rofi.tar rofi
 Repeat the same for the remaing files. Note `untrusted` is the domain I used to
 download the files make sure to replace it with your own domain.
 
-Installing i3 Other Dependencies
---------------------------------
+Installing i3 and (Polybar,Rofi) Dependencies
+-----------------------
 i3
 ```
 $ sudo qubes-dom0-update i3 i3-settings-qubes

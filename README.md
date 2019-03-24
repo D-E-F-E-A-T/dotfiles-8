@@ -45,12 +45,12 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Screenshots 
------------
+Screenshots
+----------
 
 `i3`
 
-![gotham minimal](https://i.redd.it/twncpk3y0ll11.png)
+![shad0w](https://i.imgur.com/1Y3Rv0W.png)
 
 `dwm`
 
@@ -60,19 +60,5 @@ Screenshots
 
 ![usambara](https://i.imgur.com/fk2BZZ1.png)
 
-`i3`
-
-![fancy-office-look](https://i.redditmedia.com/paV09KPE8KxsJwdJrdWnEMzvt3Lm9VpKef74E-eGVKM.png?s=b4bf2e466b3eb606492280523b898af9)
-
-
-Minimal Workflow 
-----------------
-
-![minimal-dark-mode](https://github.com/cOb4l7/dotfiles/blob/master/demo.gif)
-
-Thanks
-------
-
-Special thanks go to whom I might have stolen scripts or configs :punch:
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

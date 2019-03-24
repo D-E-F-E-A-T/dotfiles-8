@@ -53,7 +53,6 @@ bspc rule -a Zathura desktop='^3' state=tiled follow=on
 bspc rule -a mpv desktop='^4' follow=on
 bspc rule -a Gimp desktop='^8' follow=on
 bspc rule -a Wireshark desktop='^8' follow=on
-
 bspc rule -a Nitrogen state=floating focus=on
 bspc rule -a feh state=floating focus=on
 bspc rule -a Lxappearance state=floating focus=on

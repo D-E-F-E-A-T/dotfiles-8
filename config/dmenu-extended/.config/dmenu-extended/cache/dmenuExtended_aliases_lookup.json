@@ -142,63 +142,6 @@
     [
         "Desktop Preferences",
         "pcmanfm --desktop-pref"
-<<<<<<< HEAD
-=======
-    ],
-    [
-        "HTMLDOC",
-        "htmldoc"
-    ],
-    [
-        "dots",
-        "cd ~/.dotfiles/"
-    ],
-    [
-        "down",
-        "cd ~/Downloads"
-    ],
-    [
-        "code",
-        "cd ~/Code"
-    ],
-    [
-        "blog",
-        "cd ~/Blog"
-    ],
-    [
-        "pen",
-        "cd ~/PenTest"
-    ],
-    [
-        "i3config",
-        "vim ~/.config/i3/config"
-    ],
-    [
-        "vimrc",
-        "vim ~/.vimrc"
-    ],
-    [
-        "bashrc",
-        "vim ~/.bashrc"
-    ],
-    [
-        "aliasadd",
-        "vim ~/.alias"
-    ],
-    [
-        "xresources",
-        "vim ~/.Xresources"
-    ],
-    [
-        "polybarconf",
-        "vim ~/.config/polybar/config"
-    ],
-    [
-        "reload",
-        "source ~/.bashrc"
-    ],
-    [
-        "htop",
         "htop -u cOb4l7"
     ],
     [
@@ -328,6 +271,5 @@
     [
         "gentoo-update-system",
         "emerge --update --deep --with-bdeps=y --newuse @world"
->>>>>>> Minimal_Dark_Rice
     ]
 ]

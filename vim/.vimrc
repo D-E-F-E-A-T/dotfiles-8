@@ -61,7 +61,7 @@ filetype plugin indent on
 set background=dark
 colorscheme bleh
 
-let g:gruvbox_contrast_dark = 'hard'
+"let g:gruvbox_contrast_dark = 'hard'
 
 "" Status line
 set laststatus=0
@@ -104,6 +104,7 @@ set splitright
 "set tabstop=4             " number of visual spaces per TAB
 "set softtabstop=4         " number of spaces in tab when editing
 "set expandtab             " tabs are spaces
+set  backspace=indent,eol,start
 
 " Go to tab by number
 noremap <leader>1 1gt

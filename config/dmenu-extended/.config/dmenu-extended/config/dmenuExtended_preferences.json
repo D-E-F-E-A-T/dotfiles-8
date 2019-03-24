@@ -38,7 +38,7 @@
         "--password",
         "--title={prompt}"
     ],
-    "path_aliasFile": "/home/mohabaks/.alias",
+    "path_aliasFile": "/home/cOb4l7/.alias",
     "path_shellCommand": "~/.dmenuEextended_shellCommand.sh",
     "prompt": "Open:",
     "scan_hidden_folders": false,
@@ -73,12 +73,12 @@
         "html"
     ],
     "watch_folders": [
-        "/home/mohabaks/Documents/Tech",
-        "/home/mohabaks/Videos/Tech",
-        "/home/mohabaks/Videos/Misc",
-        "/home/mohabaks/Videos/Islam",
-        "/home/mohabaks/Pictures",
-        "/home/mohabaks/Downloads"
+        "/home/cOb4l7/Documents/Tech",
+        "/home/cOb4l7/Videos/Tech",
+        "/home/cOb4l7/Videos/Misc",
+        "/home/cOb4l7/Videos/Islam",
+        "/home/cOb4l7/Pictures",
+        "/home/cOb4l7/Downloads"
 
     ],
     "webbrowser": "xdg-open"

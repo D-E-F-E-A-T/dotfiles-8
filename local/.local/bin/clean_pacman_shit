@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# Author: https://github.com/mohabaks
+# Author: https://github.com/cOb4l7
 # Description: A simple script to remove insane pacman errors e.g file exist
 #              during an upgrade of package installation.
 

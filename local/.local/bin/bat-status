@@ -1,10 +1,10 @@
 #!/bin/bash
 # Description: A simple script that uses dunst and notify-send to notify the
-#              mohabaks when the battery is criticaly low or full. I find this
+#              cOb4l7 when the battery is criticaly low or full. I find this
 #              useful when since Igot rid of my status bar
 
 export DISPLAY=:0
-export PATH=/home/mohabaks/.local/bin:$PATH
+export PATH=/home/cOb4l7/.local/bin:$PATH
 export $(dbus-launch)
 
 if [[ -d /sys/class/power_supply/BAT0 ]]; then

@@ -8,10 +8,11 @@
 
 # start some nice programs
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
-# conky -d -c $HOME/.config/polybar/conky_wrapper
 dunst -config $HOME/.config/dunst/dunstrc &
 compton -b --config $HOME/.compton.conf 
+amixer sset Speaker mute
+$HOME/.local/bin/barstart
 nitrogen --restore 2> /dev/null &
-source .local/bin/dwm-status &
-
-exec  dwm
+xsetroot -cursor_name left_ptr
+sxhkd &
+exec  bspwm

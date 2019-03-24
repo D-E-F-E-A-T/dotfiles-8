@@ -8,7 +8,7 @@
 auto-reload yes
 macro y set browser "mpv %u"; open-in-browser ; set browser "w3m %u"
 cleanup-on-quit yes
-download-path "/home/mohabaks/Videos/Podcasts"
+download-path "/home/cOb4l7/Videos/Podcasts"
 feed-sort-order title-dec
 max-downloads 4
 notify-always yes

@@ -47,10 +47,10 @@ margin-bottom = 0
 ;                       BAR SETTINGS
 ;
 ;********************************************************
-[bar/top]
+[bar/mybar]
 monitor   = ${env:MONITOR:eDP-1}
 bottom    = true
-width     = 1920
+width     = 100%
 height    = 15
 offset-x  = 0
 offset-y  = 0
@@ -66,12 +66,12 @@ border-top-color = ${colors.bg}
 
 spacing = 0
 padding-left = 1
-padding-right = 0
+padding-right = 1
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = lucy tewi:pixelsize=8;3
-font-1 = Siji:pixelsize=11;3
+font-0 = Fixed:pixelsize=8;3
+font-1 = Siji:pixelsize=8;3
 ;font-1 = Material Icons:antialia=false:size=11;4
 
 tray-position = right
@@ -79,9 +79,9 @@ tray-padding = 1
 tray-transparent = true
 tray-background = #000000
 
-modules-left = menu i3 vpn wlan
+modules-left = bspwm
 modules-center = temperature cpu memory
-modules-right = mail date battery
+modules-right = wlan vpn mail date battery
 
 
 ;**********************************************************
@@ -90,30 +90,30 @@ modules-right = mail date battery
 ;
 ;**********************************************************
 
-[module/i3]
-type = internal/i3
+[module/bspwm]
+type = internal/bspwm
 
-strip-wsnumbers = true
+;strip-wsnumbers = true
 
-label-focused = " [%name%] "
+label-focused = " "
 label-focused-foreground = ${colors.red}
 ;label-focused-background = ${colors.magenta}
-label-focused-padding = 
+label-focused-padding = 0
 
-label-unfocused = " {%name%} "
-label-unfocused-padding = 0
-label-unfocused-foreground = #666
-;label-unfocused-background = ${colors.bg-alt}
+label-occupied = " "
+label-occupied-padding = 0
+label-occupied-foreground = ${colors.fg}
+;label-occupied-background = ${colors.bg-alt}
 
-label-urgent = " [%name%] "
-label-urgent-foreground = ${colors.red}
+label-urgent = " "
+label-urgent-foreground = ${colors.cyan}
 ;label-urgent-background = ${colors.cyan}
-label-urgent-padding = 1
+label-urgent-padding = 0
 
-label-visible = " (%name%) "
-label-visible-foreground = #666
-;label-visible-background = ${colors.bg-alt}
-label-visible-padding = 0
+label-empty = " "
+label-empty-foreground = #666
+;label-empty-background = ${colors.bg-alt}
+label-empty-padding = 0
 
 [module/cpu]
 type = internal/cpu
@@ -131,7 +131,7 @@ label = "%percentage_used% "
 
 [module/wlan]
 type = internal/network
-interface = wlo1
+interface = wlp4s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -199,7 +199,7 @@ ramp-foreground = ${colors.cyan}
 [module/menu]
 type = custom/text
 
-content = ""
+content = ""
 content-foreground = ${colors.cyan}
 ;content-background = ${colors.red}
 click-left = ~/.config/popups/todo/todo

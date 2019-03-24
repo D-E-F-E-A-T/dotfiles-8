@@ -13,16 +13,16 @@ album=$(ncmpcpp --current-song={%b} 2> /dev/null)
 # If album not null display cover
 if [[ -n "$album" ]];then
         if [[ "$album" = "Quran" ]];then
-                image="/home/mohabaks/Pictures/notify/quran/cover.jpg"
+                image="/home/cOb4l7/Pictures/notify/quran/cover.jpg"
                 notify-send -i $image "$title" "$(mpc current)"
-        elif [[ "$album" = "Quran — Shatri" ]] || [[ "$album" = "Quran" ]];then
-                image="/home/mohabaks/Pictures/notify/quran/cover.jpg"
+        elif [[ "$album" = "Quran — Shatri" ]] || [[ "$album" = "Quran" ]] || [[ "$album" = "Mishary Alafasi Musshaf" ]];then
+                image="/home/cOb4l7/Pictures/notify/quran/cover.jpg"
                 notify-send -i $image "$title" "$(mpc current)"
         else
-                image="/home/mohabaks/Pictures/notify/other/cover.jpg"
+                image="/home/cOb4l7/Pictures/notify/other/cover.jpg"
                 notify-send -i $image "$title" "$(mpc current)"
         fi
 else
-        image="/home/mohabaks/Pictures/notify/other/cover.jpg"
+        image="/home/cOb4l7/Pictures/notify/other/cover.jpg"
         notify-send -i $image "$title" "$(mpc current)"
 fi

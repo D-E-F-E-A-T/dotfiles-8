@@ -1,14 +1,14 @@
 #! /usr/bin/env bash
 
 export DISPLAY=:0
-export PATH=/home/mohabaks/.local/bin:$PATH
+export PATH=/home/cOb4l7/.local/bin:$PATH
 export $(dbus-launch)
 
 #Get current time
 current_time=`date "+ %H:%M"`
 
 # load display image
-image='/home/mohabaks/Pictures/notify/prayer/cover1.jpg'
+image='/home/cOb4l7/Pictures/notify/prayer/cover.jpg'
 
 # load colors
 . $HOME/.local/bin/color-parser

@@ -68,7 +68,7 @@ Screenshots
 Minimal Workflow 
 ----------------
 
-![minimal-dark-mode](https://github.com/mohabaks/dotfiles/blob/master/demo.gif)
+![minimal-dark-mode](https://github.com/cOb4l7/dotfiles/blob/master/demo.gif)
 
 Thanks
 ------

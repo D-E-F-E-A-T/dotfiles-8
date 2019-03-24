@@ -15,4 +15,3 @@ $HOME/.local/bin/barstart
 nitrogen --restore 2> /dev/null &
 xsetroot -cursor_name left_ptr
 sxhkd &
-exec  bspwm

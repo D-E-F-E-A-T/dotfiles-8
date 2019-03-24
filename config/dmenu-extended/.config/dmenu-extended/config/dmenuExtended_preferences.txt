@@ -56,7 +56,11 @@
 <<<<<<< HEAD
     "path_aliasFile": "",
 =======
+<<<<<<< HEAD
     "path_aliasFile": "/home/cOb4l7/.alias",
+=======
+    "path_aliasFile": "/home/mohabaks/.alias",
+>>>>>>> e8726e7fd6bb604477ad412dd8a242cb77680bc0
 >>>>>>> Minimal_Dark_Rice
     "path_shellCommand": "~/.dmenuEextended_shellCommand.sh",
     "prompt": "Open:",
@@ -108,12 +112,21 @@
         "html"
     ],
     "watch_folders": [
+<<<<<<< HEAD
         "/home/cOb4l7/Documents/Tech",
         "/home/cOb4l7/Videos/Tech",
         "/home/cOb4l7/Videos/Misc",
         "/home/cOb4l7/Videos/Islam",
         "/home/cOb4l7/Pictures",
         "/home/cOb4l7/Downloads"
+=======
+        "/home/mohabaks/Documents/Tech",
+        "/home/mohabaks/Videos/Tech",
+        "/home/mohabaks/Videos/Misc",
+        "/home/mohabaks/Videos/Islam",
+        "/home/mohabaks/Pictures",
+        "/home/mohabaks/Downloads"
+>>>>>>> e8726e7fd6bb604477ad412dd8a242cb77680bc0
 
     ],
     "webbrowser": "xdg-open"

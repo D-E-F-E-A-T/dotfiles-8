@@ -14,16 +14,16 @@
 
 export PATH=$HOME/.local/bin:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
-#export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+export WORKON_HOME=$HOME/Code/Python
 export VISUAL=vim
 export EDITOR=vim
-export BROWSER=chromium
+export BROWSER=firefox
 export RTV_BROWSER=w3m
-export TERM="st"
-export TZ=Africa/Nairobi
 export XDG_CONFIG_HOME="$HOME/.config"
+export MSF_DATABASE_CONFIG="$HOME/.msf4/database.yml"
+export _JAVA_AWT_WM_NONREPARENTING=1
 
-#source virtualenvwrapper.sh
+source virtualenvwrapper.sh
 source ~/.git-prompt.sh
 
 # If not running interactively, don't do anything
@@ -81,6 +81,15 @@ PS1='\[\e[0;31m\]┌─\e[0m\e[34m[\[\e[0m\e[0;32m\] \w\[\e[0m\] \e[34m]\e[0m $(
 
 if [[ -f ~/.alias ]];then
         . ~/.alias
+fi
+
+#-----------------------------------------------------------------------
+#                                           
+#                           FUNCTIONS
+#-----------------------------------------------------------------------
+
+if [[ -f ~/.func ]];then
+        . ~/.func
 fi
 
 #-----------------------------------------------------------------------

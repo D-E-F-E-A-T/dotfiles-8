@@ -4,7 +4,7 @@ servers = (
     chatnet = "freenodetor";
     port = "6697";
     use_tls = "yes";
-    tls_cert = "~/.irssi/cOb4l7.pem";
+    tls_cert = "~/.irssi/*.pem";
     tls_verify = "no";
     autoconnect = "yes";
   }
@@ -14,8 +14,8 @@ chatnets = {
   freenodetor = {
     type = "IRC";
     sasl_mechanism = "EXTERNAL";
-    sasl_username = "cOb4l7";
-    sasl_password = "~/.irssi/cOb4l7.pem";
+    sasl_username = "";
+    sasl_password = "~/.irssi/*.pem";
   };
 };
 
@@ -280,10 +280,10 @@ statusbar = {
   };
 };
 settings = {
-  core = {
+  core = { 
     real_name = "Unknown";
-    user_name = "cOb4l7";
-    nick = "cOb4l7";
+    user_name = "";
+    nick = "";
   };
   "fe-text" = { actlist_sort = "refnum"; };
 };

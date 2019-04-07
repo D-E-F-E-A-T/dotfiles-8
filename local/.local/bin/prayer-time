@@ -8,7 +8,7 @@ export $(dbus-launch)
 current_time=`date "+ %H:%M"`
 
 # load display image
-image='/home/mohabaks/Pictures/notify/prayer/cover.jpg'
+image="$HOME/Pictures/notify/prayer/cover.jpg"
 
 # load colors
 . $HOME/.local/bin/color-parser

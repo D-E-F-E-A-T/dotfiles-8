@@ -1,11 +1,12 @@
 #!/bin/bash
 # Description: Display cover for the current playing song using notify-send
+# Modified: Sun Apr 7 09:15:12 EAT 2019
 
 # source colors
 . $HOME/.local/bin/color-parser
 
 # create notify title
-title="<span foreground='$MAGENTA'>Now Playing</span>"
+title="Now Playing"
 
 # get current album
 album=$(ncmpcpp --current-song={%b} 2> /dev/null)
@@ -13,16 +14,16 @@ album=$(ncmpcpp --current-song={%b} 2> /dev/null)
 # If album not null display cover
 if [[ -n "$album" ]];then
         if [[ "$album" = "Quran" ]];then
-                image="/home/cOb4l7/Pictures/notify/quran/cover.jpg"
-                notify-send -i $image "$title" "$(mpc current)"
+                image="/home/mohabaks/Pictures/notify/quran/cover.jpg"
+                notify-send -i $image "$title" "<span foreground='$RED'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
         elif [[ "$album" = "Quran — Shatri" ]] || [[ "$album" = "Quran" ]] || [[ "$album" = "Mishary Alafasi Musshaf" ]];then
-                image="/home/cOb4l7/Pictures/notify/quran/cover.jpg"
-                notify-send -i $image "$title" "$(mpc current)"
+                image="/home/mohabaks/Pictures/notify/quran/cover.jpg"
+                notify-send -i $image "$title" "<span foreground='$RED'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
         else
-                image="/home/cOb4l7/Pictures/notify/other/cover.jpg"
-                notify-send -i $image "$title" "$(mpc current)"
+                image="/home/mohabaks/Pictures/notify/other/cover.jpg"
+                notify-send -i $image "$title" "<span foreground='$RED'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
         fi
 else
-        image="/home/cOb4l7/Pictures/notify/other/cover.jpg"
-        notify-send -i $image "$title" "$(mpc current)"
+        image="/home/mohabaks/Pictures/notify/other/cover.jpg"
+        notify-send -i $image "$title" "<span foreground='$RED'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
 fi

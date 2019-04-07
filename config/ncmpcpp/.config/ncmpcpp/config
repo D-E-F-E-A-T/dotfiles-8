@@ -40,7 +40,7 @@ mpd_host = localhost
 mpd_port = 6600
 mpd_connection_timeout = 20
 ## Needed for tag editor and file operations to work.
-mpd_music_dir = /home/cOb4l7/Musics
+mpd_music_dir = /home/mohabaks/Musics
 mpd_crossfade_time = 5
 ##### music visualizer #####
 ##
@@ -493,7 +493,7 @@ use_console_editor = yes
 #
 
 ## Display notify for the current playing song
-execute_on_song_change = /home/cOb4l7/.config/popups/ncmpcpp/current_playing
+execute_on_song_change = /home/mohabaks/.config/popups/ncmpcpp/current_playing
 
 ##### colors definitions #####
 colors_enabled = yes

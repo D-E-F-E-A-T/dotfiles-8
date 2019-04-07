@@ -12,5 +12,5 @@ try:
         print("no mail")
     else:
         print("{} new".format(mail_no))
-except:
+except Exception as e:
     pass

@@ -18,7 +18,7 @@
 
 . $HOME/.local/bin/color-parser
 #. $HOME/.local/bin/barstart &
-BLK="#151515"
+BLK="#101010"
 #
 # Monitor & Destop Settings
 # 

@@ -19,5 +19,5 @@ Purposes
 ```
 
 Screenshot
----------
+----------
 ![blacknix](https://i.imgur.com/TqXjvxm.png)

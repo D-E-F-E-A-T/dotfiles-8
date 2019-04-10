@@ -1,5 +1,5 @@
 #!/bin/bash
-#      Author: https://github.com/user
+#      Author: https://github.com/cOb4l7
 # Description: A simple Todo List using notify-send
 #      
 
@@ -9,9 +9,9 @@
 # Specify the todo file to read from
 # cli script to show/delete/add can be found
 # https://github.com/user/dotfiles/tree/master/local/.local/bin/todo
-todofile='/home/user/.todo'
-image='/home/user/Pictures/notify/todo/todo.png'
-title="<span foreground='$BMAGENTA' > TODO LIST </span>" # notify title
+todofile="$HOME/.todo"
+image="$HOME/Pictures/notify/todo/todo.png"
+title="TODO LIST" # notify title
 
 # A function to read the todo file and nicely format the texts
 prettyNotify(){
@@ -26,7 +26,7 @@ prettyNotify(){
                   summary="$summary\n<span foreground='$RED'>$summary_counter </span>$line"
            done < "$todofile" 
    else
-           summary="<span foreground='$RED'>ERROR: </span> ~/.todo file empty|notfound "
+           summary="<span foreground='$RED'>ERROR: </span> $HOME/.todo file empty|notfound "
    fi
 }
 

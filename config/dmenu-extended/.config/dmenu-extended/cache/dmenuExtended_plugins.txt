@@ -1,5 +1,0 @@
--> Settings
-<<<<<<< HEAD
-=======
--> Internet search: 
->>>>>>> Minimal_Dark_Rice

@@ -185,7 +185,7 @@ format-discharging = <ramp-capacity> <label-discharging>
 
 label-full = " full "
 format-full-prefix = 
-format-full-prefix-foreground = ${colors.cyan}
+format-full-prefix-foreground = ${colors.yellow}
 
 ;format-charging-prefix = 
 ;format-charging-prefix-foreground = ${colors.red}
@@ -193,7 +193,7 @@ format-full-prefix-foreground = ${colors.cyan}
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.yellow}
+ramp-capacity-foreground = ${colors.cyan}
 
 label-charging = "Charging %percentage%% "
 label-charging-foreground = ${colors.fg}

@@ -169,3 +169,5 @@ super + ctrl + p
         burpsuite
 super + ctrl + w
         wireshark
+super + ctrl + t
+        $HOME/.config/popups/todo/todo

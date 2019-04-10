@@ -16,7 +16,7 @@ Setup Description
 -----------------
 ```
 Bar                    > polybar|lemonbar
-Browser                > firefox|chromium
+Browser                > firefox|chromium|qutebrowser
 Compositor             > compton
 IRC client             > weechat|irssi
 File Manager           > ranger|pcmanfm
@@ -45,20 +45,13 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Screenshots
-----------
+Additional Info
+---------------
+This repo has several branches.
 
-`i3`
-
-![shad0w](https://i.imgur.com/1Y3Rv0W.png)
-
-`dwm`
-
-![suckless](https://imgur.com/CkuXWXC.png)
-
-`bspwm`
-
-![usambara](https://i.imgur.com/fk2BZZ1.png)
-
++ Master: All the configs in general.
++ laptop: Tweaks based on master dots for my personal laptop.
++ workstation: Tweaks based on master dots for my workstation setup.
++ office: Tweaks based on master dots for my office laptop/Workstation.
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

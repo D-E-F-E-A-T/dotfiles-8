@@ -247,6 +247,12 @@ set writebackup
 
 
 "}}}
+"
+" Lively Previewing LaTeX PDF Output{{{
+
+let g:livepreview_previewer = 'zathura'
+
+"}}}
 
 
 " Match Valid Ip A ddress {{{

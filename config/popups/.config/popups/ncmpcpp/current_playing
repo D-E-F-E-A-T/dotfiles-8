@@ -13,17 +13,17 @@ album=$(ncmpcpp --current-song={%b} 2> /dev/null)
 
 # If album not null display cover
 if [[ -n "$album" ]];then
-        if [[ "$album" = "Quran" ]];then
-                image="$HOME/Pictures/notify/quran/cover.jpg"
-                notify-send -i $image "$title" "<span foreground='$RED'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
+        if [[ "$album" = "Land Of Ribat" ]];then
+                image="$HOME/Pictures/notify/other/cover.jpg"
+                notify-send -i $image "$title" "<span foreground='$YELLOW'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
         elif [[ "$album" = "Quran — Shatri" ]] || [[ "$album" = "Quran" ]] || [[ "$album" = "Mishary Alafasi Musshaf" ]];then
                 image="$HOME/Pictures/notify/quran/cover.jpg"
-                notify-send -i $image "$title" "<span foreground='$RED'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
+                notify-send -i $image "$title" "<span foreground='$YELLOW'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
         else
-                image="$HOME/Pictures/notify/other/cover.jpg"
-                notify-send -i $image "$title" "<span foreground='$RED'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
+                image="$HOME/Pictures/notify/hackmode/cover.png"
+                notify-send -i $image "$title" "<span foreground='$YELLOW'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
         fi
 else
         image="$HOME/Pictures/notify/other/cover.jpg"
-        notify-send -i $image "$title" "<span foreground='$RED'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
+        notify-send -i $image "$title" "<span foreground='$YELLOW'>$(mpc current --format %artist%)</span> - $(mpc current --format %title%)"
 fi

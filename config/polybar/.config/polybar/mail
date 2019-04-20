@@ -9,8 +9,8 @@ try:
     obj.select()
     mail_no = len(obj.search(None, 'UnSeen')[1][0].split())
     if mail_no == 0:
-        print("no mail")
+        print("0")
     else:
-        print("{} new".format(mail_no))
+        print("{}".format(mail_no))
 except Exception as e:
     pass

@@ -12,7 +12,7 @@
 #                                                  
 
 
-export PATH=$HOME/.local/bin:$HOME/.gem/ruby/2.6.0:$PATH
+export PATH=$HOME/.node_modules/bin:$HOME/.local/bin:$HOME/.gem/ruby/2.6.0:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
 export WORKON_HOME=$HOME/Code/Python
 export VISUAL=vim
@@ -23,6 +23,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export MSF_DATABASE_CONFIG="$HOME/.msf4/database.yml"
 export _JAVA_AWT_WM_NONREPARENTING=1
 export RUBYOPT="rubygems"
+export PROJECT_HOME=$HOME/Code/Python
+export npm_config_prefix=$HOME/.node_modules
 
 source virtualenvwrapper.sh
 source ~/.git-prompt.sh

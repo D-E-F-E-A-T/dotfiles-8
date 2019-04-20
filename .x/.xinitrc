@@ -10,7 +10,7 @@
 # start some nice programs
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 dunst -config $HOME/.config/dunst/dunstrc &
-compton -b --config $HOME/.compton.conf 
+#compton -b --config $HOME/.compton.conf 
 amixer sset Speaker mute
 $HOME/.local/bin/barstart
 nitrogen --restore 2> /dev/null & # restore wallpaper

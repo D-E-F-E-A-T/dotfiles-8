@@ -51,7 +51,5 @@ This repo has several branches.
 
 + Master: All the configs in general.
 + laptop: Tweaks based on master dots for my personal laptop.
-+ workstation: Tweaks based on master dots for my workstation setup.
-+ office: Tweaks based on master dots for my office laptop/Workstation.
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

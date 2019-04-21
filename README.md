@@ -45,6 +45,10 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
+Screenshot
+----------
+![blacknix](https://i.imgur.com/TqXjvxm.png)
+
 Additional Info
 ---------------
 This repo has several branches.

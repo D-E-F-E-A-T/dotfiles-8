@@ -49,8 +49,6 @@ Screenshots
 -----------
 ![blacknix](https://i.imgur.com/TqXjvxm.png)
 
-![darklemon](https://camo.githubusercontent.com/06f7002b71cc0e93b73513c3a84f7df002789849/68747470733a2f2f692e696d6775722e636f6d2f666b32425a5a312e706e67)
-
 Additional Info
 ---------------
 This repo has several branches.

@@ -45,7 +45,7 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Screenshots
+Screenshot
 -----------
 ![blacknix](https://i.imgur.com/TqXjvxm.png)
 

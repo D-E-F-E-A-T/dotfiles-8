@@ -127,7 +127,10 @@ super + {Left,Down,Up,Right}
 
 # terminal emulator
 super + Return
-	urxvt
+	xrdb ~/.Xresources && urxvt
+
+super + shift + Return
+	xrdb ~/.XresourcesMonitor && urxvt
 
 # program launcher
 super + d

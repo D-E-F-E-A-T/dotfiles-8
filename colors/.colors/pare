@@ -6,7 +6,7 @@
 
 ! special
 *.foreground:   #cfdceb
-*.background:   #080a11
+*.background:   [80]#080a11
 *.cursorColor:  #cfdceb
 
 ! black

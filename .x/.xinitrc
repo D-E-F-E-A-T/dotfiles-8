@@ -12,8 +12,11 @@
 dunst -config $HOME/.config/dunst/dunstrc &
 #compton -b --config $HOME/.compton.conf 
 amixer sset Speaker mute
+# set monitor
+$HOME/.local/bin/externalMonitor
 $HOME/.local/bin/barstart
-nitrogen --restore 2> /dev/null & # restore wallpaper
+nitrogen --restore --head=1 2> /dev/null & # restore wallpaper
+nitrogen --restore --head=2 2> /dev/null & # restore wallpaper
 xsetroot -cursor_name left_ptr
 sxhkd &
 exec bspwm

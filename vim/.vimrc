@@ -44,6 +44,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'junegunn/goyo.vim'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'moll/vim-node'
+Plugin 'lervag/vimtex'
 """ Colorscheme
 Plugin 'dylanaraps/wal.vim'
 Plugin 'whatyouhide/vim-gotham'

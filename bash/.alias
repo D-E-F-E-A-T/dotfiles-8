@@ -36,6 +36,8 @@ alias getemail="grep -Eiorh '([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6
 alias sshloadkey='eval "$(ssh-agent)" && ssh-add'
 alias onelinecat="tr '\n' ','"
 alias chromiumProxy="chromium --proxy-server=SOCKS5://whonix:9100"
+alias rdesktop="rdesktop -g 100% -P -z -x l -r sound:off"
+alias tmuxex="tmux -f ~/.tmux_mon.conf"
 
 # SSH servers
 alias homelab="ssh blackman@blacklab"

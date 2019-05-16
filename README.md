@@ -45,9 +45,14 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Screenshot
+Screenshots
 -----------
+
+`laptop`
 ![blacknix](https://i.imgur.com/TqXjvxm.png)
+
+`laptop` + `monitor`
+![darkmix](https://i.redd.it/su4f85a24my21.png)
 
 Additional Info
 ---------------

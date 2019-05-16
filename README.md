@@ -14,10 +14,12 @@ Mem Information
         Name: Arch Linux
 Current WM
         bspwm
+External Monitor
+        DELL
 Purposes
         - Mainly for pentest and daily use e.g programming etc
 ```
 
 Screenshot
 ----------
-![blacknix](https://i.redd.it/i5resj4vvky21.png)
+![blacknix](https://i.redd.it/su4f85a24my21.png)

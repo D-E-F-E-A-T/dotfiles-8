@@ -20,4 +20,4 @@ Purposes
 
 Screenshot
 ----------
-![blacknix](https://i.imgur.com/TqXjvxm.png)
+![blacknix](https://i.redd.it/i5resj4vvky21.png)

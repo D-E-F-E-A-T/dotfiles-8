@@ -1,0 +1,16 @@
+#!/bin/bash
+# Author: https://github.com/cOb4l7
+# Description: Simple script to launch my external DELL Monitor
+#              connected to my laptop LenovoThinkpad Yoga 260
+
+# Check if the monitor is connected
+if `xrandr -q | grep -q "HDMI2 connected"`
+then
+        # Set the X display
+        xrandr --output eDP1 --primary --mode 1366x768 --rotate normal --output\
+        HDMI2 --mode 1920x1080 --rotate normal --right-of eDP1 --dpi 152
+        sleep 1 
+else
+        # Log the error
+        echo "[ERROR] Failed to connect to monitor `date`" >> .monitor.log
+fi

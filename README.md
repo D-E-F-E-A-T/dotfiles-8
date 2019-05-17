@@ -54,7 +54,7 @@ Screenshots
 
 `laptop` + `monitor`
 
-![darkmix](https://i.redd.it/su4f85a24my21.png)
+![darkmix](https://imgur.com/gbZxt8P.png)
 
 Additional Info
 ---------------

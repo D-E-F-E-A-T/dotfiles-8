@@ -54,7 +54,7 @@ Screenshots
 
 `laptop` + `monitor`
 
-![darkmix](https://imgur.com/gbZxt8P.png)
+![darkmix](https://camo.githubusercontent.com/c07a0e0ba29b46b4d5dbd9386ff41b3f41806d62/68747470733a2f2f692e726564642e69742f7375346638356132346d7932312e706e67)
 
 Additional Info
 ---------------

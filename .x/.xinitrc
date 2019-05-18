@@ -15,8 +15,6 @@ amixer sset Speaker mute
 # set monitor
 $HOME/.local/bin/externalMonitor
 $HOME/.local/bin/barstart
-nitrogen --restore --head=1 2> /dev/null & # restore wallpaper
-nitrogen --restore --head=2 2> /dev/null & # restore wallpaper
 xsetroot -cursor_name left_ptr
 sxhkd &
 exec bspwm

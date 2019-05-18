@@ -151,6 +151,10 @@ super + x
 alt + shift + x
         betterlockscreen -l -t ""
 
+# suspend
+super + alt + shift + s
+        systemctl suspend
+
 # brightness control
 XF86MonBrightnessUp
         xbacklight -inc 20
@@ -166,11 +170,11 @@ XF86AudioMute
         amixer set Master toggle
 
 # my apps shortcut
-super + ctrl + b
+super + ctrl + f
         firefox
-super + ctrl + p
+super + ctrl + c
+        chromium
+super + ctrl + b
         burpsuite
 super + ctrl + w
         wireshark
-super + ctrl + t
-        $HOME/.config/popups/todo/todo

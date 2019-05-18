@@ -108,7 +108,7 @@ module-margin-left = 0
 module-margin-right = 0
 
 font-0 = Iosevka:pixelsize=11;3
-font-1 = Material Icons:antialia=false:size=11;4
+font-1 = Material Icons:antialia=false:size=14;4
 
 tray-position = right
 tray-padding = 1
@@ -116,8 +116,8 @@ tray-transparent = true
 tray-background = #000000
 
 modules-left = bspwm_ext
-modules-center = date_ext
-modules-right = wlan_ext vpn_ext mail_ext
+modules-center = date_ext 
+modules-right = wlan_ext vpn_ext mail_ext temp_ext memory_ext cpu_ext bat_ext
 
 ;**********************************************************
 ;
@@ -207,10 +207,24 @@ format-prefix = " "
 format-prefix-foreground = ${colors.cyan}
 label = "%percentage% "
 
+[module/cpu_ext]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.cyan}
+label = "%percentage% "
+
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
+format-prefix-foreground = ${colors.magenta}
+label = "%percentage_used% "
+
+[module/memory_ext]
+type = internal/memory
+interval = 2
+format-prefix = " "
 format-prefix-foreground = ${colors.magenta}
 label = "%percentage_used% "
 
@@ -283,6 +297,37 @@ animation-charging-2 = 
 animation-charging-foreground = ${colors.red}
 animation-charging-framerate = 750
 
+[module/bat_ext]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+full-at = 100
+
+label-discharging = "%percentage%% "
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+
+label-full = " full "
+format-full-prefix = 
+format-full-prefix-foreground = ${colors.white-alt}
+
+format-charging-prefix = 
+format-charging-prefix-foreground = ${colors.red}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.magenta}
+
+label-charging = "Charging %percentage%% "
+label-charging-foreground = ${colors.fg}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.red}
+animation-charging-framerate = 750
+
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
@@ -298,6 +343,23 @@ label-warn-foreground = ${colors.red}
 ramp-0 = 
 ramp-1 = 
 ramp-2 = 
+ramp-foreground = ${colors.green}
+
+[module/temp_ext]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-warn = <ramp> <label-warn>
+
+label = "%temperature% "
+label-warn = "%temperature% "
+label-warn-foreground = ${colors.red}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.green}
 
 [module/menu]

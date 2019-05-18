@@ -8,9 +8,14 @@ if `xrandr -q | grep -q "HDMI2 connected"`
 then
         # Set the X display
         xrandr --output eDP1 --primary --mode 1366x768 --rotate normal --output\
-        HDMI2 --mode 1920x1080 --rotate normal --right-of eDP1 --dpi 152
+        HDMI2 --mode 1920x1080 --rotate normal --right-of eDP1 --dpi 120
         sleep 1 
+        # Set wallpaper
+        nitrogen --restore --head=1 2> /dev/null & 
+        nitrogen --restore --head=2 2> /dev/null & 
 else
         # Log the error
         echo "[ERROR] Failed to connect to monitor `date`" >> .monitor.log
+        # set wallpaper
+        nitrogen --restore --head=1 2> /dev/null &
 fi

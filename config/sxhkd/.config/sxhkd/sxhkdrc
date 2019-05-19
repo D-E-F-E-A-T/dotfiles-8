@@ -134,7 +134,7 @@ super + shift + Return
 
 # program launcher
 super + d
-	dmenu_run -nf "#a9aeb4" -sb "#B21818" -sf "#f7f7f7" -nb "#080a11" -fn "Fixed-8"
+	dmenu_run -m 0 -nf "#a9aeb4" -sb "#B21818" -sf "#f7f7f7" -nb "#080a11" -fn "Fixed-8"
 
 super + shift + d
         dmenu_extended_run 

@@ -171,7 +171,7 @@ label-urgent-foreground = ${colors.cyan}
 label-urgent-padding = 0
 
 label-empty = " %name%"
-label-empty-foreground = #666
+label-empty-foreground = #3e4650
 ;label-empty-background = ${colors.bg-alt}
 label-empty-padding = 0
 
@@ -211,7 +211,7 @@ label = "%percentage% "
 type = internal/cpu
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.cyan}
+format-prefix-foreground = #8f04ae
 label = "%percentage% "
 
 [module/memory]
@@ -431,6 +431,6 @@ type = custom/script
 interval = 1200
 format = "<label> "
 format-prefix = " "
-format-prefix-foreground = ${colors.magenta}
+format-prefix-foreground = #ee8109
 exec = ~/.config/polybar/vpn
 ; vim:ft=dosini

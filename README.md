@@ -48,9 +48,15 @@ specific config.
 Screenshot
 ----------
 
-`laptop` + `monitor`
+`laptop` + `monitor: Dark-Mode`
 
 ![darkmix](https://imgur.com/sbc7Dzi.png)
+
+`laptop` + `monitor: Light-Mode`
+
+![darklight](https://imgur.com/dFWKwmO.png)
+
+`NOTE` Using cronjob to switch between light(0600) and dark(1830) mode for monitor.
 
 Additional Info
 ---------------

@@ -56,7 +56,7 @@ Screenshot
 
 ![darklight](https://imgur.com/dFWKwmO.png)
 
-`NOTE` Using cronjob to switch between light(0600) and dark(1830) mode for monitor.
+`NOTE` Using cronjob to switch between light(0600 hrs) and dark(1830 hrs) mode for monitor.
 
 Additional Info
 ---------------

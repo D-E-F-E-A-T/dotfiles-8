@@ -45,12 +45,16 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Screenshot
-----------
+Screenshots
+-----------
 
 `laptop` + `monitor: Dark-Mode`
 
 ![darkmix](https://imgur.com/sbc7Dzi.png)
+
+`laptop` + `monitor: Firefox`
+
+![firefox](https://imgur.com/MvI49mh.png)
 
 `laptop` + `monitor: Light-Mode`
 

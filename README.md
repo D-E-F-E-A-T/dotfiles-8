@@ -62,10 +62,6 @@ Screenshots
 
 `NOTE` Using cronjob to switch between light(0600 hrs) and dark(1830 hrs) mode for monitor.
 
-Workflow
---------
-[![Workflow](https://github.com/cOb4l7/dotfiles/blob/master/workflow.mkv)
-
 Additional Info
 ---------------
 This repo has several branches.

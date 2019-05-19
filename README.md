@@ -60,7 +60,7 @@ Screenshot
 
 Workflow
 --------
-![Workflow](https://github.com/cOb4l7/dotfiles/blob/master/workflow.mkv)
+[![Workflow](https://github.com/cOb4l7/dotfiles/blob/master/workflow.mkv)
 
 Additional Info
 ---------------

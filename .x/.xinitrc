@@ -1,20 +1,26 @@
 #!/bin/sh
-
+#
 #             _       _ _            
 #       __  _(_)_ __ (_) |_ _ __ ___ 
 #       \ \/ / | '_ \| | __| '__/ __|
 #        >  <| | | | | | |_| | | (__ 
 #       /_/\_\_|_| |_|_|\__|_|  \___|
-                             
+#
 
-# start some nice programs
-[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
-dunst -config $HOME/.config/dunst/dunstrc &
-#compton -b --config $HOME/.compton.conf 
+# Mute speaker
 amixer sset Speaker mute
-# set monitor
+
+# Set monitor if connected
 $HOME/.local/bin/externalMonitor
+
+# Start polybar
 $HOME/.local/bin/barstart
+
+# Set cursor theme
 xsetroot -cursor_name left_ptr
+
+# Load keybind
 sxhkd &
+
+# Start bspwm 
 exec bspwm

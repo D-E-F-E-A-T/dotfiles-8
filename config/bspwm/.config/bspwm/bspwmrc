@@ -42,6 +42,8 @@ then
         bspc config -m HDMI1 urgent_border_color   "$BLK"
         bspc config -m HDMI2 presel_border_color   "$BLK"
         bspc config -m HDMI1 presel_border_color   "$BLK"
+        bspc config -m HDMI2 top_padding  42
+
 
 else
         BLK="#101010"
@@ -89,3 +91,13 @@ bspc rule -a mpv desktop='^9' follow=on
 bspc rule -a Nitrogen state=floating focus=on
 bspc rule -a feh state=floating focus=on
 bspc rule -a Lxappearance state=floating focus=on
+
+#
+#   Start Misc Programs
+#
+
+# Start compton
+compton -b --config $HOME/.compton.conf
+
+# Start polybar
+#$HOME/.local/bin/barstart

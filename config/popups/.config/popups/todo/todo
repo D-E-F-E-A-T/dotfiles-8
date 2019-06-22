@@ -11,7 +11,7 @@
 # https://github.com/user/dotfiles/tree/master/local/.local/bin/todo
 todofile="$HOME/.todo"
 image="$HOME/Pictures/notify/todo/todo.png"
-title="TODO LIST" # notify title
+title="     TODO LIST" # notify title
 
 # A function to read the todo file and nicely format the texts
 prettyNotify(){
@@ -23,10 +23,10 @@ prettyNotify(){
            do
                   (( summary_counter += 1 ))
                   # Create a message summary
-                  summary="$summary\n<span foreground='$RED'>$summary_counter </span>$line"
+                  summary="$summary\n<span foreground='$MAGENTA'>${summary_counter}. </span><span foreground='$WHITE'>$line</span>"
            done < "$todofile" 
    else
-           summary="<span foreground='$RED'>ERROR: </span> $HOME/.todo file empty|notfound "
+           summary="<span foreground='$RED'>ERROR: </span> $<span foreground='$WHITE'>HOME/.todo file empty|notfound</span> "
    fi
 }
 

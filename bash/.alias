@@ -41,3 +41,5 @@ alias tmuxex="tmux -f ~/.tmux_mon.conf"
 
 # SSH servers
 alias homelab="ssh blackman@blacklab"
+alias eadclab="ssh ubuntu@cyb0rg.eadc.ke -p2222"
+alias freeBSD="ssh mohabaks@freebsd"

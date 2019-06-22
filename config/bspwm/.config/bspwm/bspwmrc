@@ -12,52 +12,44 @@
 #                                     Config by: https://github.com/cOb4l7
 #
 
-#
-#  Autostart Commands
-#
-
-. $HOME/.local/bin/color-parser
 
 # Check if the monitor is connected
 if `xrandr -q | grep -q "HDMI2 connected"`
 then
-        BLK="#0b0d16"
-        BL="#101010"
+        # Set border color
+        BLK="#10171e"
+
         #
         # Monitor & Destop Settings
         # 
 
-        bspc monitor eDP1 -d 1 2 3 4
         bspc monitor HDMI2 -d      
+        bspc monitor HDMI1 -d 7 8 9 0
         bspc config -m HDMI2 window_gap           10
         bspc config -m HDMI2 border_width         0
-        bspc config -m eDP1 window_gap            0
-        bspc config -m eDP1 border_width          1
+        bspc config -m HDMI1 window_gap           0
+        bspc config -m HDMI1 border_width         1
 
         #
         # Global Settings
         #
 
         bspc config -m HDMI2 normal_border_color   "$BLK"
-        bspc config -m eDP1 normal_border_color    "$BL"
+        bspc config -m HDMI1 normal_border_color   "$BLK"
         bspc config -m HDMI2 focused_border_color  "$BLK"
-        bspc config -m eDP1 focused_border_color   "$BL"
+        bspc config -m HDMI1 focused_border_color  "$BLK"
         bspc config -m HDMI2 urgent_border_color   "$BLK"
-        bspc config -m eDP1 urgent_border_color    "$BL"
+        bspc config -m HDMI1 urgent_border_color   "$BLK"
         bspc config -m HDMI2 presel_border_color   "$BLK"
-        bspc config -m eDP1 presel_border_color    "$BL"
+        bspc config -m HDMI1 presel_border_color   "$BLK"
 
-        #
-        # Start compton
-        #
-        compton --config ~/.compton.conf -b 
 else
         BLK="#101010"
         #
         # Monitor & Destop Settings
         # 
 
-        bspc monitor eDP1 -d 1 2 3 4 5 6 7 8 9 0
+        bspc monitor HDMI1 -d 1 2 3 4 5 6 7 8 9 0
         bspc config window_gap            0
         bspc config border_width          1
 
@@ -77,7 +69,7 @@ fi
 #
 
 bspc config split_ratio           0.50
-bspc config borderless_monocle    true
+bspc config borderless_monocle    false
 bspc config gapless_monocle       true
 
 
@@ -85,13 +77,15 @@ bspc config gapless_monocle       true
 #  Rule Settings
 #
 
-bspc rule -a Firefox desktop='^5' follow=on
-bspc rule -a Chromium desktop='^5' follow=on
-bspc rule -a Zathura desktop='^6' state=tiled follow=on
-bspc rule -a mpv desktop='^6' follow=on
+bspc rule -a Firefox desktop='^1' follow=on
+bspc rule -a Chromium desktop='^1' follow=on
+bspc rule -a Zathura desktop='^2' state=tiled follow=on
+bspc rule -a Virt-manager desktop='^3' follow=on
 bspc rule -a Gimp desktop='^8' follow=on
 bspc rule -a Wireshark desktop='^8' follow=on
 bspc rule -a Pcmanfm desktop='^8' follow=on
+bspc rule -a Nitrogen desktop='^8' follow=on
+bspc rule -a mpv desktop='^9' follow=on
 bspc rule -a Nitrogen state=floating focus=on
 bspc rule -a feh state=floating focus=on
 bspc rule -a Lxappearance state=floating focus=on

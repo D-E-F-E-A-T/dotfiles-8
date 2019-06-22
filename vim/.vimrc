@@ -45,6 +45,8 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'moll/vim-node'
 Plugin 'lervag/vimtex'
+Plugin 'iamcco/markdown-preview.vim'
+
 """ Colorscheme
 Plugin 'dylanaraps/wal.vim'
 Plugin 'whatyouhide/vim-gotham'

@@ -127,14 +127,17 @@ super + {Left,Down,Up,Right}
 
 # terminal emulator
 super + Return
-	xrdb ~/.Xresources && urxvt
-
-super + shift + Return
-	xrdb ~/.XresourcesMonitor && urxvt
+	urxvt
 
 # program launcher
+if `xrandr -q | grep -q "HDMI2 connected"`
+then
+super + d
+	dmenu_run -b -m 0 -nf "#cfdceb" -sb "#cd222f" -sf "#f7f7f7" -nb "#0a0f14" -fn "Monofur for Powerline-9"
+else
 super + d
 	dmenu_run -m 0 -nf "#a9aeb4" -sb "#B21818" -sf "#f7f7f7" -nb "#080a11" -fn "Fixed-8"
+fi
 
 super + shift + d
         dmenu_extended_run 
@@ -169,6 +172,12 @@ XF86AudioLowerVolume
 XF86AudioMute 
         amixer set Master toggle
 
+# Ncmpcpp Control
+super + ctrl + Left
+        mpc prev
+super + ctrl + Right
+        mpc next
+
 # my apps shortcut
 super + ctrl + f
         firefox
@@ -178,3 +187,5 @@ super + ctrl + b
         burpsuite
 super + ctrl + w
         wireshark
+super + ctrl + t
+        $HOME/.config/popups/todo/todo

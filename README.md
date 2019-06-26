@@ -45,26 +45,12 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Screenshots
------------
+Screenshot
+----------
 
 `laptop (off)` + `2 monitor: Dark-Mode`
 
 ![2dark](https://i.imgur.com/0KeEiZK.png)
-
-`laptop` + `monitor: Dark-Mode`
-
-![darkmix](https://imgur.com/sbc7Dzi.png)
-
-`laptop` + `monitor: Firefox`
-
-![firefox](https://imgur.com/MvI49mh.png)
-
-`laptop` + `monitor: Light-Mode`
-
-![darklight](https://imgur.com/dFWKwmO.png)
-
-`NOTE` Using cronjob to switch between light(0600 hrs) and dark(1830 hrs) mode for monitor.
 
 Additional Info
 ---------------

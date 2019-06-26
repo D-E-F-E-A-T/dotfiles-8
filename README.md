@@ -48,6 +48,10 @@ specific config.
 Screenshots
 -----------
 
+`laptop (off)` + `2 monitor: Dark-Mode`
+
+![2dark](https://i.imgur.com/0KeEiZK.png)
+
 `laptop` + `monitor: Dark-Mode`
 
 ![darkmix](https://imgur.com/sbc7Dzi.png)

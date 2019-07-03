@@ -63,4 +63,4 @@ This repo has several branches.
 
 Contact
 -------
-Have issue with the configs DM `RGlzY29yZDogYzBiNGw3IzA4MzUK`
+Having issues with the configs DM `RGlzY29yZDogYzBiNGw3IzA4MzUK`

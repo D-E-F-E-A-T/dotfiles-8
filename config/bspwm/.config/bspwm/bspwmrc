@@ -17,18 +17,19 @@
 if `xrandr -q | grep -q "HDMI2 connected"`
 then
         # Set border color
-        BLK="#10171e"
+        #BLK="#10171e"
+        BLK="#111920"
 
         #
         # Monitor & Destop Settings
         # 
 
-        bspc monitor HDMI2 -d      
-        bspc monitor HDMI1 -d 7 8 9 0
+        bspc monitor HDMI1 -d 1 2 3 4
+        bspc monitor HDMI2 -d      
         bspc config -m HDMI2 window_gap           10
-        bspc config -m HDMI2 border_width         0
-        bspc config -m HDMI1 window_gap           0
-        bspc config -m HDMI1 border_width         1
+        bspc config -m HDMI2 border_width         4
+        bspc config -m HDMI1 window_gap           10
+        bspc config -m HDMI1 border_width         4
 
         #
         # Global Settings
@@ -36,6 +37,8 @@ then
 
         bspc config -m HDMI2 normal_border_color   "$BLK"
         bspc config -m HDMI1 normal_border_color   "$BLK"
+        bspc config -m HDMI2 active_border_color   "$BLK"
+        bspc config -m HDMI1 active_border_color   "$BLK"
         bspc config -m HDMI2 focused_border_color  "$BLK"
         bspc config -m HDMI1 focused_border_color  "$BLK"
         bspc config -m HDMI2 urgent_border_color   "$BLK"
@@ -81,8 +84,8 @@ bspc config gapless_monocle       true
 
 bspc rule -a Firefox desktop='^1' follow=on
 bspc rule -a Chromium desktop='^1' follow=on
-bspc rule -a Zathura desktop='^2' state=tiled follow=on
-bspc rule -a Virt-manager desktop='^3' follow=on
+bspc rule -a Zathura desktop='^6' state=tiled follow=on
+bspc rule -a Virt-manager desktop='^7' follow=on
 bspc rule -a Gimp desktop='^8' follow=on
 bspc rule -a Wireshark desktop='^8' follow=on
 bspc rule -a Pcmanfm desktop='^8' follow=on
@@ -98,6 +101,3 @@ bspc rule -a Lxappearance state=floating focus=on
 
 # Start compton
 compton -b --config $HOME/.compton.conf
-
-# Start polybar
-#$HOME/.local/bin/barstart

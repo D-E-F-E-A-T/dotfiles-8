@@ -101,9 +101,15 @@ fi
 #-----------------------------------------------------------------------
 
 export LESS_TERMCAP_mb=$'\e[0;33m'
-export LESS_TERMCAP_md=$'\e[0;35m'
+export LESS_TERMCAP_md=$'\e[0;36m'
 export LESS_TERMCAP_me=$'\e[0m'
 export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[0;34;32m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[0;31m'
+
+PATH="/home/mohabaks/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/mohabaks/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/mohabaks/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/mohabaks/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/mohabaks/perl5"; export PERL_MM_OPT;

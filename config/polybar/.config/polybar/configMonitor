@@ -52,18 +52,22 @@ margin-bottom = 0
 monitor   = ${env:MONITOR:HDMI2}
 bottom    = false
 width     = 99%
-height    = 20
+height    = 25
 offset-x  = 10
-offset-y  = 10
+offset-y  = 8
 override-redirect = true
 
 background = ${colors.bg}
 foreground = ${colors.fg}
 
 border-bottom-size = 5
-border-bottom-color = ${colors.bg}
+border-bottom-color = ${colors.bg-alt}
 border-top-size = 5
-border-top-color = ${colors.bg}
+border-top-color = ${colors.bg-alt}
+border-right-size = 5
+border-right-color = ${colors.bg-alt}
+border-left-size = 5
+border-left-color = ${colors.bg-alt}
 
 spacing = 0
 padding-left = 0
@@ -71,7 +75,7 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Monofur for Powerline:pixelsize=14;3
+font-0 = Iosevka Slab:pixelsize=11;3
 font-1 = Material Icons:antialia=false:size=14;4
 
 tray-position = none
@@ -81,42 +85,7 @@ tray-background = #10171e
 
 modules-left = bspwm_ext
 modules-center = date_ext 
-modules-right = temp_ext cpu_ext memory_ext wlan_ext vpn_ext mail_ext
-
-[bar/mon2]
-monitor   = ${env:MONITOR:HDMI1}
-bottom    = false
-width     = 99%
-height    = 20
-offset-x  = 0
-offset-y  = 0
-override-redirect = false
-
-background = ${colors.bg}
-foreground = ${colors.fg}
-
-border-bottom-size = 5
-border-bottom-color = ${colors.bg}
-border-top-size = 5
-border-top-color = ${colors.bg}
-
-spacing = 0
-padding-left = 0
-padding-right = 0
-module-margin-left = 0
-module-margin-right = 0
-
-font-0 = Monofur for Powerline:pixelsize=14;3
-font-1 = Material Icons:antialia=false:size=14;4
-
-tray-position = none
-tray-padding = 1
-tray-transparent = true
-tray-background = #10171e
-
-modules-left = bspwm_ext
-modules-center = date_ext 
-modules-right = temp_ext cpu_ext memory_ext wlan_ext vpn_ext mail_ext
+modules-right = temp_ext memory_ext cpu_ext wlan_ext vpn_ext mail_ext bat_ext
 
 ;**********************************************************
 ;
@@ -159,8 +128,8 @@ label = "%percentage% "
 [module/memory_ext]
 type = internal/memory
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.magenta}
+format-prefix = " "
+format-prefix-foreground = ${colors.cyan}
 label = "%percentage_used% "
 
 [module/wlan_ext]
@@ -202,7 +171,7 @@ format-charging-prefix-foreground = ${colors.red}
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.magenta}
+ramp-capacity-foreground = ${colors.blue}
 
 label-charging = "Charging %percentage%% "
 label-charging-foreground = ${colors.fg}
@@ -250,7 +219,7 @@ time = " %H:%M "
 label = %date%%time%
 
 ;format-prefix = ""
-format-foreground = ${colors.magenta}
+format-foreground = ${colors.blue}
 ;format-prefix-foreground = ${colors.yellow}
 
 [module/vpn_ext]

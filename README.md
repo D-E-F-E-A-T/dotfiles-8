@@ -60,3 +60,7 @@ This repo has several branches.
 + laptop: Tweaks based on master dots for my personal laptop.
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html
+
+Contact
+-------
+Have issue with the configs DM `RGlzY29yZDogYzBiNGw3IzA4MzUK`

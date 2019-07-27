@@ -13,9 +13,6 @@ amixer sset Speaker mute
 # Set monitor if connected
 $HOME/.local/bin/externalMonitor
 
-# Start polybar
-$HOME/.local/bin/barstart
-
 # Set cursor theme
 xsetroot -cursor_name left_ptr
 

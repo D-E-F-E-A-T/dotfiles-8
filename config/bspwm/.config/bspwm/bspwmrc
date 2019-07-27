@@ -24,8 +24,8 @@ then
         # Monitor & Destop Settings
         # 
 
-        bspc monitor HDMI1 -d 1 2 3 4
-        bspc monitor HDMI2 -d      
+        bspc monitor HDMI1 -d    
+        bspc monitor HDMI2 -d      
         bspc config -m HDMI2 window_gap           10
         bspc config -m HDMI2 border_width         4
         bspc config -m HDMI1 window_gap           10
@@ -46,6 +46,7 @@ then
         bspc config -m HDMI2 presel_border_color   "$BLK"
         bspc config -m HDMI1 presel_border_color   "$BLK"
         bspc config -m HDMI2 top_padding  42
+        bspc config -m HDMI1 top_padding  42
 
 
 else

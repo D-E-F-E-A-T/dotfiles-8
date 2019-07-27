@@ -40,7 +40,7 @@ mpd_host = localhost
 mpd_port = 6600
 mpd_connection_timeout = 20
 ## Needed for tag editor and file operations to work.
-mpd_music_dir = /home/mohabaks/Musics
+mpd_music_dir = $HOME/Audio
 mpd_crossfade_time = 5
 ##### music visualizer #####
 ##

@@ -38,8 +38,10 @@ alias onelinecat="tr '\n' ','"
 alias chromiumProxy="chromium --proxy-server=SOCKS5://whonix:9100"
 alias rdesktop="rdesktop -g 100% -P -z -x l -r sound:off"
 alias tmuxex="tmux -f ~/.tmux_mon.conf"
+alias ctfdir="mkdir {Scan,Enum,Expl}"
 
 # SSH servers
 alias homelab="ssh blackman@blacklab"
 alias eadclab="ssh ubuntu@cyb0rg.eadc.ke -p2222"
 alias freeBSD="ssh mohabaks@freebsd"
+alias raspi="ssh alarm@raspberry.blacknetwork.local"

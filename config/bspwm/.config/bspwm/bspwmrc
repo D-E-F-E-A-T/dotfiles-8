@@ -17,15 +17,14 @@
 if `xrandr -q | grep -q "HDMI2 connected"`
 then
         # Set border color
-        #BLK="#10171e"
         BLK="#111920"
 
         #
         # Monitor & Destop Settings
         # 
 
-        bspc monitor HDMI1 -d    
-        bspc monitor HDMI2 -d      
+        bspc monitor HDMI1 -d    
+        bspc monitor HDMI2 -d     ା 
         bspc config -m HDMI2 window_gap           10
         bspc config -m HDMI2 border_width         4
         bspc config -m HDMI1 window_gap           10
@@ -83,15 +82,21 @@ bspc config gapless_monocle       true
 #  Rule Settings
 #
 
+# start apps in specific workspace
 bspc rule -a Firefox desktop='^1' follow=on
 bspc rule -a Chromium desktop='^1' follow=on
 bspc rule -a Zathura desktop='^6' state=tiled follow=on
+bspc rule -a Cherrytree desktop='^6' state=tiled follow=on
 bspc rule -a Virt-manager desktop='^7' follow=on
 bspc rule -a Gimp desktop='^8' follow=on
 bspc rule -a Wireshark desktop='^8' follow=on
 bspc rule -a Pcmanfm desktop='^8' follow=on
-bspc rule -a Nitrogen desktop='^8' follow=on
+bspc rule -a burp-StartBurp desktop='^8' follow=on
 bspc rule -a mpv desktop='^9' follow=on
+bspc rule -a Maltego desktop='^9' follow=on
+bspc rule -a discord desktop='^10' follow=on
+
+# apps in float mode
 bspc rule -a Nitrogen state=floating focus=on
 bspc rule -a feh state=floating focus=on
 bspc rule -a Lxappearance state=floating focus=on
@@ -100,5 +105,8 @@ bspc rule -a Lxappearance state=floating focus=on
 #   Start Misc Programs
 #
 
-# Start compton
+# compton
 compton -b --config $HOME/.compton.conf
+
+# polybar
+$HOME/.local/bin/barstart

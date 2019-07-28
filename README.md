@@ -55,12 +55,14 @@ Screenshots
 
 ![dark](https://imgur.com/h1wLZqX.png)
 
-`laptop (off)` + `2 monitor: Dark-Mode`
+`laptop (off)` + `2 monitor`
 
 ![2dark](https://i.imgur.com/0KeEiZK.png)
 
 Workflow
 --------
+
+`laptop (off)` + `2 monitor`
 
 ![workflow](https://github.com/cOb4l7/dotfiles/blob/master/workflow.gif)
 

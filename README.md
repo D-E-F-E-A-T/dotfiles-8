@@ -59,3 +59,5 @@ Contact
 -------
 
 Having issues with the configs DM `RGlzY29yZDogYzBiNGw3IzA4MzUK`
+
+[GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

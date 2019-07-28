@@ -55,6 +55,11 @@ Screenshot
 
 ![2dark](https://i.imgur.com/0KeEiZK.png)
 
+Workflow
+--------
+
+![workflow](https://github.com/cOb4l7/dotfiles/blob/master/workflow.gif)
+
 Contact
 -------
 

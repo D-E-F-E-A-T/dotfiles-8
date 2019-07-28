@@ -48,8 +48,12 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Screenshot
+Screenshots
 ----------
+
+`laptop (No Monitors)`
+
+![dark](https://imgur.com/h1wLZqX.png)
 
 `laptop (off)` + `2 monitor: Dark-Mode`
 

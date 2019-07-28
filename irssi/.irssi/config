@@ -4,9 +4,9 @@ servers = (
     chatnet = "freenodetor";
     port = "6697";
     use_tls = "yes";
-    tls_cert = "~/.irssi/*.pem";
+    tls_cert = "~/.irssi/c0b4l7.pem";
     tls_verify = "no";
-    autoconnect = "yes";
+    autoconnect = "no";
   }
 );
 
@@ -14,17 +14,18 @@ chatnets = {
   freenodetor = {
     type = "IRC";
     sasl_mechanism = "EXTERNAL";
-    sasl_username = "";
-    sasl_password = "~/.irssi/*.pem";
+    sasl_username = "c0b4l7";
+    sasl_password = "~/.irssi/c0b4l7.pem";
   };
 };
 
 channels = (
   {
-    name = "#metasploit,#offsec,#r_netsec,##Hackers,##networking,#irssi,#bash,##security,##linux,#archlinux";
+    name = "#freebsd,#pfsense,#kvm,##networking,#irssi,#bash,##security,#archlinux";
     chatnet = "freenodetor";
     autojoin = "Yes";
-  }
+  },
+
 );
 
 aliases = {
@@ -214,7 +215,7 @@ statusbar = {
 
     window = {
 
-      disabled = "yes";
+      disabled = "no";
       type = "window";
       placement = "bottom";
       position = "1";
@@ -222,12 +223,9 @@ statusbar = {
 
       items = {
         barstart = { priority = "100"; };
-        time = { };
-        user = { };
         window = { };
         window_empty = { };
         lag = { priority = "-1"; };
-        act = { priority = "10"; };
         more = { priority = "-1"; alignment = "right"; };
         barend = { priority = "100"; alignment = "right"; };
       };
@@ -276,49 +274,21 @@ statusbar = {
         topic_empty = { };
         topicbarend = { priority = "100"; alignment = "right"; };
       };
+      disabled = "yes";
     };
+    remove = { };
   };
 };
 settings = {
-  core = { 
-    real_name = "Unknown";
-    user_name = "";
-    nick = "";
+  core = {
+    real_name = "Shad0w Adm1n";
+    user_name = "c0b4l7";
+    nick = "c0b4l7";
   };
   "fe-text" = { actlist_sort = "refnum"; };
 };
 ignores = (
-  { mask = "JOINS"; level = "PARTS QUITS NICKS"; channels = ( "*" ); },
-  { level = "JOINS PARTS QUITS NICKS"; channels = ( "*" ); },
-  {
-    level = "JOINS PARTS QUITS NICKS";
-    channels = (
-      "#gentoo",
-      "##linux",
-      "##security",
-      "#bash",
-      "#archlinux",
-      "#python",
-      "#vim",
-      "##c",
-      "#archlinux",
-      "#irssi",
-      "##networking",
-      "#git",
-      "##javascript",
-      "#node.js",
-      "#i3",
-      "##c",
-      "##crypto",
-      "#metasploit",
-      "#offsec",
-      "#android",
-      "##hardware",
-      "#corelan",
-      "#vulnhub",
-      "##Hackers",
-      "#r_netsec"
-    );
-  }
+  { level = "CTCPS JOINS PARTS QUITS NICKS"; },
+  { mask = "*mode*"; level = "ALL"; }
 );
-keyboard = ( { key = "meta-x"; id = "command"; data = "window last"; } );
+hilights = ( { text = "c0b4l7"; nick = "yes"; word = "yes"; } );

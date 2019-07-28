@@ -12,7 +12,7 @@
 #                                                  
 
 
-export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.node_modules/bin:$HOME/.local/bin:$HOME/.gem/ruby/2.6.0:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
 export WORKON_HOME=$HOME/Code/Python
 export VISUAL=vim
@@ -22,6 +22,9 @@ export RTV_BROWSER=w3m
 export XDG_CONFIG_HOME="$HOME/.config"
 export MSF_DATABASE_CONFIG="$HOME/.msf4/database.yml"
 export _JAVA_AWT_WM_NONREPARENTING=1
+export RUBYOPT="rubygems"
+export PROJECT_HOME=$HOME/Code/Python
+export npm_config_prefix=$HOME/.node_modules
 
 source virtualenvwrapper.sh
 source ~/.git-prompt.sh
@@ -98,9 +101,15 @@ fi
 #-----------------------------------------------------------------------
 
 export LESS_TERMCAP_mb=$'\e[0;33m'
-export LESS_TERMCAP_md=$'\e[0;35m'
+export LESS_TERMCAP_md=$'\e[0;36m'
 export LESS_TERMCAP_me=$'\e[0m'
 export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[0;34;32m'
 export LESS_TERMCAP_ue=$'\e[0m'
-export LESS_TERMCAP_us=$'\e[0;36m'
+export LESS_TERMCAP_us=$'\e[0;31m'
+
+PATH="/home/mohabaks/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/mohabaks/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/mohabaks/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/mohabaks/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/mohabaks/perl5"; export PERL_MM_OPT;

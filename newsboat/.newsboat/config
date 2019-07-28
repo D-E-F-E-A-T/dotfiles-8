@@ -6,9 +6,9 @@
 #
 
 auto-reload yes
-macro y set browser "mpv %u"; open-in-browser ; set browser "w3m %u"
+macro y set browser "mpv %u"; open-in-browser ; set browser "firefox %u"
 cleanup-on-quit yes
-download-path "/home/cOb4l7/Videos/Podcasts"
+download-path "/home/mohabaks/Videos/Podcasts"
 feed-sort-order title-dec
 max-downloads 4
 notify-always yes
@@ -20,7 +20,7 @@ player mpv
 refresh-on-startup yes
 reload-time 20
 reload-threads 2
-show-read-articles no
+show-read-articles yes
 show-read-feeds no
 
 
@@ -49,8 +49,8 @@ ignore-mode "display"
 
 articlelist-format "%4i %f %D  %?T?|%-17T| ?%t"
 
-highlight feedlist    "^  *[0-9]+  *N  "                    cyan     cyan
-highlight articlelist "^  *[0-9]+  *N  "                    cyan     cyan
+highlight feedlist    "^  *[0-9]+  *N  "                    magenta  magenta
+highlight articlelist "^  *[0-9]+  *N  "                    magenta  magenta
 
 highlight article     "(^Feed:.*|^Title:.*|^Author:.*)"     red      default
 highlight article     "(^Link:.*|^Date:.*)"                 white    default
@@ -67,8 +67,8 @@ highlight article     ":.*\\(embedded flash\\)$"            magenta  default
 
 color background                                            default   default
 color listnormal                                            default   default
-color listfocus                                             default   default
-color info                                                  cyan      black
+color listfocus                                             magenta   default
+color info                                                  blue      black
 color article                                               default   default
 color listnormal_unread                                     white     default
-color listfocus_unread                                      color255  cyan   bold
+color listfocus_unread                                      color255  red   

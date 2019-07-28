@@ -130,8 +130,14 @@ super + Return
 	urxvt
 
 # program launcher
+if `xrandr -q | grep -q "HDMI2 connected"`
+then
 super + d
-	dmenu_run -nf "#a9aeb4" -sb "#B21818" -sf "#f7f7f7" -nb "#080a11" -fn "Fixed-8"
+	dmenu_run -b -p "RUN" -i -x 10 -y 10 -w 1900 -nf "#cfdceb" -sb "#cd222f" -sf "#f7f7f7" -nb "#0a0f14" -fn "Iosevka Slab-9"
+else
+super + d
+	dmenu_run -b -nf "#a9aeb4" -sb "#B21818" -sf "#f7f7f7" -nb "#080a11" -fn "Fixed-8"
+fi
 
 super + shift + d
         dmenu_extended_run 
@@ -142,11 +148,15 @@ Print
 
 # kill screencast
 super + x
-        pkill -f 'x11grab'
+        pkill -f 'x11grab' 
 
 # lockscreen
 alt + shift + x
         betterlockscreen -l -t ""
+
+# suspend
+super + alt + shift + s
+        systemctl suspend
 
 # brightness control
 XF86MonBrightnessUp
@@ -162,12 +172,28 @@ XF86AudioLowerVolume
 XF86AudioMute 
         amixer set Master toggle
 
+# Ncmpcpp Control
+super + ctrl + Left
+        mpc prev && $HOME/.config/popups/ncmpcpp/current_playing
+super + ctrl + Right
+        mpc next && $HOME/.config/popups/ncmpcpp/current_playing
+super + ctrl + Up
+        mpc play && $HOME/.config/popups/ncmpcpp/current_playing
+super + ctrl + Down
+        mpc pause
+
 # my apps shortcut
-super + ctrl + b
+super + ctrl + f
         firefox
-super + ctrl + p
+super + ctrl + c
+        chromium
+super + ctrl + b
         burpsuite
 super + ctrl + w
         wireshark
+super + ctrl + p
+        pcmanfm
+super + ctrl + m
+        maltego_custom
 super + ctrl + t
         $HOME/.config/popups/todo/todo

@@ -40,7 +40,7 @@ mpd_host = localhost
 mpd_port = 6600
 mpd_connection_timeout = 20
 ## Needed for tag editor and file operations to work.
-mpd_music_dir = /home/mohabaks/Musics
+mpd_music_dir = $HOME/Audio
 mpd_crossfade_time = 5
 ##### music visualizer #####
 ##
@@ -279,7 +279,7 @@ now_playing_suffix = $/b
 ##
 #
 #song_columns_list_format = (20)[red]{a} (4f)[green]{NE} (50)[magenta]{t|f:Title} (20)[yellow]{b} (7f)[blue]{l}
-song_columns_list_format = (50)[white]{t|f:Title} (7f)[magenta]{l}
+song_columns_list_format = (50)[white]{t|f:Title} (7f)[cyan]{l}
 #
 ##### various settings #####
 #
@@ -506,7 +506,7 @@ main_window_color = blue
 color1 = black
 color2 = red
 main_window_highlight_color = blue
-progressbar_color = 243
+progressbar_color = white
 progressbar_elapsed_color = red
 statusbar_color = blue
 alternative_ui_separator_color = black

@@ -86,7 +86,6 @@ bspc config gapless_monocle       true
 bspc rule -a Firefox desktop='^1' follow=on
 bspc rule -a Chromium desktop='^1' follow=on
 bspc rule -a Zathura desktop='^6' state=tiled follow=on
-bspc rule -a Cherrytree desktop='^6' state=tiled follow=on
 bspc rule -a Virt-manager desktop='^7' follow=on
 bspc rule -a Gimp desktop='^8' follow=on
 bspc rule -a Wireshark desktop='^8' follow=on

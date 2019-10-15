@@ -133,7 +133,7 @@ super + Return
 if `xrandr -q | grep -q "HDMI2 connected"`
 then
 super + d
-	dmenu_run -b -p "RUN" -i -x 10 -y 10 -w 1900 -nf "#cfdceb" -sb "#cd222f" -sf "#f7f7f7" -nb "#0a0f14" -fn "Iosevka Slab-9"
+	dmenu_run -b -p "RUN" -i -x 10 -y 10 -w 1900 -nf "#cfdceb" -sb "#cd222f" -sf "#f7f7f7" -nb "#0a0f14" -fn "Monofur for Powerline-11"
 else
 super + d
 	dmenu_run -b -nf "#a9aeb4" -sb "#B21818" -sf "#f7f7f7" -nb "#080a11" -fn "Fixed-8"

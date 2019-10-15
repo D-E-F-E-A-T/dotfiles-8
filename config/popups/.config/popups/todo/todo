@@ -23,7 +23,7 @@ prettyNotify(){
            do
                   (( summary_counter += 1 ))
                   # Create a message summary
-                  summary="$summary\n<span foreground='$CYAN'>${summary_counter}. </span><span foreground='$WHITE'>$line</span>"
+                  summary="$summary\n<span foreground='$CYAN'>  ${summary_counter}. </span><span foreground='$WHITE'>$line</span>"
            done < "$todofile" 
    else
            summary="<span foreground='$RED'>ERROR: </span> $<span foreground='$WHITE'>HOME/.todo file empty|notfound</span> "

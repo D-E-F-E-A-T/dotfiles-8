@@ -11,14 +11,13 @@
 
 #************** Panel ****************** 
 
-PW=1366
+PW=0
 PH=24
-PX=0
+PX=3538
 PY=0
 
 
 #*************** Fonts *****************
 
-FONT1="Tewi:size=8"
-FONT2="Siji:size=8"
-FONT3="FontAwesome:size=8"
+FONT1="Iosevka Slab:size=11"
+FONT2="Material Icons:size=13"

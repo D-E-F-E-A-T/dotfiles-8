@@ -12,7 +12,7 @@
 #                                                  
 
 
-export PATH=$HOME/.node_modules/bin:$HOME/.local/bin:$HOME/.gem/ruby/2.6.0:$PATH
+export PATH=$HOME/.node_modules/bin:$HOME/.local/bin:$HOME/.gem/ruby/2.6.0/bin:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
 export WORKON_HOME=$HOME/Code/Python
 export VISUAL=vim

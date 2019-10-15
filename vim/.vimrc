@@ -10,12 +10,14 @@
 "                         ░   ░         ░      ░     ░ ░      
 "                        ░                           ░        
 
-" Vundle Set tings{{{ 
+" Vundle Settings {{{ 
+
 "" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 "" let Vundle manage Vundle, required
+"" Random Plugins
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
@@ -51,37 +53,21 @@ Plugin 'iamcco/markdown-preview.vim'
 Plugin 'dylanaraps/wal.vim'
 Plugin 'whatyouhide/vim-gotham'
 Plugin 'altercation/vim-colors-solarized'
-"Plugin 'lilydjwg/colorizer'
+Plugin 'lilydjwg/colorizer'
 Plugin 'morhetz/gruvbox'
 
 call vundle#end()       
 filetype plugin indent on  
 
 "}}}  
-
-
-"  Set Colorscheme and Statusline{{{
+"  Set Colorscheme and Statusline {{{
 set background=dark
-colorscheme bleh
-
-"let g:gruvbox_contrast_dark = 'hard'
-
-"" Status line
-set laststatus=0
-set t_Co=256
-" let g:lightline = {
-"       \ 'colorscheme': 'gotham',
-"      \ }      
- "}}} 
-
-" UI Config {{{ 
-"" These are options that changes random visuals in Vim
+colorscheme wal
+"}}} 
+" Misc Settings {{{ 
 syntax on
 filetype on
-"set number                       " show line numbers
 set encoding=utf-8
-set noshowmode                   " Hide UI
-"set showcmd                      " show command in bottom bar
 set tw=79                        " width of document (used by gd)
 set nowrap                       " don't automatically wrap on load
 set smartindent
@@ -90,7 +76,6 @@ set visualbell                   " don't beep
 set noerrorbells                 " don't beep
 set autowrite                    " Save on buffer switch
 set mouse+=a
-set encoding=utf-8
 set cursorline                   " highlight current line
 set lazyredraw                   " redraw only when we need to
 set showmatch                    " highlight matching [{()}]
@@ -98,16 +83,9 @@ set autoindent
 set expandtab
 set splitbelow
 set splitright
-"set spell                        " Turn on spell checker
-"set spellsuggest=5               " Limit the number of suggested words
-"}}} 
-
-
-" Spaces & Tabs{ {{
-"set tabstop=4             " number of visual spaces per TAB
-"set softtabstop=4         " number of spaces in tab when editing
-"set expandtab             " tabs are spaces
-set  backspace=indent,eol,start
+set backspace=indent,eol,start
+"}}}  
+" Tabs Settings {{{
 
 " Go to tab by number
 noremap <leader>1 1gt
@@ -126,15 +104,7 @@ au TabLeave * let g:lasttab = tabpagenr()
 nnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
 vnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
 "}}}
-
-
-" System clipboar d{{{
-""cut/copy/paste to/from other application
-set clipboard=unnamed     " access your system clipboard
-"}}}
-
-
-" Split Layouts{{{
+" Split Layouts {{{
 ""specify different areas of the screen
 set splitbelow
 set splitright
@@ -144,18 +114,15 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 "}}}
-
-
-" Searching{{{ 
+" Searching {{{ 
 set incsearch             " search as characters are entered
 set hlsearch              " highight matches
 
 "" turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR> 
 "}}} 
-
-
-"" Code Folding
+" Code Block Settings {{{
+"Code Folding 
 set foldmethod=indent
 set foldlevelstart=10     " open most folds by default
 set foldlevel=99
@@ -164,41 +131,43 @@ set foldnestmax=10        " 10 nested fold max
 "" space open/closes folds
 nnoremap <space> za
 set foldmethod=indent     " fold based on indent level
-"}}} 
 
-
-"  Movement{{{ 
+""  Moving Code Blocks
 "" easier moving of code blocks
 "" Try to go into visual mode (v), thenselect several lines of code here and
 "" then press ``>`` several times.
 vnoremap < <gv              " better indentation
 vnoremap > >gv              " better indentation
-"}}
-
-
-" Leader Shortcuts and Short cuts{{{
-let mapleader=","           " leader is comma
+"" Commenting blocks of code
+autocmd FileType c,cpp,java,scala let b:comment_leader = '// '
+autocmd FileType sh,ruby,python   let b:comment_leader = '# '
+autocmd FileType conf,fstab       let b:comment_leader = '# '
+autocmd FileType tex              let b:comment_leader = '% '
+autocmd FileType mail             let b:comment_leader = '> '
+autocmd FileType vim              let b:comment_leader = '" '
+noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
+noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
+"}}}
+" Vim Shortcut {{{
+"" Leader
+let mapleader=","
 
 "" jk is escape
 inoremap jk <esc>
 
-"" quicksave command
+"" Quicksave command
 noremap  <C-Z> :update<CR>
 vnoremap <C-Z> <C-C>:update<CR>
 inoremap <C-Z> <C-O>:update<CR>
 "}}}
-
-
-" CtrlP settings{{{ 
+" CtrlP settings {{{ 
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 "}}}
-
-
-" File Browsing{{{ 
+" File Browsing {{{ 
 "" Open NERDTree when no files are specified
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -208,9 +177,7 @@ let NERDTreeIgnore=['\.pyc$', '\~$']
 "" hide .pyc files
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 "}}}
-
-
-" Buffer Navigation{{{ 
+" Buffer Navigation {{{ 
 "" Ctrl Left/h & Right/l cycle between buffers
 noremap <silent> <C-left> :bprev<CR>
 noremap <silent> <C-h> :bprev<CR>
@@ -223,48 +190,25 @@ nnoremap <silent> <Leader>q :Bclose<CR>
 "" <Leader>Q Closes the current window
 nnoremap <silent> <Leader>Q <C-w>c
 "}}}
-
-
-" Commenting blocks of code{{{
-autocmd FileType c,cpp,java,scala let b:comment_leader = '// '
-autocmd FileType sh,ruby,python   let b:comment_leader = '# '
-autocmd FileType conf,fstab       let b:comment_leader = '# '
-autocmd FileType tex              let b:comment_leader = '% '
-autocmd FileType mail             let b:comment_leader = '> '
-autocmd FileType vim              let b:comment_leader = '" '
-noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
-noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
-"}}}
-
-
-" Backups{{{
+" Backups Settings {{{
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
 "}}} 
-
-
-" Git  Integration{{{
+" Git Integration {{{
 
 
 "}}}
-"
-" Lively Previewing LaTeX PDF Output{{{
-
+" Lively Previewing LaTeX PDF Output {{{
 let g:livepreview_previewer = 'zathura'
-
 "}}}
-
-
 " Match Valid Ip A ddress {{{
 syn match ipaddr /\(\(25\_[0-5]\|2\_[0-4]\_[0-9]\|\_[01]\?\_[0-9]\_[0-9]\?\)\.\)\{3\}\(25\_[0-5]\|2\_[0-4]\_[0-9]\|\_[01]\?\_[0-9]\_[0-9]\?\)/
 hi link ipaddr Identifier
-
 "}}}
-
-"  PEP8 {{{
+"  PEP8 Settings {{{
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
@@ -279,15 +223,13 @@ au BufNewFile,BufRead *.js,*.html,*.css
     \ set softtabstop=2 |
     \ set shiftwidth=2 |
 "}}}
-
-
-" Vim-Notes {{{
+" Vim-Notes Settings {{{
   let g:notes_directories = ['~/Documents/Notes']
 "}}}
-
+" Easytags Settings {{{
 let g:easytags_suppress_ctags_warning = 1
-
-" Python/Django  IDE Setup{{{
+"}}}
+" Vim IDE Settings {{{
 "" enable all Python syntax highlighting feautures
 let python_highlight_all = 1
 
@@ -328,16 +270,10 @@ let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
 let g:UltiSnipsListSnippets        = "<c-k>"
 
-" Java IDE Settings{{{
-
+"" Java IDE Settings
 let g:EclimCompletionMethod = 'omnifunc'
- 
 "}}}
-
-" Enabling transpacency for gruvbox
-"hi NonText ctermbg=NONE 
-"hi Normal guibg=NONE ctermbg=NONE
-
-" Organization{{{
+" Organization {{{
 set modelines=1
+"}}}
 " vim:foldmethod=marker:foldlevel=0

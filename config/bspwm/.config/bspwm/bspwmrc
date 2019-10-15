@@ -23,12 +23,14 @@ then
         # Monitor & Destop Settings
         # 
 
-        bspc monitor HDMI1 -d    
-        bspc monitor HDMI2 -d     ା 
+        # bspc monitor HDMI1 -d    
+        # bspc monitor HDMI2 -d      
+        bspc monitor HDMI1 -d    
+        bspc monitor HDMI2 -d      
         bspc config -m HDMI2 window_gap           10
-        bspc config -m HDMI2 border_width         4
+        bspc config -m HDMI2 border_width         5
         bspc config -m HDMI1 window_gap           10
-        bspc config -m HDMI1 border_width         4
+        bspc config -m HDMI1 border_width         5
 
         #
         # Global Settings
@@ -83,7 +85,7 @@ bspc config gapless_monocle       true
 #
 
 # start apps in specific workspace
-bspc rule -a Firefox desktop='^1' follow=on
+bspc rule -a firefox desktop='^1' follow=on
 bspc rule -a Chromium desktop='^1' follow=on
 bspc rule -a Zathura desktop='^6' state=tiled follow=on
 bspc rule -a Virt-manager desktop='^7' follow=on

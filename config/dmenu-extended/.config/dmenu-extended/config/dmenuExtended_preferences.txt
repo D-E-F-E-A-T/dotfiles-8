@@ -19,7 +19,6 @@
     "indicator_submenu": "->",
     "menu": "dmenu",
     "menu_arguments": [
-<<<<<<< HEAD
         "-b",
         "-i",
         "-nf",
@@ -32,19 +31,6 @@
         "#1D1F21",
         "-fn",
         "terminus",
-=======
-        "-i",
-        "-nf",
-        "#B2B2B2",
-        "-nb",
-        "#000000",
-        "-sf",
-        "#FFFFFF",
-        "-sb",
-        "#18B2B2",
-        "-fn",
-        "lucy tewi",
->>>>>>> Minimal_Dark_Rice
         "-l",
         "20"
     ],
@@ -53,15 +39,7 @@
         "--password",
         "--title={prompt}"
     ],
-<<<<<<< HEAD
     "path_aliasFile": "",
-=======
-<<<<<<< HEAD
-    "path_aliasFile": "/home/cOb4l7/.alias",
-=======
-    "path_aliasFile": "/home/mohabaks/.alias",
->>>>>>> e8726e7fd6bb604477ad412dd8a242cb77680bc0
->>>>>>> Minimal_Dark_Rice
     "path_shellCommand": "~/.dmenuEextended_shellCommand.sh",
     "prompt": "Open:",
     "scan_hidden_folders": false,
@@ -70,10 +48,6 @@
         "py",
         "svg",
         "pdf",
-<<<<<<< HEAD
-=======
-        "epub",
->>>>>>> Minimal_Dark_Rice
         "txt",
         "png",
         "jpg",
@@ -85,50 +59,23 @@
         "avi",
         "mpg",
         "mp3",
-<<<<<<< HEAD
-=======
         "mp4",
->>>>>>> Minimal_Dark_Rice
-        "lyx",
-        "bib",
-        "iso",
-        "ps",
-        "zip",
-        "xcf",
-        "doc",
-        "docxxls",
-        "xlsx",
-        "md",
-<<<<<<< HEAD
-        "html",
-        "sublime-project"
     ],
     "watch_folders": [
         "~/"
     ],
     "webbrowser": "xdg-open"
 }
-=======
         "html"
     ],
     "watch_folders": [
-<<<<<<< HEAD
         "/home/cOb4l7/Documents/Tech",
         "/home/cOb4l7/Videos/Tech",
         "/home/cOb4l7/Videos/Misc",
         "/home/cOb4l7/Videos/Islam",
         "/home/cOb4l7/Pictures",
         "/home/cOb4l7/Downloads"
-=======
-        "/home/mohabaks/Documents/Tech",
-        "/home/mohabaks/Videos/Tech",
-        "/home/mohabaks/Videos/Misc",
-        "/home/mohabaks/Videos/Islam",
-        "/home/mohabaks/Pictures",
-        "/home/mohabaks/Downloads"
->>>>>>> e8726e7fd6bb604477ad412dd8a242cb77680bc0
 
     ],
     "webbrowser": "xdg-open"
 }
->>>>>>> Minimal_Dark_Rice

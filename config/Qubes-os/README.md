@@ -83,6 +83,15 @@ exec --no-startup-id $HOME/.local/bin/barstart
  
  Screenshots
 ------------
+
+`Current: bspwm`
+
+![clean](https://imgur.com/yApzFMO.png)
+
+![busy](https://imgur.com/J7bY4bc.png)
+
+`Previous: i3`
+
 ![rxvt,polybar,i3](https://i.imgur.com/2BVETGf.png)
 
 ![rofi](https://i.imgur.com/h31yTlf.png)

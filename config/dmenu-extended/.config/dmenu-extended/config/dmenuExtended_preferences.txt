@@ -69,12 +69,12 @@
         "html"
     ],
     "watch_folders": [
-        "/home/cOb4l7/Documents/Tech",
-        "/home/cOb4l7/Videos/Tech",
-        "/home/cOb4l7/Videos/Misc",
-        "/home/cOb4l7/Videos/Islam",
-        "/home/cOb4l7/Pictures",
-        "/home/cOb4l7/Downloads"
+        "/home/mohabaks/Documents/Tech",
+        "/home/mohabaks/Videos/Tech",
+        "/home/mohabaks/Videos/Misc",
+        "/home/mohabaks/Videos/Islam",
+        "/home/mohabaks/Pictures",
+        "/home/mohabaks/Downloads"
 
     ],
     "webbrowser": "xdg-open"

@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Author: https://github.com/cOb4l7
+# Author: https://github.com/mohabaks
 # Date: Wed 15 May 2018
-# Description: A simple script to install https://github.com/cOb4l7/dotfiles
+# Description: A simple script to install https://github.com/mohabaks/dotfiles
 # Dependecies: stow (GNU Stow) version 2.2.2 or above.
 #
 
@@ -29,7 +29,7 @@ echo -e "|  _  ||  _  ||   _|__ --|   _||  ||  __|  -__|   _|"
 echo -e "|_____||_____||____|_____|__|  |__||____|_____|__|  "
 echo -e "$CLC"
 
-echo -e "$BLUE      https://github.com/cOb4l7/dotfiles $CLC\n"
+echo -e "$BLUE      https://github.com/mohabaks/dotfiles $CLC\n"
 }
 
 ## User menu

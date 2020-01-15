@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: https://github.com/cOb4l7
+# Author: https://github.com/mohabaks
 # Description: A simple script to switch between dark and light mode. I
 #              maintain two branches using git master(light) and hackish(dark) so this
 #              script simply switch between those to branches. There might be

@@ -98,9 +98,9 @@ exec --no-startup-id $HOME/.local/bin/barstart
 
 [Qubes OS]: https://www.qubes-os.org/
 [i3]: https://i3wm.org/
-[barstart]:https://github.com/cOb4l7/dotfiles/blob/master/local/.local/bin/barstart
+[barstart]:https://github.com/mohabaks/dotfiles/blob/master/local/.local/bin/barstart
 [rofi]: https://github.com/DaveDavenport/rofi
 [Polybar]: https://github.com/jaagr/polybar
 [bitmap]: https://github.com/Tecate/bitmap-fonts
 [siji]:https://github.com/stark/siji
-[here]:https://github.com/cOb4l7/dotfiles/tree/master/config/Qubes-os/i3-settings-qubes
+[here]:https://github.com/mohabaks/dotfiles/tree/master/config/Qubes-os/i3-settings-qubes

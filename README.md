@@ -64,7 +64,7 @@ Workflow
 
 `laptop (off)` + `2 monitor`
 
-![workflow](https://github.com/cOb4l7/dotfiles/blob/master/workflow.gif)
+![workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
 
 Contact
 -------

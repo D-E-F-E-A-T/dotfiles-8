@@ -14,8 +14,7 @@
 Introduction
 ------------
 
-This repo contains my daily used config/script for my workstation/laptop. These
-dots mainly comprises of:
+This repo contains my daily used config/script for my workstation/laptop.
 
 |**Apps**   | **Configs**  |
 |:-:|---|

@@ -1,38 +1,56 @@
 ```
+		    .___      __    _____.__.__                 
+		  __| _/_____/  |__/ ____\__|  |   ____   ______
+		 / __ |/  _ \   __\   __\|  |  | _/ __ \ /  ___/
+		/ /_/ (  <_> )  |  |  |  |  |  |_\  ___/ \___ \ 
+		\____ |\____/|__|  |__|  |__|____/\___  >____  >
+		     \/                               \/     \/ 
 
-Welcome To My:
-                 ______   _______ _________ _______ _________ _        _______  _______
-                (  __  \ (  ___  )\__   __/(  ____ \\__   __/( \      (  ____ \(  ____ \
-                | (  \  )| (   ) |   ) (   | (    \/   ) (   | (      | (    \/| (    \/
-                | |   ) || |   | |   | |   | (__       | |   | |      | (__    | (_____
-                | |   | || |   | |   | |   |  __)      | |   | |      |  __)   (_____  )
-                | |   ) || |   | |   | |   | (         | |   | |      | (            ) |
-                | (__/  )| (___) |   | |   | )      ___) (___| (____/\| (____/\/\____) |
-                (______/ (_______)   )_(   |/       \_______/(_______/(_______/\_______)
+			   Welcome To My Dotfiles
+			   ----------------------
+          
+             EVERYONE IS PERMITTED TO COPY/MODIFY THESE CONFIGS/SCRIPTS.
 
 ```
 
 
-Setup Description
------------------
-```
-System Information
-	Manufacturer: LENOVO
-	Family: ThinkPad S1Yoga(2ndGen)
-CPU Information
-        Model name: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
-        Virtualization:  VT-x
-Mem Information
-        MemTotal: 8GB
-OS Information
-        Arch Linux
-Current WM
-        bspwm
-External Monitor(s)
-        DELL
-Purposes
-        Pentest and daily use
-```
+Introduction
+------------
+
+This repo contains my daily used config/script for my workstation/laptop. These
+dots mainly comprises of:
+
++ **Window Manager**
+	+  `i3/i3-gaps` `dwm` `bspwm`
++ **Terminal Emulator/Terminal Multiplexer**
+	+ `rxvt-unicode` `st` `tmux`
++ **IRC clients**
+	+ `irssi` `weechat`
++ **RSS feedreader**
+	+ `newsboat`
++ **Browser**
+	+ `firefox` `luakit` `qutebrowser`
++ **Editor**
+	+ `vim`
++ **Compositor**
+	+ `compton`
++ **Bar**
+	+ `polybar` `lemonbar`
++ **Media Player/Music Player**
+	+ `mpv` `ncmpcpp` `mpd`
++ **Mail Client**
+	+ `mutt`
++ **File Manager**
+	+ `ranger`
++ **App Launcher**
+	+ `dmenu-extended` `rofi`
++ **PDF Reader**
+	+ `zathura`
++ **Notification-daemon**
+	+ `dunst`
++ **Qubes-OS** 
+	+ `i3/i3-gaps` `bspwm` `polybar` `rofi`
+
 
 Installation
 ------------
@@ -48,23 +66,18 @@ $./install
 Above script give you options whether to install all the configs or a
 specific config.
 
-Screenshots
+
+Screenshot
 ----------
 
-`laptop (No Monitors)`
-
-![dark](https://imgur.com/h1wLZqX.png)
-
-`laptop (off)` + `2 monitor`
-
 ![2dark](https://i.imgur.com/0KeEiZK.png)
+
 
 Workflow
 --------
 
-`laptop (off)` + `2 monitor`
-
 ![workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
+
 
 Contact
 -------

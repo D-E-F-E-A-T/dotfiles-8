@@ -1,15 +1,12 @@
 ```
-		    .___      __    _____.__.__                 
-		  __| _/_____/  |__/ ____\__|  |   ____   ______
-		 / __ |/  _ \   __\   __\|  |  | _/ __ \ /  ___/
-		/ /_/ (  <_> )  |  |  |  |  |  |_\  ___/ \___ \ 
-		\____ |\____/|__|  |__|  |__|____/\___  >____  >
-		     \/                               \/     \/ 
+			    .___      __    _____.__.__                 
+			  __| _/_____/  |__/ ____\__|  |   ____   ______
+			 / __ |/  _ \   __\   __\|  |  | _/ __ \ /  ___/
+			/ /_/ (  <_> )  |  |  |  |  |  |_\  ___/ \___ \ 
+			\____ |\____/|__|  |__|  |__|____/\___  >____  >
+			     \/                               \/     \/ 
 
-			   Welcome To My Dotfiles
-			   ----------------------
-          
-             EVERYONE IS PERMITTED TO COPY/MODIFY THESE CONFIGS/SCRIPTS.
+				   Welcome To My Dotfiles
 
 ```
 
@@ -20,36 +17,22 @@ Introduction
 This repo contains my daily used config/script for my workstation/laptop. These
 dots mainly comprises of:
 
-+ **Window Manager**
-	+  `i3/i3-gaps` `dwm` `bspwm`
-+ **Terminal Emulator/Terminal Multiplexer**
-	+ `rxvt-unicode` `st` `tmux`
-+ **IRC clients**
-	+ `irssi` `weechat`
-+ **RSS feedreader**
-	+ `newsboat`
-+ **Browser**
-	+ `firefox` `luakit` `qutebrowser`
-+ **Editor**
-	+ `vim`
-+ **Compositor**
-	+ `compton`
-+ **Bar**
-	+ `polybar` `lemonbar`
-+ **Media Player/Music Player**
-	+ `mpv` `ncmpcpp` `mpd`
-+ **Mail Client**
-	+ `mutt`
-+ **File Manager**
-	+ `ranger`
-+ **App Launcher**
-	+ `dmenu-extended` `rofi`
-+ **PDF Reader**
-	+ `zathura`
-+ **Notification-daemon**
-	+ `dunst`
-+ **Qubes-OS** 
-	+ `i3/i3-gaps` `bspwm` `polybar` `rofi`
+|**Apps**   | **Configs**  |
+|:-:|---|
+| Window Manager  | `i3/i3-gaps` `dwm` `bspwm` |
+| Terminal Emulator/Multiplexer  | `rxvt-unicode` `st` `tmux` |
+| IRC clients  | `irssi` `weechat` |
+| RSS feedreader  | `newsboat` |
+| Browser  | `firefox` `luakit` `qutebrowser` |
+| Editor  |  `vim` |
+| Compositor  | `compton` |
+| Bar  | `polybar` `lemonbar` |
+| Media/Music Player  | `mpv` `ncmpcpp` `mpd` |
+| File Manager  | `ranger` |
+| App Launcher  | `dmenu-extended` `rofi` |
+| PDF Reader  | `zathura` |
+| Notification-daemon  | `dunst` |
+| Qubes-OS |`i3/i3-gaps` `bspwm` `polybar` `rofi` |
 
 
 Installation

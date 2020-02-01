@@ -64,6 +64,6 @@ Workflow
 Contact
 -------
 
-Having issues with the configs DM `RGlzY29yZDogYzBiNGw3IzA4MzUK`
+Having issues with the configs DM `bW9oYWJha3MjMDgzNQo=`
 
 [GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

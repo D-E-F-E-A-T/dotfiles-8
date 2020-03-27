@@ -86,7 +86,7 @@ exec --no-startup-id $HOME/.local/bin/barstart
 
 `Current: bspwm`
 
-![busy](https://i.redd.it/2zce7jfysjb41.png)
+![busy](https://i.redd.it/63p44yk5xkn41.png)
 
 `Previous: i3`
 

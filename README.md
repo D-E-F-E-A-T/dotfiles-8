@@ -52,6 +52,8 @@ specific config.
 Screenshot
 ----------
 
+![quarantineQubes](https://imgur.com/1h7R65C.png)
+
 ![2dark](https://i.imgur.com/0KeEiZK.png)
 
 

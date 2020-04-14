@@ -11,8 +11,8 @@
 ```
 
 
-Introduction
-------------
+Overview
+--------
 
 This repo contains config/script for my workstation/laptop.
 
@@ -34,38 +34,15 @@ This repo contains config/script for my workstation/laptop.
 | Qubes-OS |`i3/i3-gaps` `bspwm` `polybar` `rofi` |
 
 
-Installation
-------------
-
-Make sure you have [GNU stow] installed;then run the `install` script.
-
-```bash
-
-$./install
-
-```
-
-Above script give you options whether to install all the configs or a
-specific config.
-
-
 Screenshot
-----------
+-----------
 
-![quarantineQubes](https://imgur.com/1h7R65C.png)
+`Current: [bspwm] Qubes-OS`
 
-![2dark](https://i.imgur.com/0KeEiZK.png)
-
-
-Workflow
---------
-
-![workflow](https://github.com/mohabaks/dotfiles/blob/master/workflow.gif)
+![busy](https://i.redd.it/63p44yk5xkn41.png)
 
 
 Contact
 -------
 
 Having issues with the configs DM `bW9oYWJha3MjMDgzNQo=`
-
-[GNU stow]: https://www.gnu.org/s/stow/manual/stow.html

@@ -43,7 +43,7 @@ Screenshots
 
 `Previously`
 
-![minimal]([Imgur](https://imgur.com/v4uC2Ch.png)
+![minimal](https://imgur.com/v4uC2Ch.png)
 
 Contact
 -------

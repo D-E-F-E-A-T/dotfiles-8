@@ -34,13 +34,16 @@ This repo contains config/script for my workstation/laptop.
 | Qubes-OS |`i3/i3-gaps` `bspwm` `polybar` `rofi` |
 
 
-Screenshot
+Screenshots
 -----------
 
-`Current: [bspwm] Qubes-OS`
+`Currently`
 
-![busy](https://i.redd.it/63p44yk5xkn41.png)
+![quarantine](https://i.redd.it/63p44yk5xkn41.png)
 
+`Previously`
+
+![minimal](https://imgur.com/CBKcjhk.png)
 
 Contact
 -------

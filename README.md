@@ -43,7 +43,9 @@ Screenshots
 
 `Previously`
 
-![minimal](https://imgur.com/v4uC2Ch.png)
+![minimal01](https://imgur.com/v4uC2Ch.png)
+
+![minimal00](https://imgur.com/xgSSbLt)
 
 Contact
 -------

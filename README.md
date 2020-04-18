@@ -45,6 +45,8 @@ Screenshots
 
 ![minimal01](https://imgur.com/v4uC2Ch.png)
 
+![minimal00](https://imgur.com/f6i86lC.png)
+
 Contact
 -------
 

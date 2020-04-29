@@ -38,10 +38,11 @@ Screenshots
 -----------
 
 `Currently`
-
-![quarantine](https://i.redd.it/63p44yk5xkn41.png)
+![Megacity](https://i.redd.it/lh45zb6njrv41.png)
 
 `Previously`
+
+![quarantine](https://i.redd.it/63p44yk5xkn41.png)
 
 ![minimal01](https://imgur.com/v4uC2Ch.png)
 

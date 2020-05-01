@@ -38,7 +38,7 @@ Screenshots
 -----------
 
 `Currently`
-![Megacity](https://i.redd.it/lh45zb6njrv41.png)
+![gruvbox](https://imgur.com/YTLyHnn.png)
 
 `Previously`
 

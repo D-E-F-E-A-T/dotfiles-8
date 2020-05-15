@@ -19,7 +19,7 @@ cat <<EOF
 # ░                                                                       ░        
 #  
 
-set font                        "Cantarell 8"
+set font                        "Iosevka 9"
 set default-bg                  "$BG" #00
 set default-fg                  "$FG" #01
 

@@ -1,3 +1,4 @@
+#
 #                                                          
 #     █                    █                   
 #     █                    █                   
@@ -11,10 +12,8 @@
 #     █▓██   ▒██▒█  ▒███▒  █   █   █      ▓██▒ 
 #                                                  
 
-
-export PATH=$HOME/.node_modules/bin:$HOME/.local/bin:$HOME/.gem/ruby/2.6.0/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/.rvm/bin:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
-export WORKON_HOME=$HOME/Code/Python
 export VISUAL=vim
 export EDITOR=vim
 export BROWSER=firefox
@@ -23,14 +22,15 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export MSF_DATABASE_CONFIG="$HOME/.msf4/database.yml"
 export _JAVA_AWT_WM_NONREPARENTING=1
 export RUBYOPT="rubygems"
-export PROJECT_HOME=$HOME/Code/Python
-export npm_config_prefix=$HOME/.node_modules
 
-source virtualenvwrapper.sh
 source ~/.git-prompt.sh
+source $HOME/.rvm/scripts/rvm
+source "$HOME/.rvm/scripts/completion"
+source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
 
 
 #-----------------------------------------------------------------------
@@ -73,10 +73,7 @@ bakcyn='\e[46m'   # Cyan
 bakwht='\e[47m'   # White
 txtrst='\e[0m'    # Text Reset
 
-PS1='\[\e[0;31m\]┌─\e[0m\e[34m[\[\e[0m\e[0;32m\] \w\[\e[0m\] \e[34m]\e[0m $(__git_ps1 "\[\e[0;35m\]@\[\e[0m\]\[\e[0;36m\]\[\e[5m \]%s\[\e[25m\]\[\e[0m\]")\n└─>\[\e[0m\] '
-#PS1='\[\e[0;31m\]────── \[\e[0;32m\]\W\[\e[0m\] $(__git_ps1 "\[\e[0;33m\]at\[\e[0m\] \[\e[0;34m\]%s\[\e[0m\]") '
-#PS1='\[\e[0;31m\]$ \[\e[0;32m\]\W\[\e[0m\] $(__git_ps1 "\[\e[1;37m\]@\[\e[0m\] \[\e[0;36m\]%s\[\e[0m\]") '
-
+PS1="\[\033[0;31m\]\342\224\214\342\224\200\$([[ \$? != 0 ]] && echo \"[\[\033[0;31m\]\342\234\227\[\033[0;37m\]]\342\224\200\")[$(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]root\[\033[01;33m\]@\[\033[01;96m\]\h'; else echo '\[\033[0;39m\]\u\[\033[01;33m\]@\[\033[01;96m\]\h'; fi)\[\033[0;31m\]]\342\224\200[\[\033[0;32m\]\w\[\033[0;31m\]]\n\[\033[0;31m\]\342\224\224\342\224\200\342\224\200\342\225\274 \[\033[0m\]\[\e[01;33m\]\\$\[\e[0m\] "
 #-----------------------------------------------------------------------
 #                                           
 #                           ALIASES
@@ -101,7 +98,7 @@ fi
 #-----------------------------------------------------------------------
 
 export LESS_TERMCAP_mb=$'\e[0;33m'
-export LESS_TERMCAP_md=$'\e[0;36m'
+export LESS_TERMCAP_md=$'\e[0;34m'
 export LESS_TERMCAP_me=$'\e[0m'
 export LESS_TERMCAP_se=$'\e[0m'
 export LESS_TERMCAP_so=$'\e[0;34;32m'

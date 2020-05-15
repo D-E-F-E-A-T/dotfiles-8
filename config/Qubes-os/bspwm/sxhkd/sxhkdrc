@@ -7,8 +7,8 @@ super + Return
 	urxvt
 
 # program launcher
-super + @space
-	rofi -theme-str 'element-icon \{ size: 2.8ch;\}' -show drun
+super + @space 
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -128,3 +128,15 @@ super + {Left,Down,Up,Right}
 # screenshot with scrot
 Print
 	scrot -e 'mv $f ~/Pictures/screenshots'
+
+# Lockscreen
+ctrl + super + alt + l
+        betterlockscreen -l dim
+
+# Suspend and lockscreen
+ctrl + super + alt + s
+        betterlockscreen -s blur
+
+# Todo 
+ctrl + super + alt + t
+        $HOME/.config/popups/todo/todo

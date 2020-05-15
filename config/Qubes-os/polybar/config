@@ -14,7 +14,7 @@
 [colors]
 ; Base colors from .Xresources
 bg          =  ${xrdb:background}
-bg-alt      =  ${xrdb:color0}
+bg-alt      =  #202020
 fg          =  ${xrdb:foreground}
 fg-alt      =  ${xrdb:color8}
 red         =  ${xrdb:color1}
@@ -32,6 +32,7 @@ cyan-alt    =  ${xrdb:color14}
 white       =  ${xrdb:color7}
 white-alt   =  ${xrdb:color15}
 
+
 ;**********************************************************
 ;
 ;                       GLOBAL WM SETTINGS
@@ -46,88 +47,41 @@ margin-bottom = 0
 ;                       BAR SETTINGS
 ;
 ;********************************************************
-
-[bar/right]
-monitor   = ${env:MONITOR:HDMI2}
-bottom    = false
-width     = 98.5%
-height    = 25
-offset-x  = 15
-offset-y  = 8
-override-redirect = true
-
-background = ${colors.bg}
-foreground = ${colors.fg}
-
-border-bottom-size = 4
-border-bottom-color = ${colors.bg-alt}
-border-top-size = 4
-border-top-color = ${colors.bg-alt}
-border-right-size = 4
-border-right-color = ${colors.bg-alt}
-border-left-size = 4
-border-left-color = ${colors.bg-alt}
-
-spacing = 0
-padding-left = 0
-padding-right = 0
-module-margin-left = 0
-module-margin-right = 0
-
-font-0 = Iosevka Slab:pixelsize=11;4
-font-1 = Font Awesome 5 Free:style=Solid:size=13;4
-font-2 = Font Awesome 5 Brands:style=Solid:size=13;4
-font-3 = Material Icons:style=Solid:size=14;5
-
-tray-position = none
-tray-padding = 0
-tray-transparent = true
-tray-background = ${colors.bg}
-
-modules-left = i3
-modules-center = temp memory cpu qubes disk
-modules-right = date bat
-
-[bar/left]
-monitor   = ${env:MONITOR:HDMI1}
-bottom    = false
-width     = 98.5%
-height    = 25
-offset-x  = 15
-offset-y  = 8
-override-redirect = true
+[bar/mybar]
+monitor   = ${env:MONITOR:eDP1}
+bottom    = true
+width     = 100%
+height    = 15
+offset-x  = 0
+offset-y  = 0
+override-redirect = false
 
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-border-bottom-size = 4
-border-bottom-color = ${colors.bg-alt}
-border-top-size = 4
-border-top-color = ${colors.bg-alt}
-border-right-size = 4
-border-right-color = ${colors.bg-alt}
-border-left-size = 4
-border-left-color = ${colors.bg-alt}
+border-bottom-size = 5
+border-bottom-color = ${colors.bg}
+border-top-size = 5
+border-top-color = ${colors.bg}
 
 spacing = 0
-padding-left = 0
-padding-right = 0
+padding-left = 1
+padding-right = 1
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Iosevka Slab:pixelsize=11;4
-font-1 = Font Awesome 5 Free:style=Solid:size=13;4
-font-2 = Font Awesome 5 Brands:style=Solid:size=13;4
-font-3 = Material Icons:style=Solid:size=14;5
+font-0 = Fixed:pixelsize=8;3
+font-1 = Siji:pixelsize=8;3
+;font-1 = Material Icons:antialia=false:size=11;4
 
-tray-position = right
+tray-position =
 tray-padding = 1
 tray-transparent = true
-tray-background = ${colors.bg}
+tray-background = #000000
 
-modules-left = i3
-modules-center = xwindow
-modules-right =
+modules-left = bspwm
+modules-center = temperature cpu memory
+modules-right = date battery
 
 ;**********************************************************
 ;
@@ -135,67 +89,46 @@ modules-right =
 ;
 ;**********************************************************
 
-[module/i3]
-type = internal/i3
+[module/bspwm]
+type = internal/bspwm
 
-pin-workspaces = true
-index-sort = true
-strip-wsnumbers = true
+;strip-wsnumbers = true
 
-label-focused = "%{T4} %name%%{T-}"
+label-focused = " "
 label-focused-foreground = ${colors.red}
 ;label-focused-background = ${colors.magenta}
 label-focused-padding = 0
 
-label-visible ="%{T4} %name%%{T-}"
-label-visible-padding = 0
-label-visible-foreground = ${colors.fg}
+label-occupied = " "
+label-occupied-padding = 0
+label-occupied-foreground = ${colors.fg}
 ;label-occupied-background = ${colors.bg-alt}
 
-label-urgent = "%{T4} %name%%{T-}"
+label-urgent = " "
 label-urgent-foreground = ${colors.cyan}
 ;label-urgent-background = ${colors.cyan}
 label-urgent-padding = 0
 
-label-unfocused = "%{T4} %name%%{T-}"
-label-unfocused-foreground = #3e4650
-;label-unfocused-background = ${colors.bg-alt}
-label-unfocused-padding = 0
+label-empty = " "
+label-empty-foreground = #666
+;label-empty-background = ${colors.bg-alt}
+label-empty-padding = 0
 
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.magenta-alt}
-label = "%percentage%% "
+format-prefix = " "
+format-prefix-foreground = ${colors.cyan}
+label = "%percentage% "
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.cyan}
-label = "%percentage_used%% "
+format-prefix = " "
+format-prefix-foreground = ${colors.magenta}
+label = "%percentage_used% "
 
-[module/wlan]
-type = internal/network
-interface = wlp4s0
-interval = 3.0
-
-format-connected = <ramp-signal> <label-connected>
-
-label-connected = "%essid% "
-label-connected-foreground = ${colors.fg}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.fg-alt}
-
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.blue-alt}
-
-[module/bat]
+[module/battery]
 type = internal/battery
 battery = BAT0
 adapter = ADP1
@@ -206,27 +139,27 @@ format-charging = <animation-charging> <label-charging>
 format-discharging = <ramp-capacity> <label-discharging>
 
 label-full = " full "
-format-full-prefix = 
+format-full-prefix = 
 format-full-prefix-foreground = ${colors.white-alt}
 
-;format-charging-prefix = 
+;format-charging-prefix = 
 ;format-charging-prefix-foreground = ${colors.red}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.blue}
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.cyan}
 
 label-charging = "Charging %percentage%% "
 label-charging-foreground = ${colors.fg}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = ${colors.cyan}
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.red}
 animation-charging-framerate = 750
 
-[module/temp]
+[module/temperature]
 type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
@@ -234,20 +167,20 @@ warn-temperature = 60
 format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 
-label = "%temperature-c% "
-label-warn = "%temperature-c% "
+label = "%temperature% "
+label-warn = "%temperature% "
 label-warn-foreground = ${colors.red}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.green}
 
 [module/mail]
 type = custom/script
 interval = 1200
 format = " <label> "
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.red}
 exec = ~/.config/polybar/mail
 exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
@@ -256,51 +189,21 @@ exec-if = "ping -q -w 2 -c 1 8.8.8.8 > /dev/null"
 type = internal/date
 interval = 5
 
-date = 
+date =
 date-alt = " %a %d %b %Y"
 
 time = " %H:%M "
-time-alt = " %H:%M:%S "
+time-alt = " %H:%M "
 
 label = %date%%time%
 
-format-prefix = ""
-format-foreground = ${colors.fg}
+format-prefix = 
+;format-foreground = ${colors.magenta}
 format-prefix-foreground = ${colors.yellow}
-
-[module/vpn]
-type = custom/script
-interval = 1200
-format = "<label> "
-format-prefix = "%{T4}%{T-} "
-format-prefix-foreground = #ee8109
-exec = ~/.config/polybar/vpn
-
-[module/qubes]
-type = custom/script
-interval = 5
-format = "<label> "
-format-prefix = "%{T4} %{T-}"
-format-prefix-foreground = ${colors.blue}
-exec = ~/.config/polybar/status_qubes
-
-[module/disk]
-type = custom/script
-interval = 1200
-format = "<label> "
-format-prefix = "%{T4} %{T-}"
-format-prefix-foreground = ${colors.red}
-exec = ~/.config/polybar/status_disk
-
-[module/power]
-type = custom/text
-
-content = " "
-content-foreground = ${colors.red-alt}
-click-left = ~/.config/popups/power/power
 
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
 
 ; vim:ft=dosini
+

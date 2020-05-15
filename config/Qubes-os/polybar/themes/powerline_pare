@@ -14,12 +14,10 @@
 [colors]
 ; Base colors from .Xresources
 bg          =  ${xrdb:background}
-b           =  #000000
 ;bg-alt      = ${xrdb:color0}
-bg-alt      =  #243248
+bg-alt      =  #1e2f48
 fg          =  ${xrdb:foreground}
-;fg-alt      = ${xrdb:color8}
-fg-alt      =  #5c6b83
+fg-alt      = ${xrdb:color8}
 red         =  ${xrdb:color1}
 red-alt     =  ${xrdb:color9}
 green       =  ${xrdb:color2}
@@ -57,7 +55,7 @@ width     = 99%
 height    = 24
 offset-x  = 10
 offset-y  = 10
-override-redirect = false
+override-redirect = true
 
 background = ${colors.bg}
 foreground = ${colors.fg}
@@ -89,7 +87,7 @@ tray-background = ${colors.bg}
 
 modules-left = search p-menu bspwm p-wm
 modules-center = 
-modules-right = p-right-yellow wifi p-right-bm temp p-right-magenta cpu p-right-black memory p-right-blue bat
+modules-right = p-right-cyan wifi p-right-bm temp p-right-green cpu p-right-black memory p-right-blue bat
 
 [bar/left]
 monitor   = ${env:MONITOR:HDMI1}
@@ -98,7 +96,7 @@ width     = 99%
 height    = 24
 offset-x  = 10
 offset-y  = 10
-override-redirect = false
+override-redirect = true
 
 background = ${colors.bg}
 foreground = ${colors.fg}
@@ -130,7 +128,7 @@ tray-background = #10171e
 
 modules-left = search p-menu bspwm p-wm
 modules-center = 
-modules-right =  p-left-green disk p-left-black qubes p-left-cyan date
+modules-right =  p-left-green disk p-left-black mail p-left-blue date
 
 ;**********************************************************
 ;
@@ -143,22 +141,22 @@ type = internal/bspwm
 
 strip-wsnumbers = true
 
-label-focused = "%name%"
-label-focused-foreground = ${colors.red}
+label-focused = ""
+label-focused-foreground = ${colors.cyan}
 label-focused-background = ${colors.bg-alt}
 label-focused-padding = 1
 
-label-occupied = "%name%"
+label-occupied = ""
 label-occupied-padding = 1
 label-occupied-foreground = ${colors.white-alt}
 label-occupied-background = ${colors.bg-alt}
 
-label-urgent = "%nam%"
+label-urgent = ""
 label-urgent-foreground = ${colors.cyan}
 label-urgent-background = ${colors.bg-alt}
 label-urgent-padding = 1
 
-label-empty = "%name%"
+label-empty = ""
 label-empty-foreground = ${colors.fg-alt}
 label-empty-background = ${colors.bg-alt}
 label-empty-padding = 1
@@ -167,9 +165,9 @@ label-empty-padding = 1
 type = internal/cpu
 interval = 2
 format-prefix = "  "
-format-prefix-foreground = ${colors.b}
-format-foreground = ${colors.b}
-format-background = ${colors.magenta}
+format-prefix-foreground = ${colors.bg}
+format-foreground = ${colors.bg}
+format-background = ${colors.green}
 label = "%percentage%% "
 
 [module/memory]
@@ -192,27 +190,27 @@ format-charging = <animation-charging><label-charging>
 format-discharging = <ramp-capacity><label-discharging>
 format-charging-background = ${colors.blue}
 format-discharging-background = ${colors.blue}
-label-discharging-foreground = ${colors.b}
+label-discharging-foreground = ${colors.bg}
 
 label-full = " full "
 format-full-prefix =  "  "
-format-full-prefix-foreground = ${colors.b}
+format-full-prefix-foreground = ${colors.bg}
 format-full-prefix-background = ${colors.blue}
 format-full-background = ${colors.blue}
-format-full-foreground = ${colors.b}
+format-full-foreground = ${colors.bg}
 
 ramp-capacity-0 = "  "
 ramp-capacity-1 = "  "
 ramp-capacity-2 = "  "
-ramp-capacity-foreground = ${colors.b}
+ramp-capacity-foreground = ${colors.bg}
 
 label-charging = "Charging %percentage%% "
-label-charging-foreground = ${colors.b}
+label-charging-foreground = ${colors.white-alt}
 
 animation-charging-0 =  "  "
 animation-charging-1 =  "  "
 animation-charging-2 =  "  "
-animation-charging-foreground = ${colors.b}
+animation-charging-foreground = ${colors.white-alt}
 animation-charging-framerate = 750
 
 [module/temp]
@@ -240,9 +238,9 @@ type = custom/script
 interval = 120
 format = "<label> "
 format-prefix = "  "
-format-prefix-foreground = ${colors.b}
-format-foreground = ${colors.b}
-format-background = ${colors.yellow}
+format-prefix-foreground = ${colors.bg}
+format-foreground = ${colors.bg}
+format-background = ${colors.cyan}
 exec = ~/.config/polybar/status_net
 
 [module/date]
@@ -257,25 +255,45 @@ time = "%H:%M "
 label = %date%%time%
 
 format-prefix = "  "
-format-foreground = ${colors.b}
-format-background = ${colors.cyan}
+format-foreground = ${colors.bg}
+format-background = ${colors.blue}
 
-[module/qubes]
+[module/mail]
 type = custom/script
 interval = 120
 format = "<label> "
-format-prefix = "  "
+format-prefix = "  "
+format-prefix-foreground = ${colors.white-alt}
+format-background = ${colors.bg}
+format-foreground = ${colors.white-alt}
+exec = ~/.config/polybar/mail
+
+[module/vpn]
+type = custom/script
+interval = 120
+format = "<label> "
+format-prefix = "  "
 format-prefix-foreground = ${colors.white-alt}
 format-background = ${colors.bg}
 format-foreground = ${colors.fg}
-exec = ~/.config/polybar/status_qubes
+exec = ~/.config/polybar/vpn
+
+[module/nets]
+type = custom/script
+interval = 60
+#format = "<label> "
+#format-prefix = "  "
+#format-prefix-foreground = ${colors.white-alt}
+format-background = ${colors.bg}
+format-foreground = ${colors.fg}
+exec = ~/.config/polybar/netstat
 
 [module/disk]
 type = custom/script
 interval = 1200
 format = "<label> "
 format-prefix = "  "
-format-prefix-foreground = ${colors.b}
+format-prefix-foreground = ${colors.bg}
 format-background = ${colors.green}
 format-foreground = ${colors.bg}
 exec = ~/.config/polybar/status_disk
@@ -283,9 +301,9 @@ exec = ~/.config/polybar/status_disk
 [module/search]
 type = custom/text
 
-content = " %{T4}%{T-} "
+content = "  "
 content-foreground = ${colors.white-alt}
-content-background = ${colors.red}
+content-background = #2d466c
 click-left = ~/.config/polybar/search
 
 ;
@@ -293,11 +311,11 @@ click-left = ~/.config/polybar/search
 ;   Fancy Powerline - left
 ;
 
-[module/p-left-cyan]
+[module/p-left-blue]
 type = custom/text
 
 content = "%{T3}%{T-}"
-content-foreground = ${colors.cyan}
+content-foreground = ${colors.blue}
 content-background = ${colors.bg}
 
 [module/p-left-black]
@@ -313,6 +331,20 @@ type = custom/text
 content = "%{T3}%{T-}"
 content-foreground = ${colors.green}
 content-background = ${colors.bg}
+
+[module/p-left-bg]
+type = custom/text
+
+content = "%{T3}%{T-}"
+content-foreground = ${colors.bg}
+content-background = ${colors.magenta}
+
+[module/p-left-magenta]
+type = custom/text
+
+content = "%{T3}%{T-}"
+content-foreground = ${colors.magenta}
+content-background = ${colors.green}
 
 ;
 ;
@@ -332,13 +364,13 @@ type = custom/text
 
 content = "%{T3}%{T-}"
 content-foreground = ${colors.bg}
-content-background = ${colors.magenta}
+content-background = ${colors.green}
 
-[module/p-right-magenta]
+[module/p-right-green]
 type = custom/text
 
 content = "%{T3}%{T-}"
-content-foreground = ${colors.magenta}
+content-foreground = ${colors.green}
 content-background = ${colors.bg}
 
 [module/p-right-bm]
@@ -346,13 +378,13 @@ type = custom/text
 
 content = "%{T3}%{T-}"
 content-foreground = ${colors.bg}
-content-background = ${colors.yellow}
+content-background = ${colors.cyan}
 
-[module/p-right-yellow]
+[module/p-right-cyan]
 type = custom/text
 
 content = "%{T3}%{T-}"
-content-foreground = ${colors.yellow}
+content-foreground = ${colors.cyan}
 content-background = ${colors.bg}
 
 [module/p-wm]
@@ -365,8 +397,8 @@ content-background = ${colors.bg}
 [module/p-menu]
 type = custom/text
 
-content = "%{T3}%{T-} "
-content-foreground = ${colors.red}
+content = "%{T3}%{T-}"
+content-foreground = #2d466c
 content-background = ${colors.bg-alt}
 
 ; vim:ft=dosini

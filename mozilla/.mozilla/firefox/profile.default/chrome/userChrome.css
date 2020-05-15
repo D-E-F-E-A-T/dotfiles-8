@@ -1,16 +1,16 @@
 
 /****** NAVBAR COLOUR CHANGE ** BEGIN ******/
 #nav-bar, .tab-background[selected="true"] {
-  background: #080a11 !important;
-  border-color: #151515 !important;
-  color: #cfdceb !important;
-  font-family: Iosevka Slab !important;
+  background: #121d2c !important;
+  border-color: #192333 !important;
+  color: #f7f7f7 !important;
+  font-family: Iosevka !important;
 }
 
 #main-window #urlbar {
-  background: #0b0d16 !important;
-  color: #cfdceb !important;
-  font-family: Iosevka Slab !important;
+  background: #192333 !important;
+  color: #f7f7f7 !important;
+  font-family: Iosevka !important;
 }
 /****** NAVBAR COLOUR CHANGE ** END ******/
 
@@ -46,8 +46,9 @@
 
 #urlbar {
   border-radius: 15px !important;
-  border-color: #3e4650 !important;
-  color: #cfdceb !important;
+  border-color: #192333 !important;
+  background-color: #192333 !important;
+  color: #f7f7f7 !important;
 }
 
 /* hide scrollbar */
@@ -62,7 +63,7 @@ browser {
 #PlacesToolbarItems .bookmark-item {
   padding-top: 5px !important;
   padding-bottom: 5px !important;
-  color:  #cfdceb !important;
+  color:  #f7f7f7 !important;
 }
 /* Remove Back button when there’s nothing to go Back to */
 #back-button[disabled=”true”] { display: none; }
@@ -71,13 +72,14 @@ browser {
 /* Remove Home button (never use it) */
 #home-button { display: none; }
 menubar, toolbox, toolbar{
-background: #080a11 !important;
+background: #121d2c !important;
 color: none !important;
 }
 
 /* Color ToolButton */
 toolbarbutton.bookmark-item[label="Accounts"] > .toolbarbutton-icon {
   fill:  #cd222f !important;
+  -moz-box-pack: center!important;
 }
 toolbarbutton.bookmark-item[label="CTFs"] > .toolbarbutton-icon {
   fill:  #0bde96 !important;
@@ -92,24 +94,26 @@ toolbarbutton.bookmark-item[label="News"] > .toolbarbutton-icon {
   fill:  #0ba3a4 !important;
 }
 toolbarbutton.bookmark-item[label="Homelab"] > .toolbarbutton-icon {
-  fill:  #98d1ce !important;
+  fill:  #c91b8e !important;
 }
 toolbarbutton.bookmark-item[label="Anon"] > .toolbarbutton-icon {
   fill:  #8f04ae !important;
 }
 toolbarbutton.bookmark-item[label="Tools"] > .toolbarbutton-icon {
-  fill:  #6a05be !important;
+  fill:  #556072 !important;
 }
 toolbarbutton.bookmark-item:hover{
-background: #0b0d16 !important;
+background: #192333 !important;
 }
 /* bookmark popup toolbar background */
 #navigator-toolbox > toolbar:not(#TabsToolbar):not(#toolbar-menubar) menupopup[placespopup] {
   -moz-appearance: none !important;
-  background-color: #080a11 !important;
-  border: #0b0d16 !important; /* optional */
+  background-color: #121d2c !important;
+  border: #192333 !important; /* optional */
 }
 /* links */
 #navigator-toolbox > toolbar:not(#TabsToolbar):not(#toolbar-menubar) :-moz-any(menuitem.bookmark-item, menu.bookmark-item) {
-  color:  #cfdceb !important;
+  color:  #f7f7f7 !important;
 }
+/* hide dropdown search bar */
+#urlbar-results { display:none!important; }

@@ -1,34 +1,3 @@
 #! /usr/bin/bash
-# Description: get net status
-status_net() {
-    local netvms=$(qvm-ls --no-spinner --raw-data --fields NAME,FLAGS 2>/dev/null | grep '|...N....$' | cut -d '|' -f1)
-
-    IFS_BAK=$IFS
-    IFS=$'\n'
-    for netvm in $netvms; do
-        local ip_addr=$(qvm-run "$netvm" -p 'ip -o -f inet addr' 2>/dev/null)
-        for ip_addr_line in $ip_addr; do
-            local device_name=${ip_addr_line#* }
-            device_name=${device_name%% *}
-
-            if [[ $device_name == wl* ]]; then # this is a wifi device
-                local net=$(qvm-run $netvm -p 'iwconfig' 2>/dev/null)
-                local ssid=$(echo "$net" | perl -ne 'print "$1" if /ESSID:"(.*)"/')
-                local ip=${ip_addr_line#* inet }
-                ip=${ip%%/*}
-                if [[ -n $ssid ]]; then
-                    local quality=$(echo "$net" | perl -ne 'print "$1" if /Quality=([^ ]+)/')
-                    echo $device_name "$netvm: $ssid $ip $quality"
-                fi
-            elif [[ $device_name == en* ]]; then # this is an ethernet device
-                local ip=${ip_addr_line#* inet }
-                ip=${ip%%/*}
-                echo $device_name "$netvm: $ip"
-            fi
-        done
-    done
-    IFS=$IFS_BAK
-    IFS_BAK=
-}
-
-status_net
+# Description: get net ESSID
+qvm-run -p sys-net 'iwlist scanning 2>/dev/null|grep ESSID|cut -d":" -f2|tr -d \"'

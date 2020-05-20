@@ -11,10 +11,11 @@
 #    
 #                                     Config by: https://github.com/mohabaks
 #
+#
 
-
-# start compton
-compton -b --config $HOME/.compton.conf
+#  Autostart apps
+#
+$HOME/.config/bspwm/autostart
 
 # Check if the monitor is connected
 if `xrandr -q | grep -q "HDMI2 connected"`
@@ -35,9 +36,9 @@ then
         #bspc monitor HDMI1 -d WEB DOC MPV PWN DOM
         #bspc monitor HDMI2 -d CHT LAB APP DEV MSC
         bspc config -m HDMI2 window_gap           10
-        bspc config -m HDMI2 border_width         4
+        bspc config -m HDMI2 border_width         2
         bspc config -m HDMI1 window_gap           10
-        bspc config -m HDMI1 border_width         4
+        bspc config -m HDMI1 border_width         2
 
         #
         # Global Settings
@@ -65,7 +66,7 @@ then
 
 else
 	# Check focus for bspwm and color border for Qubes
-	#$HOME/.local/bin/change_focused_border_color.py &
+	$HOME/.config/bspwm/change_focused_border_color.py &
 	
 	bspc config border_width         1
 	bspc config window_gap           0
@@ -106,17 +107,10 @@ bspc config gapless_monocle       false
 
 # start apps in specific workspace
 bspc rule -a  Firefox desktop='^1' follow=on
-bspc rule -a  Google-chrome desktop='^1' follow=on
-bspc rule -a  Zathura desktop='^3' follow=on
-bspc rule -a  discord desktop='^6' follow=on
-bspc rule -a  Virt-manager desktop='^7' follow=on
-bspc rule -a  Wireshark desktop='^7' follow=on
-bspc rule -a  Gimp-2.10 desktop='^8' follow=on
-bspc rule -a  burp-StartBurp desktop='^8' follow=on
-bspc rule -a  Mpv desktop='^9' follow=on
 
 # apps in float mode
 bspc rule -a Nitrogen state=floating focus=on
 bspc rule -a feh state=floating focus=on
 bspc rule -a Lxappearance state=floating focus=on
 bspc rule -a Pavucontrol state=floating focus=on
+bspc rule -a Qubes-update-gui state=floating focus=on

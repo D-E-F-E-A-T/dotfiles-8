@@ -4,10 +4,10 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	st -A 1
 
 # program launcher
-super + @space 
+super + @space
 	rofi -show drun
 
 # make sxhkd reload its configuration files:
@@ -119,24 +119,3 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
-
-
-#
-#  my keybinds
-#
-
-# screenshot with scrot
-Print
-	scrot -e 'mv $f ~/Pictures/screenshots'
-
-# Lockscreen
-ctrl + super + alt + l
-        betterlockscreen -l dim
-
-# Suspend and lockscreen
-ctrl + super + alt + s
-        betterlockscreen -s blur
-
-# Todo 
-ctrl + super + alt + t
-        $HOME/.config/popups/todo/todo

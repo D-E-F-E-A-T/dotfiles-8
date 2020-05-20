@@ -3,11 +3,11 @@ Screenshots
 
 `Display Manager`
 
-![lightdm](https://imgur.com/U9NWg8l)
+![lightdm](https://imgur.com/U9NWg8l.png)
 
 `Laptop`
 
-![laptop](https://imgur.com/XIvu1tj)
+![laptop](https://imgur.com/XIvu1tj.png)
 
 `Dual Monitors`
 

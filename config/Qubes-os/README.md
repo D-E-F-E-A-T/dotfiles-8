@@ -13,4 +13,4 @@ Screenshots
 
 ![quarantine](https://i.redd.it/63p44yk5xkn41.png)
 
-![minimal00](https://imgur.com/f6i86lC.png)
+![usambara](https://i.redd.it/d5hm3tc15yz41.jpg)

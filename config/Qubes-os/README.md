@@ -5,12 +5,10 @@ Screenshots
 
 ![lightdm](https://imgur.com/U9NWg8l.png)
 
-`Laptop`
+`Laptop (On)` `Dual Monitors (Off)`
 
 ![laptop](https://imgur.com/XIvu1tj.png)
 
-`Dual Monitors`
+`Laptop (Off)` `Dual Monitors (On)`
 
 ![quarantine](https://i.redd.it/63p44yk5xkn41.png)
-
-![usambara](https://i.redd.it/d5hm3tc15yz41.jpg)

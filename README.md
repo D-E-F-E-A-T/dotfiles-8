@@ -38,8 +38,3 @@ Screenshot
 -----------
 
 ![gruvbox](https://imgur.com/YTLyHnn.png)
-
-Contact
--------
-
-Having issues with the configs DM `bW9oYWJha3MjMDgzNQo=`

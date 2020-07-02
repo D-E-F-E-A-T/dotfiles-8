@@ -34,7 +34,9 @@ This repo contains config/script for my workstation/laptop.
 | Qubes-OS |`i3/i3-gaps` `bspwm` `polybar` `rofi` |
 
 
-Screenshot
+Screenshots
 -----------
 
 ![gruvbox](https://imgur.com/YTLyHnn.png)
+
+![quarantine](https://i.redd.it/63p44yk5xkn41.png)

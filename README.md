@@ -40,5 +40,3 @@ Screenshots
 ![gruvbox](https://imgur.com/YTLyHnn.png)
 
 ![cozy](https://imgur.com/kSvGgS4.png)
-
-![quarantine](https://i.redd.it/63p44yk5xkn41.png)

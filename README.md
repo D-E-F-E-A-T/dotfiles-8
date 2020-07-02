@@ -39,7 +39,6 @@ Screenshots
 
 ![gruvbox](https://imgur.com/YTLyHnn.png)
 
-![quarantine](https://i.redd.it/63p44yk5xkn41.png)
+![cozy](https://imgur.com/kSvGgS4.png)
 
-![clean](https://imgur.com/kSvGgS4.png)
-![busy](https://imgur.com/Srum4kI.png)
+![quarantine](https://i.redd.it/63p44yk5xkn41.png)

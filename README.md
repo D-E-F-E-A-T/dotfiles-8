@@ -37,7 +37,9 @@ This repo contains config/script for my workstation/laptop.
 Screenshots
 -----------
 `polybar` `rofi` `vim` `irssi`
+
 ![gruvbox](https://imgur.com/YTLyHnn.png)
 
 `polybar` `rofi` `virt-manager` `qubes-manager`
+
 ![cozy](https://imgur.com/kSvGgS4.png)

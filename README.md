@@ -36,11 +36,15 @@ This repo contains config/script for my workstation/laptop.
 
 Screenshots
 -----------
+
 `polybar` `rofi`
+
 ![clean](https://imgur.com/bIxW6Cr.png)
 
 `firefox` `cherrytree` `zathura`
+
 ![busy01](https://imgur.com/sdkyVyV.png)
 
 `tmux` `vim` `irssi` `discord`
+
 ![busy01](https://imgur.com/NugZNiJ.png)

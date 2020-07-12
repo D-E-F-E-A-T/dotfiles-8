@@ -9,8 +9,10 @@
 "                        ░░   ▒ ░░      ░     ░░   ░ ░        
 "                         ░   ░         ░      ░     ░ ░      
 "                        ░                           ░        
-
-" Vundle Settings {{{ 
+"
+"                        Author: https://github.com/mohabaks
+"
+" Vundle Settings {{{  
 
 "" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -32,53 +34,48 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'mattn/emmet-vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'PotatoesMaster/i3-vim-syntax'
-Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'SirVer/ultisnips'
 Plugin 'sukima/xmledit'
 Plugin 'python-mode/python-mode'
 Plugin 'Raimondi/delimitMate'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'xolox/vim-easytags'
-Plugin 'xolox/vim-notes'
 Plugin 'xolox/vim-misc'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'junegunn/goyo.vim'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'moll/vim-node'
 Plugin 'lervag/vimtex'
 Plugin 'iamcco/markdown-preview.vim'
+Plugin 'lilydjwg/colorizer'
 
 """ Colorscheme
-Plugin 'dylanaraps/wal.vim'
-Plugin 'whatyouhide/vim-gotham'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'lilydjwg/colorizer'
 Plugin 'morhetz/gruvbox'
 
 call vundle#end()       
 filetype plugin indent on  
 
 "}}}  
-"  Set Colorscheme and Statusline {{{
+"  Set Colorscheme {{{
 set background=dark
-colorscheme wal
+colorscheme htb
 "}}} 
-" Misc Settings {{{ 
+" General Settings {{{ 
 syntax on
 filetype on
 set encoding=utf-8
-set tw=79                        " width of document (used by gd)
-set nowrap                       " don't automatically wrap on load
+set tw=79
+set nowrap
 set smartindent
 set colorcolumn=80
-set visualbell                   " don't beep
-set noerrorbells                 " don't beep
-set autowrite                    " Save on buffer switch
+set visualbell
+set noerrorbells
+set autowrite
 set mouse+=a
-set cursorline                   " highlight current line
-set lazyredraw                   " redraw only when we need to
-set showmatch                    " highlight matching [{()}]
+set cursorline
+set lazyredraw
+set showmatch
 set autoindent
 set expandtab
 set splitbelow
@@ -169,8 +166,6 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 "}}}
 " File Browsing {{{ 
 "" Open NERDTree when no files are specified
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$', '\~$']
 
@@ -208,7 +203,11 @@ let g:livepreview_previewer = 'zathura'
 syn match ipaddr /\(\(25\_[0-5]\|2\_[0-4]\_[0-9]\|\_[01]\?\_[0-9]\_[0-9]\?\)\.\)\{3\}\(25\_[0-5]\|2\_[0-4]\_[0-9]\|\_[01]\?\_[0-9]\_[0-9]\?\)/
 hi link ipaddr Identifier
 "}}}
-"  PEP8 Settings {{{
+" Easytags Settings {{{
+let g:easytags_suppress_ctags_warning = 1
+"}}}
+" Vim IDE Settings {{{
+"" PEP8 Settings
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
@@ -222,14 +221,7 @@ au BufNewFile,BufRead *.js,*.html,*.css
     \ set tabstop=2 |
     \ set softtabstop=2 |
     \ set shiftwidth=2 |
-"}}}
-" Vim-Notes Settings {{{
-  let g:notes_directories = ['~/Documents/Notes']
-"}}}
-" Easytags Settings {{{
-let g:easytags_suppress_ctags_warning = 1
-"}}}
-" Vim IDE Settings {{{
+
 "" enable all Python syntax highlighting feautures
 let python_highlight_all = 1
 
@@ -259,7 +251,7 @@ let g:ycm_use_ultisnips_completer = 1                   " Default 1, just ensure
 let g:ycm_seed_identifiers_with_syntax = 1              " Completion for programming language's keyword
 let g:ycm_complete_in_comments = 0                      " Completion in comments
 let g:ycm_complete_in_strings = 0                       " Completion in string
-let g:ycm_global_ycm_extra_conf = '~/Code/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/vim/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_python_binary_path = '/usr/bin/python2.7'
 map <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
